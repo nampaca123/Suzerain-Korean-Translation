@@ -9,9 +9,12 @@ flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래
 3. 직접 인용은 반각 `"…"`. 곡선따옴표·`--`·`—`가 남지 않는다 (curly_quote, dash_remaining). 영문이 `"…"`로 감싸인 대사는 한글도 반각 큰따옴표로 감싼다 (quote_missing).
 4. 영문 효과 표기 `[+1 Authority]`가 남지 않는다 (english_effect_tag).
    - 주의: 대괄호 안에 한글이 섞인 `[RNC 제안]`·`[RPP 제안]` 같은 정당 태그는 더 이상 flag가 붙지 않는다(R39). 이런 정상적인 한국어 태그는 그대로 둔다.
-5. 용어는 glossary.md의 표준 표기만 쓴다. 용어 표기는 glossary.md가 최종 기준이며 register_table.md 6.4의 후보 목록과 어긋나면 glossary.md를 따른다. `needs_human` 항목은 원문 그대로 두고 `{BATCH_DIR}/needs_human.jsonl`에 기록한다 (glossary_violation).
-   - 주의: 기계 전처리는 glossary.md에서 `자동 치환: 예`인 항목만 치환했다. `자동 치환: 아니오(보고만)` 항목(예: 수상·재상 → 총리)은 아직 남아 있으므로 문맥을 보고 에이전트가 직접 고치고 reason을 남긴다.
-   - 주의: `needs_human` 개념(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita)은 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 그 줄을 `{BATCH_DIR}/needs_human.jsonl`에 `{"key": …, "reason": …}` 한 줄로 기록한다(edits.jsonl에는 넣지 않는다). 새 표기를 지어내지 않는다.
+5. 용어는 glossary.md의 표준 표기만 쓴다. 용어 표기는 glossary.md가 최종 기준이며 register_table.md 6.4의 후보 목록과 어긋나면 glossary.md를 따른다 (glossary_violation).
+   - `자동 치환: 예` 항목: 기계 전처리가 이미 바꿔 놓았다. 손댈 것이 없다.
+   - `자동 치환: 아니오(보고만)`인데 표준 표기가 있는 항목(예: 수상·재상 → 총리, 대회랑·대전당 → 대연회장): **에디터가 직접 고친다.** 다만 그 문장이 정말 그 용어를 뜻하는지 먼저 확인한다(예: "수상"이 prime minister가 아니라 상을 받는다는 뜻이면 고치지 않는다). 고칠 때 reason을 남긴다.
+   - 표준이 `(needs_human)`인 개념만 `{BATCH_DIR}/needs_human.jsonl`로 보낸다. 그 밖의 항목은 needs_human이 아니다.
+   - 표준 표기는 영문 철자가 달라도 같은 대상이면 똑같이 적용한다(예: Great Hall = Grand Hall → 대연회장).
+   - `needs_human` 개념은 네 가지뿐이다(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita). 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 그 줄을 `{BATCH_DIR}/needs_human.jsonl`에 `{"key": …, "reason": …}` 한 줄로 기록한다(edits.jsonl에는 넣지 않는다). 새 표기를 지어내지 않는다.
 6. 고유명사 뒤 조사가 받침과 맞는다. `{변수}` 뒤에 조사를 고정으로 붙이지 않는다 (josa_mismatch).
 7. "당신"은 로무스가 루시타(혼인 후)에게, 에스텔라·베아트리체가 로무스에게 쓰는 경우 외에는 쓰지 않는다 (pronoun_dangsin).
 8. 새 표기·새 용어·새 사실을 창작하지 않는다. 의미는 영문 원문을 따른다.
@@ -28,9 +31,11 @@ flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래
 14. 신하는 합쇼체, 비나는 해요체, 외국 정상은 합쇼체, 휴고는 하게체·해라체 금지 (subject_not_hapsyo, vina_not_haeyo, foreign_not_hapsyo, hugo_low_register).
     - 주의: 휴고→다른 평의원은 하게체가 규칙이다(register_table.md 5.2). `hugo_low_register`는 청자가 로무스일 때만 위반이다.
 15. 선택지(menu_ko)와 대사(ko)가 같은 영문이면 한글도 같다. 대사 쪽에 맞춘다 (menu_mismatch).
-    - 주의: menu_ko만 고쳐야 하면 같은 key 뒤에 `#menu`를 붙인 별도 edit로 낸다(예: `"key": "d:288:27#menu"`). 자세한 형식은 editor.md에 있다.
+    - 주의: menu_ko만 고쳐야 하면 같은 key 뒤에 `#menu`를 붙인 별도 edit로 낸다:
+      `{"key": "<key>#menu", "ko_new": "<수정된 선택지 전체 문자열>", "reason": "...", "flags_resolved": ["menu_mismatch"]}`
 16. 같은 화자의 같은 영문 대사는 같은 한글이다 (same_en_diff_register).
 17. 호칭은 register_table.md 5.3을 따른다: 국왕·여왕 "폐하", 공주 "전하", 총리/대통령 직함 호격.
+    - 주의: "-님" 형태(공작님, 공주님, 총리님)는 하급자·시종이 윗사람을 부를 때만 허용한다. 로무스의 입에서는 "공작"·"공작 각하", "비나 공주"·"공주 전하", "○○ 총리"를 쓴다.
 18. 화계를 바꿀 때 1인칭(나/저), 조사, 존대 어휘(드리다/여쭙다 등)를 함께 맞춘다. 어미만 바꾸지 않는다.
 
 ## 텍스트에셋

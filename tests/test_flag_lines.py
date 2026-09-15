@@ -117,3 +117,16 @@ def test_royal_title_low_register_only_on_vocative():
     f = flag_dialogue(rows, [])
     assert "royal_title_low_register" not in f["a"]["flags"]
     assert "royal_title_low_register" in f["b"]["flags"]
+
+def test_glossary_violation_ignores_longer_standard_and_prefixed_word():
+    g = [{"concept": "PM", "standard": "총리", "banned": ["수상", "재상"], "source": "sordland"},
+         {"concept": "Empire", "standard": "리치아 임페리이", "banned": ["리치아 임페리"], "source": "sordland"}]
+    rows = [D("a", "Hugo Toras", '대재상은 말했다.'),
+            D("b", "Hugo Toras", '재상은 말했다.', seq=1),
+            D("c", "Hugo Toras", '리치아 임페리이가 왔다.', seq=2),
+            D("d", "Hugo Toras", '리치아 임페리가 왔다.', seq=3)]
+    f = flag_dialogue(rows, g)
+    assert "glossary_violation" not in f["a"]["flags"]
+    assert "glossary_violation" in f["b"]["flags"]
+    assert "glossary_violation" not in f["c"]["flags"]
+    assert "glossary_violation" in f["d"]["flags"]

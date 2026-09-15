@@ -1,6 +1,7 @@
 # spec 4장·5장·6장·10.2의 기계 검사 항목을 줄마다 flag로 붙인다. 탐지 전용이며 본문은 고치지 않는다.
 import itertools, json, re, sys
 from collections import Counter, defaultdict
+from functools import lru_cache
 from scripts import paths
 from scripts.build_corpus import read_jsonl, write_jsonl
 from scripts.build_glossary import load_glossary
@@ -36,18 +37,37 @@ def _long_clauses(ko: str) -> list[str]:
     return [p for p in _SENTENCE.split(body) if len(_HANGUL.findall(p)) >= MIN_CLAUSE_SYLLABLES]
 
 
+@lru_cache(maxsize=None)
+def _banned_rx(banned: str) -> re.Pattern:
+    return re.compile((r"(?<![가-힣])" if _HANGUL.match(banned) else "") + re.escape(banned))
+
+
+def _prepare_glossary(glossary: list[dict]) -> tuple:
+    entries = [g for g in glossary if g.get("standard")]
+    standards = sorted({g["standard"] for g in entries}, key=len, reverse=True)
+    return standards, [_banned_rx(b) for g in entries for b in g.get("banned", [])]
+
+
+def _has_banned_term(ko: str, prepared: tuple) -> bool:
+    standards, banned = prepared
+    masked = ko
+    for s in standards:
+        masked = masked.replace(s, "\x00" * len(s))
+    return any(rx.search(masked) for rx in banned)
+
+
 def josa_ok(word: str, josa: str) -> bool:
     code = ord(word[-1]) - 0xAC00
     has_final = 0 <= code < 11172 and code % 28 != 0
     return josa in ({"은", "이", "을", "과"} if has_final else {"는", "가", "를", "와"})
 
 
-def _common_flags(ko: str, en: str, glossary: list[dict]) -> list[str]:
+def _common_flags(ko: str, en: str, glossary: tuple) -> list[str]:
     f = []
     if re.search(r"--|—|–", ko): f.append("dash_remaining")
     if re.search(r"[“”‘’]", ko): f.append("curly_quote")
     if _EFFECT_TAG.search(ko): f.append("english_effect_tag")
-    if any(b in ko for g in glossary for b in g.get("banned", []) if g.get("standard")): f.append("glossary_violation")
+    if _has_banned_term(ko, glossary): f.append("glossary_violation")
     return f
 
 
@@ -75,11 +95,11 @@ def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
 
 
 def flag_dialogue(rows: list[dict], glossary: list[dict]) -> dict[str, dict]:
-    out, by_en = {}, defaultdict(list)
+    out, by_en, prepared = {}, defaultdict(list), _prepare_glossary(glossary)
     for _, grp in itertools.groupby(sorted(rows, key=lambda r: (r["conv_id"], r["seq"])), key=lambda r: r["conv_id"]):
         g = list(grp); speech = tag_speech(g)
         for r in g:
-            reg = classify(r["ko"]); f = _common_flags(r["ko"], r["en"], glossary) + _register_flags(r, reg, speech[r["key"]])
+            reg = classify(r["ko"]); f = _common_flags(r["ko"], r["en"], prepared) + _register_flags(r, reg, speech[r["key"]])
             if r["en"].strip().startswith('"') and not is_quoted(r["ko"]): f.append("quote_missing")
             if r.get("menu_ko") and r.get("menu_en", "").strip() == r["en"].strip() and r["menu_ko"].strip() != r["ko"].strip():
                 f.append("menu_mismatch")
@@ -93,10 +113,10 @@ def flag_dialogue(rows: list[dict], glossary: list[dict]) -> dict[str, dict]:
 
 
 def flag_textassets(rows: list[dict], glossary: list[dict]) -> dict[str, dict]:
-    out, by_base = {}, defaultdict(list)
+    out, by_base, prepared = {}, defaultdict(list), _prepare_glossary(glossary)
     for r in rows:
         reg = classify(r["ko"]); target = TA_TARGET.get(r["file"])
-        f = _common_flags(r["ko"], r["en"], glossary)
+        f = _common_flags(r["ko"], r["en"], prepared)
         if r["file"] == "DecisionData":
             target = {HAERA} if "Options" in r["field_path"] else {HAPSYO}
         if sorted(_PLACEHOLDER.findall(r["ko"])) != sorted(_PLACEHOLDER.findall(r["en"])): f.append("placeholder_mismatch")

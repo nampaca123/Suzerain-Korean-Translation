@@ -14,12 +14,14 @@ _TURN = re.compile(r"Rizia/Turn (\d+)/")
 _KO = re.compile(r"[가-힣]")
 # 실제 실행에서 쓰는 배치 크기. 에이전트 한 번의 문맥에 들어갈 만큼 작게 잡는다.
 DIALOGUE_MAX_ROWS = 800
-TEXTASSET_MAX_CHARS = 40000
+TEXTASSET_MAX_CHARS = 25000
 
 
 def _letters():
-    for i in itertools.count():
-        yield chr(ord("a") + i)
+    az = "abcdefghijklmnopqrstuvwxyz"
+    for width in itertools.count(1):
+        for combo in itertools.product(az, repeat=width):
+            yield "".join(combo)
 
 
 def group_dialogue(rows: list[dict], max_rows: int = 2500) -> list[tuple[str, list[dict]]]:

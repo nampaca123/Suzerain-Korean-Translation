@@ -2,16 +2,16 @@
  {
   "batch": "t-JournalEntryData-02",
   "kind": "textassets",
-  "rows": 46,
-  "flagged": 46,
+  "rows": 464,
+  "flagged": 464,
   "priority": 1.0
  },
  {
   "batch": "t-JournalEntryData-01",
   "kind": "textassets",
-  "rows": 1200,
-  "flagged": 1199,
-  "priority": 0.9991666666666666
+  "rows": 782,
+  "flagged": 781,
+  "priority": 0.9987212276214834
  },
  {
   "batch": "d-turn11-d",
@@ -19,6 +19,13 @@
   "rows": 132,
   "flagged": 75,
   "priority": 0.5681818181818182
+ },
+ {
+  "batch": "t-ReportData-03",
+  "kind": "textassets",
+  "rows": 344,
+  "flagged": 177,
+  "priority": 0.5145348837209303
  },
  {
   "batch": "d-turn08-l",
@@ -30,23 +37,37 @@
  {
   "batch": "t-ReportData-01",
   "kind": "textassets",
-  "rows": 580,
-  "flagged": 292,
-  "priority": 0.503448275862069
- },
- {
-  "batch": "t-ReportData-03",
-  "kind": "textassets",
-  "rows": 504,
-  "flagged": 253,
-  "priority": 0.501984126984127
+  "rows": 362,
+  "flagged": 182,
+  "priority": 0.5027624309392266
  },
  {
   "batch": "t-ReportData-02",
   "kind": "textassets",
-  "rows": 557,
-  "flagged": 278,
-  "priority": 0.4991023339317774
+  "rows": 378,
+  "flagged": 190,
+  "priority": 0.5026455026455027
+ },
+ {
+  "batch": "t-ReportData-05",
+  "kind": "textassets",
+  "rows": 248,
+  "flagged": 124,
+  "priority": 0.5
+ },
+ {
+  "batch": "t-SituationData-02",
+  "kind": "textassets",
+  "rows": 218,
+  "flagged": 109,
+  "priority": 0.5
+ },
+ {
+  "batch": "t-ReportData-04",
+  "kind": "textassets",
+  "rows": 309,
+  "flagged": 150,
+  "priority": 0.4854368932038835
  },
  {
   "batch": "d-turn06-g",
@@ -54,13 +75,6 @@
   "rows": 379,
   "flagged": 164,
   "priority": 0.43271767810026385
- },
- {
-  "batch": "t-SituationData-01",
-  "kind": "textassets",
-  "rows": 602,
-  "flagged": 257,
-  "priority": 0.4269102990033223
  },
  {
   "batch": "d-turn09-b",
@@ -77,6 +91,13 @@
   "priority": 0.38787023977433005
  },
  {
+  "batch": "t-SituationData-01",
+  "kind": "textassets",
+  "rows": 384,
+  "flagged": 148,
+  "priority": 0.3854166666666667
+ },
+ {
   "batch": "d-turn06-h",
   "kind": "dialogue",
   "rows": 517,
@@ -84,11 +105,25 @@
   "priority": 0.37524177949709864
  },
  {
+  "batch": "t-NewsData-15",
+  "kind": "textassets",
+  "rows": 48,
+  "flagged": 18,
+  "priority": 0.375
+ },
+ {
   "batch": "d-turn04-d",
   "kind": "dialogue",
   "rows": 593,
   "flagged": 206,
   "priority": 0.3473861720067454
+ },
+ {
+  "batch": "t-CodexEntryData-07",
+  "kind": "textassets",
+  "rows": 105,
+  "flagged": 34,
+  "priority": 0.3238095238095238
  },
  {
   "batch": "d-turn03-d",
@@ -105,6 +140,13 @@
   "priority": 0.30287859824780977
  },
  {
+  "batch": "t-CodexEntryData-08",
+  "kind": "textassets",
+  "rows": 123,
+  "flagged": 36,
+  "priority": 0.2926829268292683
+ },
+ {
   "batch": "d-turn08-k",
   "kind": "dialogue",
   "rows": 677,
@@ -117,13 +159,6 @@
   "rows": 759,
   "flagged": 217,
   "priority": 0.2859025032938076
- },
- {
-  "batch": "t-CodexEntryData-05",
-  "kind": "textassets",
-  "rows": 200,
-  "flagged": 57,
-  "priority": 0.285
  },
  {
   "batch": "d-turn09-i",
@@ -140,11 +175,11 @@
   "priority": 0.2833117723156533
  },
  {
-  "batch": "t-NewsData-09",
+  "batch": "t-DecreeData-01",
   "kind": "textassets",
-  "rows": 344,
-  "flagged": 92,
-  "priority": 0.26744186046511625
+  "rows": 538,
+  "flagged": 148,
+  "priority": 0.275092936802974
  },
  {
   "batch": "d-turn04-c",
@@ -203,13 +238,6 @@
   "priority": 0.24581724581724582
  },
  {
-  "batch": "t-CodexEntryData-04",
-  "kind": "textassets",
-  "rows": 269,
-  "flagged": 66,
-  "priority": 0.24535315985130113
- },
- {
   "batch": "d-turn10-j",
   "kind": "dialogue",
   "rows": 464,
@@ -266,18 +294,18 @@
   "priority": 0.23113964686998395
  },
  {
-  "batch": "t-DecreeData-01",
-  "kind": "textassets",
-  "rows": 889,
-  "flagged": 205,
-  "priority": 0.23059617547806524
- },
- {
   "batch": "d-misc-c",
   "kind": "dialogue",
   "rows": 713,
   "flagged": 164,
   "priority": 0.2300140252454418
+ },
+ {
+  "batch": "t-NewsData-14",
+  "kind": "textassets",
+  "rows": 258,
+  "flagged": 59,
+  "priority": 0.22868217054263565
  },
  {
   "batch": "d-turn10-l",
@@ -292,6 +320,13 @@
   "rows": 645,
   "flagged": 145,
   "priority": 0.2248062015503876
+ },
+ {
+  "batch": "t-CodexEntryData-06",
+  "kind": "textassets",
+  "rows": 189,
+  "flagged": 42,
+  "priority": 0.2222222222222222
  },
  {
   "batch": "d-turn02-d",
@@ -329,6 +364,13 @@
   "priority": 0.2143906020558003
  },
  {
+  "batch": "t-DecisionData-03",
+  "kind": "textassets",
+  "rows": 451,
+  "flagged": 96,
+  "priority": 0.21286031042128603
+ },
+ {
   "batch": "d-turn10-q",
   "kind": "dialogue",
   "rows": 681,
@@ -341,13 +383,6 @@
   "rows": 676,
   "flagged": 137,
   "priority": 0.20266272189349113
- },
- {
-  "batch": "t-DecisionData-02",
-  "kind": "textassets",
-  "rows": 706,
-  "flagged": 143,
-  "priority": 0.20254957507082152
  },
  {
   "batch": "d-turn05-d",
@@ -427,6 +462,13 @@
   "priority": 0.17058823529411765
  },
  {
+  "batch": "t-CodexEntryData-03",
+  "kind": "textassets",
+  "rows": 141,
+  "flagged": 24,
+  "priority": 0.1702127659574468
+ },
+ {
   "batch": "d-turn05-a",
   "kind": "dialogue",
   "rows": 855,
@@ -448,6 +490,20 @@
   "priority": 0.16318537859007834
  },
  {
+  "batch": "t-CodexEntryData-09",
+  "kind": "textassets",
+  "rows": 135,
+  "flagged": 22,
+  "priority": 0.16296296296296298
+ },
+ {
+  "batch": "t-CodexEntryData-02",
+  "kind": "textassets",
+  "rows": 173,
+  "flagged": 28,
+  "priority": 0.16184971098265896
+ },
+ {
   "batch": "d-turn09-a",
   "kind": "dialogue",
   "rows": 596,
@@ -455,11 +511,25 @@
   "priority": 0.1610738255033557
  },
  {
+  "batch": "t-DecreeData-02",
+  "kind": "textassets",
+  "rows": 518,
+  "flagged": 83,
+  "priority": 0.16023166023166024
+ },
+ {
   "batch": "d-turn03-c",
   "kind": "dialogue",
   "rows": 790,
   "flagged": 126,
   "priority": 0.15949367088607594
+ },
+ {
+  "batch": "t-NewsData-13",
+  "kind": "textassets",
+  "rows": 178,
+  "flagged": 28,
+  "priority": 0.15730337078651685
  },
  {
   "batch": "d-turn01-d",
@@ -476,32 +546,11 @@
   "priority": 0.156957928802589
  },
  {
-  "batch": "t-DecreeData-02",
-  "kind": "textassets",
-  "rows": 167,
-  "flagged": 26,
-  "priority": 0.15568862275449102
- },
- {
-  "batch": "t-CodexEntryData-06",
-  "kind": "textassets",
-  "rows": 136,
-  "flagged": 21,
-  "priority": 0.15441176470588236
- },
- {
   "batch": "d-turn10-s",
   "kind": "dialogue",
   "rows": 711,
   "flagged": 109,
   "priority": 0.15330520393811534
- },
- {
-  "batch": "t-CodexEntryData-02",
-  "kind": "textassets",
-  "rows": 236,
-  "flagged": 36,
-  "priority": 0.15254237288135594
  },
  {
   "batch": "d-turn08-b",
@@ -532,6 +581,13 @@
   "priority": 0.14497041420118342
  },
  {
+  "batch": "t-NewsData-12",
+  "kind": "textassets",
+  "rows": 174,
+  "flagged": 25,
+  "priority": 0.14367816091954022
+ },
+ {
   "batch": "d-turn08-j",
   "kind": "dialogue",
   "rows": 891,
@@ -560,11 +616,11 @@
   "priority": 0.1384335154826958
  },
  {
-  "batch": "t-CodexEntryData-01",
+  "batch": "t-NewsData-06",
   "kind": "textassets",
-  "rows": 192,
+  "rows": 190,
   "flagged": 26,
-  "priority": 0.13541666666666666
+  "priority": 0.1368421052631579
  },
  {
   "batch": "d-turn09-e",
@@ -572,6 +628,13 @@
   "rows": 814,
   "flagged": 110,
   "priority": 0.13513513513513514
+ },
+ {
+  "batch": "t-NewsData-10",
+  "kind": "textassets",
+  "rows": 232,
+  "flagged": 31,
+  "priority": 0.1336206896551724
  },
  {
   "batch": "d-turn02-a",
@@ -595,11 +658,25 @@
   "priority": 0.1285140562248996
  },
  {
+  "batch": "t-CodexEntryData-05",
+  "kind": "textassets",
+  "rows": 187,
+  "flagged": 24,
+  "priority": 0.12834224598930483
+ },
+ {
   "batch": "d-misc-a",
   "kind": "dialogue",
   "rows": 797,
   "flagged": 100,
   "priority": 0.12547051442910917
+ },
+ {
+  "batch": "t-CodexEntryData-10",
+  "kind": "textassets",
+  "rows": 8,
+  "flagged": 1,
+  "priority": 0.125
  },
  {
   "batch": "d-turn09-h",
@@ -658,20 +735,6 @@
   "priority": 0.11636363636363636
  },
  {
-  "batch": "t-NewsData-08",
-  "kind": "textassets",
-  "rows": 270,
-  "flagged": 31,
-  "priority": 0.11481481481481481
- },
- {
-  "batch": "t-CodexEntryData-03",
-  "kind": "textassets",
-  "rows": 214,
-  "flagged": 24,
-  "priority": 0.11214953271028037
- },
- {
   "batch": "d-misc-b",
   "kind": "dialogue",
   "rows": 504,
@@ -691,6 +754,20 @@
   "rows": 777,
   "flagged": 85,
   "priority": 0.1093951093951094
+ },
+ {
+  "batch": "t-CodexEntryData-04",
+  "kind": "textassets",
+  "rows": 92,
+  "flagged": 10,
+  "priority": 0.10869565217391304
+ },
+ {
+  "batch": "t-DecisionData-02",
+  "kind": "textassets",
+  "rows": 711,
+  "flagged": 75,
+  "priority": 0.10548523206751055
  },
  {
   "batch": "d-turn01-c",
@@ -714,6 +791,13 @@
   "priority": 0.10256410256410256
  },
  {
+  "batch": "t-NewsData-11",
+  "kind": "textassets",
+  "rows": 186,
+  "flagged": 19,
+  "priority": 0.10215053763440861
+ },
+ {
   "batch": "d-misc-d",
   "kind": "dialogue",
   "rows": 277,
@@ -728,20 +812,6 @@
   "priority": 0.10046728971962617
  },
  {
-  "batch": "t-NewsData-07",
-  "kind": "textassets",
-  "rows": 330,
-  "flagged": 33,
-  "priority": 0.1
- },
- {
-  "batch": "t-NewsData-04",
-  "kind": "textassets",
-  "rows": 314,
-  "flagged": 31,
-  "priority": 0.09872611464968153
- },
- {
   "batch": "d-turn07-h",
   "kind": "dialogue",
   "rows": 879,
@@ -749,11 +819,18 @@
   "priority": 0.09783845278725825
  },
  {
-  "batch": "t-NewsData-06",
+  "batch": "t-NewsData-01",
   "kind": "textassets",
-  "rows": 344,
-  "flagged": 33,
-  "priority": 0.09593023255813954
+  "rows": 156,
+  "flagged": 15,
+  "priority": 0.09615384615384616
+ },
+ {
+  "batch": "t-CodexEntryData-01",
+  "kind": "textassets",
+  "rows": 94,
+  "flagged": 9,
+  "priority": 0.09574468085106383
  },
  {
   "batch": "d-turn08-e",
@@ -761,13 +838,6 @@
   "rows": 566,
   "flagged": 54,
   "priority": 0.09540636042402827
- },
- {
-  "batch": "t-NewsData-01",
-  "kind": "textassets",
-  "rows": 252,
-  "flagged": 24,
-  "priority": 0.09523809523809523
  },
  {
   "batch": "d-turn08-m",
@@ -798,11 +868,25 @@
   "priority": 0.08264462809917356
  },
  {
+  "batch": "t-NewsData-08",
+  "kind": "textassets",
+  "rows": 218,
+  "flagged": 18,
+  "priority": 0.08256880733944955
+ },
+ {
   "batch": "d-turn11-b",
   "kind": "dialogue",
   "rows": 571,
   "flagged": 47,
   "priority": 0.08231173380035026
+ },
+ {
+  "batch": "t-NewsData-02",
+  "kind": "textassets",
+  "rows": 154,
+  "flagged": 12,
+  "priority": 0.07792207792207792
  },
  {
   "batch": "d-turn10-n",
@@ -812,18 +896,18 @@
   "priority": 0.0763239875389408
  },
  {
+  "batch": "t-NewsData-03",
+  "kind": "textassets",
+  "rows": 160,
+  "flagged": 12,
+  "priority": 0.075
+ },
+ {
   "batch": "d-turn09-d",
   "kind": "dialogue",
   "rows": 753,
   "flagged": 56,
   "priority": 0.07436918990703852
- },
- {
-  "batch": "t-NewsData-03",
-  "kind": "textassets",
-  "rows": 274,
-  "flagged": 20,
-  "priority": 0.072992700729927
  },
  {
   "batch": "d-turn02-c",
@@ -842,16 +926,9 @@
  {
   "batch": "t-NewsData-05",
   "kind": "textassets",
-  "rows": 344,
-  "flagged": 22,
-  "priority": 0.06395348837209303
- },
- {
-  "batch": "t-NewsData-02",
-  "kind": "textassets",
-  "rows": 252,
-  "flagged": 16,
-  "priority": 0.06349206349206349
+  "rows": 180,
+  "flagged": 12,
+  "priority": 0.06666666666666667
  },
  {
   "batch": "d-turn06-c",
@@ -861,6 +938,13 @@
   "priority": 0.06164383561643835
  },
  {
+  "batch": "t-NewsData-04",
+  "kind": "textassets",
+  "rows": 162,
+  "flagged": 9,
+  "priority": 0.05555555555555555
+ },
+ {
   "batch": "d-turn06-b",
   "kind": "dialogue",
   "rows": 338,
@@ -868,18 +952,25 @@
   "priority": 0.05029585798816568
  },
  {
+  "batch": "t-NewsData-07",
+  "kind": "textassets",
+  "rows": 212,
+  "flagged": 9,
+  "priority": 0.04245283018867924
+ },
+ {
+  "batch": "t-NewsData-09",
+  "kind": "textassets",
+  "rows": 216,
+  "flagged": 9,
+  "priority": 0.041666666666666664
+ },
+ {
   "batch": "d-turn07-c",
   "kind": "dialogue",
   "rows": 639,
   "flagged": 25,
   "priority": 0.03912363067292645
- },
- {
-  "batch": "t-DecisionData-01",
-  "kind": "textassets",
-  "rows": 1130,
-  "flagged": 39,
-  "priority": 0.034513274336283185
  },
  {
   "batch": "d-turn10-v",
@@ -901,6 +992,13 @@
   "rows": 297,
   "flagged": 6,
   "priority": 0.020202020202020204
+ },
+ {
+  "batch": "t-DecisionData-01",
+  "kind": "textassets",
+  "rows": 674,
+  "flagged": 11,
+  "priority": 0.016320474777448073
  },
  {
   "batch": "t-misc-01",

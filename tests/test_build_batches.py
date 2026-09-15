@@ -25,6 +25,13 @@ def test_write_batch_merges_flags(tmp_path):
     assert (tmp_path / "d-turn01-a" / "context.md").read_text(encoding="utf-8") == "ctx"
 
 
+def test_letters_continue_past_z_with_two_letter_suffixes():
+    import itertools
+    from scripts.build_batches import _letters
+    vals = list(itertools.islice(_letters(), 28))
+    assert (vals[0], vals[25], vals[26], vals[27]) == ("a", "z", "aa", "ab")
+
+
 def test_group_dialogue_keeps_oversized_conversation_in_one_batch():
     rows = [D(1, i, "Rizia/Turn 1/A") for i in range(1000)] + [D(2, 0, "Rizia/Turn 1/B")]
     g = group_dialogue(rows, max_rows=800)

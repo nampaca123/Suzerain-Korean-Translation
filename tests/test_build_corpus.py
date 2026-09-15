@@ -49,3 +49,18 @@ def test_build_textassets_excludes_identifier_and_script_strings(tmp_path):
     rows = build_textassets(tmp_path / "ko", tmp_path / "en", shared_names=set())
     assert sorted(r["key"] for r in rows) == ["t:F:0x11:/ReportProperties/Description",
                                               "t:F:0x11:/ReportProperties/Title"]
+
+def test_build_textassets_warns_and_skips_unreadable_file(tmp_path, capsys):
+    good = {"items": [{"Id": "0x21", "Path": "Rizia/X", "NameInDatabase": "G", "P": {"Title": "제목이다."}}]}
+    for side in ("ko", "en"):
+        (tmp_path / side).mkdir()
+        (tmp_path / side / "Good.json").write_text(json.dumps(good, ensure_ascii=False), encoding="utf-8")
+        (tmp_path / side / "BadKo.json").write_text(json.dumps(good, ensure_ascii=False), encoding="utf-8")
+        (tmp_path / side / "BadEn.json").write_text(json.dumps(good, ensure_ascii=False), encoding="utf-8")
+    (tmp_path / "ko" / "BadKo.json").write_text("{oops", encoding="utf-8")
+    (tmp_path / "en" / "BadEn.json").write_text("{oops", encoding="utf-8")
+    rows = build_textassets(tmp_path / "ko", tmp_path / "en", shared_names=set())
+    assert [r["key"] for r in rows] == ["t:Good:0x21:/P/Title"]
+    err = capsys.readouterr().err
+    assert "warning: skipping unreadable textasset file BadKo.json" in err
+    assert "warning: skipping unreadable textasset file BadEn.json" in err

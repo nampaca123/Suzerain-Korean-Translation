@@ -73,12 +73,13 @@ def _walk(o, path=""):
 def build_textassets(ko_dir: Path, en_dir: Path, shared_names: set[str]) -> list[dict]:
     rows = []
     for p in sorted(ko_dir.glob("*.json")):
+        en_path = en_dir / p.name
         try:
             ko_items = json.loads(p.read_text(encoding="utf-8")).get("items", [])
+            en_items = json.loads(en_path.read_text(encoding="utf-8")).get("items", []) if en_path.exists() else []
         except (json.JSONDecodeError, AttributeError):
+            print(f"warning: skipping unreadable textasset file {p.name}", file=sys.stderr)
             continue
-        en_path = en_dir / p.name
-        en_items = json.loads(en_path.read_text(encoding="utf-8")).get("items", []) if en_path.exists() else []
         en_by_id = {it["Id"]: dict(_walk(it)) for it in en_items if "Id" in it}
         for it in ko_items:
             if "Id" not in it or not (_is_rizia(it) or it.get("NameInDatabase") in shared_names):

@@ -20,7 +20,9 @@ def validate_edit(row: dict, ko_new: str) -> list[str]:
         errs.append("newline count decreased")
     if len(_TAG.findall(ko_new)) != len(_TAG.findall(ko)):
         errs.append("effect tag count changed")
-    if len(ko_new) > 2 * max(len(ko), 20) or (en.strip() and len(ko_new) < 0.42 * len(en)):
+    # R44: 원문 ko가 이미 영문보다 많이 짧으면 0.42*len(en) 하한을 못 넘는다. 원문 대비 0.9면 통과시킨다.
+    too_short = len(ko_new) < 0.42 * len(en) and len(ko_new) < 0.9 * len(ko)
+    if len(ko_new) > 2 * max(len(ko), 20) or (en.strip() and too_short):
         errs.append("length out of range")
     return errs
 

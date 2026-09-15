@@ -14,6 +14,12 @@ def test_validate_edit_rules():
     assert any("newline" in e for e in validate_edit(ROW, '"가시오 {X} 지금. 둘째요."'))
     assert any("length" in e for e in validate_edit(ROW, '"가시오 {X} 지금.\n\n둘째요." ' + "가" * 200))
 
+def test_validate_edit_lower_bound_allows_already_short_original():
+    short = {**ROW, "en": "A" * 40, "ko": "가" * 10}
+    assert validate_edit(short, "나" * 10) == []
+    assert validate_edit(short, "나" * 9) == []
+    assert validate_edit(short, "나" * 5) == ["length out of range"]
+
 def test_apply_edits_updates_current_and_writes_reviewed(tmp_path, monkeypatch):
     from scripts import paths
     monkeypatch.setattr(paths, "CURRENT", tmp_path / "current")

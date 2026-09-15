@@ -12,6 +12,9 @@ from scripts.build_corpus import read_jsonl, write_jsonl
 
 _TURN = re.compile(r"Rizia/Turn (\d+)/")
 _KO = re.compile(r"[가-힣]")
+# 실제 실행에서 쓰는 배치 크기. 에이전트 한 번의 문맥에 들어갈 만큼 작게 잡는다.
+DIALOGUE_MAX_ROWS = 800
+TEXTASSET_MAX_CHARS = 40000
 
 
 def _letters():
@@ -118,7 +121,9 @@ def _context(bid: str, rows: list[dict], flags: dict[str, dict]) -> str:
 
 if __name__ == "__main__":
     index = []
-    for kind, grouper in (("dialogue", group_dialogue), ("textassets", group_textassets)):
+    groupers = (("dialogue", lambda r: group_dialogue(r, max_rows=DIALOGUE_MAX_ROWS)),
+                ("textassets", lambda r: group_textassets(r, max_chars=TEXTASSET_MAX_CHARS)))
+    for kind, grouper in groupers:
         rows = read_jsonl(paths.CURRENT / f"{kind}.jsonl")
         flags = {f["key"]: f for f in read_jsonl(paths.FLAGS / f"{kind}.jsonl")}
         for bid, brows in grouper(rows):

@@ -25,6 +25,12 @@ def test_write_batch_merges_flags(tmp_path):
     assert (tmp_path / "d-turn01-a" / "context.md").read_text(encoding="utf-8") == "ctx"
 
 
+def test_group_dialogue_keeps_oversized_conversation_in_one_batch():
+    rows = [D(1, i, "Rizia/Turn 1/A") for i in range(1000)] + [D(2, 0, "Rizia/Turn 1/B")]
+    g = group_dialogue(rows, max_rows=800)
+    assert [(bid, len(r)) for bid, r in g] == [("d-turn01-a", 1000), ("d-turn01-b", 1)]
+
+
 def T(file, item_id, chars):
     return {"key": f"t:{file}:{item_id}:/D", "file": file, "item_id": item_id, "ko": "가" * chars, "en": "x"}
 

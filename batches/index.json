@@ -1,24 +1,59 @@
 [
  {
+  "batch": "t-JournalEntryData-02",
+  "kind": "textassets",
+  "rows": 46,
+  "flagged": 46,
+  "priority": 1.0
+ },
+ {
   "batch": "t-JournalEntryData-01",
   "kind": "textassets",
-  "rows": 1246,
-  "flagged": 1245,
-  "priority": 0.9991974317817014
+  "rows": 1200,
+  "flagged": 1199,
+  "priority": 0.9991666666666666
+ },
+ {
+  "batch": "d-turn11-d",
+  "kind": "dialogue",
+  "rows": 132,
+  "flagged": 75,
+  "priority": 0.5681818181818182
+ },
+ {
+  "batch": "d-turn08-l",
+  "kind": "dialogue",
+  "rows": 693,
+  "flagged": 356,
+  "priority": 0.5137085137085137
  },
  {
   "batch": "t-ReportData-01",
   "kind": "textassets",
-  "rows": 894,
-  "flagged": 449,
-  "priority": 0.5022371364653244
+  "rows": 580,
+  "flagged": 292,
+  "priority": 0.503448275862069
+ },
+ {
+  "batch": "t-ReportData-03",
+  "kind": "textassets",
+  "rows": 504,
+  "flagged": 253,
+  "priority": 0.501984126984127
  },
  {
   "batch": "t-ReportData-02",
   "kind": "textassets",
-  "rows": 747,
-  "flagged": 374,
-  "priority": 0.500669344042838
+  "rows": 557,
+  "flagged": 278,
+  "priority": 0.4991023339317774
+ },
+ {
+  "batch": "d-turn06-g",
+  "kind": "dialogue",
+  "rows": 379,
+  "flagged": 164,
+  "priority": 0.43271767810026385
  },
  {
   "batch": "t-SituationData-01",
@@ -28,312 +63,830 @@
   "priority": 0.4269102990033223
  },
  {
-  "batch": "d-turn08-d",
+  "batch": "d-turn09-b",
   "kind": "dialogue",
-  "rows": 2261,
-  "flagged": 678,
-  "priority": 0.2998673153471915
+  "rows": 454,
+  "flagged": 178,
+  "priority": 0.3920704845814978
  },
  {
-  "batch": "d-turn06-c",
+  "batch": "d-turn11-c",
   "kind": "dialogue",
-  "rows": 1374,
-  "flagged": 387,
-  "priority": 0.2816593886462882
+  "rows": 709,
+  "flagged": 275,
+  "priority": 0.38787023977433005
  },
  {
-  "batch": "d-turn09-a",
+  "batch": "d-turn06-h",
   "kind": "dialogue",
-  "rows": 1823,
-  "flagged": 493,
-  "priority": 0.27043335161821175
+  "rows": 517,
+  "flagged": 194,
+  "priority": 0.37524177949709864
  },
  {
-  "batch": "t-CodexEntryData-03",
-  "kind": "textassets",
-  "rows": 374,
-  "flagged": 98,
-  "priority": 0.2620320855614973
- },
- {
-  "batch": "d-turn04-b",
+  "batch": "d-turn04-d",
   "kind": "dialogue",
-  "rows": 2084,
-  "flagged": 531,
-  "priority": 0.2547984644913628
+  "rows": 593,
+  "flagged": 206,
+  "priority": 0.3473861720067454
  },
  {
-  "batch": "d-turn11-a",
+  "batch": "d-turn03-d",
   "kind": "dialogue",
-  "rows": 2178,
-  "flagged": 522,
-  "priority": 0.2396694214876033
+  "rows": 296,
+  "flagged": 90,
+  "priority": 0.30405405405405406
  },
  {
-  "batch": "t-DecisionData-02",
-  "kind": "textassets",
-  "rows": 180,
-  "flagged": 43,
-  "priority": 0.2388888888888889
- },
- {
-  "batch": "d-turn08-c",
+  "batch": "d-turn01-b",
   "kind": "dialogue",
-  "rows": 1973,
-  "flagged": 471,
-  "priority": 0.2387227572225038
+  "rows": 799,
+  "flagged": 242,
+  "priority": 0.30287859824780977
+ },
+ {
+  "batch": "d-turn08-k",
+  "kind": "dialogue",
+  "rows": 677,
+  "flagged": 194,
+  "priority": 0.2865583456425406
  },
  {
   "batch": "d-turn04-a",
   "kind": "dialogue",
-  "rows": 2147,
-  "flagged": 499,
-  "priority": 0.23241732650209596
+  "rows": 759,
+  "flagged": 217,
+  "priority": 0.2859025032938076
  },
  {
-  "batch": "d-turn06-b",
-  "kind": "dialogue",
-  "rows": 2017,
-  "flagged": 453,
-  "priority": 0.22459097669806644
- },
- {
-  "batch": "d-turn10-c",
-  "kind": "dialogue",
-  "rows": 2195,
-  "flagged": 489,
-  "priority": 0.22277904328018222
- },
- {
-  "batch": "t-NewsData-06",
+  "batch": "t-CodexEntryData-05",
   "kind": "textassets",
-  "rows": 476,
-  "flagged": 105,
-  "priority": 0.22058823529411764
+  "rows": 200,
+  "flagged": 57,
+  "priority": 0.285
  },
  {
-  "batch": "t-DecreeData-01",
-  "kind": "textassets",
-  "rows": 1056,
-  "flagged": 231,
-  "priority": 0.21875
- },
- {
-  "batch": "d-turn10-b",
+  "batch": "d-turn09-i",
   "kind": "dialogue",
-  "rows": 2493,
-  "flagged": 540,
-  "priority": 0.21660649819494585
- },
- {
-  "batch": "d-turn10-e",
-  "kind": "dialogue",
-  "rows": 2467,
-  "flagged": 509,
-  "priority": 0.2063234698013782
- },
- {
-  "batch": "t-CodexEntryData-04",
-  "kind": "textassets",
-  "rows": 221,
-  "flagged": 44,
-  "priority": 0.19909502262443438
- },
- {
-  "batch": "d-turn05-a",
-  "kind": "dialogue",
-  "rows": 2057,
-  "flagged": 403,
-  "priority": 0.19591638308215847
- },
- {
-  "batch": "d-turn01-a",
-  "kind": "dialogue",
-  "rows": 2157,
-  "flagged": 417,
-  "priority": 0.1933240611961057
- },
- {
-  "batch": "d-turn07-b",
-  "kind": "dialogue",
-  "rows": 2060,
-  "flagged": 368,
-  "priority": 0.1786407766990291
- },
- {
-  "batch": "d-turn03-a",
-  "kind": "dialogue",
-  "rows": 2481,
-  "flagged": 434,
-  "priority": 0.17492946392583636
+  "rows": 453,
+  "flagged": 129,
+  "priority": 0.2847682119205298
  },
  {
   "batch": "d-turn09-c",
   "kind": "dialogue",
-  "rows": 1277,
-  "flagged": 218,
-  "priority": 0.1707126076742365
+  "rows": 773,
+  "flagged": 219,
+  "priority": 0.2833117723156533
  },
  {
-  "batch": "d-turn02-a",
+  "batch": "t-NewsData-09",
+  "kind": "textassets",
+  "rows": 344,
+  "flagged": 92,
+  "priority": 0.26744186046511625
+ },
+ {
+  "batch": "d-turn04-c",
   "kind": "dialogue",
-  "rows": 2315,
-  "flagged": 374,
-  "priority": 0.1615550755939525
+  "rows": 720,
+  "flagged": 189,
+  "priority": 0.2625
+ },
+ {
+  "batch": "d-turn10-g",
+  "kind": "dialogue",
+  "rows": 579,
+  "flagged": 151,
+  "priority": 0.2607944732297064
+ },
+ {
+  "batch": "d-turn08-g",
+  "kind": "dialogue",
+  "rows": 692,
+  "flagged": 180,
+  "priority": 0.26011560693641617
  },
  {
   "batch": "d-turn05-c",
   "kind": "dialogue",
-  "rows": 2009,
-  "flagged": 319,
-  "priority": 0.15878546540567445
+  "rows": 553,
+  "flagged": 142,
+  "priority": 0.25678119349005424
  },
  {
-  "batch": "d-turn01-b",
+  "batch": "d-turn08-h",
+  "kind": "dialogue",
+  "rows": 814,
+  "flagged": 209,
+  "priority": 0.25675675675675674
+ },
+ {
+  "batch": "d-turn06-f",
+  "kind": "dialogue",
+  "rows": 704,
+  "flagged": 177,
+  "priority": 0.25142045454545453
+ },
+ {
+  "batch": "d-turn06-i",
+  "kind": "dialogue",
+  "rows": 738,
+  "flagged": 185,
+  "priority": 0.2506775067750677
+ },
+ {
+  "batch": "d-turn10-f",
+  "kind": "dialogue",
+  "rows": 777,
+  "flagged": 191,
+  "priority": 0.24581724581724582
+ },
+ {
+  "batch": "t-CodexEntryData-04",
+  "kind": "textassets",
+  "rows": 269,
+  "flagged": 66,
+  "priority": 0.24535315985130113
+ },
+ {
+  "batch": "d-turn10-j",
+  "kind": "dialogue",
+  "rows": 464,
+  "flagged": 113,
+  "priority": 0.2435344827586207
+ },
+ {
+  "batch": "d-turn07-a",
+  "kind": "dialogue",
+  "rows": 748,
+  "flagged": 182,
+  "priority": 0.24331550802139038
+ },
+ {
+  "batch": "d-turn04-f",
+  "kind": "dialogue",
+  "rows": 480,
+  "flagged": 113,
+  "priority": 0.23541666666666666
+ },
+ {
+  "batch": "d-turn10-i",
+  "kind": "dialogue",
+  "rows": 481,
+  "flagged": 113,
+  "priority": 0.23492723492723494
+ },
+ {
+  "batch": "d-turn02-b",
+  "kind": "dialogue",
+  "rows": 564,
+  "flagged": 132,
+  "priority": 0.23404255319148937
+ },
+ {
+  "batch": "d-turn07-f",
+  "kind": "dialogue",
+  "rows": 488,
+  "flagged": 114,
+  "priority": 0.2336065573770492
+ },
+ {
+  "batch": "d-turn10-r",
+  "kind": "dialogue",
+  "rows": 648,
+  "flagged": 150,
+  "priority": 0.23148148148148148
+ },
+ {
+  "batch": "d-turn04-g",
+  "kind": "dialogue",
+  "rows": 623,
+  "flagged": 144,
+  "priority": 0.23113964686998395
+ },
+ {
+  "batch": "t-DecreeData-01",
+  "kind": "textassets",
+  "rows": 889,
+  "flagged": 205,
+  "priority": 0.23059617547806524
+ },
+ {
+  "batch": "d-misc-c",
+  "kind": "dialogue",
+  "rows": 713,
+  "flagged": 164,
+  "priority": 0.2300140252454418
+ },
+ {
+  "batch": "d-turn10-l",
+  "kind": "dialogue",
+  "rows": 744,
+  "flagged": 169,
+  "priority": 0.2271505376344086
+ },
+ {
+  "batch": "d-turn07-e",
+  "kind": "dialogue",
+  "rows": 645,
+  "flagged": 145,
+  "priority": 0.2248062015503876
+ },
+ {
+  "batch": "d-turn02-d",
+  "kind": "dialogue",
+  "rows": 514,
+  "flagged": 113,
+  "priority": 0.2198443579766537
+ },
+ {
+  "batch": "d-turn10-e",
+  "kind": "dialogue",
+  "rows": 709,
+  "flagged": 155,
+  "priority": 0.21861777150916784
+ },
+ {
+  "batch": "d-turn10-t",
+  "kind": "dialogue",
+  "rows": 550,
+  "flagged": 119,
+  "priority": 0.21636363636363637
+ },
+ {
+  "batch": "d-turn03-b",
+  "kind": "dialogue",
+  "rows": 618,
+  "flagged": 133,
+  "priority": 0.215210355987055
+ },
+ {
+  "batch": "d-turn10-p",
+  "kind": "dialogue",
+  "rows": 681,
+  "flagged": 146,
+  "priority": 0.2143906020558003
+ },
+ {
+  "batch": "d-turn10-q",
+  "kind": "dialogue",
+  "rows": 681,
+  "flagged": 143,
+  "priority": 0.20998531571218795
+ },
+ {
+  "batch": "d-turn10-u",
+  "kind": "dialogue",
+  "rows": 676,
+  "flagged": 137,
+  "priority": 0.20266272189349113
+ },
+ {
+  "batch": "t-DecisionData-02",
+  "kind": "textassets",
+  "rows": 706,
+  "flagged": 143,
+  "priority": 0.20254957507082152
+ },
+ {
+  "batch": "d-turn05-d",
+  "kind": "dialogue",
+  "rows": 755,
+  "flagged": 152,
+  "priority": 0.20132450331125828
+ },
+ {
+  "batch": "d-turn08-f",
+  "kind": "dialogue",
+  "rows": 679,
+  "flagged": 133,
+  "priority": 0.1958762886597938
+ },
+ {
+  "batch": "d-turn05-g",
+  "kind": "dialogue",
+  "rows": 955,
+  "flagged": 183,
+  "priority": 0.19162303664921465
+ },
+ {
+  "batch": "d-turn10-k",
+  "kind": "dialogue",
+  "rows": 506,
+  "flagged": 94,
+  "priority": 0.1857707509881423
+ },
+ {
+  "batch": "d-turn05-b",
+  "kind": "dialogue",
+  "rows": 649,
+  "flagged": 118,
+  "priority": 0.18181818181818182
+ },
+ {
+  "batch": "d-turn08-a",
+  "kind": "dialogue",
+  "rows": 688,
+  "flagged": 124,
+  "priority": 0.18023255813953487
+ },
+ {
+  "batch": "d-turn06-a",
+  "kind": "dialogue",
+  "rows": 799,
+  "flagged": 143,
+  "priority": 0.17897371714643304
+ },
+ {
+  "batch": "d-turn10-o",
+  "kind": "dialogue",
+  "rows": 782,
+  "flagged": 139,
+  "priority": 0.17774936061381075
+ },
+ {
+  "batch": "d-turn08-i",
+  "kind": "dialogue",
+  "rows": 467,
+  "flagged": 82,
+  "priority": 0.17558886509635974
+ },
+ {
+  "batch": "d-turn04-e",
+  "kind": "dialogue",
+  "rows": 388,
+  "flagged": 68,
+  "priority": 0.17525773195876287
+ },
+ {
+  "batch": "d-turn07-j",
+  "kind": "dialogue",
+  "rows": 680,
+  "flagged": 116,
+  "priority": 0.17058823529411765
+ },
+ {
+  "batch": "d-turn05-a",
+  "kind": "dialogue",
+  "rows": 855,
+  "flagged": 143,
+  "priority": 0.1672514619883041
+ },
+ {
+  "batch": "d-turn07-i",
+  "kind": "dialogue",
+  "rows": 264,
+  "flagged": 44,
+  "priority": 0.16666666666666666
+ },
+ {
+  "batch": "d-turn11-a",
+  "kind": "dialogue",
+  "rows": 766,
+  "flagged": 125,
+  "priority": 0.16318537859007834
+ },
+ {
+  "batch": "d-turn09-a",
+  "kind": "dialogue",
+  "rows": 596,
+  "flagged": 96,
+  "priority": 0.1610738255033557
+ },
+ {
+  "batch": "d-turn03-c",
+  "kind": "dialogue",
+  "rows": 790,
+  "flagged": 126,
+  "priority": 0.15949367088607594
+ },
+ {
+  "batch": "d-turn01-d",
   "kind": "dialogue",
   "rows": 382,
   "flagged": 60,
   "priority": 0.15706806282722513
  },
  {
-  "batch": "d-turn10-f",
+  "batch": "d-turn01-a",
   "kind": "dialogue",
-  "rows": 1764,
-  "flagged": 273,
-  "priority": 0.15476190476190477
+  "rows": 618,
+  "flagged": 97,
+  "priority": 0.156957928802589
  },
  {
-  "batch": "d-misc-a",
-  "kind": "dialogue",
-  "rows": 2291,
-  "flagged": 348,
-  "priority": 0.1518987341772152
- },
- {
-  "batch": "d-turn07-a",
-  "kind": "dialogue",
-  "rows": 2171,
-  "flagged": 322,
-  "priority": 0.14831874712114232
- },
- {
-  "batch": "t-CodexEntryData-01",
+  "batch": "t-DecreeData-02",
   "kind": "textassets",
-  "rows": 338,
-  "flagged": 50,
-  "priority": 0.14792899408284024
+  "rows": 167,
+  "flagged": 26,
+  "priority": 0.15568862275449102
  },
  {
-  "batch": "d-turn08-a",
-  "kind": "dialogue",
-  "rows": 1667,
-  "flagged": 245,
-  "priority": 0.14697060587882424
+  "batch": "t-CodexEntryData-06",
+  "kind": "textassets",
+  "rows": 136,
+  "flagged": 21,
+  "priority": 0.15441176470588236
  },
  {
-  "batch": "d-turn10-a",
+  "batch": "d-turn10-s",
   "kind": "dialogue",
-  "rows": 2212,
-  "flagged": 311,
-  "priority": 0.14059674502712477
- },
- {
-  "batch": "d-turn08-b",
-  "kind": "dialogue",
-  "rows": 2462,
-  "flagged": 330,
-  "priority": 0.13403736799350122
- },
- {
-  "batch": "d-turn05-b",
-  "kind": "dialogue",
-  "rows": 1813,
-  "flagged": 243,
-  "priority": 0.13403199117484832
- },
- {
-  "batch": "d-turn10-d",
-  "kind": "dialogue",
-  "rows": 2448,
-  "flagged": 328,
-  "priority": 0.13398692810457516
- },
- {
-  "batch": "d-turn07-c",
-  "kind": "dialogue",
-  "rows": 2477,
-  "flagged": 323,
-  "priority": 0.1303996770286637
+  "rows": 711,
+  "flagged": 109,
+  "priority": 0.15330520393811534
  },
  {
   "batch": "t-CodexEntryData-02",
   "kind": "textassets",
-  "rows": 314,
-  "flagged": 38,
-  "priority": 0.12101910828025478
+  "rows": 236,
+  "flagged": 36,
+  "priority": 0.15254237288135594
  },
  {
-  "batch": "d-turn09-b",
+  "batch": "d-turn08-b",
   "kind": "dialogue",
-  "rows": 2419,
-  "flagged": 269,
-  "priority": 0.11120297643654403
+  "rows": 428,
+  "flagged": 63,
+  "priority": 0.14719626168224298
  },
  {
-  "batch": "t-NewsData-05",
+  "batch": "d-turn07-b",
+  "kind": "dialogue",
+  "rows": 784,
+  "flagged": 115,
+  "priority": 0.14668367346938777
+ },
+ {
+  "batch": "d-turn10-b",
+  "kind": "dialogue",
+  "rows": 624,
+  "flagged": 91,
+  "priority": 0.14583333333333334
+ },
+ {
+  "batch": "d-turn10-a",
+  "kind": "dialogue",
+  "rows": 676,
+  "flagged": 98,
+  "priority": 0.14497041420118342
+ },
+ {
+  "batch": "d-turn08-j",
+  "kind": "dialogue",
+  "rows": 891,
+  "flagged": 128,
+  "priority": 0.143658810325477
+ },
+ {
+  "batch": "d-turn10-c",
+  "kind": "dialogue",
+  "rows": 791,
+  "flagged": 112,
+  "priority": 0.1415929203539823
+ },
+ {
+  "batch": "d-turn04-b",
+  "kind": "dialogue",
+  "rows": 668,
+  "flagged": 93,
+  "priority": 0.13922155688622753
+ },
+ {
+  "batch": "d-turn05-h",
+  "kind": "dialogue",
+  "rows": 549,
+  "flagged": 76,
+  "priority": 0.1384335154826958
+ },
+ {
+  "batch": "t-CodexEntryData-01",
   "kind": "textassets",
-  "rows": 464,
-  "flagged": 51,
-  "priority": 0.10991379310344827
+  "rows": 192,
+  "flagged": 26,
+  "priority": 0.13541666666666666
  },
  {
-  "batch": "d-turn08-e",
+  "batch": "d-turn09-e",
   "kind": "dialogue",
-  "rows": 1981,
-  "flagged": 213,
-  "priority": 0.10752145381120647
+  "rows": 814,
+  "flagged": 110,
+  "priority": 0.13513513513513514
  },
  {
-  "batch": "d-turn06-a",
+  "batch": "d-turn02-a",
   "kind": "dialogue",
-  "rows": 2159,
-  "flagged": 223,
-  "priority": 0.1032885595182955
+  "rows": 702,
+  "flagged": 93,
+  "priority": 0.13247863247863248
+ },
+ {
+  "batch": "d-turn10-m",
+  "kind": "dialogue",
+  "rows": 770,
+  "flagged": 101,
+  "priority": 0.13116883116883116
+ },
+ {
+  "batch": "d-turn09-g",
+  "kind": "dialogue",
+  "rows": 249,
+  "flagged": 32,
+  "priority": 0.1285140562248996
+ },
+ {
+  "batch": "d-misc-a",
+  "kind": "dialogue",
+  "rows": 797,
+  "flagged": 100,
+  "priority": 0.12547051442910917
+ },
+ {
+  "batch": "d-turn09-h",
+  "kind": "dialogue",
+  "rows": 647,
+  "flagged": 80,
+  "priority": 0.12364760432766615
+ },
+ {
+  "batch": "d-turn06-d",
+  "kind": "dialogue",
+  "rows": 659,
+  "flagged": 80,
+  "priority": 0.12139605462822459
+ },
+ {
+  "batch": "d-turn05-i",
+  "kind": "dialogue",
+  "rows": 505,
+  "flagged": 60,
+  "priority": 0.1188118811881188
+ },
+ {
+  "batch": "d-turn08-o",
+  "kind": "dialogue",
+  "rows": 599,
+  "flagged": 71,
+  "priority": 0.11853088480801335
+ },
+ {
+  "batch": "d-turn07-g",
+  "kind": "dialogue",
+  "rows": 654,
+  "flagged": 77,
+  "priority": 0.11773700305810397
+ },
+ {
+  "batch": "d-turn07-d",
+  "kind": "dialogue",
+  "rows": 927,
+  "flagged": 109,
+  "priority": 0.11758360302049622
+ },
+ {
+  "batch": "d-turn08-d",
+  "kind": "dialogue",
+  "rows": 1217,
+  "flagged": 143,
+  "priority": 0.11750205423171733
+ },
+ {
+  "batch": "d-turn06-e",
+  "kind": "dialogue",
+  "rows": 275,
+  "flagged": 32,
+  "priority": 0.11636363636363636
+ },
+ {
+  "batch": "t-NewsData-08",
+  "kind": "textassets",
+  "rows": 270,
+  "flagged": 31,
+  "priority": 0.11481481481481481
+ },
+ {
+  "batch": "t-CodexEntryData-03",
+  "kind": "textassets",
+  "rows": 214,
+  "flagged": 24,
+  "priority": 0.11214953271028037
+ },
+ {
+  "batch": "d-misc-b",
+  "kind": "dialogue",
+  "rows": 504,
+  "flagged": 56,
+  "priority": 0.1111111111111111
+ },
+ {
+  "batch": "d-turn08-n",
+  "kind": "dialogue",
+  "rows": 719,
+  "flagged": 79,
+  "priority": 0.10987482614742698
+ },
+ {
+  "batch": "d-turn03-a",
+  "kind": "dialogue",
+  "rows": 777,
+  "flagged": 85,
+  "priority": 0.1093951093951094
+ },
+ {
+  "batch": "d-turn01-c",
+  "kind": "dialogue",
+  "rows": 740,
+  "flagged": 78,
+  "priority": 0.10540540540540541
+ },
+ {
+  "batch": "d-turn08-c",
+  "kind": "dialogue",
+  "rows": 551,
+  "flagged": 58,
+  "priority": 0.10526315789473684
+ },
+ {
+  "batch": "d-turn09-f",
+  "kind": "dialogue",
+  "rows": 780,
+  "flagged": 80,
+  "priority": 0.10256410256410256
+ },
+ {
+  "batch": "d-misc-d",
+  "kind": "dialogue",
+  "rows": 277,
+  "flagged": 28,
+  "priority": 0.10108303249097472
+ },
+ {
+  "batch": "d-turn10-h",
+  "kind": "dialogue",
+  "rows": 428,
+  "flagged": 43,
+  "priority": 0.10046728971962617
+ },
+ {
+  "batch": "t-NewsData-07",
+  "kind": "textassets",
+  "rows": 330,
+  "flagged": 33,
+  "priority": 0.1
  },
  {
   "batch": "t-NewsData-04",
   "kind": "textassets",
-  "rows": 522,
-  "flagged": 50,
-  "priority": 0.09578544061302682
+  "rows": 314,
+  "flagged": 31,
+  "priority": 0.09872611464968153
+ },
+ {
+  "batch": "d-turn07-h",
+  "kind": "dialogue",
+  "rows": 879,
+  "flagged": 86,
+  "priority": 0.09783845278725825
+ },
+ {
+  "batch": "t-NewsData-06",
+  "kind": "textassets",
+  "rows": 344,
+  "flagged": 33,
+  "priority": 0.09593023255813954
+ },
+ {
+  "batch": "d-turn08-e",
+  "kind": "dialogue",
+  "rows": 566,
+  "flagged": 54,
+  "priority": 0.09540636042402827
  },
  {
   "batch": "t-NewsData-01",
   "kind": "textassets",
-  "rows": 370,
-  "flagged": 34,
-  "priority": 0.0918918918918919
+  "rows": 252,
+  "flagged": 24,
+  "priority": 0.09523809523809523
  },
  {
-  "batch": "t-DecisionData-01",
-  "kind": "textassets",
-  "rows": 1656,
-  "flagged": 139,
-  "priority": 0.08393719806763285
+  "batch": "d-turn08-m",
+  "kind": "dialogue",
+  "rows": 663,
+  "flagged": 63,
+  "priority": 0.09502262443438914
+ },
+ {
+  "batch": "d-turn05-e",
+  "kind": "dialogue",
+  "rows": 1034,
+  "flagged": 89,
+  "priority": 0.086073500967118
+ },
+ {
+  "batch": "d-turn05-f",
+  "kind": "dialogue",
+  "rows": 24,
+  "flagged": 2,
+  "priority": 0.08333333333333333
+ },
+ {
+  "batch": "d-turn10-d",
+  "kind": "dialogue",
+  "rows": 121,
+  "flagged": 10,
+  "priority": 0.08264462809917356
+ },
+ {
+  "batch": "d-turn11-b",
+  "kind": "dialogue",
+  "rows": 571,
+  "flagged": 47,
+  "priority": 0.08231173380035026
+ },
+ {
+  "batch": "d-turn10-n",
+  "kind": "dialogue",
+  "rows": 642,
+  "flagged": 49,
+  "priority": 0.0763239875389408
+ },
+ {
+  "batch": "d-turn09-d",
+  "kind": "dialogue",
+  "rows": 753,
+  "flagged": 56,
+  "priority": 0.07436918990703852
  },
  {
   "batch": "t-NewsData-03",
   "kind": "textassets",
-  "rows": 482,
+  "rows": 274,
+  "flagged": 20,
+  "priority": 0.072992700729927
+ },
+ {
+  "batch": "d-turn02-c",
+  "kind": "dialogue",
+  "rows": 535,
   "flagged": 36,
-  "priority": 0.07468879668049792
+  "priority": 0.06728971962616823
+ },
+ {
+  "batch": "d-turn06-j",
+  "kind": "dialogue",
+  "rows": 119,
+  "flagged": 8,
+  "priority": 0.06722689075630252
+ },
+ {
+  "batch": "t-NewsData-05",
+  "kind": "textassets",
+  "rows": 344,
+  "flagged": 22,
+  "priority": 0.06395348837209303
  },
  {
   "batch": "t-NewsData-02",
   "kind": "textassets",
-  "rows": 410,
-  "flagged": 26,
-  "priority": 0.06341463414634146
+  "rows": 252,
+  "flagged": 16,
+  "priority": 0.06349206349206349
+ },
+ {
+  "batch": "d-turn06-c",
+  "kind": "dialogue",
+  "rows": 1022,
+  "flagged": 63,
+  "priority": 0.06164383561643835
+ },
+ {
+  "batch": "d-turn06-b",
+  "kind": "dialogue",
+  "rows": 338,
+  "flagged": 17,
+  "priority": 0.05029585798816568
+ },
+ {
+  "batch": "d-turn07-c",
+  "kind": "dialogue",
+  "rows": 639,
+  "flagged": 25,
+  "priority": 0.03912363067292645
+ },
+ {
+  "batch": "t-DecisionData-01",
+  "kind": "textassets",
+  "rows": 1130,
+  "flagged": 39,
+  "priority": 0.034513274336283185
+ },
+ {
+  "batch": "d-turn10-v",
+  "kind": "dialogue",
+  "rows": 538,
+  "flagged": 17,
+  "priority": 0.031598513011152414
  },
  {
   "batch": "t-PolicyData-01",

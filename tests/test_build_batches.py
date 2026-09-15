@@ -48,19 +48,27 @@ def test_misc_context_lists_every_file():
     assert "파일: Beta. 목표 문체는 register_table.md 6장의 Beta 행을 따른다." in md
 
 
-def _write_raw(tmp_path, monkeypatch, items):
+def _write_raw(tmp_path, monkeypatch, items, name="Fake"):
     from scripts import paths
-    (tmp_path / "textassets").mkdir()
-    (tmp_path / "textassets" / "Fake.json").write_text(json.dumps({"items": items}, ensure_ascii=False), encoding="utf-8")
+    (tmp_path / "textassets").mkdir(exist_ok=True)
+    (tmp_path / "textassets" / f"{name}.json").write_text(json.dumps({"items": items}, ensure_ascii=False), encoding="utf-8")
     monkeypatch.setattr(paths, "RAW_KO", tmp_path)
 
 def test_sordland_samples_returns_longest_first(tmp_path, monkeypatch):
     from scripts.build_batches import sordland_samples
-    _write_raw(tmp_path, monkeypatch, [{"Path": f"Sordland/{i}", "Body": "가" * n} for i, n in enumerate((90, 300, 150, 60))])
-    assert [len(s) for s in sordland_samples("Fake")] == [300, 150, 90]
+    _write_raw(tmp_path, monkeypatch, [{"Path": f"Sordland/{i}", "Body": "가" * n} for i, n in enumerate((50, 300, 150, 30))])
+    assert [len(s) for s in sordland_samples("Fake")] == [300, 150, 50]
+
+def test_misc_context_samples_come_from_largest_file_that_has_them(tmp_path, monkeypatch):
+    from scripts.build_batches import _context
+    _write_raw(tmp_path, monkeypatch, [{"Path": "Sordland/0", "Body": "가" * 30}], name="Big")
+    _write_raw(tmp_path, monkeypatch, [{"Path": "Sordland/0", "Body": "나" * 100}], name="Small")
+    rows = [T("Big", "0", 10), T("Big", "1", 10), T("Small", "0", 10)]
+    md = _context("t-misc-01", rows, {})
+    assert "## 소르들란드 문체 표본 1" in md and "나" * 100 in md
 
 def test_sordland_samples_skips_rizia_items_and_missing_file(tmp_path, monkeypatch):
     from scripts.build_batches import sordland_samples
-    _write_raw(tmp_path, monkeypatch, [{"Path": "Rizia/0", "Body": "가" * 300}, {"Path": "Sordland/1", "Body": "나" * 120}])
-    assert [len(s) for s in sordland_samples("Fake")] == [120]
+    _write_raw(tmp_path, monkeypatch, [{"Path": "Rizia/0", "Body": "가" * 300}, {"Path": "Sordland/1", "Body": "나" * 45}])
+    assert [len(s) for s in sordland_samples("Fake")] == [45]
     assert sordland_samples("Absent") == []

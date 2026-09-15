@@ -82,7 +82,7 @@ def sordland_samples(file: str, n: int = 3) -> list[str]:
         packs = it.get("AppBundleProperties", {}).get("StoryPacks", [])
         if not (it.get("Path", "").startswith("Sordland") or "StoryPack_Main" in packs):
             continue
-        texts += [s for s in json.dumps(it, ensure_ascii=False).split('"') if len(s) >= 80 and _KO.search(s)]
+        texts += [s for s in json.dumps(it, ensure_ascii=False).split('"') if len(s) >= 40 and _KO.search(s)]
     texts.sort(key=len, reverse=True)
     return [s.replace("\\n", "\n") for s in texts[:n]]
 
@@ -108,8 +108,9 @@ def _context(bid: str, rows: list[dict], flags: dict[str, dict]) -> str:
         files = Counter(r["file"] for r in rows)
         for file, _ in files.most_common():
             lines.append(f"파일: {file}. 목표 문체는 register_table.md 6장의 {file} 행을 따른다.")
-        # 표본은 배치에서 줄이 가장 많은 파일 기준으로 뽑는다.
-        for i, s in enumerate(sordland_samples(files.most_common(1)[0][0]), 1):
+        # 표본은 줄 수가 많은 파일부터 훑어 표본이 있는 첫 파일에서 뽑는다.
+        samples = next((s for s in (sordland_samples(f) for f, _ in files.most_common()) if s), [])
+        for i, s in enumerate(samples, 1):
             lines += ["", f"## 소르들란드 문체 표본 {i}", "", s]
     return "\n".join(lines) + "\n"
 

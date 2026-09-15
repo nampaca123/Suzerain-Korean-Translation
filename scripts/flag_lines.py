@@ -4,7 +4,7 @@ from collections import Counter, defaultdict
 from scripts import paths
 from scripts.build_corpus import read_jsonl, write_jsonl
 from scripts.build_glossary import load_glossary
-from scripts.register_classify import (classify, clause_registers, is_quoted, is_narrative,
+from scripts.register_classify import (classify, is_quoted, is_narrative,
                                        HAO, HAEYO, HAPSYO, HAERA, HAE, HAGE, OTHER)
 from scripts.speech_detect import tag_speech
 
@@ -21,6 +21,18 @@ TA_TARGET = {"ReportData": {HAPSYO}, "JournalEntryData": {HAPSYO}, "DecreeData":
 _PLACEHOLDER = re.compile(r"\{[^}]+\}")
 _NAMES = ("스몰라크", "살타나", "알바레즈", "헤겔", "라이네", "휴고", "비나", "루시타", "마누스", "티투스", "금광")
 _JOSA = re.compile("(" + "|".join(_NAMES) + r")(은|는|이|가|을|를|과|와)(?![가-힣])")
+_HANGUL = re.compile(r"[가-힣]")
+_SENTENCE = re.compile(r"(?<=[.?!])\s+")
+_EFFECT_TAG = re.compile(r"\[[^\]]*[A-Za-z]{3,}[^\]]*\]")
+_TA_SKIP_FIELD = re.compile(r"(Title|Keywords|Name|Label|Header|Author)")
+_SENTENCE_END = re.compile(r"[.?!]")
+MIN_CLAUSE_SYLLABLES = 5
+
+
+def _long_clauses(ko: str) -> list[str]:
+    # R23: "그렇군." 같은 짧은 독립 감탄절은 화계 혼용 판정에서 뺀다(하오체와 섞여도 자연스럽다).
+    body = " ".join(l for l in ko.split("\n") if l.strip())
+    return [p for p in _SENTENCE.split(body) if len(_HANGUL.findall(p)) >= MIN_CLAUSE_SYLLABLES]
 
 
 def josa_ok(word: str, josa: str) -> bool:
@@ -33,7 +45,7 @@ def _common_flags(ko: str, en: str, glossary: list[dict]) -> list[str]:
     f = []
     if re.search(r"--|—|–", ko): f.append("dash_remaining")
     if re.search(r"[“”‘’]", ko): f.append("curly_quote")
-    if re.search(r"\[[^\]]*\b(Authority|Budget|Energy|Per Turn)\b[^\]]*\]", ko): f.append("english_effect_tag")
+    if _EFFECT_TAG.search(ko): f.append("english_effect_tag")
     if any(b in ko for g in glossary for b in g.get("banned", []) if g.get("standard")): f.append("glossary_violation")
     return f
 
@@ -41,14 +53,13 @@ def _common_flags(ko: str, en: str, glossary: list[dict]) -> list[str]:
 def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
     a, ko, f = r["actor"], r["ko"], []
     if a in NARRATORS:
-        # R22: 인용부호가 붙은 Narrator 줄은 이름 없는 인물의 대사라 서술 규칙 대상이 아니다.
         if not is_quoted(ko) and not is_narrative(ko) and reg != OTHER: f.append("narration_not_declarative")
         return f
     if is_quoted(ko) and is_narrative(ko.strip('"')) and reg == HAERA and re.search(r"(였|았|었|ㄴ|는|이)다[.!]?\"?$", ko.strip()):
         f.append("dialogue_declarative_ending")
     if "폐하" in ko and reg in LOW: f.append("royal_title_low_register")
     if a == "Player_Romus":
-        cr = [c for c in clause_registers(ko) if c != OTHER]
+        cr = [c for c in (classify(p) for p in _long_clauses(ko)) if c != OTHER]
         if HAO in cr and (set(cr) & LOW): f.append("romus_mixed_register")
         if reg == HAPSYO and speech != "speech": f.append("romus_hapsyo_not_speech")
         if speech == "speech" and reg not in (HAPSYO, OTHER): f.append("speech_not_hapsyo")
@@ -57,7 +68,7 @@ def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
     elif a == "Vina Toras" and reg not in (HAEYO, OTHER): f.append("vina_not_haeyo")
     elif a in FOREIGN and reg not in (HAPSYO, OTHER): f.append("foreign_not_hapsyo")
     elif a == "Hugo Toras" and reg in LOW: f.append("hugo_low_register")
-    if a != "Player_Romus" and "당신" in ko and a not in {"Lucita Azaro", "Estela Toras", "Beatrice Livingston (R)"}:
+    if "당신" in ko and a not in {"Lucita Azaro", "Estela Toras", "Beatrice Livingston (R)"}:
         f.append("pronoun_dangsin")
     return f
 
@@ -88,14 +99,20 @@ def flag_textassets(rows: list[dict], glossary: list[dict]) -> dict[str, dict]:
         if r["file"] == "DecisionData":
             target = {HAERA} if "Options" in r["field_path"] else {HAPSYO}
         if sorted(_PLACEHOLDER.findall(r["ko"])) != sorted(_PLACEHOLDER.findall(r["en"])): f.append("placeholder_mismatch")
-        if target and reg not in target and reg != OTHER: f.append("ta_register_mismatch")
+        leaf = r["field_path"].rsplit("/", 1)[-1]
+        gradable = not _TA_SKIP_FIELD.search(leaf) and _SENTENCE_END.search(r["ko"])
+        if target and gradable and reg not in target and reg != OTHER: f.append("ta_register_mismatch")
         # 한국어는 영문보다 글자 수가 늘 짧아(길이비 중앙값 0.44) 길이비는 신호가 못 된다. 문단 구분 손실만 센다.
         if r["en"].count("\n") > r["ko"].count("\n"): f.append("missing_paragraph")
         out[r["key"]] = {"flags": f, "register": reg, "target": sorted(target) if target else []}
-        if r["file"] == "CodexEntryData": by_base[r["item_name"].rsplit("_", 1)[0]].append(r["key"])
+        if r["file"] == "CodexEntryData":
+            # R24: 이름 끝을 떼고도 밑줄이 2개 이상 남을 때만 같은 항목의 변형판이다(형제 항목끼리 묶이지 않게).
+            base = r["item_name"].rsplit("_", 1)[0]
+            by_base[base if base.count("_") >= 2 else r["item_name"]].append(r["key"])
     for keys in by_base.values():
         if len({out[k]["register"] for k in keys} - {OTHER}) > 1:
-            for k in keys: out[k]["flags"].append("codex_variant_mismatch")
+            for k in keys:
+                if out[k]["register"] != OTHER: out[k]["flags"].append("codex_variant_mismatch")
     return out
 
 

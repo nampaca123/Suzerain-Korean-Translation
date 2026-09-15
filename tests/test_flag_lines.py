@@ -59,3 +59,47 @@ def test_missing_paragraph_only_on_lost_line_breaks():
     f = flag_textassets(rows, [])
     assert "missing_paragraph" not in f["k1"]["flags"]
     assert "missing_paragraph" in f["k2"]["flags"]
+
+
+def T(key, file, item_name, field_path, ko, en="x"):
+    return {"key": key, "file": file, "item_name": item_name, "field_path": field_path, "en": en, "ko": ko}
+
+def test_romus_mixed_register_ignores_short_clause():
+    rows = [D("a", "Player_Romus", '"흥미롭군. 그들에 관해 더 듣고 싶소."'),
+            D("b", "Player_Romus", '"팔레를 삼았소. 많은 것을 잃었지."', seq=1)]
+    f = flag_dialogue(rows, [])
+    assert "romus_mixed_register" not in f["a"]["flags"]
+    assert "romus_mixed_register" in f["b"]["flags"]
+
+def test_codex_variant_mismatch_groups_only_real_variants():
+    rows = [T("c1", "CodexEntryData", "Locations_Cities_Iza", "/CodexEntryProperties/Description", "이자는 항구 도시입니다."),
+            T("c2", "CodexEntryData", "Locations_Cities_Iza_PartOfBrenas", "/CodexEntryProperties/Description", "이자는 브레나스의 항구 도시였다."),
+            T("c3", "CodexEntryData", "Locations_Cities_Iza", "/CodexEntryProperties/Keywords", "이자 도시 정보")]
+    f = flag_textassets(rows, [])
+    assert "codex_variant_mismatch" in f["c1"]["flags"] and "codex_variant_mismatch" in f["c2"]["flags"]
+    assert "codex_variant_mismatch" not in f["c3"]["flags"]
+
+def test_codex_variant_mismatch_ignores_sibling_entries():
+    rows = [T("c1", "CodexEntryData", "Locations_Cities_Argno", "/CodexEntryProperties/Description", "아르그노는 도시입니다."),
+            T("c2", "CodexEntryData", "Locations_Cities_Iza", "/CodexEntryProperties/Description", "이자는 항구 도시였다.")]
+    f = flag_textassets(rows, [])
+    assert not any("codex_variant_mismatch" in f[k]["flags"] for k in ("c1", "c2"))
+
+def test_ta_register_mismatch_skips_titles_and_fragments():
+    rows = [T("n1", "NewsData", "N1", "/NewsProperties/Title", "안톤 라이네, 방문"),
+            T("n2", "NewsData", "N2", "/NewsProperties/Description", "안톤 라이네가 리치아를 방문했습니다.")]
+    f = flag_textassets(rows, [])
+    assert "ta_register_mismatch" not in f["n1"]["flags"]
+    assert "ta_register_mismatch" in f["n2"]["flags"]
+
+def test_pronoun_dangsin_includes_romus():
+    f = flag_dialogue([D("a", "Player_Romus", '"당신이 결정하시오."')], [])
+    assert "pronoun_dangsin" in f["a"]["flags"]
+
+def test_english_effect_tag_any_latin_word():
+    rows = [T("e1", "PolicyData", "P1", "/P/Description", "x [-500 Equipment, -500 Manpower]"),
+            T("e2", "PolicyData", "P2", "/P/Description", "x [Immediate]"),
+            T("e3", "PolicyData", "P3", "/P/Description", "x [-2 예산]")]
+    f = flag_textassets(rows, [])
+    assert "english_effect_tag" in f["e1"]["flags"] and "english_effect_tag" in f["e2"]["flags"]
+    assert "english_effect_tag" not in f["e3"]["flags"]

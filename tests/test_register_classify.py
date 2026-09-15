@@ -25,6 +25,8 @@ from scripts.register_classify import (classify, clause_registers, is_quoted, is
     ('"어서 오게, 폐하."', HAGE), ('"어서 오십시오, 폐하."', HAPSYO), ('"그렇게 하고 있습니다."', HAPSYO),
     ('"고맙소, 베르너 씨, 에스퀴벨 씨."', HAO),
     ('"왕명일세."', HAGE), ('"발그슬란드가 가만있지 않을 걸세."', HAGE), ('"덧붙이고 싶은 말이라도 있나?"', HAGE),
+    ('"다음에 봅시다."', HAO), ('"당장 시추를 시작합시다!"', HAO),
+    ('"평의회는 공주가 있을 곳이 아니다."', HAERA), ('"누구보다 잘 아니까."', HAE), ('"신경 쓰지 말게."', HAGE),
 ])
 def test_classify(text, expected):
     assert classify(text) == expected
@@ -39,6 +41,7 @@ def test_clause_registers_mixed():
 def test_is_quoted_and_narrative():
     assert is_quoted('"안녕."') and is_quoted('“안녕.”') and not is_quoted('그는 웃었다.')
     assert is_narrative('그는 웃었다.') and not is_narrative('"제정신이냐?"')
+    assert is_narrative('그것은 우연이 아니다.') is True
 
 def test_strip_markup():
     assert strip_markup('"*그거야말로* 좋소." [-1 예산]') == '그거야말로 좋소.'

@@ -8,7 +8,7 @@ from scripts import paths
 
 def _script_text(asset) -> str:
     s = asset.m_Script
-    return s if isinstance(s, str) else s.decode("utf-8", "ignore")
+    return s if isinstance(s, str) else s.decode("utf-8")
 
 
 def load_db_tree(bundle_path: Path) -> dict:

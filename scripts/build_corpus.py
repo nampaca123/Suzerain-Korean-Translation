@@ -7,8 +7,10 @@ from pathlib import Path
 from scripts import paths
 
 KO = re.compile(r"[가-힣]")
-SKIP_FIELD = re.compile(r"(Tags|IsEnabledVariable|Newspaper|Image|Variable|^Id|^Path|NameInDatabase|StoryPacks|Notes)$")
+SKIP_FIELD = re.compile(r"(Tags|IsEnabledVariable|Newspaper|Image|Variable|^Id|^Path|NameInDatabase|StoryPacks|Notes"
+                        r"|Condition|Instruction|Parameters|Script)$")
 INDEX = re.compile(r"\[\d+\]$")
+PLAIN = re.compile(r"^[A-Za-z0-9 ,.'!?:;-]+$")
 SHARED_CODEX = {"Locations_Countries_Soradis", "Locations_Countries_Vendonesam", "Locations_Countries_Markanissa",
                 "History_Misc_FortifyingPerlasFutureSpeech", "Organisations_MiscOrganisations_DEZA"}
 
@@ -83,12 +85,13 @@ def build_textassets(ko_dir: Path, en_dir: Path, shared_names: set[str]) -> list
                 continue
             en_fields = en_by_id.get(it["Id"], {})
             for fp, s in _walk(it):
-                # 리프 이름의 배열 첨자를 떼고 메타 필드를 거른 뒤, 한글이 있거나 미번역 영문 산문(영어 원문과 동일 + 공백 포함)만 남긴다.
+                # 리프 이름의 배열 첨자를 떼고 메타 필드를 거른 뒤, 한글이 있거나 미번역 영문 산문만 남긴다.
+                # 산문 판정: 영어 원문과 동일 + 공백 포함 + 일반 문장 문자만(식별자 목록·스크립트 표현식 배제).
                 leaf = INDEX.sub("", fp.split("/")[-1])
                 if len(s) < 2 or SKIP_FIELD.search(leaf):
                     continue
                 en = en_fields.get(fp, "")
-                if not KO.search(s) and not (s == en and " " in s):
+                if not KO.search(s) and not (s == en and " " in s and PLAIN.fullmatch(s)):
                     continue
                 rows.append({"key": f"t:{p.stem}:{it['Id']}:{fp}", "file": p.stem, "item_id": it["Id"],
                              "item_name": it.get("NameInDatabase", ""), "path": it.get("Path", ""),

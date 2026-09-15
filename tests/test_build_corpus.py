@@ -36,3 +36,16 @@ def test_build_textassets_skips_items_without_id(tmp_path):
         (tmp_path / side / "F.json").write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
     rows = build_textassets(tmp_path / "ko", tmp_path / "en", shared_names=set())
     assert [r["key"] for r in rows] == ["t:F:0x01:/ReportProperties/Title"]
+
+def test_build_textassets_excludes_identifier_and_script_strings(tmp_path):
+    ko = {"items": [{"Id": "0x11", "Path": "Rizia/X", "NameInDatabase": "E_A", "ReportProperties": {
+        "Title": "Story DLC", "Description": "본문이다.", "Parameters": "Rizia_A, Rizia_B",
+        "Instruction": "Set(X) = 1", "Subtitle": "Rizia_A, Rizia_B", "HeaderText": "Set(X) = 1"}}]}
+    en = json.loads(json.dumps(ko))
+    en["items"][0]["ReportProperties"]["Description"] = "This is the body."
+    for side, doc in (("ko", ko), ("en", en)):
+        (tmp_path / side).mkdir()
+        (tmp_path / side / "F.json").write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
+    rows = build_textassets(tmp_path / "ko", tmp_path / "en", shared_names=set())
+    assert sorted(r["key"] for r in rows) == ["t:F:0x11:/ReportProperties/Description",
+                                              "t:F:0x11:/ReportProperties/Title"]

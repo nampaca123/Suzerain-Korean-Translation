@@ -4,7 +4,8 @@
 1. Skill 도구로 `humanizer` 스킬을 호출해 AI 문체 징후를 숙지한다.
 2. 다음 파일을 순서대로 읽는다: `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\register_table.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\glossary.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\checklist.md`, `{BATCH_DIR}/context.md`.
 3. `{BATCH_DIR}/input.jsonl`을 전부 읽는다(크면 Read의 offset/limit로 나눠 읽는다). 각 줄: key, actor(대화만), en(영문 원문), ko(현재 한글), flags, speech(대화: speech/aside/none), register, menu_en/menu_ko(대화). 텍스트에셋 줄은 file(에셋 파일), item_name(항목 이름), field_path(필드 경로), target(목표 문체)도 있다.
-   `speech` 태그는 나레이션 마커로 추정한 값이라 실제 연설을 놓치기도 한다(예: 대관식 연설). 태그가 `none`이어도 군중·국민을 향한 공개 연설이면 합쇼체다. 문맥으로 판단한다.
+   `flags`·`register`·`speech`는 수정 전 본문으로 계산한 값이다. 2라운드 이상에서는 이 값을 믿지 말고 지금 `ko`에 있는 문장을 보고 판단한다.
+   `speech` 태그는 나레이션 마커로 추정한 값이라 실제 연설을 놓치기도 한다(예: 대관식 연설). 태그가 `none`이어도 군중·국민을 향한 공개 연설이면 합쇼체다. 공식 선서·선언(대관식 선서, TV 생중계 선언, 조약 서명 선언)도 연설과 같이 합쇼체이며, 같은 항목의 menu_ko도 같은 화계로 맞춘다. 문맥으로 판단한다.
 4. `{BATCH_DIR}/findings.jsonl`이 있으면 읽는다(2라운드). 그 지적을 우선 처리한다.
 
 ## 규칙

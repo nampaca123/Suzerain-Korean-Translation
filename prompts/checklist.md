@@ -14,6 +14,7 @@ flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래
    - `자동 치환: 아니오(보고만)`인데 표준 표기가 있는 항목(예: 수상·재상 → 총리, 대회랑·대전당 → 대연회장): **에디터가 직접 고친다.** 다만 그 문장이 정말 그 용어를 뜻하는지 먼저 확인한다(예: "수상"이 prime minister가 아니라 상을 받는다는 뜻이면 고치지 않는다). 고칠 때 reason을 남긴다.
    - 표준이 `(needs_human)`인 개념만 `{BATCH_DIR}/needs_human.jsonl`로 보낸다. 그 밖의 항목은 needs_human이 아니다.
    - 표준 표기는 영문 철자가 달라도 같은 대상이면 똑같이 적용한다(예: Great Hall = Grand Hall → 대연회장).
+   - 리치아어 구호·의례어(Halaita, Glovurius axa Rizia, Salutenas axa regu novus 등)는 음차로도 로마자로도 바꾸지 않는다. 표기 결정이 사람 판단 목록에 있으므로 교정자도 검수자도 이 줄을 문제 삼지 않는다.
    - `needs_human` 개념은 네 가지뿐이다(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita). 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 그 줄을 `{BATCH_DIR}/needs_human.jsonl`에 `{"key": …, "reason": …}` 한 줄로 기록한다(edits.jsonl에는 넣지 않는다). 새 표기를 지어내지 않는다.
 6. 고유명사 뒤 조사가 받침과 맞는다. `{변수}` 뒤에 조사를 고정으로 붙이지 않는다 (josa_mismatch).
 7. "당신"은 로무스가 루시타(혼인 후)에게, 에스텔라·베아트리체가 로무스에게 쓰는 경우 외에는 쓰지 않는다 (pronoun_dangsin).
@@ -24,6 +25,7 @@ flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래
 10. 로무스 한 대사 안에 하오체와 반말(-군/-지/-어/-다)이 섞이지 않는다. 독립 감탄("흥미롭군.")만 예외 (romus_mixed_register).
 11. 로무스가 연설이 아닌데 합쇼체를 쓰지 않는다. 연설(speech 태그)은 합쇼체다 (romus_hapsyo_not_speech, speech_not_hapsyo).
     - 주의: 로무스→에스텔라의 무거운 선언·약속은 연설이 아니어도 합쇼체가 허용된다(register_table.md 5.1). 이 경우 `romus_hapsyo_not_speech`는 무시한다.
+    - 주의: 공식 선서·선언(대관식 선서, TV 생중계 선언, 조약 서명 선언)도 연설과 같이 합쇼체다. 같은 항목의 menu_ko도 같은 화계로 맞춘다.
     - 주의: `speech` 태그는 나레이션 장면 마커로 추정한 휴리스틱이라 완전하지 않다. 연설 구간이 같은 대화의 뒤쪽 분기 노드까지 이어지는데 태그가 `none`으로 남는 경우가 있다. register_table.md 5.1의 "연설 판정 순서"와 앞뒤 문맥으로 직접 판단한다.
 12. 로무스의 해요체는 상대가 에스텔라일 때만 정당하다. 그 외에는 register_table.md 5.1의 상대별 화계로 바꾼다 (romus_haeyo).
 13. 나레이션·독백은 "-다" 서술체로 끝난다. 대사는 서술체로 끝나지 않는다 (narration_not_declarative, dialogue_declarative_ending).
@@ -36,6 +38,7 @@ flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래
 16. 같은 화자의 같은 영문 대사는 같은 한글이다 (same_en_diff_register).
 17. 호칭은 register_table.md 5.3을 따른다: 국왕·여왕 "폐하", 공주 "전하", 총리/대통령 직함 호격.
     - 주의: "-님" 형태(공작님, 공주님, 총리님)는 하급자·시종이 윗사람을 부를 때만 허용한다. 로무스의 입에서는 "공작"·"공작 각하", "비나 공주"·"공주 전하", "○○ 총리"를 쓴다.
+    - 주의: "대비마마" 같은 극존칭은 쓰지 않는다. register_table.md 5.3대로 "왕대비"로 적는다.
 18. 화계를 바꿀 때 1인칭(나/저), 조사, 존대 어휘(드리다/여쭙다 등)를 함께 맞춘다. 어미만 바꾸지 않는다.
 
 ## 텍스트에셋

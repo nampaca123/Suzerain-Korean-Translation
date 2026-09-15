@@ -25,6 +25,6 @@
 
 `{BATCH_DIR}/needs_human.jsonl` — 사람 판단이 필요해 고치지 않은 줄, 한 줄에 하나. 라운드마다 이어 쓴다:
 {"key": "<key>", "reason": "<사람 판단이 필요한 이유>"}
-이 줄들은 edits.jsonl에 넣지 않는다.
+needs_human 쟁점이 있는 줄도 확실한 수정(화계 등)은 edits.jsonl에 넣되, 미결 쟁점 부분은 원문 그대로 두고 needs_human.jsonl에 사유를 적는다.
 
 배치 폴더 밖의 파일은 절대 수정하지 않는다. 작업이 끝나면 수정 줄 수와 needs_human 건수를 한 줄로 보고한다.

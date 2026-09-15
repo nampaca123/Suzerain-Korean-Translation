@@ -15,7 +15,7 @@ flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래
    - 표준이 `(needs_human)`인 개념만 `{BATCH_DIR}/needs_human.jsonl`로 보낸다. 그 밖의 항목은 needs_human이 아니다.
    - 표준 표기는 영문 철자가 달라도 같은 대상이면 똑같이 적용한다(예: Great Hall = Grand Hall → 대연회장).
    - 리치아어 구호·의례어(Halaita, Glovurius axa Rizia, Salutenas axa regu novus 등)는 음차로도 로마자로도 바꾸지 않는다. 표기 결정이 사람 판단 목록에 있으므로 교정자도 검수자도 이 줄을 문제 삼지 않는다.
-   - `needs_human` 개념은 네 가지뿐이다(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita). 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 그 줄을 `{BATCH_DIR}/needs_human.jsonl`에 `{"key": …, "reason": …}` 한 줄로 기록한다(edits.jsonl에는 넣지 않는다). 새 표기를 지어내지 않는다.
+   - `needs_human` 개념은 네 가지뿐이다(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita). 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 그 줄을 `{BATCH_DIR}/needs_human.jsonl`에 `{"key": …, "reason": …}` 한 줄로 기록한다. needs_human 쟁점이 있는 줄도 확실한 수정(화계 등)은 edits.jsonl에 넣되, 미결 쟁점 부분은 원문 그대로 두고 needs_human.jsonl에 사유를 적는다. 새 표기를 지어내지 않는다.
 6. 고유명사 뒤 조사가 받침과 맞는다. `{변수}` 뒤에 조사를 고정으로 붙이지 않는다 (josa_mismatch).
 7. "당신"은 로무스가 루시타(혼인 후)에게, 에스텔라·베아트리체가 로무스에게 쓰는 경우 외에는 쓰지 않는다 (pronoun_dangsin).
 8. 새 표기·새 용어·새 사실을 창작하지 않는다. 의미는 영문 원문을 따른다.

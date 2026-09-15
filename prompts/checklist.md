@@ -1,17 +1,17 @@
 # 교정·검수 체크리스트 (통합본)
 
 flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래를 어긴 줄을 고칠 수 있으나 사유를 남긴다.
-판정이 엇갈리면 register_table.md가 최종 기준이다. 아래 항목과 flag는 힌트일 뿐이므로 register_table.md와 어긋나면 register_table.md를 따른다.
+판정이 엇갈릴 때 화계·문체는 register_table.md가, 용어 표기는 glossary.md가 최종 기준이다. register_table.md 6.4의 용어 후보 목록과 glossary.md가 어긋나면 glossary.md를 따른다(예: 카베테·드라촌 유지, Karanza는 needs_human). 아래 항목과 flag는 힌트일 뿐이므로 두 기준 파일과 어긋나면 기준 파일을 따른다.
 
 ## 공통
 1. `{…}` 변수의 개수·철자가 영문 원문과 같다 (placeholder_mismatch).
 2. 줄바꿈 수는 영문 이상이다. 적으면 문단 누락이므로 영문을 문단 단위로 대조해 빠진 문단만 추가한다 (missing_paragraph).
-3. 직접 인용은 반각 `"…"`. 곡선따옴표·`--`·`—`가 남지 않는다 (curly_quote, dash_remaining).
+3. 직접 인용은 반각 `"…"`. 곡선따옴표·`--`·`—`가 남지 않는다 (curly_quote, dash_remaining). 영문이 `"…"`로 감싸인 대사는 한글도 반각 큰따옴표로 감싼다 (quote_missing).
 4. 영문 효과 표기 `[+1 Authority]`가 남지 않는다 (english_effect_tag).
-   - 주의: 이 flag는 대괄호 안에 영문 3글자 이상이면 붙으므로 `[RNC 제안]`·`[RPP 제안]` 같은 정당 약칭 태그도 걸린다. 이런 정상적인 한국어 태그는 그대로 둔다(오탐).
-5. 용어는 glossary.md의 표준 표기만 쓴다. `needs_human` 항목은 원문 그대로 두고 reason에 적는다 (glossary_violation).
+   - 주의: 대괄호 안에 한글이 섞인 `[RNC 제안]`·`[RPP 제안]` 같은 정당 태그는 더 이상 flag가 붙지 않는다(R39). 이런 정상적인 한국어 태그는 그대로 둔다.
+5. 용어는 glossary.md의 표준 표기만 쓴다. 용어 표기는 glossary.md가 최종 기준이며 register_table.md 6.4의 후보 목록과 어긋나면 glossary.md를 따른다. `needs_human` 항목은 원문 그대로 두고 `{BATCH_DIR}/needs_human.jsonl`에 기록한다 (glossary_violation).
    - 주의: 기계 전처리는 glossary.md에서 `자동 치환: 예`인 항목만 치환했다. `자동 치환: 아니오(보고만)` 항목(예: 수상·재상 → 총리)은 아직 남아 있으므로 문맥을 보고 에이전트가 직접 고치고 reason을 남긴다.
-   - 주의: `needs_human` 개념(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita)은 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 reason에 "needs_human: 이유"를 적는다. 새 표기를 지어내지 않는다.
+   - 주의: `needs_human` 개념(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita)은 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 그 줄을 `{BATCH_DIR}/needs_human.jsonl`에 `{"key": …, "reason": …}` 한 줄로 기록한다(edits.jsonl에는 넣지 않는다). 새 표기를 지어내지 않는다.
 6. 고유명사 뒤 조사가 받침과 맞는다. `{변수}` 뒤에 조사를 고정으로 붙이지 않는다 (josa_mismatch).
 7. "당신"은 로무스가 루시타(혼인 후)에게, 에스텔라·베아트리체가 로무스에게 쓰는 경우 외에는 쓰지 않는다 (pronoun_dangsin).
 8. 새 표기·새 용어·새 사실을 창작하지 않는다. 의미는 영문 원문을 따른다.

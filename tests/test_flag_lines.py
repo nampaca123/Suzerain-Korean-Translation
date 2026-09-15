@@ -103,3 +103,10 @@ def test_english_effect_tag_any_latin_word():
     f = flag_textassets(rows, [])
     assert "english_effect_tag" in f["e1"]["flags"] and "english_effect_tag" in f["e2"]["flags"]
     assert "english_effect_tag" not in f["e3"]["flags"]
+
+def test_english_effect_tag_skips_hangul_bracket():
+    rows = [T("h1", "PolicyData", "P1", "/P/Description", "x [RNC 제안]"),
+            T("h2", "PolicyData", "P2", "/P/Description", "x [Immediate]")]
+    f = flag_textassets(rows, [])
+    assert "english_effect_tag" not in f["h1"]["flags"]
+    assert "english_effect_tag" in f["h2"]["flags"]

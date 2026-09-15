@@ -91,13 +91,6 @@
   "priority": 0.23241732650209596
  },
  {
-  "batch": "t-DecreeData-01",
-  "kind": "textassets",
-  "rows": 1056,
-  "flagged": 243,
-  "priority": 0.23011363636363635
- },
- {
   "batch": "d-turn06-b",
   "kind": "dialogue",
   "rows": 2017,
@@ -117,6 +110,13 @@
   "rows": 476,
   "flagged": 105,
   "priority": 0.22058823529411764
+ },
+ {
+  "batch": "t-DecreeData-01",
+  "kind": "textassets",
+  "rows": 1056,
+  "flagged": 231,
+  "priority": 0.21875
  },
  {
   "batch": "d-turn10-b",
@@ -318,8 +318,8 @@
   "batch": "t-DecisionData-01",
   "kind": "textassets",
   "rows": 1656,
-  "flagged": 141,
-  "priority": 0.08514492753623189
+  "flagged": 139,
+  "priority": 0.08393719806763285
  },
  {
   "batch": "t-NewsData-03",
@@ -353,8 +353,8 @@
   "batch": "t-misc-01",
   "kind": "textassets",
   "rows": 971,
-  "flagged": 16,
-  "priority": 0.016477857878475798
+  "flagged": 11,
+  "priority": 0.01132852729145211
  },
  {
   "batch": "t-MapTokenData-01",

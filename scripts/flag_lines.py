@@ -23,7 +23,7 @@ _NAMES = ("스몰라크", "살타나", "알바레즈", "헤겔", "라이네", "�
 _JOSA = re.compile("(" + "|".join(_NAMES) + r")(은|는|이|가|을|를|과|와)(?![가-힣])")
 _HANGUL = re.compile(r"[가-힣]")
 _SENTENCE = re.compile(r"(?<=[.?!])\s+")
-_EFFECT_TAG = re.compile(r"\[[^\]]*[A-Za-z]{3,}[^\]]*\]")
+_EFFECT_TAG = re.compile(r"\[[^\]가-힣]*[A-Za-z]{3,}[^\]가-힣]*\]")
 _TA_SKIP_FIELD = re.compile(r"(Title|Keywords|Name|Label|Header|Author)")
 _SENTENCE_END = re.compile(r"[.?!]")
 MIN_CLAUSE_SYLLABLES = 5

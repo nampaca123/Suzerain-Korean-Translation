@@ -15,6 +15,6 @@
 
 ## 출력 (유일한 산출물)
 `{BATCH_DIR}/findings.jsonl` — 한 줄에 하나:
-{"key": "<key>", "type": "register|glossary|meaning|style|token|consistency", "severity": "block"|"warn", "evidence": "<EN/KO 인용>", "suggestion": "<수정 제안 전체 문자열>"}
-- `block`: 화계표·용어집·의미·토큰 위반처럼 반드시 고쳐야 하는 것. `warn`: 문체 개선 제안.
+{"key": "<key>", "type": "register|glossary|meaning|style|token|consistency", "severity": "block", "evidence": "<EN/KO 인용>", "suggestion": "<수정 제안 전체 문자열>"}
+- severity에는 `"block"` 또는 `"warn"` 중 하나만 쓴다. `block`: 화계표·용어집·의미·토큰 위반처럼 반드시 고쳐야 하는 것. `warn`: 문체 개선 제안.
 - 문제가 없으면 빈 파일을 만든다. 배치 폴더 밖의 파일은 수정하지 않는다. 끝나면 block/warn 건수를 한 줄로 보고한다.

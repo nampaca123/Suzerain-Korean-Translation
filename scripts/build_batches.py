@@ -100,7 +100,8 @@ def write_batch(batch_dir: Path, rows: list[dict], flags: dict[str, dict], conte
 def _context(bid: str, rows: list[dict], flags: dict[str, dict]) -> str:
     c = Counter(f for r in rows for f in flags.get(r["key"], {}).get("flags", []))
     lines = [f"# 배치 {bid}", "",
-             "규칙 파일(반드시 먼저 읽을 것): prompts/register_table.md, prompts/glossary.md, prompts/checklist.md", "",
+             "규칙 파일(반드시 먼저 읽을 것): " + ", ".join(
+                 str(paths.PROMPTS / n) for n in ("register_table.md", "glossary.md", "checklist.md")), "",
              f"줄 수: {len(rows)}, flag 분포: {dict(c.most_common())}", ""]
     if bid.startswith("d-"):
         lines.append("대화 목록: " + ", ".join(sorted({r["conv_title"] for r in rows})))

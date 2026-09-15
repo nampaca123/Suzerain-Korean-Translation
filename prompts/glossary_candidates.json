@@ -18,8 +18,11 @@
  {"concept": "profit share", "en": "profit share", "candidates": ["이익 배분", "이익 지분", "수익 배분", "수익 몫", "이익 공유"]},
  {"concept": "Armed Forces", "en": "Rizian Armed Forces", "candidates": ["리치아 국군", "리치아군", "리치아 육군"]},
  {"concept": "waiter", "en": "waiter", "candidates": ["종업원", "웨이터"]},
- {"concept": "Mouser", "en": "Mousser Empire", "candidates": ["무세르", "모우세르"]},
- {"concept": "Kabet", "en": "Cavette", "candidates": ["카베트", "카베테"]},
- {"concept": "Karanza", "en": "Carranza", "candidates": ["카란자", "카란자스"]},
+ {"concept": "Mouser", "en": "Mouser", "candidates": ["무세르", "모우세르"]},
+ {"concept": "Kabet", "en": "Kabet", "candidates": ["카베트", "카베테"]},
+ {"concept": "Karanza", "en": "Karanza", "candidates": ["카란자", "카란자스"]},
+ {"concept": "Nur 종교", "en": "Nurist religion", "candidates": ["누리티교", "누르교", "누리교"]},
+ {"concept": "Dastnur 종교", "en": "Dastnurist religion", "candidates": ["다스트누리티교", "다스트누리교"]},
+ {"concept": "Halaita(의례어)", "en": "Halaita", "candidates": ["할라이타", "Halaita"]},
  {"concept": "Drazon", "en": "Drazon", "candidates": ["드라존", "드라촌"]}
 ]

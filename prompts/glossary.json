@@ -7,10 +7,11 @@
    "브루헤크교"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "브루헤크교": 0,
-    "브루헤지교": 59
+    "브루헤지교": 33
    },
    "rizia": {
     "브루헤크교": 18,
@@ -27,11 +28,12 @@
    "골콘디즘"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "골콘다교": 0,
     "골콘디즘": 0,
-    "골콘다주의": 68
+    "골콘다주의": 50
    },
    "rizia": {
     "골콘다교": 61,
@@ -48,9 +50,10 @@
    "대의원회"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
-    "대의회": 2,
+    "대의회": 1,
     "대의원회": 0
    },
    "rizia": {
@@ -68,10 +71,11 @@
    "국가연합"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
-    "국제연합": 158,
-    "AN": 28,
+    "국제연합": 113,
+    "AN": 24,
     "국가연합": 0
    },
    "rizia": {
@@ -89,10 +93,11 @@
    "WHR"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
-    "인권감시단": 24,
-    "WHR": 3
+    "인권감시단": 19,
+    "WHR": 0
    },
    "rizia": {
     "인권감시단": 5,
@@ -109,6 +114,7 @@
    "GASOM"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "가솜": 726,
@@ -131,11 +137,12 @@
    "메르코파 경제개발기구"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
-    "메르코파경제개발기구": 41,
-    "메르코파 경제개발기구": 2,
-    "OMEC": 31
+    "메르코파경제개발기구": 28,
+    "메르코파 경제개발기구": 0,
+    "OMEC": 19
    },
    "rizia": {
     "메르코파경제개발기구": 14,
@@ -153,9 +160,10 @@
    "왕실 동맹국 상업 교류 길드"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
-    "GRACE": 31,
+    "GRACE": 8,
     "상호무역 왕실연합 길드": 0,
     "왕실 동맹국 상업 교류 길드": 0
    },
@@ -169,19 +177,20 @@
  {
   "concept": "Rizia Imperii",
   "en": "Rizia Imperii",
-  "standard": "리치아 임페리",
+  "standard": "리치아 임페리이",
   "banned": [
-   "리치아 임페리이"
+   "리치아 임페리"
   ],
-  "source": "sordland",
+  "source": "rizia_majority",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
     "리치아 임페리이": 0,
-    "리치아 임페리": 1
+    "리치아 임페리": 0
    },
    "rizia": {
     "리치아 임페리이": 95,
-    "리치아 임페리": 102
+    "리치아 임페리": 7
    }
   }
  },
@@ -193,9 +202,10 @@
    "페일스"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
-    "팔레": 59,
+    "팔레": 26,
     "페일스": 0
    },
    "rizia": {
@@ -213,10 +223,11 @@
    "재상"
   ],
   "source": "sordland",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
-    "총리": 175,
-    "수상": 141,
+    "총리": 153,
+    "수상": 126,
     "재상": 0
    },
    "rizia": {
@@ -234,10 +245,11 @@
    "레이나르트 공작"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "레이나르트 공작": 0,
-    "레이나르트 대공": 3
+    "레이나르트 대공": 1
    },
    "rizia": {
     "레이나르트 공작": 250,
@@ -253,6 +265,7 @@
    "시종"
   ],
   "source": "sordland",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
     "집사": 8,
@@ -272,6 +285,7 @@
    "이그나시우스 현자"
   ],
   "source": "rizia_majority",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
     "대현사": 0,
@@ -291,6 +305,7 @@
    "부왕"
   ],
   "source": "rizia_majority",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
     "선왕": 0,
@@ -311,6 +326,7 @@
    "대전당"
   ],
   "source": "rizia_majority",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
     "대전당": 0,
@@ -330,6 +346,7 @@
   "standard": null,
   "banned": [],
   "source": "needs_human",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
     "이익 배분": 0,
@@ -356,6 +373,7 @@
    "리치아 국군"
   ],
   "source": "rizia_majority",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
     "리치아 국군": 0,
@@ -377,6 +395,7 @@
    "종업원"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "종업원": 6,
@@ -390,16 +409,17 @@
  },
  {
   "concept": "Mouser",
-  "en": "Mousser Empire",
-  "standard": "모우세르",
+  "en": "Mouser",
+  "standard": "무세르",
   "banned": [
-   "무세르"
+   "모우세르"
   ],
-  "source": "sordland",
+  "source": "rizia_majority",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
-    "무세르": 2,
-    "모우세르": 4
+    "무세르": 0,
+    "모우세르": 0
    },
    "rizia": {
     "무세르": 17,
@@ -409,12 +429,13 @@
  },
  {
   "concept": "Kabet",
-  "en": "Cavette",
+  "en": "Kabet",
   "standard": "카베테",
   "banned": [
    "카베트"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "카베트": 0,
@@ -428,20 +449,82 @@
  },
  {
   "concept": "Karanza",
-  "en": "Carranza",
-  "standard": "카란자",
-  "banned": [
-   "카란자스"
-  ],
-  "source": "rizia_majority",
+  "en": "Karanza",
+  "standard": null,
+  "banned": [],
+  "source": "needs_human",
+  "auto_replace": false,
   "evidence": {
    "sordland": {
     "카란자": 0,
     "카란자스": 0
    },
    "rizia": {
-    "카란자": 18,
+    "카란자": 9,
     "카란자스": 9
+   }
+  }
+ },
+ {
+  "concept": "Nur 종교",
+  "en": "Nurist religion",
+  "standard": "누리티교",
+  "banned": [
+   "누리교",
+   "누르교"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "누리티교": 99,
+    "누르교": 0,
+    "누리교": 1
+   },
+   "rizia": {
+    "누리티교": 529,
+    "누르교": 23,
+    "누리교": 6
+   }
+  }
+ },
+ {
+  "concept": "Dastnur 종교",
+  "en": "Dastnurist religion",
+  "standard": "다스트누리티교",
+  "banned": [
+   "다스트누리교"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "다스트누리티교": 36,
+    "다스트누리교": 1
+   },
+   "rizia": {
+    "다스트누리티교": 381,
+    "다스트누리교": 0
+   }
+  }
+ },
+ {
+  "concept": "Halaita(의례어)",
+  "en": "Halaita",
+  "standard": "Halaita",
+  "banned": [
+   "할라이타"
+  ],
+  "source": "rizia_majority",
+  "auto_replace": false,
+  "evidence": {
+   "sordland": {
+    "할라이타": 0,
+    "Halaita": 0
+   },
+   "rizia": {
+    "할라이타": 40,
+    "Halaita": 43
    }
   }
  },
@@ -453,10 +536,11 @@
    "드라존"
   ],
   "source": "sordland",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "드라존": 1,
-    "드라촌": 9
+    "드라촌": 7
    },
    "rizia": {
     "드라존": 655,

@@ -92,6 +92,13 @@ def test_archives_findings_and_drops_stale_apply_errors(tmp_path, monkeypatch):
     assert not (b / "findings.jsonl").exists() and not (b / "apply_errors.jsonl").exists()
     assert read_jsonl(b / "findings.round0.jsonl")[0]["key"] == "d:1:1"
 
+def test_archives_applied_edits_under_next_round_number(tmp_path, monkeypatch):
+    edits = [{"key": "d:1:1", "ko_new": KO_NEW, "reason": "하오체", "flags_resolved": []}]
+    b = _mk(tmp_path, monkeypatch, [ROW], edits)
+    apply_edits(b)
+    assert read_jsonl(b / "edits.round1.jsonl") == edits
+    assert read_jsonl(b / "edits.jsonl") == edits
+
 def test_status_keeps_unrelated_keys(tmp_path, monkeypatch):
     b = _mk(tmp_path, monkeypatch, [ROW], [], note="keep me")
     apply_edits(b)

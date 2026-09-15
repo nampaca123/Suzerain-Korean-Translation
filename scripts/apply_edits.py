@@ -29,10 +29,14 @@ def validate_edit(row: dict, ko_new: str) -> list[str]:
 
 def _reset_round(batch_dir: Path, rnd: int) -> None:
     # 라운드마다 새 검수 결과를 강요한다: 지난 findings는 보관하고 낡은 apply_errors는 지운다.
+    # R54: 지금 반영할 edits는 이번 실행이 되는 라운드 번호(rnd+1)로 복사해 이력을 남긴다.
     f = batch_dir / "findings.jsonl"
     if f.exists():
         f.replace(batch_dir / f"findings.round{rnd}.jsonl")
     (batch_dir / "apply_errors.jsonl").unlink(missing_ok=True)
+    e = batch_dir / "edits.jsonl"
+    if e.exists():
+        (batch_dir / f"edits.round{rnd + 1}.jsonl").write_bytes(e.read_bytes())
 
 
 def apply_edits(batch_dir: Path) -> dict:

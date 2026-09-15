@@ -1,5 +1,6 @@
 # 한글(패치)·영어(스팀) 추출본을 줄 단위로 정렬해 말뭉치 jsonl을 만든다. Rizia 항목과 지정 공용 코덱스만 포함.
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -20,10 +21,13 @@ def fields(o: dict) -> dict:
 
 
 def write_jsonl(path: Path, rows: list[dict]) -> None:
+    # 같은 폴더 .tmp에 다 쓴 뒤 os.replace로 갈아끼운다(중간에 죽어도 반쪽 파일이 남지 않게).
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    tmp = path.parent / (path.name + ".tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    os.replace(tmp, path)
 
 
 def read_jsonl(path: Path) -> list[dict]:

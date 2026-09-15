@@ -6,6 +6,7 @@ from scripts.build_corpus import read_jsonl, write_jsonl
 
 _PH = re.compile(r"\{[^}]+\}")
 _TAG = re.compile(r"\[[^\]]*\]")
+MENU = "#menu"
 
 
 def validate_edit(row: dict, ko_new: str) -> list[str]:
@@ -24,33 +25,51 @@ def validate_edit(row: dict, ko_new: str) -> list[str]:
     return errs
 
 
+def _reset_round(batch_dir: Path, rnd: int) -> None:
+    # 라운드마다 새 검수 결과를 강요한다: 지난 findings는 보관하고 낡은 apply_errors는 지운다.
+    f = batch_dir / "findings.jsonl"
+    if f.exists():
+        f.replace(batch_dir / f"findings.round{rnd}.jsonl")
+    (batch_dir / "apply_errors.jsonl").unlink(missing_ok=True)
+
+
 def apply_edits(batch_dir: Path) -> dict:
     status = json.loads((batch_dir / "status.json").read_text(encoding="utf-8"))
     rows = read_jsonl(batch_dir / "input.jsonl"); by_key = {r["key"]: r for r in rows}
+    _reset_round(batch_dir, status.get("round", 0))
     edits = read_jsonl(batch_dir / "edits.jsonl") if (batch_dir / "edits.jsonl").exists() else []
-    accepted, rejected = {}, []
-    for e in edits:
-        row = by_key.get(e.get("key"))
-        errs = ["unknown key"] if row is None else validate_edit(row, e.get("ko_new", ""))
-        (rejected.append({"key": e.get("key"), "errors": errs}) if errs else accepted.__setitem__(e["key"], e))
     current_path = paths.CURRENT / f"{status['kind']}.jsonl"
-    current = read_jsonl(current_path)
+    current = read_jsonl(current_path); in_current = {r["key"] for r in current}
+    acc_ko, acc_menu, rejected = {}, {}, []
+    for e in edits:
+        key = e.get("key") or ""; is_menu = key.endswith(MENU); base = key[:-len(MENU)] if is_menu else key
+        row = by_key.get(base)
+        if row is None:
+            errs = ["unknown key"]
+        else:
+            ref = {**row, "ko": row.get("menu_ko", ""), "en": row.get("menu_en", "")} if is_menu else row
+            errs = validate_edit(ref, e.get("ko_new", "")) + ([] if base in in_current else ["key not in current corpus"])
+        rejected.append({"key": key, "errors": errs}) if errs else (acc_menu if is_menu else acc_ko).__setitem__(base, e)
     for r in current:
-        if r["key"] in accepted:
-            r["ko"] = accepted[r["key"]]["ko_new"]
+        if r["key"] in acc_ko: r["ko"] = acc_ko[r["key"]]["ko_new"]
+        if r["key"] in acc_menu: r["menu_ko"] = acc_menu[r["key"]]["ko_new"]
     write_jsonl(current_path, current)
     reviewed = []
     for r in rows:
-        e = accepted.get(r["key"])
-        reviewed.append({**r, "ko_old": r["ko"], "ko": e["ko_new"] if e else r["ko"], "edited": bool(e), "reason": e["reason"] if e else ""})
+        e, m = acc_ko.get(r["key"]), acc_menu.get(r["key"])
+        rv = {**r, "ko_old": r["ko"], "ko": e["ko_new"] if e else r["ko"], "edited": bool(e), "reason": e["reason"] if e else ""}
+        if m:
+            rv["menu_ko"] = r["menu_ko"] = m["ko_new"]
+        reviewed.append(rv)
         if e:
             r["ko"] = e["ko_new"]
     write_jsonl(batch_dir / "input.jsonl", rows); write_jsonl(batch_dir / "reviewed.jsonl", reviewed)
     if rejected:
         write_jsonl(batch_dir / "apply_errors.jsonl", rejected)
-    status.update(stage="edited", round=status.get("round", 0) + 1, applied=len(accepted), rejected=len(rejected))
+    applied = len(acc_ko) + len(acc_menu)
+    status.update(stage="edited", round=status.get("round", 0) + 1, applied=applied, rejected=len(rejected))
     (batch_dir / "status.json").write_text(json.dumps(status, ensure_ascii=False), encoding="utf-8")
-    return {"applied": len(accepted), "rejected": rejected}
+    return {"applied": applied, "rejected": rejected}
 
 
 if __name__ == "__main__":

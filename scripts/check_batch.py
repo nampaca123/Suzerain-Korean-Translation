@@ -24,9 +24,12 @@ def check_batch(batch_dir: Path) -> dict:
         size[g] += 1; per_group[g] += bool(set(flags[r["key"]]["flags"]) & HARD_FLAGS)
     rate = {g: per_group[g] / size[g] for g in size}
     over = {g: v for g, v in rate.items() if v > LIMIT["narration" if g == "narration" else status["kind"]]}
-    findings = read_jsonl(batch_dir / "findings.jsonl") if (batch_dir / "findings.jsonl").exists() else []
+    fp = batch_dir / "findings.jsonl"
+    findings = read_jsonl(fp) if fp.exists() else []
     blocks = sum(1 for f in findings if f.get("severity") == "block")
-    result = {"stage": "passed" if not over and blocks == 0 else "failed", "hard_flag_rate": {g: round(v, 4) for g, v in over.items()},
+    reason = "" if fp.exists() else "findings.jsonl missing"
+    result = {"stage": "passed" if not over and blocks == 0 and not reason else "failed", "reason": reason,
+              "hard_flag_rate": {g: round(v, 4) for g, v in over.items()},
               "blocks": blocks, "remaining_flags": dict(remaining)}
     status.update(result); (batch_dir / "status.json").write_text(json.dumps(status, ensure_ascii=False), encoding="utf-8")
     return result

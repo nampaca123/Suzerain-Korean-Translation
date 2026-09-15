@@ -64,3 +64,10 @@ def test_build_textassets_warns_and_skips_unreadable_file(tmp_path, capsys):
     err = capsys.readouterr().err
     assert "warning: skipping unreadable textasset file BadKo.json" in err
     assert "warning: skipping unreadable textasset file BadEn.json" in err
+
+def test_write_jsonl_leaves_no_tmp_file(tmp_path):
+    p = tmp_path / "x.jsonl"
+    write_jsonl(p, [{"key": "a"}])
+    write_jsonl(p, [{"key": "b"}])
+    assert read_jsonl(p) == [{"key": "b"}]
+    assert [q.name for q in tmp_path.iterdir()] == ["x.jsonl"]

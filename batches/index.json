@@ -175,13 +175,6 @@
   "priority": 0.1707126076742365
  },
  {
-  "batch": "t-MultipleChoiceOptionData-01",
-  "kind": "textassets",
-  "rows": 59,
-  "flagged": 10,
-  "priority": 0.1694915254237288
- },
- {
   "batch": "d-turn02-a",
   "kind": "dialogue",
   "rows": 2315,
@@ -287,13 +280,6 @@
   "priority": 0.11120297643654403
  },
  {
-  "batch": "t-ConnectionPositionData-01",
-  "kind": "textassets",
-  "rows": 9,
-  "flagged": 1,
-  "priority": 0.1111111111111111
- },
- {
   "batch": "t-NewsData-05",
   "kind": "textassets",
   "rows": 464,
@@ -350,20 +336,6 @@
   "priority": 0.06341463414634146
  },
  {
-  "batch": "t-MultipleChoicePageData-01",
-  "kind": "textassets",
-  "rows": 34,
-  "flagged": 2,
-  "priority": 0.058823529411764705
- },
- {
-  "batch": "t-CollectionItemData-01",
-  "kind": "textassets",
-  "rows": 36,
-  "flagged": 1,
-  "priority": 0.027777777777777776
- },
- {
   "batch": "t-PolicyData-01",
   "kind": "textassets",
   "rows": 312,
@@ -378,6 +350,13 @@
   "priority": 0.020202020202020204
  },
  {
+  "batch": "t-misc-01",
+  "kind": "textassets",
+  "rows": 971,
+  "flagged": 16,
+  "priority": 0.016477857878475798
+ },
+ {
   "batch": "t-MapTokenData-01",
   "kind": "textassets",
   "rows": 444,
@@ -385,247 +364,9 @@
   "priority": 0.01126126126126126
  },
  {
-  "batch": "t-ConversationData-01",
-  "kind": "textassets",
-  "rows": 226,
-  "flagged": 2,
-  "priority": 0.008849557522123894
- },
- {
-  "batch": "t-AdvisorsPageData-01",
-  "kind": "textassets",
-  "rows": 1,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-BillData-01",
-  "kind": "textassets",
-  "rows": 16,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CarouselChoiceOptionData-01",
-  "kind": "textassets",
-  "rows": 50,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CarouselChoicePageData-01",
-  "kind": "textassets",
-  "rows": 15,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CharacterCustomizationOptionData-01",
-  "kind": "textassets",
-  "rows": 49,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CharacterCustomizationPanelData-01",
-  "kind": "textassets",
-  "rows": 7,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CharacterDetailsPanelData-01",
-  "kind": "textassets",
-  "rows": 2,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CharacterDetailsSectionData-01",
-  "kind": "textassets",
-  "rows": 49,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CompassCharacterData-01",
-  "kind": "textassets",
-  "rows": 16,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CompassCharacterGroupData-01",
-  "kind": "textassets",
-  "rows": 1,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CompassConfigurationData-01",
-  "kind": "textassets",
-  "rows": 1,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CompassTitleData-01",
-  "kind": "textassets",
-  "rows": 17,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CompositionPageData-01",
-  "kind": "textassets",
-  "rows": 2,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-ConnectionData-01",
-  "kind": "textassets",
-  "rows": 40,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CountryDetailsDemographicData-01",
-  "kind": "textassets",
-  "rows": 8,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-CountryDetailsPanelData-01",
-  "kind": "textassets",
-  "rows": 5,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-DecreeApprovalCharacterData-01",
-  "kind": "textassets",
-  "rows": 13,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-FactionData-01",
-  "kind": "textassets",
-  "rows": 6,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-FactionsPageData-01",
-  "kind": "textassets",
-  "rows": 4,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-HUDPeriodicStatModifierData-01",
-  "kind": "textassets",
-  "rows": 126,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-HUDStatData-01",
-  "kind": "textassets",
-  "rows": 11,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-OperationData-01",
-  "kind": "textassets",
-  "rows": 2,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-PagedDecisionPanelData-01",
-  "kind": "textassets",
-  "rows": 22,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-ReminderPanelData-01",
-  "kind": "textassets",
-  "rows": 6,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-ReminderPanelSegmentData-01",
-  "kind": "textassets",
-  "rows": 2,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-ReusableDecreesPanelData-01",
-  "kind": "textassets",
-  "rows": 1,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-SummaryData-01",
-  "kind": "textassets",
-  "rows": 1,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
   "batch": "t-SummarySegmentData-01",
   "kind": "textassets",
   "rows": 131,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-TimelineElementData-01",
-  "kind": "textassets",
-  "rows": 17,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-TooltipData-01",
-  "kind": "textassets",
-  "rows": 63,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-TutorialPageData-01",
-  "kind": "textassets",
-  "rows": 36,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-TutorialPanelData-01",
-  "kind": "textassets",
-  "rows": 2,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-WarFragmentData-01",
-  "kind": "textassets",
-  "rows": 14,
-  "flagged": 0,
-  "priority": 0.0
- },
- {
-  "batch": "t-WarProductionPanelData-01",
-  "kind": "textassets",
-  "rows": 2,
   "flagged": 0,
   "priority": 0.0
  }

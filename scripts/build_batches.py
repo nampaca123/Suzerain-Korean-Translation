@@ -39,23 +39,37 @@ def group_dialogue(rows: list[dict], max_rows: int = 2500) -> list[tuple[str, li
     return out
 
 
-def group_textassets(rows: list[dict], max_chars: int = 60000) -> list[tuple[str, list[dict]]]:
-    out = []
-    ordered = sorted(rows, key=lambda r: (r["file"], r["item_id"], r["key"]))
-    for file, frows in itertools.groupby(ordered, key=lambda r: r["file"]):
-        n, cur, size = 1, [], 0
-        for _, item in itertools.groupby(list(frows), key=lambda r: r["item_id"]):
-            item = list(item)
-            isz = sum(len(r["ko"]) for r in item)
-            if cur and size + isz > max_chars:
-                out.append((f"t-{file}-{n:02d}", cur))
-                n += 1
-                cur, size = [], 0
-            cur.extend(item)
-            size += isz
-        if cur:
-            out.append((f"t-{file}-{n:02d}", cur))
+def _chunk(rows: list[dict], prefix: str, max_chars: int) -> list[tuple[str, list[dict]]]:
+    out, n, cur, size = [], 1, [], 0
+    for _, item in itertools.groupby(rows, key=lambda r: (r["file"], r["item_id"])):
+        item = list(item)
+        isz = sum(len(r["ko"]) for r in item)
+        if cur and size + isz > max_chars:
+            out.append((f"{prefix}-{n:02d}", cur))
+            n += 1
+            cur, size = [], 0
+        cur.extend(item)
+        size += isz
+    if cur:
+        out.append((f"{prefix}-{n:02d}", cur))
     return out
+
+
+def group_textassets(rows: list[dict], max_chars: int = 60000,
+                     min_file_chars: int = 5000) -> list[tuple[str, list[dict]]]:
+    ordered = sorted(rows, key=lambda r: (r["file"], r["item_id"], r["key"]))
+    totals = Counter()
+    for r in ordered:
+        totals[r["file"]] += len(r["ko"])
+    # 문턱이 배치 용량보다 작을 때만, 자잘한 파일을 t-misc 풀로 합친다.
+    tiny = {f for f, t in totals.items() if t < min_file_chars} if min_file_chars < max_chars else set()
+    out, pool = [], []
+    for file, frows in itertools.groupby(ordered, key=lambda r: r["file"]):
+        if file in tiny:
+            pool.extend(frows)
+        else:
+            out.extend(_chunk(list(frows), f"t-{file}", max_chars))
+    return out + _chunk(pool, "t-misc", max_chars)
 
 
 def sordland_samples(file: str, n: int = 3) -> list[str]:
@@ -63,17 +77,14 @@ def sordland_samples(file: str, n: int = 3) -> list[str]:
     if not p.exists():
         return []
     items = json.loads(p.read_text(encoding="utf-8")).get("items", [])
-    out = []
+    texts = []
     for it in items:
         packs = it.get("AppBundleProperties", {}).get("StoryPacks", [])
         if not (it.get("Path", "").startswith("Sordland") or "StoryPack_Main" in packs):
             continue
-        texts = [s for s in json.dumps(it, ensure_ascii=False).split('"') if len(s) >= 200 and _KO.search(s)]
-        if texts:
-            out.append(texts[0].replace("\\n", "\n"))
-        if len(out) >= n:
-            break
-    return out
+        texts += [s for s in json.dumps(it, ensure_ascii=False).split('"') if len(s) >= 80 and _KO.search(s)]
+    texts.sort(key=len, reverse=True)
+    return [s.replace("\\n", "\n") for s in texts[:n]]
 
 
 def write_batch(batch_dir: Path, rows: list[dict], flags: dict[str, dict], context: str) -> None:
@@ -94,9 +105,11 @@ def _context(bid: str, rows: list[dict], flags: dict[str, dict]) -> str:
     if bid.startswith("d-"):
         lines.append("대화 목록: " + ", ".join(sorted({r["conv_title"] for r in rows})))
     else:
-        file = rows[0]["file"]
-        lines.append(f"파일: {file}. 목표 문체는 register_table.md 6장의 {file} 행을 따른다.")
-        for i, s in enumerate(sordland_samples(file), 1):
+        files = Counter(r["file"] for r in rows)
+        for file, _ in files.most_common():
+            lines.append(f"파일: {file}. 목표 문체는 register_table.md 6장의 {file} 행을 따른다.")
+        # 표본은 배치에서 줄이 가장 많은 파일 기준으로 뽑는다.
+        for i, s in enumerate(sordland_samples(files.most_common(1)[0][0]), 1):
             lines += ["", f"## 소르들란드 문체 표본 {i}", "", s]
     return "\n".join(lines) + "\n"
 

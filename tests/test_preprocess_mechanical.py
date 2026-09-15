@@ -1,5 +1,6 @@
 # preprocess_mechanical의 결정적 규칙(따옴표·곡선따옴표·대시·효과 표기·용어 치환) 검증.
-from scripts.preprocess_mechanical import fix_quotes, normalize_curly, fix_dashes, fix_effect_tags, apply_glossary, preprocess_row
+from scripts.preprocess_mechanical import (fix_quotes, normalize_curly, fix_dashes, fix_effect_tags, apply_glossary,
+                                           preprocess_row, preprocess_menu)
 
 
 def test_fix_quotes_adds_outer_quotes_and_keeps_effect_tag():
@@ -35,7 +36,9 @@ def test_apply_glossary_ascii_banned_needs_word_boundary():
     g = [{"concept": "Alliance of Nations", "standard": "국제연합", "banned": ["AN"],
           "source": "sordland", "auto_replace": True}]
     assert apply_glossary("AN 총회", g) == ("국제연합 총회", ["Alliance of Nations"])
+    assert apply_glossary("AN에 제소한다", g) == ("국제연합에 제소한다", ["Alliance of Nations"])
     assert apply_glossary("CANADA ANALYSIS 보고서", g) == ("CANADA ANALYSIS 보고서", [])
+    assert apply_glossary("ESCAN2 보고서", g) == ("ESCAN2 보고서", [])
 
 
 def test_preprocess_row_logs_each_rule():
@@ -49,3 +52,18 @@ def test_apply_glossary_skips_protected_proper_noun():
     g = [{"concept": "Pales", "standard": "팔레", "banned": ["페일스"], "source": "sordland", "auto_replace": True}]
     assert apply_glossary("페일스트림 송유관은 페일스로 이어진다", g) == ("페일스트림 송유관은 팔레로 이어진다", ["Pales"])
     assert apply_glossary("페일스트림 송유관", g) == ("페일스트림 송유관", [])
+
+
+def test_preprocess_menu_runs_full_pipeline_against_menu_en():
+    row = {"key": "d:1:1", "en": "unused", "ko": "unused",
+           "menu_en": '"Go -- now."', "menu_ko": '“가라 -- 지금.” [+1 Authority]'}
+    ko, log = preprocess_menu(row, [])
+    assert ko == '"가라, 지금." [+1 권위]'
+    assert [l["rule"] for l in log] == ["curly", "dash", "effect_tag"]
+
+
+def test_preprocess_menu_adds_quotes_and_applies_glossary():
+    g = [{"concept": "Drazon", "standard": "드라촌", "banned": ["드라존"], "source": "sordland", "auto_replace": True}]
+    row = {"key": "d:1:2", "en": "", "ko": "", "menu_en": '"To Drazon."', "menu_ko": '드라존으로.'}
+    assert preprocess_menu(row, g)[0] == '"드라촌으로."'
+    assert preprocess_menu({"key": "d:1:3", "menu_en": "", "menu_ko": ""}, g) == ("", [])

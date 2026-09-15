@@ -50,8 +50,9 @@ _PROTECTED = ("페일스트림",)  # PaleStream: Pales와 무관한 고유명사
 
 @lru_cache(maxsize=None)
 def _banned_rx(form: str) -> re.Pattern:
-    # 금지 표기가 라틴 낱말이면 단어 경계로 감싼다(ANALYSIS 속 AN 등 오치환 방지).
-    return re.compile(rf"\b{re.escape(form)}\b" if form.isascii() else re.escape(form))
+    # 라틴 금지 표기는 앞뒤 라틴 문자·숫자만 경계로 삼는다(ANALYSIS 속 AN은 제외, 'AN에'는 치환).
+    esc = re.escape(form)
+    return re.compile(rf"(?<![A-Za-z0-9]){esc}(?![A-Za-z0-9])" if form.isascii() else esc)
 
 
 def apply_glossary(ko: str, glossary: list[dict]) -> tuple[str, list[str]]:
@@ -73,15 +74,23 @@ def apply_glossary(ko: str, glossary: list[dict]) -> tuple[str, list[str]]:
     return ko, sorted(set(applied))
 
 
-def preprocess_row(row: dict, glossary: list[dict]) -> tuple[str, list[dict]]:
-    log, ko = [], row["ko"]
-    for rule, fn in (("curly", normalize_curly), ("quote", lambda k: fix_quotes(row.get("en", ""), k)),
+def _apply_rules(en: str, ko: str, glossary: list[dict]) -> tuple[str, list[dict]]:
+    log = []
+    for rule, fn in (("curly", normalize_curly), ("quote", lambda k: fix_quotes(en, k)),
                      ("dash", lambda k: fix_dashes(k)[0]), ("effect_tag", fix_effect_tags),
                      ("glossary", lambda k: apply_glossary(k, glossary)[0])):
         new = fn(ko)
         if new != ko:
             log.append({"rule": rule, "before": ko, "after": new}); ko = new
     return ko, log
+
+
+def preprocess_row(row: dict, glossary: list[dict]) -> tuple[str, list[dict]]:
+    return _apply_rules(row.get("en", ""), row["ko"], glossary)
+
+
+def preprocess_menu(row: dict, glossary: list[dict]) -> tuple[str, list[dict]]:
+    return _apply_rules(row.get("menu_en", ""), row.get("menu_ko", ""), glossary)
 
 
 if __name__ == "__main__":
@@ -93,11 +102,14 @@ if __name__ == "__main__":
             rows = read_jsonl(paths.CURRENT / f"{name}.jsonl")
             for r in rows:
                 new, log = preprocess_row(r, glossary)
-                for l in log:
-                    logf.write(json.dumps({"key": r["key"], **l}, ensure_ascii=False) + "\n")
+                menu_new, menu_log = preprocess_menu(r, glossary) if r.get("menu_ko") else ("", [])
+                for key, entries in ((r["key"], log), (r["key"] + "#menu", menu_log)):
+                    for l in entries:
+                        logf.write(json.dumps({"key": key, **l}, ensure_ascii=False) + "\n")
                 if log:
-                    r["ko"] = new; total += 1
-                if name == "dialogue" and r.get("menu_ko"):
-                    r["menu_ko"] = fix_effect_tags(normalize_curly(r["menu_ko"]))
+                    r["ko"] = new
+                if menu_log:
+                    r["menu_ko"] = menu_new
+                total += bool(log or menu_log)
             write_jsonl(paths.CURRENT / f"{name}.jsonl", rows)
     print(f"preprocessed rows changed={total}", file=sys.stderr)

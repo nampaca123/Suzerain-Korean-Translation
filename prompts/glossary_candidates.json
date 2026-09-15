@@ -17,7 +17,6 @@
  {"concept": "Grand Hall", "en": "Grand Hall", "candidates": ["대전당", "대연회장", "대회랑"]},
  {"concept": "profit share", "en": "profit share", "candidates": ["이익 배분", "이익 지분", "수익 배분", "수익 몫", "이익 공유"]},
  {"concept": "Armed Forces", "en": "Rizian Armed Forces", "candidates": ["리치아 국군", "리치아군", "리치아 육군"]},
- {"concept": "waiter", "en": "waiter", "candidates": ["종업원", "웨이터"]},
  {"concept": "Mouser", "en": "Mouser", "candidates": ["무세르", "모우세르"]},
  {"concept": "Kabet", "en": "Kabet", "candidates": ["카베트", "카베테"]},
  {"concept": "Karanza", "en": "Karanza", "candidates": ["카란자", "카란자스"]},

@@ -385,26 +385,6 @@
   }
  },
  {
-  "concept": "waiter",
-  "en": "waiter",
-  "standard": "웨이터",
-  "banned": [
-   "종업원"
-  ],
-  "source": "sordland",
-  "auto_replace": true,
-  "evidence": {
-   "sordland": {
-    "종업원": 6,
-    "웨이터": 31
-   },
-   "rizia": {
-    "종업원": 24,
-    "웨이터": 5
-   }
-  }
- },
- {
   "concept": "Mouser",
   "en": "Mouser",
   "standard": "무세르",

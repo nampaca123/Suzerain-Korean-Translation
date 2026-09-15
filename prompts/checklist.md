@@ -1,0 +1,38 @@
+# 교정·검수 체크리스트 (통합본)
+
+flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래를 어긴 줄을 고칠 수 있으나 사유를 남긴다.
+
+## 공통
+1. `{…}` 변수의 개수·철자가 영문 원문과 같다 (placeholder_mismatch).
+2. 줄바꿈 수는 영문 이상이다. 적으면 문단 누락이므로 영문을 문단 단위로 대조해 빠진 문단만 추가한다 (missing_paragraph).
+3. 직접 인용은 반각 `"…"`. 곡선따옴표·`--`·`—`가 남지 않는다 (curly_quote, dash_remaining).
+4. 영문 효과 표기 `[+1 Authority]`가 남지 않는다 (english_effect_tag).
+   - 주의: 이 flag는 대괄호 안에 영문 3글자 이상이면 붙으므로 `[RNC 제안]`·`[RPP 제안]` 같은 정당 약칭 태그도 걸린다. 이런 정상적인 한국어 태그는 그대로 둔다(오탐).
+5. 용어는 glossary.md의 표준 표기만 쓴다. `needs_human` 항목은 원문 그대로 두고 reason에 적는다 (glossary_violation).
+   - 주의: 기계 전처리는 glossary.md에서 `자동 치환: 예`인 항목만 치환했다. `자동 치환: 아니오(보고만)` 항목(예: 수상·재상 → 총리)은 아직 남아 있으므로 문맥을 보고 에이전트가 직접 고치고 reason을 남긴다.
+   - 주의: `needs_human` 개념(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita)은 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 reason에 "needs_human: 이유"를 적는다. 새 표기를 지어내지 않는다.
+6. 고유명사 뒤 조사가 받침과 맞는다. `{변수}` 뒤에 조사를 고정으로 붙이지 않는다 (josa_mismatch).
+7. "당신"은 로무스가 루시타(혼인 후)에게, 에스텔라·베아트리체가 로무스에게 쓰는 경우 외에는 쓰지 않는다 (pronoun_dangsin).
+8. 새 표기·새 용어·새 사실을 창작하지 않는다. 의미는 영문 원문을 따른다.
+
+## 대화
+9. "폐하"가 든 대사는 합쇼체다 (royal_title_low_register).
+10. 로무스 한 대사 안에 하오체와 반말(-군/-지/-어/-다)이 섞이지 않는다. 독립 감탄("흥미롭군.")만 예외 (romus_mixed_register).
+11. 로무스가 연설이 아닌데 합쇼체를 쓰지 않는다. 연설(speech 태그)은 합쇼체다 (romus_hapsyo_not_speech, speech_not_hapsyo).
+    - 주의: `speech` 태그는 나레이션 장면 마커로 추정한 휴리스틱이라 완전하지 않다. 연설 구간이 같은 대화의 뒤쪽 분기 노드까지 이어지는데 태그가 `none`으로 남는 경우가 있다. register_table.md 5.1의 "연설 판정 순서"와 앞뒤 문맥으로 직접 판단한다.
+12. 로무스의 해요체는 상대가 에스텔라일 때만 정당하다. 그 외에는 register_table.md 5.1의 상대별 화계로 바꾼다 (romus_haeyo).
+13. 나레이션·독백은 "-다" 서술체로 끝난다. 대사는 서술체로 끝나지 않는다 (narration_not_declarative, dialogue_declarative_ending).
+    - 주의: 화자가 Narrator라도 줄 전체가 `"…"`로 묶인 인용은 이름 없는 인물의 대사다. 나레이션의 -다 규칙이 아니라 그 화자에게 어울리는 화계를 따른다.
+14. 신하는 합쇼체, 비나는 해요체, 외국 정상은 합쇼체, 휴고는 하게체·해라체 금지 (subject_not_hapsyo, vina_not_haeyo, foreign_not_hapsyo, hugo_low_register).
+15. 선택지(menu_ko)와 대사(ko)가 같은 영문이면 한글도 같다. 대사 쪽에 맞춘다 (menu_mismatch).
+    - 주의: menu_ko만 고쳐야 하면 같은 key 뒤에 `#menu`를 붙인 별도 edit로 낸다(예: `"key": "d:288:27#menu"`). 자세한 형식은 editor.md에 있다.
+16. 같은 화자의 같은 영문 대사는 같은 한글이다 (same_en_diff_register).
+17. 호칭은 register_table.md 5.3을 따른다: 국왕·여왕 "폐하", 공주 "전하", 총리/대통령 직함 호격.
+18. 화계를 바꿀 때 1인칭(나/저), 조사, 존대 어휘(드리다/여쭙다 등)를 함께 맞춘다. 어미만 바꾸지 않는다.
+
+## 텍스트에셋
+19. 유형별 목표 문체는 register_table.md 6.1을 따른다 (ta_register_mismatch).
+20. 코덱스는 같은 인물·도시의 상태 변종끼리 문체·표기가 같다 (codex_variant_mismatch).
+21. 결정 선택지 `Options[].Text`는 해라체 평서형("…한다")을 유지한다.
+22. 뉴스 제목은 체언 종결 또는 "-하다" 종결을 유지한다.
+23. StoryPackData(시작 화면)는 register_table.md 6.2의 확정 문안을 그대로 적용한다: 제목 "스토리 DLC", "시작 날짜", "4,000만", 인용문 바깥 따옴표 제거, 소개문 -습니다체.

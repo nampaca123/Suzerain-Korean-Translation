@@ -5,7 +5,7 @@ import re
 _CROWD = re.compile(r"(여러분|들이여|신민이여)")
 _START = re.compile(
     r"(?<![가-힣])(나는|내가)[^.!?]{0,30}"
-    r"(마이크|연단 뒤|연단으로|연단에 서|연단에 올|단상|카메라 렌즈|붉은 표시등|말을 시작했다|대국민 연설)"
+    r"(마이크|연단 뒤|연단으로|연단에 서|연단에 올|카메라 렌즈|붉은 표시등|말을 시작했다|대국민 연설)"
 )
 _END = re.compile(r"(연설을 마치|원고를 내려놓|촬영이 멈|환호가 터져|박수가|연단에서 내려|무대에서 내려)")
 _SINGULAR = re.compile(r"(폐하|비나|어머니|사존 씨|숙부|공작|총리|대통령|여왕)")
@@ -14,8 +14,12 @@ _SINGULAR = re.compile(r"(폐하|비나|어머니|사존 씨|숙부|공작|총�
 def tag_speech(rows: list[dict]) -> dict[str, str]:
     out: dict[str, str] = {}
     in_window = False
+    prev_conv = None
     for r in sorted(rows, key=lambda x: (x["conv_id"], x["seq"])):
         ko, actor = r["ko"], r["actor"]
+        if r["conv_id"] != prev_conv:
+            in_window = False
+            prev_conv = r["conv_id"]
         if "HODShutdown" in r["conv_title"]:
             out[r["key"]] = "none"
             continue

@@ -65,3 +65,30 @@ def test_broadcast_cue_opens_window():
             R("c", "Narrator", "나는 촬영진에게 고개를 끄덕였다. 촬영이 멈췄다.", 2, "Rizia/Turn 11/Ending_Speech"),
             R("d", "Player_Romus", '"수고했소."', 3, "Rizia/Turn 11/Ending_Speech")]
     assert tag_speech(rows) == {"a": "none", "b": "speech", "c": "none", "d": "none"}
+
+
+def test_window_does_not_leak_into_next_conversation():
+    rows = [{**R("a", "Narrator", "나는 연단으로 향했다.", 0), "conv_id": 1},
+            {**R("b", "Player_Romus", '"연설 본문."', 1), "conv_id": 1},
+            {**R("c", "Player_Romus", '"다른 대화의 사담."', 0), "conv_id": 2}]
+    assert tag_speech(rows) == {"a": "none", "b": "speech", "c": "none"}
+
+
+def test_walking_out_to_balcony_does_not_open_window():
+    rows = [R("a", "Narrator", "내가 외투를 집어 들고 발코니로 나가는 동안 비나가 말했다.", 0,
+              "Rizia/Turn 11/Ending_Coup_HouseFallouts"),
+            R("b", "Player_Romus", '"이제 끝났소."', 1, "Rizia/Turn 11/Ending_Coup_HouseFallouts")]
+    assert tag_speech(rows) == {"a": "none", "b": "none"}
+
+
+def test_leaving_stage_closes_window():
+    rows = [R("a", "Narrator", "나는 마이크 뒤에 섰다.", 0),
+            R("b", "Player_Romus", '"오늘을 기념합시다."', 1),
+            R("c", "Narrator", "내가 무대에서 내려오자 파벨이 잔을 건넸다.", 2),
+            R("d", "Player_Romus", '"고맙소."', 3)]
+    assert tag_speech(rows) == {"a": "none", "b": "speech", "c": "none", "d": "none"}
+
+
+def test_singular_crowd_vocative_is_speech():
+    rows = [R("a", "Player_Romus", '"충성스러운 신민이여, 들으라."', 0, "Rizia/Turn 11/Ending_Speech")]
+    assert tag_speech(rows) == {"a": "speech"}

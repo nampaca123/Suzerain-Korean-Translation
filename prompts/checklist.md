@@ -1,6 +1,7 @@
 # 교정·검수 체크리스트 (통합본)
 
 flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래를 어긴 줄을 고칠 수 있으나 사유를 남긴다.
+판정이 엇갈리면 register_table.md가 최종 기준이다. 아래 항목과 flag는 힌트일 뿐이므로 register_table.md와 어긋나면 register_table.md를 따른다.
 
 ## 공통
 1. `{…}` 변수의 개수·철자가 영문 원문과 같다 (placeholder_mismatch).
@@ -16,14 +17,16 @@ flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래
 8. 새 표기·새 용어·새 사실을 창작하지 않는다. 의미는 영문 원문을 따른다.
 
 ## 대화
-9. "폐하"가 든 대사는 합쇼체다 (royal_title_low_register).
+9. 신하·외국 정상이 "폐하"를 부르며 말할 때는 합쇼체다. 로무스가 베아트리체 여왕에게 "폐하"를 붙여 말하는 대사는 register_table.md 5.1대로 하오체를 유지한다 (royal_title_low_register는 힌트).
 10. 로무스 한 대사 안에 하오체와 반말(-군/-지/-어/-다)이 섞이지 않는다. 독립 감탄("흥미롭군.")만 예외 (romus_mixed_register).
 11. 로무스가 연설이 아닌데 합쇼체를 쓰지 않는다. 연설(speech 태그)은 합쇼체다 (romus_hapsyo_not_speech, speech_not_hapsyo).
+    - 주의: 로무스→에스텔라의 무거운 선언·약속은 연설이 아니어도 합쇼체가 허용된다(register_table.md 5.1). 이 경우 `romus_hapsyo_not_speech`는 무시한다.
     - 주의: `speech` 태그는 나레이션 장면 마커로 추정한 휴리스틱이라 완전하지 않다. 연설 구간이 같은 대화의 뒤쪽 분기 노드까지 이어지는데 태그가 `none`으로 남는 경우가 있다. register_table.md 5.1의 "연설 판정 순서"와 앞뒤 문맥으로 직접 판단한다.
 12. 로무스의 해요체는 상대가 에스텔라일 때만 정당하다. 그 외에는 register_table.md 5.1의 상대별 화계로 바꾼다 (romus_haeyo).
 13. 나레이션·독백은 "-다" 서술체로 끝난다. 대사는 서술체로 끝나지 않는다 (narration_not_declarative, dialogue_declarative_ending).
     - 주의: 화자가 Narrator라도 줄 전체가 `"…"`로 묶인 인용은 이름 없는 인물의 대사다. 나레이션의 -다 규칙이 아니라 그 화자에게 어울리는 화계를 따른다.
 14. 신하는 합쇼체, 비나는 해요체, 외국 정상은 합쇼체, 휴고는 하게체·해라체 금지 (subject_not_hapsyo, vina_not_haeyo, foreign_not_hapsyo, hugo_low_register).
+    - 주의: 휴고→다른 평의원은 하게체가 규칙이다(register_table.md 5.2). `hugo_low_register`는 청자가 로무스일 때만 위반이다.
 15. 선택지(menu_ko)와 대사(ko)가 같은 영문이면 한글도 같다. 대사 쪽에 맞춘다 (menu_mismatch).
     - 주의: menu_ko만 고쳐야 하면 같은 key 뒤에 `#menu`를 붙인 별도 edit로 낸다(예: `"key": "d:288:27#menu"`). 자세한 형식은 editor.md에 있다.
 16. 같은 화자의 같은 영문 대사는 같은 한글이다 (same_en_diff_register).

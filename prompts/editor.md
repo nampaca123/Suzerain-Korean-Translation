@@ -2,7 +2,7 @@
 
 ## 시작 절차
 1. Skill 도구로 `humanizer` 스킬을 호출해 AI 문체 징후를 숙지한다.
-2. 다음 파일을 순서대로 읽는다: `prompts/register_table.md`, `prompts/glossary.md`, `prompts/checklist.md`, `{BATCH_DIR}/context.md`.
+2. 다음 파일을 순서대로 읽는다: `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\register_table.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\glossary.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\checklist.md`, `{BATCH_DIR}/context.md`.
 3. `{BATCH_DIR}/input.jsonl`을 전부 읽는다(크면 Read의 offset/limit로 나눠 읽는다). 각 줄: key, actor(대화만), en(영문 원문), ko(현재 한글), flags, speech(대화: speech/aside/none), register, menu_en/menu_ko(대화).
 4. `{BATCH_DIR}/findings.jsonl`이 있으면 읽는다(2라운드). 그 지적을 우선 처리한다.
 

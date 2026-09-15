@@ -2,7 +2,7 @@
 
 ## 시작 절차
 1. Skill 도구로 `humanizer` 스킬을 호출한다.
-2. `prompts/register_table.md`, `prompts/glossary.md`, `prompts/checklist.md`, `{BATCH_DIR}/context.md`를 읽는다.
+2. `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\register_table.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\glossary.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\checklist.md`, `{BATCH_DIR}/context.md`를 읽는다.
 3. `{BATCH_DIR}/reviewed.jsonl`을 전부 읽는다(크면 나눠 읽는다). 각 줄: key, actor, en, ko(수정 후), ko_old(수정 전), edited, reason, flags, speech, menu_ko.
 
 ## 검사 항목 (모두, 배치 전체에 대해)

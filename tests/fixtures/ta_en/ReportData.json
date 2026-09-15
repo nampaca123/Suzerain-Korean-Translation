@@ -1,0 +1,4 @@
+{"items":[
+ {"Id":"0x01","Path":"Rizia/Reports","NameInDatabase":"R_A","AppBundleProperties":{"StoryPacks":["StoryPack_Rizia"]},"ReportProperties":{"Title":"Report","Description":"This is the body.\n\nThis is the second paragraph.","Newspaper":"X"}},
+ {"Id":"0x02","Path":"Sordland/Reports","NameInDatabase":"R_B","AppBundleProperties":{"StoryPacks":["StoryPack_Main"]},"ReportProperties":{"Title":"Main","Description":"This is the main body."}},
+ {"Id":"0x03","Path":"Shared/Shared Codex Entries","NameInDatabase":"Soradis","AppBundleProperties":{"StoryPacks":[]},"ReportProperties":{"Title":"Soradis","Description":"Shared."}}]}

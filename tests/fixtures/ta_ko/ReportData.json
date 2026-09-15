@@ -1,0 +1,4 @@
+{"items":[
+ {"Id":"0x01","Path":"Rizia/Reports","NameInDatabase":"R_A","AppBundleProperties":{"StoryPacks":["StoryPack_Rizia"]},"ReportProperties":{"Title":"보고","Description":"본문이다.\n\n둘째 문단이다.","Newspaper":"X"}},
+ {"Id":"0x02","Path":"Sordland/Reports","NameInDatabase":"R_B","AppBundleProperties":{"StoryPacks":["StoryPack_Main"]},"ReportProperties":{"Title":"메인","Description":"메인 본문입니다."}},
+ {"Id":"0x03","Path":"Shared/Shared Codex Entries","NameInDatabase":"Soradis","AppBundleProperties":{"StoryPacks":[]},"ReportProperties":{"Title":"소라디스","Description":"공용."}}]}

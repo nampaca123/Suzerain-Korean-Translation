@@ -10,7 +10,8 @@ def test_josa_ok():
 
 def test_dialogue_flags():
     rows = [D("a", "Hugo Toras", '"어서 오게, 폐하."'),
-            D("b", "Narrator", '"그렇게 하고 있습니다."'),
+            D("b", "Narrator", '그렇게 하고 있습니다.'),
+            D("b2", "Narrator", '"아닙니다, 대장님. 몇 분만 더 필요합니다."'),
             D("c", "Player_Romus", '"팔레를 삼았소. 많은 것을 잃었지."'),
             D("d", "Player_Romus", '"그렇게 말할 줄 알았습니다."'),
             D("e", "Vina Toras", '"아버지, 그렇게 하겠습니다."'),
@@ -23,6 +24,7 @@ def test_dialogue_flags():
     f = flag_dialogue(rows, g)
     assert "royal_title_low_register" in f["a"]["flags"] and "hugo_low_register" in f["a"]["flags"]
     assert "narration_not_declarative" in f["b"]["flags"]
+    assert "narration_not_declarative" not in f["b2"]["flags"]
     assert "romus_mixed_register" in f["c"]["flags"]
     assert "romus_hapsyo_not_speech" in f["d"]["flags"]
     assert "vina_not_haeyo" in f["e"]["flags"]

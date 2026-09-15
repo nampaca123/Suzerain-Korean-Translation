@@ -41,7 +41,8 @@ def _common_flags(ko: str, en: str, glossary: list[dict]) -> list[str]:
 def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
     a, ko, f = r["actor"], r["ko"], []
     if a in NARRATORS:
-        if not is_narrative(ko) and reg != OTHER: f.append("narration_not_declarative")
+        # R22: 인용부호가 붙은 Narrator 줄은 이름 없는 인물의 대사라 서술 규칙 대상이 아니다.
+        if not is_quoted(ko) and not is_narrative(ko) and reg != OTHER: f.append("narration_not_declarative")
         return f
     if is_quoted(ko) and is_narrative(ko.strip('"')) and reg == HAERA and re.search(r"(였|았|었|ㄴ|는|이)다[.!]?\"?$", ko.strip()):
         f.append("dialogue_declarative_ending")

@@ -30,6 +30,19 @@ def test_count_terms_gives_each_hit_to_the_longest_candidate():
     assert count_terms(["다스트누리교와 누리교"], ["누리교", "다스트누리교"]) == {"누리교": 1, "다스트누리교": 1}
 
 
+def test_rizia_majority_needs_a_clear_margin():
+    H = {"concept": "Halaita", "en": "Halaita", "candidates": ["할라이타", "Halaita"]}
+    assert decide(H, {"할라이타": 0, "Halaita": 0}, {"할라이타": 40, "Halaita": 43})["source"] == "needs_human"
+    I = {"concept": "Rizia Imperii", "en": "Rizia Imperii", "candidates": ["리치아 임페리이", "리치아 임페리"]}
+    d = decide(I, {"리치아 임페리이": 0, "리치아 임페리": 0}, {"리치아 임페리이": 95, "리치아 임페리": 7})
+    assert d["source"] == "rizia_majority" and d["standard"] == "리치아 임페리이"
+
+
+def test_count_terms_mask_absorbs_other_concepts_hits():
+    assert count_terms(["다스트누리티교와 누리티교."], ["누리티교", "누르교"],
+                       mask=["다스트누리티교"]) == {"누리티교": 1, "누르교": 0}
+
+
 def test_auto_replace_only_for_unambiguous_sordland_banned_forms():
     assert decide(C, {"팔레": 12, "페일스": 0}, {"팔레": 3, "페일스": 40})["auto_replace"] is True
     assert decide(AN, {"국제연합": 158, "AN": 28}, {"국제연합": 231, "AN": 353})["auto_replace"] is True

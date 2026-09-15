@@ -10,13 +10,15 @@ GLOSSARY_JSON = paths.PROMPTS / "glossary.json"
 GLOSSARY_MD = paths.PROMPTS / "glossary.md"
 
 
-def count_terms(texts: Iterable[str], candidates: list[str]) -> dict[str, int]:
-    # 겹치는 후보(카란자 ⊂ 카란자스)는 긴 쪽에만 한 번 센다.
-    pat = re.compile("|".join(re.escape(k) for k in sorted(candidates, key=len, reverse=True)))
+def count_terms(texts: Iterable[str], candidates: list[str], mask: Iterable[str] = ()) -> dict[str, int]:
+    # 겹치는 표기(카란자 ⊂ 카란자스)는 긴 쪽에만 한 번 센다. mask는 다른 개념의 표기라 세지 않고 흡수만 한다.
+    forms = sorted(set(candidates) | set(mask), key=len, reverse=True)
+    pat = re.compile("|".join(re.escape(k) for k in forms))
     c = Counter({k: 0 for k in candidates})
     for t in texts:
         for m in pat.finditer(t):
-            c[m.group()] += 1
+            if m.group() in c:
+                c[m.group()] += 1
     return dict(c)
 
 
@@ -28,15 +30,16 @@ def decide(concept: dict, sord_counts: dict[str, int], rizia_counts: dict[str, i
     base = {"concept": concept["concept"], "en": concept.get("en", ""), "standard": None, "banned": [],
             "source": "needs_human", "auto_replace": False,
             "evidence": {"sordland": sord_counts, "rizia": rizia_counts}}
-    for name, counts in (("sordland", sord_counts), ("rizia_majority", rizia_counts)):
+    for name, counts, margin in (("sordland", sord_counts, 1.0), ("rizia_majority", rizia_counts, 1.2)):
         ranked = sorted(counts.items(), key=lambda kv: -kv[1])
-        if ranked and ranked[0][1] > 0 and (len(ranked) == 1 or ranked[0][1] > ranked[1][1]):
+        if not ranked or ranked[0][1] == 0:
+            continue
+        top, second = ranked[0][1], ranked[1][1] if len(ranked) > 1 else 0
+        if top > second and top >= second * margin:
             banned = [k for k, _ in ranked[1:]]
             base.update(standard=ranked[0][0], banned=banned, source=name,
                         auto_replace=name == "sordland" and all(_replaceable(b) for b in banned))
-            return base
-        if ranked and ranked[0][1] > 0:
-            return base  # 동률 → needs_human
+        return base  # 동률·근소 차 → needs_human
     return base
 
 
@@ -94,7 +97,8 @@ def _to_md(entries: list[dict]) -> str:
 if __name__ == "__main__":
     concepts = json.loads(CANDIDATES.read_text(encoding="utf-8"))
     st, rt = sordland_texts(), rizia_texts()
-    entries = [decide(c, count_terms(st, c["candidates"]), count_terms(rt, c["candidates"])) for c in concepts]
+    entries = [decide(c, count_terms(st, c["candidates"], c.get("mask", ())),
+                      count_terms(rt, c["candidates"], c.get("mask", ()))) for c in concepts]
     GLOSSARY_JSON.write_text(json.dumps(entries, ensure_ascii=False, indent=1), encoding="utf-8")
     GLOSSARY_MD.write_text(_to_md(entries), encoding="utf-8")
     n = sum(1 for e in entries if e["source"] == "needs_human")

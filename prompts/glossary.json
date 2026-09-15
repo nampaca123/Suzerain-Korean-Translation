@@ -367,12 +367,9 @@
  {
   "concept": "Armed Forces",
   "en": "Rizian Armed Forces",
-  "standard": "리치아군",
-  "banned": [
-   "리치아 육군",
-   "리치아 국군"
-  ],
-  "source": "rizia_majority",
+  "standard": null,
+  "banned": [],
+  "source": "needs_human",
   "auto_replace": false,
   "evidence": {
    "sordland": {
@@ -477,12 +474,12 @@
   "auto_replace": true,
   "evidence": {
    "sordland": {
-    "누리티교": 99,
+    "누리티교": 63,
     "누르교": 0,
     "누리교": 1
    },
    "rizia": {
-    "누리티교": 529,
+    "누리티교": 148,
     "누르교": 23,
     "누리교": 6
    }
@@ -511,11 +508,9 @@
  {
   "concept": "Halaita(의례어)",
   "en": "Halaita",
-  "standard": "Halaita",
-  "banned": [
-   "할라이타"
-  ],
-  "source": "rizia_majority",
+  "standard": null,
+  "banned": [],
+  "source": "needs_human",
   "auto_replace": false,
   "evidence": {
    "sordland": {

@@ -21,7 +21,7 @@
  {"concept": "Mouser", "en": "Mouser", "candidates": ["무세르", "모우세르"]},
  {"concept": "Kabet", "en": "Kabet", "candidates": ["카베트", "카베테"]},
  {"concept": "Karanza", "en": "Karanza", "candidates": ["카란자", "카란자스"]},
- {"concept": "Nur 종교", "en": "Nurist religion", "candidates": ["누리티교", "누르교", "누리교"]},
+ {"concept": "Nur 종교", "en": "Nurist religion", "candidates": ["누리티교", "누르교", "누리교"], "mask": ["다스트누리티교"]},
  {"concept": "Dastnur 종교", "en": "Dastnurist religion", "candidates": ["다스트누리티교", "다스트누리교"]},
  {"concept": "Halaita(의례어)", "en": "Halaita", "candidates": ["할라이타", "Halaita"]},
  {"concept": "Drazon", "en": "Drazon", "candidates": ["드라존", "드라촌"]}

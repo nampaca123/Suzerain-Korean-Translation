@@ -22,12 +22,12 @@
 | late King Valero | late King Valero | 선왕 | 부왕 | rizia_majority | 아니오(보고만) | {'선왕': 0, '부왕': 0} | {'선왕': 69, '부왕': 3} |
 | Grand Hall | Grand Hall | 대연회장 | 대회랑, 대전당 | rizia_majority | 아니오(보고만) | {'대전당': 0, '대연회장': 0, '대회랑': 0} | {'대전당': 5, '대연회장': 12, '대회랑': 8} |
 | profit share | profit share | (needs_human) |  | needs_human | 아니오(보고만) | {'이익 배분': 0, '이익 지분': 0, '수익 배분': 0, '수익 몫': 0, '이익 공유': 0} | {'이익 배분': 1, '이익 지분': 2, '수익 배분': 2, '수익 몫': 2, '이익 공유': 0} |
-| Armed Forces | Rizian Armed Forces | 리치아군 | 리치아 육군, 리치아 국군 | rizia_majority | 아니오(보고만) | {'리치아 국군': 0, '리치아군': 0, '리치아 육군': 0} | {'리치아 국군': 0, '리치아군': 97, '리치아 육군': 82} |
+| Armed Forces | Rizian Armed Forces | (needs_human) |  | needs_human | 아니오(보고만) | {'리치아 국군': 0, '리치아군': 0, '리치아 육군': 0} | {'리치아 국군': 0, '리치아군': 97, '리치아 육군': 82} |
 | waiter | waiter | 웨이터 | 종업원 | sordland | 예 | {'종업원': 6, '웨이터': 31} | {'종업원': 24, '웨이터': 5} |
 | Mouser | Mouser | 무세르 | 모우세르 | rizia_majority | 아니오(보고만) | {'무세르': 0, '모우세르': 0} | {'무세르': 17, '모우세르': 9} |
 | Kabet | Kabet | 카베테 | 카베트 | sordland | 예 | {'카베트': 0, '카베테': 1} | {'카베트': 11, '카베테': 13} |
 | Karanza | Karanza | (needs_human) |  | needs_human | 아니오(보고만) | {'카란자': 0, '카란자스': 0} | {'카란자': 9, '카란자스': 9} |
-| Nur 종교 | Nurist religion | 누리티교 | 누리교, 누르교 | sordland | 예 | {'누리티교': 99, '누르교': 0, '누리교': 1} | {'누리티교': 529, '누르교': 23, '누리교': 6} |
+| Nur 종교 | Nurist religion | 누리티교 | 누리교, 누르교 | sordland | 예 | {'누리티교': 63, '누르교': 0, '누리교': 1} | {'누리티교': 148, '누르교': 23, '누리교': 6} |
 | Dastnur 종교 | Dastnurist religion | 다스트누리티교 | 다스트누리교 | sordland | 예 | {'다스트누리티교': 36, '다스트누리교': 1} | {'다스트누리티교': 381, '다스트누리교': 0} |
-| Halaita(의례어) | Halaita | Halaita | 할라이타 | rizia_majority | 아니오(보고만) | {'할라이타': 0, 'Halaita': 0} | {'할라이타': 40, 'Halaita': 43} |
+| Halaita(의례어) | Halaita | (needs_human) |  | needs_human | 아니오(보고만) | {'할라이타': 0, 'Halaita': 0} | {'할라이타': 40, 'Halaita': 43} |
 | Drazon | Drazon | 드라촌 | 드라존 | sordland | 예 | {'드라존': 1, '드라촌': 7} | {'드라존': 655, '드라촌': 2} |

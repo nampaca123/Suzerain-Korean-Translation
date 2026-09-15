@@ -265,25 +265,6 @@
   }
  },
  {
-  "concept": "Uncle(호칭)",
-  "en": "Uncle",
-  "standard": "삼촌",
-  "banned": [
-   "숙부"
-  ],
-  "source": "sordland",
-  "evidence": {
-   "sordland": {
-    "숙부": 0,
-    "삼촌": 15
-   },
-   "rizia": {
-    "숙부": 45,
-    "삼촌": 313
-   }
-  }
- },
- {
   "concept": "Grand Wiseman",
   "en": "Grand Wiseman",
   "standard": "대현사",

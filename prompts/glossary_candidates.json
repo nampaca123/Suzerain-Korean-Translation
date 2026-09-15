@@ -12,7 +12,6 @@
  {"concept": "Prime Minister", "en": "Prime Minister", "candidates": ["총리", "수상", "재상"]},
  {"concept": "Duke Reinhart", "en": "Duke Reinhart", "candidates": ["레이나르트 공작", "레이나르트 대공"]},
  {"concept": "Butler", "en": "Butler", "candidates": ["집사", "시종"]},
- {"concept": "Uncle(호칭)", "en": "Uncle", "candidates": ["숙부", "삼촌"]},
  {"concept": "Grand Wiseman", "en": "Grand Wiseman", "candidates": ["대현사", "이그나시우스 현자"]},
  {"concept": "late King Valero", "en": "late King Valero", "candidates": ["선왕", "부왕"]},
  {"concept": "Grand Hall", "en": "Grand Hall", "candidates": ["대전당", "대연회장", "대회랑"]},

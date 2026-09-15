@@ -17,7 +17,6 @@
 | Prime Minister | Prime Minister | 총리 | 수상, 재상 | sordland | {'총리': 175, '수상': 141, '재상': 0} | {'총리': 662, '수상': 112, '재상': 164} |
 | Duke Reinhart | Duke Reinhart | 레이나르트 대공 | 레이나르트 공작 | sordland | {'레이나르트 공작': 0, '레이나르트 대공': 3} | {'레이나르트 공작': 250, '레이나르트 대공': 43} |
 | Butler | Butler | 집사 | 시종 | sordland | {'집사': 8, '시종': 1} | {'집사': 113, '시종': 56} |
-| Uncle(호칭) | Uncle | 삼촌 | 숙부 | sordland | {'숙부': 0, '삼촌': 15} | {'숙부': 45, '삼촌': 313} |
 | Grand Wiseman | Grand Wiseman | 대현사 | 이그나시우스 현자 | rizia_majority | {'대현사': 0, '이그나시우스 현자': 0} | {'대현사': 295, '이그나시우스 현자': 5} |
 | late King Valero | late King Valero | 선왕 | 부왕 | rizia_majority | {'선왕': 0, '부왕': 0} | {'선왕': 69, '부왕': 3} |
 | Grand Hall | Grand Hall | 대연회장 | 대회랑, 대전당 | rizia_majority | {'대전당': 0, '대연회장': 0, '대회랑': 0} | {'대전당': 5, '대연회장': 12, '대회랑': 8} |

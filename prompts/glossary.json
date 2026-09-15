@@ -1,5 +1,25 @@
 [
  {
+  "concept": "St. Wruhec (성인 이름)",
+  "en": "St. Wruhec",
+  "standard": "성 브루헤지",
+  "banned": [
+   "성 브루헤크"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "성 브루헤지": 7,
+    "성 브루헤크": 0
+   },
+   "rizia": {
+    "성 브루헤지": 7,
+    "성 브루헤크": 110
+   }
+  }
+ },
+ {
   "concept": "Wruhec 종교",
   "en": "Wruhec",
   "standard": "브루헤지교",

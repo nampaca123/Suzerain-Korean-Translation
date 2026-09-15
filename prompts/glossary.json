@@ -1,0 +1,486 @@
+[
+ {
+  "concept": "Wruhec 종교",
+  "en": "Wruhec",
+  "standard": "브루헤지교",
+  "banned": [
+   "브루헤크교"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "브루헤크교": 0,
+    "브루헤지교": 59
+   },
+   "rizia": {
+    "브루헤크교": 18,
+    "브루헤지교": 761
+   }
+  }
+ },
+ {
+  "concept": "Golcondism",
+  "en": "Golcondism",
+  "standard": "골콘다주의",
+  "banned": [
+   "골콘다교",
+   "골콘디즘"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "골콘다교": 0,
+    "골콘디즘": 0,
+    "골콘다주의": 68
+   },
+   "rizia": {
+    "골콘다교": 61,
+    "골콘디즘": 10,
+    "골콘다주의": 467
+   }
+  }
+ },
+ {
+  "concept": "House of Delegates",
+  "en": "House of Delegates",
+  "standard": "대의회",
+  "banned": [
+   "대의원회"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "대의회": 2,
+    "대의원회": 0
+   },
+   "rizia": {
+    "대의회": 493,
+    "대의원회": 68
+   }
+  }
+ },
+ {
+  "concept": "Alliance of Nations",
+  "en": "Alliance of Nations",
+  "standard": "국제연합",
+  "banned": [
+   "AN",
+   "국가연합"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "국제연합": 158,
+    "AN": 28,
+    "국가연합": 0
+   },
+   "rizia": {
+    "국제연합": 231,
+    "AN": 353,
+    "국가연합": 0
+   }
+  }
+ },
+ {
+  "concept": "WHR",
+  "en": "WHR",
+  "standard": "인권감시단",
+  "banned": [
+   "WHR"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "인권감시단": 24,
+    "WHR": 3
+   },
+   "rizia": {
+    "인권감시단": 5,
+    "WHR": 9
+   }
+  }
+ },
+ {
+  "concept": "Gasom",
+  "en": "Gasom",
+  "standard": "가솜",
+  "banned": [
+   "Gasom",
+   "GASOM"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "가솜": 726,
+    "Gasom": 338,
+    "GASOM": 1
+   },
+   "rizia": {
+    "가솜": 41,
+    "Gasom": 14,
+    "GASOM": 9
+   }
+  }
+ },
+ {
+  "concept": "OMEC",
+  "en": "OMEC",
+  "standard": "메르코파경제개발기구",
+  "banned": [
+   "OMEC",
+   "메르코파 경제개발기구"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "메르코파경제개발기구": 41,
+    "메르코파 경제개발기구": 2,
+    "OMEC": 31
+   },
+   "rizia": {
+    "메르코파경제개발기구": 14,
+    "메르코파 경제개발기구": 18,
+    "OMEC": 30
+   }
+  }
+ },
+ {
+  "concept": "GRACE",
+  "en": "Guild of Royal Allies for Commercial Exchange",
+  "standard": "GRACE",
+  "banned": [
+   "상호무역 왕실연합 길드",
+   "왕실 동맹국 상업 교류 길드"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "GRACE": 31,
+    "상호무역 왕실연합 길드": 0,
+    "왕실 동맹국 상업 교류 길드": 0
+   },
+   "rizia": {
+    "GRACE": 310,
+    "상호무역 왕실연합 길드": 13,
+    "왕실 동맹국 상업 교류 길드": 1
+   }
+  }
+ },
+ {
+  "concept": "Rizia Imperii",
+  "en": "Rizia Imperii",
+  "standard": "리치아 임페리",
+  "banned": [
+   "리치아 임페리이"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "리치아 임페리이": 0,
+    "리치아 임페리": 1
+   },
+   "rizia": {
+    "리치아 임페리이": 95,
+    "리치아 임페리": 102
+   }
+  }
+ },
+ {
+  "concept": "Pales",
+  "en": "Pales",
+  "standard": "팔레",
+  "banned": [
+   "페일스"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "팔레": 59,
+    "페일스": 0
+   },
+   "rizia": {
+    "팔레": 3014,
+    "페일스": 19
+   }
+  }
+ },
+ {
+  "concept": "Prime Minister",
+  "en": "Prime Minister",
+  "standard": "총리",
+  "banned": [
+   "수상",
+   "재상"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "총리": 175,
+    "수상": 141,
+    "재상": 0
+   },
+   "rizia": {
+    "총리": 662,
+    "수상": 112,
+    "재상": 164
+   }
+  }
+ },
+ {
+  "concept": "Duke Reinhart",
+  "en": "Duke Reinhart",
+  "standard": "레이나르트 대공",
+  "banned": [
+   "레이나르트 공작"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "레이나르트 공작": 0,
+    "레이나르트 대공": 3
+   },
+   "rizia": {
+    "레이나르트 공작": 250,
+    "레이나르트 대공": 43
+   }
+  }
+ },
+ {
+  "concept": "Butler",
+  "en": "Butler",
+  "standard": "집사",
+  "banned": [
+   "시종"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "집사": 8,
+    "시종": 1
+   },
+   "rizia": {
+    "집사": 113,
+    "시종": 56
+   }
+  }
+ },
+ {
+  "concept": "Uncle(호칭)",
+  "en": "Uncle",
+  "standard": "삼촌",
+  "banned": [
+   "숙부"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "숙부": 0,
+    "삼촌": 15
+   },
+   "rizia": {
+    "숙부": 45,
+    "삼촌": 313
+   }
+  }
+ },
+ {
+  "concept": "Grand Wiseman",
+  "en": "Grand Wiseman",
+  "standard": "대현사",
+  "banned": [
+   "이그나시우스 현자"
+  ],
+  "source": "rizia_majority",
+  "evidence": {
+   "sordland": {
+    "대현사": 0,
+    "이그나시우스 현자": 0
+   },
+   "rizia": {
+    "대현사": 295,
+    "이그나시우스 현자": 5
+   }
+  }
+ },
+ {
+  "concept": "late King Valero",
+  "en": "late King Valero",
+  "standard": "선왕",
+  "banned": [
+   "부왕"
+  ],
+  "source": "rizia_majority",
+  "evidence": {
+   "sordland": {
+    "선왕": 0,
+    "부왕": 0
+   },
+   "rizia": {
+    "선왕": 69,
+    "부왕": 3
+   }
+  }
+ },
+ {
+  "concept": "Grand Hall",
+  "en": "Grand Hall",
+  "standard": "대연회장",
+  "banned": [
+   "대회랑",
+   "대전당"
+  ],
+  "source": "rizia_majority",
+  "evidence": {
+   "sordland": {
+    "대전당": 0,
+    "대연회장": 0,
+    "대회랑": 0
+   },
+   "rizia": {
+    "대전당": 5,
+    "대연회장": 12,
+    "대회랑": 8
+   }
+  }
+ },
+ {
+  "concept": "profit share",
+  "en": "profit share",
+  "standard": null,
+  "banned": [],
+  "source": "needs_human",
+  "evidence": {
+   "sordland": {
+    "이익 배분": 0,
+    "이익 지분": 0,
+    "수익 배분": 0,
+    "수익 몫": 0,
+    "이익 공유": 0
+   },
+   "rizia": {
+    "이익 배분": 1,
+    "이익 지분": 2,
+    "수익 배분": 2,
+    "수익 몫": 2,
+    "이익 공유": 0
+   }
+  }
+ },
+ {
+  "concept": "Armed Forces",
+  "en": "Rizian Armed Forces",
+  "standard": "리치아군",
+  "banned": [
+   "리치아 육군",
+   "리치아 국군"
+  ],
+  "source": "rizia_majority",
+  "evidence": {
+   "sordland": {
+    "리치아 국군": 0,
+    "리치아군": 0,
+    "리치아 육군": 0
+   },
+   "rizia": {
+    "리치아 국군": 0,
+    "리치아군": 97,
+    "리치아 육군": 82
+   }
+  }
+ },
+ {
+  "concept": "waiter",
+  "en": "waiter",
+  "standard": "웨이터",
+  "banned": [
+   "종업원"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "종업원": 6,
+    "웨이터": 31
+   },
+   "rizia": {
+    "종업원": 24,
+    "웨이터": 5
+   }
+  }
+ },
+ {
+  "concept": "Mouser",
+  "en": "Mousser Empire",
+  "standard": "모우세르",
+  "banned": [
+   "무세르"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "무세르": 2,
+    "모우세르": 4
+   },
+   "rizia": {
+    "무세르": 17,
+    "모우세르": 9
+   }
+  }
+ },
+ {
+  "concept": "Kabet",
+  "en": "Cavette",
+  "standard": "카베테",
+  "banned": [
+   "카베트"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "카베트": 0,
+    "카베테": 1
+   },
+   "rizia": {
+    "카베트": 11,
+    "카베테": 13
+   }
+  }
+ },
+ {
+  "concept": "Karanza",
+  "en": "Carranza",
+  "standard": "카란자",
+  "banned": [
+   "카란자스"
+  ],
+  "source": "rizia_majority",
+  "evidence": {
+   "sordland": {
+    "카란자": 0,
+    "카란자스": 0
+   },
+   "rizia": {
+    "카란자": 18,
+    "카란자스": 9
+   }
+  }
+ },
+ {
+  "concept": "Drazon",
+  "en": "Drazon",
+  "standard": "드라촌",
+  "banned": [
+   "드라존"
+  ],
+  "source": "sordland",
+  "evidence": {
+   "sordland": {
+    "드라존": 1,
+    "드라촌": 9
+   },
+   "rizia": {
+    "드라존": 655,
+    "드라촌": 2
+   }
+  }
+ }
+]

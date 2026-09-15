@@ -3,3 +3,6 @@ data/
 dist/
 __pycache__/
 .pytest_cache/
+batches/*/input.jsonl
+batches/*/reviewed.jsonl
+batches/*/context.md

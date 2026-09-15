@@ -1,0 +1,632 @@
+[
+ {
+  "batch": "t-JournalEntryData-01",
+  "kind": "textassets",
+  "rows": 1246,
+  "flagged": 1245,
+  "priority": 0.9991974317817014
+ },
+ {
+  "batch": "t-ReportData-01",
+  "kind": "textassets",
+  "rows": 894,
+  "flagged": 449,
+  "priority": 0.5022371364653244
+ },
+ {
+  "batch": "t-ReportData-02",
+  "kind": "textassets",
+  "rows": 747,
+  "flagged": 374,
+  "priority": 0.500669344042838
+ },
+ {
+  "batch": "t-SituationData-01",
+  "kind": "textassets",
+  "rows": 602,
+  "flagged": 257,
+  "priority": 0.4269102990033223
+ },
+ {
+  "batch": "d-turn08-d",
+  "kind": "dialogue",
+  "rows": 2261,
+  "flagged": 678,
+  "priority": 0.2998673153471915
+ },
+ {
+  "batch": "d-turn06-c",
+  "kind": "dialogue",
+  "rows": 1374,
+  "flagged": 387,
+  "priority": 0.2816593886462882
+ },
+ {
+  "batch": "d-turn09-a",
+  "kind": "dialogue",
+  "rows": 1823,
+  "flagged": 493,
+  "priority": 0.27043335161821175
+ },
+ {
+  "batch": "t-CodexEntryData-03",
+  "kind": "textassets",
+  "rows": 374,
+  "flagged": 98,
+  "priority": 0.2620320855614973
+ },
+ {
+  "batch": "d-turn04-b",
+  "kind": "dialogue",
+  "rows": 2084,
+  "flagged": 531,
+  "priority": 0.2547984644913628
+ },
+ {
+  "batch": "d-turn11-a",
+  "kind": "dialogue",
+  "rows": 2178,
+  "flagged": 522,
+  "priority": 0.2396694214876033
+ },
+ {
+  "batch": "t-DecisionData-02",
+  "kind": "textassets",
+  "rows": 180,
+  "flagged": 43,
+  "priority": 0.2388888888888889
+ },
+ {
+  "batch": "d-turn08-c",
+  "kind": "dialogue",
+  "rows": 1973,
+  "flagged": 471,
+  "priority": 0.2387227572225038
+ },
+ {
+  "batch": "d-turn04-a",
+  "kind": "dialogue",
+  "rows": 2147,
+  "flagged": 499,
+  "priority": 0.23241732650209596
+ },
+ {
+  "batch": "t-DecreeData-01",
+  "kind": "textassets",
+  "rows": 1056,
+  "flagged": 243,
+  "priority": 0.23011363636363635
+ },
+ {
+  "batch": "d-turn06-b",
+  "kind": "dialogue",
+  "rows": 2017,
+  "flagged": 453,
+  "priority": 0.22459097669806644
+ },
+ {
+  "batch": "d-turn10-c",
+  "kind": "dialogue",
+  "rows": 2195,
+  "flagged": 489,
+  "priority": 0.22277904328018222
+ },
+ {
+  "batch": "t-NewsData-06",
+  "kind": "textassets",
+  "rows": 476,
+  "flagged": 105,
+  "priority": 0.22058823529411764
+ },
+ {
+  "batch": "d-turn10-b",
+  "kind": "dialogue",
+  "rows": 2493,
+  "flagged": 540,
+  "priority": 0.21660649819494585
+ },
+ {
+  "batch": "d-turn10-e",
+  "kind": "dialogue",
+  "rows": 2467,
+  "flagged": 509,
+  "priority": 0.2063234698013782
+ },
+ {
+  "batch": "t-CodexEntryData-04",
+  "kind": "textassets",
+  "rows": 221,
+  "flagged": 44,
+  "priority": 0.19909502262443438
+ },
+ {
+  "batch": "d-turn05-a",
+  "kind": "dialogue",
+  "rows": 2057,
+  "flagged": 403,
+  "priority": 0.19591638308215847
+ },
+ {
+  "batch": "d-turn01-a",
+  "kind": "dialogue",
+  "rows": 2157,
+  "flagged": 417,
+  "priority": 0.1933240611961057
+ },
+ {
+  "batch": "d-turn07-b",
+  "kind": "dialogue",
+  "rows": 2060,
+  "flagged": 368,
+  "priority": 0.1786407766990291
+ },
+ {
+  "batch": "d-turn03-a",
+  "kind": "dialogue",
+  "rows": 2481,
+  "flagged": 434,
+  "priority": 0.17492946392583636
+ },
+ {
+  "batch": "d-turn09-c",
+  "kind": "dialogue",
+  "rows": 1277,
+  "flagged": 218,
+  "priority": 0.1707126076742365
+ },
+ {
+  "batch": "t-MultipleChoiceOptionData-01",
+  "kind": "textassets",
+  "rows": 59,
+  "flagged": 10,
+  "priority": 0.1694915254237288
+ },
+ {
+  "batch": "d-turn02-a",
+  "kind": "dialogue",
+  "rows": 2315,
+  "flagged": 374,
+  "priority": 0.1615550755939525
+ },
+ {
+  "batch": "d-turn05-c",
+  "kind": "dialogue",
+  "rows": 2009,
+  "flagged": 319,
+  "priority": 0.15878546540567445
+ },
+ {
+  "batch": "d-turn01-b",
+  "kind": "dialogue",
+  "rows": 382,
+  "flagged": 60,
+  "priority": 0.15706806282722513
+ },
+ {
+  "batch": "d-turn10-f",
+  "kind": "dialogue",
+  "rows": 1764,
+  "flagged": 273,
+  "priority": 0.15476190476190477
+ },
+ {
+  "batch": "d-misc-a",
+  "kind": "dialogue",
+  "rows": 2291,
+  "flagged": 348,
+  "priority": 0.1518987341772152
+ },
+ {
+  "batch": "d-turn07-a",
+  "kind": "dialogue",
+  "rows": 2171,
+  "flagged": 322,
+  "priority": 0.14831874712114232
+ },
+ {
+  "batch": "t-CodexEntryData-01",
+  "kind": "textassets",
+  "rows": 338,
+  "flagged": 50,
+  "priority": 0.14792899408284024
+ },
+ {
+  "batch": "d-turn08-a",
+  "kind": "dialogue",
+  "rows": 1667,
+  "flagged": 245,
+  "priority": 0.14697060587882424
+ },
+ {
+  "batch": "d-turn10-a",
+  "kind": "dialogue",
+  "rows": 2212,
+  "flagged": 311,
+  "priority": 0.14059674502712477
+ },
+ {
+  "batch": "d-turn08-b",
+  "kind": "dialogue",
+  "rows": 2462,
+  "flagged": 330,
+  "priority": 0.13403736799350122
+ },
+ {
+  "batch": "d-turn05-b",
+  "kind": "dialogue",
+  "rows": 1813,
+  "flagged": 243,
+  "priority": 0.13403199117484832
+ },
+ {
+  "batch": "d-turn10-d",
+  "kind": "dialogue",
+  "rows": 2448,
+  "flagged": 328,
+  "priority": 0.13398692810457516
+ },
+ {
+  "batch": "d-turn07-c",
+  "kind": "dialogue",
+  "rows": 2477,
+  "flagged": 323,
+  "priority": 0.1303996770286637
+ },
+ {
+  "batch": "t-CodexEntryData-02",
+  "kind": "textassets",
+  "rows": 314,
+  "flagged": 38,
+  "priority": 0.12101910828025478
+ },
+ {
+  "batch": "d-turn09-b",
+  "kind": "dialogue",
+  "rows": 2419,
+  "flagged": 269,
+  "priority": 0.11120297643654403
+ },
+ {
+  "batch": "t-ConnectionPositionData-01",
+  "kind": "textassets",
+  "rows": 9,
+  "flagged": 1,
+  "priority": 0.1111111111111111
+ },
+ {
+  "batch": "t-NewsData-05",
+  "kind": "textassets",
+  "rows": 464,
+  "flagged": 51,
+  "priority": 0.10991379310344827
+ },
+ {
+  "batch": "d-turn08-e",
+  "kind": "dialogue",
+  "rows": 1981,
+  "flagged": 213,
+  "priority": 0.10752145381120647
+ },
+ {
+  "batch": "d-turn06-a",
+  "kind": "dialogue",
+  "rows": 2159,
+  "flagged": 223,
+  "priority": 0.1032885595182955
+ },
+ {
+  "batch": "t-NewsData-04",
+  "kind": "textassets",
+  "rows": 522,
+  "flagged": 50,
+  "priority": 0.09578544061302682
+ },
+ {
+  "batch": "t-NewsData-01",
+  "kind": "textassets",
+  "rows": 370,
+  "flagged": 34,
+  "priority": 0.0918918918918919
+ },
+ {
+  "batch": "t-DecisionData-01",
+  "kind": "textassets",
+  "rows": 1656,
+  "flagged": 141,
+  "priority": 0.08514492753623189
+ },
+ {
+  "batch": "t-NewsData-03",
+  "kind": "textassets",
+  "rows": 482,
+  "flagged": 36,
+  "priority": 0.07468879668049792
+ },
+ {
+  "batch": "t-NewsData-02",
+  "kind": "textassets",
+  "rows": 410,
+  "flagged": 26,
+  "priority": 0.06341463414634146
+ },
+ {
+  "batch": "t-MultipleChoicePageData-01",
+  "kind": "textassets",
+  "rows": 34,
+  "flagged": 2,
+  "priority": 0.058823529411764705
+ },
+ {
+  "batch": "t-CollectionItemData-01",
+  "kind": "textassets",
+  "rows": 36,
+  "flagged": 1,
+  "priority": 0.027777777777777776
+ },
+ {
+  "batch": "t-PolicyData-01",
+  "kind": "textassets",
+  "rows": 312,
+  "flagged": 7,
+  "priority": 0.022435897435897436
+ },
+ {
+  "batch": "t-TokenStatusEffectData-01",
+  "kind": "textassets",
+  "rows": 297,
+  "flagged": 6,
+  "priority": 0.020202020202020204
+ },
+ {
+  "batch": "t-MapTokenData-01",
+  "kind": "textassets",
+  "rows": 444,
+  "flagged": 5,
+  "priority": 0.01126126126126126
+ },
+ {
+  "batch": "t-ConversationData-01",
+  "kind": "textassets",
+  "rows": 226,
+  "flagged": 2,
+  "priority": 0.008849557522123894
+ },
+ {
+  "batch": "t-AdvisorsPageData-01",
+  "kind": "textassets",
+  "rows": 1,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-BillData-01",
+  "kind": "textassets",
+  "rows": 16,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CarouselChoiceOptionData-01",
+  "kind": "textassets",
+  "rows": 50,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CarouselChoicePageData-01",
+  "kind": "textassets",
+  "rows": 15,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CharacterCustomizationOptionData-01",
+  "kind": "textassets",
+  "rows": 49,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CharacterCustomizationPanelData-01",
+  "kind": "textassets",
+  "rows": 7,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CharacterDetailsPanelData-01",
+  "kind": "textassets",
+  "rows": 2,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CharacterDetailsSectionData-01",
+  "kind": "textassets",
+  "rows": 49,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CompassCharacterData-01",
+  "kind": "textassets",
+  "rows": 16,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CompassCharacterGroupData-01",
+  "kind": "textassets",
+  "rows": 1,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CompassConfigurationData-01",
+  "kind": "textassets",
+  "rows": 1,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CompassTitleData-01",
+  "kind": "textassets",
+  "rows": 17,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CompositionPageData-01",
+  "kind": "textassets",
+  "rows": 2,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-ConnectionData-01",
+  "kind": "textassets",
+  "rows": 40,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CountryDetailsDemographicData-01",
+  "kind": "textassets",
+  "rows": 8,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-CountryDetailsPanelData-01",
+  "kind": "textassets",
+  "rows": 5,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-DecreeApprovalCharacterData-01",
+  "kind": "textassets",
+  "rows": 13,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-FactionData-01",
+  "kind": "textassets",
+  "rows": 6,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-FactionsPageData-01",
+  "kind": "textassets",
+  "rows": 4,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-HUDPeriodicStatModifierData-01",
+  "kind": "textassets",
+  "rows": 126,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-HUDStatData-01",
+  "kind": "textassets",
+  "rows": 11,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-OperationData-01",
+  "kind": "textassets",
+  "rows": 2,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-PagedDecisionPanelData-01",
+  "kind": "textassets",
+  "rows": 22,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-ReminderPanelData-01",
+  "kind": "textassets",
+  "rows": 6,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-ReminderPanelSegmentData-01",
+  "kind": "textassets",
+  "rows": 2,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-ReusableDecreesPanelData-01",
+  "kind": "textassets",
+  "rows": 1,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-SummaryData-01",
+  "kind": "textassets",
+  "rows": 1,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-SummarySegmentData-01",
+  "kind": "textassets",
+  "rows": 131,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-TimelineElementData-01",
+  "kind": "textassets",
+  "rows": 17,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-TooltipData-01",
+  "kind": "textassets",
+  "rows": 63,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-TutorialPageData-01",
+  "kind": "textassets",
+  "rows": 36,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-TutorialPanelData-01",
+  "kind": "textassets",
+  "rows": 2,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-WarFragmentData-01",
+  "kind": "textassets",
+  "rows": 14,
+  "flagged": 0,
+  "priority": 0.0
+ },
+ {
+  "batch": "t-WarProductionPanelData-01",
+  "kind": "textassets",
+  "rows": 2,
+  "flagged": 0,
+  "priority": 0.0
+ }
+]

@@ -55,13 +55,19 @@ def repack(src_bundle: Path, out_bundle: Path, mutate: Callable) -> None:
         f.write(env.file.save(packer="lz4"))
 
 
+def _warn_missed(kind: str, patched: int, rows: list[dict]) -> None:
+    if patched < len(rows):
+        print(f"WARNING: {kind} rows={len(rows)} patched={patched} unmatched={len(rows) - patched}", file=sys.stderr)
+
+
 def _mutate_db(rows):
     def m(env):
         for obj in env.objects:
             if obj.type.name == "MonoBehaviour":
                 tree = obj.read_typetree()
                 if tree.get("m_Name") == "Suzerain":
-                    print(f"db fields patched={patch_db_tree(tree, rows)}", file=sys.stderr); obj.save_typetree(tree)
+                    n = patch_db_tree(tree, rows)
+                    print(f"db fields patched={n}", file=sys.stderr); _warn_missed("db", n, rows); obj.save_typetree(tree)
     return m
 
 
@@ -77,6 +83,7 @@ def _mutate_text(rows):
                     s = d.m_Script if isinstance(d.m_Script, str) else d.m_Script.decode("utf-8")
                     new, n = patch_textasset_json(s, by_file[name]); d.m_Script = new; d.save(); total += n
         print(f"textasset fields patched={total}", file=sys.stderr)
+        _warn_missed("textasset", total, rows)
     return m
 
 

@@ -2,7 +2,7 @@ import json, zipfile, pytest
 from pathlib import Path
 import UnityPy
 from scripts import paths
-from scripts.repack_bundles import patch_db_tree, patch_textasset_json, repack
+from scripts.repack_bundles import patch_db_tree, patch_textasset_json, repack, _mutate_text
 from scripts.make_patch_zip import make_zip
 from scripts.extract_bundles import load_db_tree, iter_textassets
 
@@ -33,6 +33,19 @@ def test_repack_roundtrip_one_line(tmp_path):
     conv = next(c for c in tree["conversations"] if c["id"] == 288)
     e = next(e for e in conv["dialogueEntries"] if e["id"] == 27)
     assert {f["title"]: f["value"] for f in e["fields"]}["en"] == "【TEST】"
+    assert abs(out.stat().st_size - src.stat().st_size) < 5000
+
+@need
+def test_repack_roundtrip_textasset(tmp_path):
+    src = paths.PATCH_BUNDLE_DIR / paths.TEXT_BUNDLE_NAME; out = tmp_path / src.name
+    items = json.loads((paths.RAW_KO / "textassets" / "StoryPackData.json").read_text(encoding="utf-8"))["items"]
+    item_id = next(i["Id"] for i in items if i.get("NameInDatabase") == "StoryPack_Rizia")
+    row = {"file": "StoryPackData", "item_id": item_id, "field_path": "/StoryPackProperties/StoryPackTitle", "ko": "【TEST】"}
+    repack(src, out, _mutate_text([row]))
+    got = dict(iter_textassets(out))
+    assert len(got) == 73
+    item = next(i for i in json.loads(got["StoryPackData"])["items"] if i.get("Id") == item_id)
+    assert item["StoryPackProperties"]["StoryPackTitle"] == "【TEST】"
     assert abs(out.stat().st_size - src.stat().st_size) < 5000
 
 def test_make_zip_layout(tmp_path):

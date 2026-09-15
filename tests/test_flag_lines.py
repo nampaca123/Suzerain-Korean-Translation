@@ -110,3 +110,10 @@ def test_english_effect_tag_skips_hangul_bracket():
     f = flag_textassets(rows, [])
     assert "english_effect_tag" not in f["h1"]["flags"]
     assert "english_effect_tag" in f["h2"]["flags"]
+
+def test_royal_title_low_register_only_on_vocative():
+    rows = [D("a", "Hugo Toras", '"그래도 고맙네, 베르너 씨. 보고서는 내가 폐하께 확실히 전달하겠네."'),
+            D("b", "Hugo Toras", '"어서 오게, 폐하."', seq=1)]
+    f = flag_dialogue(rows, [])
+    assert "royal_title_low_register" not in f["a"]["flags"]
+    assert "royal_title_low_register" in f["b"]["flags"]

@@ -9,9 +9,9 @@ def _batch(tmp_path, ko, findings):
     (b / "status.json").write_text(json.dumps({"batch": "d-turn01-a", "stage": "edited", "round": 1, "kind": "dialogue"}))
     return b
 
-def test_fails_on_hard_flag(tmp_path):
+def test_records_hard_flag(tmp_path):
     r = check_batch(_batch(tmp_path, '"어서 오게, 폐하."', []))
-    assert r["stage"] == "failed" and "royal_title_low_register" in r["remaining_flags"]
+    assert "royal_title_low_register" in r["remaining_flags"]
 
 def test_fails_on_block_finding(tmp_path):
     r = check_batch(_batch(tmp_path, '"어서 오십시오, 폐하."', [{"key": "d:1:1", "type": "meaning", "severity": "block", "evidence": "", "suggestion": ""}]))
@@ -21,10 +21,10 @@ def test_passes_clean(tmp_path):
     b = _batch(tmp_path, '"어서 오십시오, 폐하."', [])
     r = check_batch(b)
     assert r["stage"] == "passed" and json.loads((b / "status.json").read_text())["stage"] == "passed"
-    assert "royal_title_low_register" in HARD_FLAGS
+    assert "royal_title_low_register" in HARD_FLAGS and "dialogue_declarative_ending" not in HARD_FLAGS
 
-def _rows_batch(tmp_path, rows, kind="dialogue", findings=(), **status_extra):
-    b = tmp_path / "b"; b.mkdir()
+def _rows_batch(tmp_path, rows, kind="dialogue", findings=(), name="b", **status_extra):
+    b = tmp_path / name; b.mkdir()
     write_jsonl(b / "input.jsonl", rows)
     if findings is not None:
         write_jsonl(b / "findings.jsonl", list(findings))
@@ -59,3 +59,12 @@ def test_status_keeps_unrelated_keys(tmp_path):
     assert check_batch(b)["stage"] == "passed"
     s = json.loads((b / "status.json").read_text(encoding="utf-8"))
     assert s["note"] == "keep me" and s["round"] == 1 and s["stage"] == "passed"
+
+def test_hard_flag_rate_uses_floor_denominator(tmp_path):
+    ok = [_line(i, '"어서 오십시오, 폐하."', '"Welcome."', "Hugo Toras") for i in range(5)]
+    ok.append(_line(5, '"어서 오게, 폐하."', '"Greetings."', "Hugo Toras"))
+    assert check_batch(_rows_batch(tmp_path, ok, name="small"))["stage"] == "passed"
+    big = [_line(i, '"어서 오십시오, 폐하."', '"Welcome."', "Hugo Toras") for i in range(97)]
+    big += [_line(97 + i, '"어서 오게, 폐하."', '"Greetings."', "Hugo Toras") for i in range(3)]
+    r = check_batch(_rows_batch(tmp_path, big, name="big"))
+    assert r["stage"] == "failed" and r["hard_flag_rate"] == {"Hugo Toras": 0.03}

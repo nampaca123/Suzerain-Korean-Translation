@@ -26,6 +26,7 @@ _SENTENCE = re.compile(r"(?<=[.?!])\s+")
 _EFFECT_TAG = re.compile(r"\[[^\]가-힣]*[A-Za-z]{3,}[^\]가-힣]*\]")
 _TA_SKIP_FIELD = re.compile(r"(Title|Keywords|Name|Label|Header|Author)")
 _SENTENCE_END = re.compile(r"[.?!]")
+_ROYAL_VOCATIVE = re.compile(r"폐하(?!께|의|가|는|를|도|와|과|에게|님)")
 MIN_CLAUSE_SYLLABLES = 5
 
 
@@ -57,7 +58,7 @@ def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
         return f
     if is_quoted(ko) and is_narrative(ko.strip('"')) and reg == HAERA and re.search(r"(였|았|었|ㄴ|는|이)다[.!]?\"?$", ko.strip()):
         f.append("dialogue_declarative_ending")
-    if "폐하" in ko and reg in LOW: f.append("royal_title_low_register")
+    if _ROYAL_VOCATIVE.search(ko) and reg in LOW: f.append("royal_title_low_register")
     if a == "Player_Romus":
         cr = [c for c in (classify(p) for p in _long_clauses(ko)) if c != OTHER]
         if HAO in cr and (set(cr) & LOW): f.append("romus_mixed_register")

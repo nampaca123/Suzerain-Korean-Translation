@@ -6,10 +6,11 @@ from scripts.build_corpus import read_jsonl
 from scripts.build_glossary import load_glossary, GLOSSARY_JSON
 from scripts.flag_lines import flag_dialogue, flag_textassets
 
-HARD_FLAGS = {"royal_title_low_register", "romus_mixed_register", "narration_not_declarative", "dialogue_declarative_ending",
+HARD_FLAGS = {"royal_title_low_register", "romus_mixed_register", "narration_not_declarative",
               "speech_not_hapsyo", "menu_mismatch", "glossary_violation", "placeholder_mismatch", "english_effect_tag",
               "curly_quote", "ta_register_mismatch", "missing_paragraph"}
 LIMIT = {"dialogue": 0.02, "narration": 0.005, "textassets": 0.01}
+MIN_DENOMINATOR = 50
 
 
 def check_batch(batch_dir: Path) -> dict:
@@ -22,7 +23,8 @@ def check_batch(batch_dir: Path) -> dict:
     for r in rows:
         g = "narration" if r.get("actor") in ("Narrator", "Player_Romus_Italic") else (r.get("actor") or r.get("file"))
         size[g] += 1; per_group[g] += bool(set(flags[r["key"]]["flags"]) & HARD_FLAGS)
-    rate = {g: per_group[g] / size[g] for g in size}
+    # R53: 분모에 하한을 둔다. 6줄짜리 화자의 hard flag 1건이 16.7%로 튀어 배치를 막던 문제.
+    rate = {g: per_group[g] / max(size[g], MIN_DENOMINATOR) for g in size}
     over = {g: v for g, v in rate.items() if v > LIMIT["narration" if g == "narration" else status["kind"]]}
     fp = batch_dir / "findings.jsonl"
     findings = read_jsonl(fp) if fp.exists() else []

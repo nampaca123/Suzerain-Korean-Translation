@@ -322,5 +322,23 @@
   "mask": [
    "통합당"
   ]
+ },
+ {
+  "concept": "Deivid Wisci (인명)",
+  "en": "Deivid Wisci",
+  "candidates": [
+   "데이비드 비스지",
+   "데이비드 위시",
+   "데이비드 위스치"
+  ]
+ },
+ {
+  "concept": "NSWNP (베흘렌 여당)",
+  "en": "Nurist Socialist Wehlen Nationalist Party",
+  "candidates": [
+   "누리티교사회주의베흘렌민족주의당",
+   "누리티교 사회주의 베흘렌 민족주의당",
+   "누리스트 사회주의 베흘렌 민족주의당"
+  ]
  }
 ]

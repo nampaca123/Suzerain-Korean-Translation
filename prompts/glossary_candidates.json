@@ -24,5 +24,6 @@
  {"concept": "Nur 종교", "en": "Nurist religion", "candidates": ["누리티교", "누르교", "누리교"], "mask": ["다스트누리티교"]},
  {"concept": "Dastnur 종교", "en": "Dastnurist religion", "candidates": ["다스트누리티교", "다스트누리교"]},
  {"concept": "Halaita(의례어)", "en": "Halaita", "candidates": ["할라이타", "Halaita"]},
+ {"concept": "Van Hoorten (인명)", "en": "Van Hoorten", "candidates": ["판호르턴", "판 호르턴", "판 호르텐", "판판호르턴", "반 판판호르턴"], "mask": []},
  {"concept": "Drazon", "en": "Drazon", "candidates": ["드라존", "드라촌"]}
 ]

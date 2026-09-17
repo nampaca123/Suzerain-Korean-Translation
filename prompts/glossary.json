@@ -524,6 +524,35 @@
   }
  },
  {
+  "concept": "Van Hoorten (인명)",
+  "en": "Van Hoorten",
+  "standard": "판호르턴",
+  "banned": [
+   "판 호르턴",
+   "판 호르텐",
+   "판판호르턴",
+   "반 판판호르턴"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "판호르턴": 66,
+    "판 호르턴": 1,
+    "판 호르텐": 0,
+    "판판호르턴": 0,
+    "반 판판호르턴": 0
+   },
+   "rizia": {
+    "판호르턴": 12,
+    "판 호르턴": 0,
+    "판 호르텐": 0,
+    "판판호르턴": 6,
+    "반 판판호르턴": 2
+   }
+  }
+ },
+ {
   "concept": "Drazon",
   "en": "Drazon",
   "standard": "드라촌",

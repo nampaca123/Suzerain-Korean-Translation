@@ -1,1 +1,1 @@
-{"batch": "d-turn11-c", "stage": "edited", "round": 2, "kind": "dialogue", "applied": 49, "rejected": 0, "reason": "", "hard_flag_rate": {"Player_Romus": 0.0248}, "blocks": 10, "remaining_flags": {"speech_not_hapsyo": 12}}
+{"batch": "d-turn11-c", "stage": "passed", "round": 3, "kind": "dialogue", "applied": 13, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {"speech_not_hapsyo": 1}}

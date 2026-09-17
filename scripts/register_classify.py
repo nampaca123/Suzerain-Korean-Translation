@@ -36,7 +36,7 @@ def last_clause(text: str) -> str:
     return parts[-1] if parts else strip_markup(lines[-1])
 
 
-_VOCATIVE_TITLE = re.compile(r'(대현자|대현사|현자|공작|공작부인|백작|백작부인|총리|대통령|의장|장관|사령관|장군|재상|대재상|폐하|전하|각하|여왕|국왕|왕자|공주|어머니|숙부|삼촌|여러분)(님)?' + _TAIL)
+_VOCATIVE_TITLE = re.compile(r'(리치아|팔레|사조니|만세|대현자|대현사|현자|공작|공작부인|백작|백작부인|총리|대통령|의장|장관|사령관|장군|재상|대재상|폐하|전하|각하|여왕|국왕|왕자|공주|어머니|숙부|삼촌|여러분)(님)?' + _TAIL)
 
 
 def _match_ending(c: str) -> str:

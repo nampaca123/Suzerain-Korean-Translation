@@ -18,6 +18,10 @@ def check_batch(batch_dir: Path) -> dict:
     rows = read_jsonl(batch_dir / "input.jsonl")
     glossary = load_glossary() if GLOSSARY_JSON.exists() else []
     flags = flag_dialogue(rows, glossary) if status["kind"] == "dialogue" else flag_textassets(rows, glossary)
+    wp = batch_dir / "waivers.jsonl"  # 컨트롤러가 확인한 flag 오탐 {key, flag, reason}. 해당 flag만 집계에서 뺀다.
+    waived = {(w["key"], w["flag"]) for w in read_jsonl(wp)} if wp.exists() else set()
+    for k, v in flags.items():
+        v["flags"] = [f for f in v["flags"] if (k, f) not in waived]
     remaining = Counter(f for v in flags.values() for f in v["flags"] if f in HARD_FLAGS)
     per_group, size = defaultdict(int), defaultdict(int)
     for r in rows:

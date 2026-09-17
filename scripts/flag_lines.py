@@ -90,6 +90,9 @@ def _common_flags(ko: str, en: str, glossary: tuple) -> list[str]:
     return f
 
 
+_HORTATIVE = re.compile(r'[가-힣]시다[.!]*["”]?$')
+
+
 def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
     a, ko, f = r["actor"], r["ko"], []
     if a in NARRATORS:
@@ -104,7 +107,8 @@ def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
         cr = [c for c in (classify(p) for p in _long_clauses(ko)) if c != OTHER]
         if HAO in cr and (set(cr) & LOW): f.append("romus_mixed_register")
         if reg == HAPSYO and speech != "speech": f.append("romus_hapsyo_not_speech")
-        if speech == "speech" and reg not in (HAPSYO, OTHER): f.append("speech_not_hapsyo")
+        if speech == "speech" and reg not in (HAPSYO, OTHER) and not _HORTATIVE.search(ko.strip()):  # R76: 연설의 "-ㅂ시다"는 허용
+            f.append("speech_not_hapsyo")
         if reg == HAEYO: f.append("romus_haeyo")
     elif a in SUBJECTS and reg not in (HAPSYO, OTHER): f.append("subject_not_hapsyo")
     elif a == "Vina Toras" and reg not in (HAEYO, OTHER): f.append("vina_not_haeyo")

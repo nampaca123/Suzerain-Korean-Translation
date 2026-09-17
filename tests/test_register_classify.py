@@ -55,3 +55,8 @@ def test_vocative_title_is_not_ending():
 
 def test_guryeo_is_hao():
     assert classify("아아, 오늘은 주께서 우리를 축복하지 않으셨구려.") == HAO
+
+
+def test_slogan_tail_is_other():
+    assert classify("글로부리우스 악사 리치아!") == OTHER
+    assert classify("리치아 만세!") == OTHER

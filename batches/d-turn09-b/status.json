@@ -1,1 +1,1 @@
-{"batch": "d-turn09-b", "stage": "edited", "round": 2, "kind": "dialogue", "applied": 38, "rejected": 0, "reason": "", "hard_flag_rate": {"Player_Romus": 0.0296}, "blocks": 25, "remaining_flags": {"speech_not_hapsyo": 1, "romus_mixed_register": 3}}
+{"batch": "d-turn09-b", "stage": "failed", "round": 2, "kind": "dialogue", "applied": 38, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 11, "remaining_flags": {"speech_not_hapsyo": 1}}

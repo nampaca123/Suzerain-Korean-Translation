@@ -7,7 +7,7 @@ _TAIL = r'[.?!]*[\s"”’\'\)\]…]*$'
 # 함정: `-ㄹ게`·`거야`는 해체, `-ㄹ 거요`·`뭐요`는 하오체, `가자`는 해라체 청유
 _RULES = [
     (HAPSYO, r'([가-힣](?<!아)니다|[가-힣](?<!아)니까|십시오|십시다)'),
-    (HAO,    r'(거요|뭐요|이오|하오|시오|아니오|겠소|았소|었소|잖소)'),
+    (HAO,    r'(거요|뭐요|이오|하오|시오|아니오|겠소|았소|었소|잖소|구려)'),
     (HAE,    r'(할게|갈게|볼게|올게|줄게|일게|살게|있을게|없을게|그래|거야)'),
     (HAERA,  r'(가자|하자|보자)'),
     (HAO,    r'([가-힣]소|[가-힣]오|[가-힣]시다)'),
@@ -36,8 +36,13 @@ def last_clause(text: str) -> str:
     return parts[-1] if parts else strip_markup(lines[-1])
 
 
+_VOCATIVE_TITLE = re.compile(r'(대현자|대현사|현자|공작|공작부인|백작|백작부인|총리|대통령|의장|장관|사령관|장군|재상|대재상|폐하|전하|각하|여왕|국왕|왕자|공주|어머니|숙부|삼촌|여러분)(님)?' + _TAIL)
+
+
 def _match_ending(c: str) -> str:
     if not c or _BROKEN.search(c) or not _HANGUL.search(c) or "|" in c:
+        return OTHER
+    if _VOCATIVE_TITLE.search(c):  # "…, 최고 대현자." 같은 호격은 종결어미가 아니다('자' 오탐 방지)
         return OTHER
     for name, rx in _COMPILED:
         if rx.search(c):

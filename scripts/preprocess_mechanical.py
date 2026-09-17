@@ -37,11 +37,15 @@ def fix_dashes(ko: str) -> tuple[str, bool]:
     return k, bool(re.search(r"--|—|–", k))
 
 
+_KO_LABEL_FIRST = re.compile(rf"(?<![가-힣])(?<!군수 )(?<!군사 )({_LABEL_RX})(?=\s*[+-]?\d)")  # '[병력 -250]'처럼 라벨이 앞에 오는 꼴
+
+
 def _translate_tag(m: re.Match) -> str:
     def item(im: re.Match) -> str:
         num, label, per = im.group(1), EFFECT_LABELS[im.group(2)], im.group(3)
         return f"턴당 {num} {label}" if per else f"{num} {label}"
-    return "[" + _EFFECT_ITEM.sub(item, m.group(1)) + "]"
+    body = _EFFECT_ITEM.sub(item, m.group(1))
+    return "[" + _KO_LABEL_FIRST.sub(lambda lm: EFFECT_LABELS[lm.group(1)], body) + "]"
 
 
 def fix_effect_tags(ko: str) -> str:

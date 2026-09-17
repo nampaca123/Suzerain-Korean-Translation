@@ -45,3 +45,13 @@ def test_is_quoted_and_narrative():
 
 def test_strip_markup():
     assert strip_markup('"*그거야말로* 좋소." [-1 예산]') == '그거야말로 좋소.'
+
+
+def test_vocative_title_is_not_ending():
+    assert classify("고맙소, 최고 대현자.") == HAO
+    assert classify("최고 대현자") == OTHER
+    assert classify("어서 가자.") == HAERA
+
+
+def test_guryeo_is_hao():
+    assert classify("아아, 오늘은 주께서 우리를 축복하지 않으셨구려.") == HAO

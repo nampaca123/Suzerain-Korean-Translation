@@ -678,5 +678,91 @@
     "Glovurius axa Rizia": 0
    }
   }
+ },
+ {
+  "concept": "Lachaven (도시)",
+  "en": "Lachaven",
+  "standard": "라지하벤",
+  "banned": [
+   "라카벤",
+   "라차벤"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "라지하벤": 387,
+    "라카벤": 0,
+    "라차벤": 0
+   },
+   "rizia": {
+    "라지하벤": 4,
+    "라카벤": 5,
+    "라차벤": 2
+   }
+  }
+ },
+ {
+  "concept": "Sourne (지명)",
+  "en": "Sourne",
+  "standard": "소우르네",
+  "banned": [
+   "소우른"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "소우르네": 4,
+    "소우른": 0
+   },
+   "rizia": {
+    "소우르네": 2,
+    "소우른": 2
+   }
+  }
+ },
+ {
+  "concept": "Artor Wisci (인명)",
+  "en": "Artor Wisci",
+  "standard": "아르토르 비스지",
+  "banned": [
+   "아르토르 위시"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "아르토르 비스지": 26,
+    "아르토르 위시": 0
+   },
+   "rizia": {
+    "아르토르 비스지": 0,
+    "아르토르 위시": 2
+   }
+  }
+ },
+ {
+  "concept": "United Sordland Party",
+  "en": "United Sordland Party",
+  "standard": "소르들란드통합당",
+  "banned": [
+   "소르들란드 통합당",
+   "통합 소르들란드당"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "소르들란드통합당": 199,
+    "소르들란드 통합당": 12,
+    "통합 소르들란드당": 0
+   },
+   "rizia": {
+    "소르들란드통합당": 0,
+    "소르들란드 통합당": 2,
+    "통합 소르들란드당": 2
+   }
+  }
  }
 ]

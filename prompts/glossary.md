@@ -36,3 +36,7 @@
 | Crown Supreme Campaign | Crown Supreme Campaign | 왕실 선양 캠페인 | 크라운 슈프림 캠페인, 왕실 최고 캠페인, 왕실 선전 | user_decision | 예 | {'왕실 선양 캠페인': 0, '크라운 슈프림 캠페인': 0, '왕실 최고 캠페인': 0, '왕실 선전': 0} | {'왕실 선양 캠페인': 0, '크라운 슈프림 캠페인': 4, '왕실 최고 캠페인': 2, '왕실 선전': 3} |
 | Walker Plan | Walker Plan | 워커 플랜 | 워커플랜 | user_decision | 예 | {'워커 플랜': 1, '워커플랜': 0} | {'워커 플랜': 6, '워커플랜': 4} |
 | Glovurius axa Rizia (구호) | Glovurius axa Rizia | 글로부리우스 악사 리치아 | Glovurius axa Rizia | user_decision | 예 | {'글로부리우스 악사 리치아': 0, 'Glovurius axa Rizia': 0} | {'글로부리우스 악사 리치아': 52, 'Glovurius axa Rizia': 0} |
+| Lachaven (도시) | Lachaven | 라지하벤 | 라카벤, 라차벤 | sordland | 예 | {'라지하벤': 387, '라카벤': 0, '라차벤': 0} | {'라지하벤': 4, '라카벤': 5, '라차벤': 2} |
+| Sourne (지명) | Sourne | 소우르네 | 소우른 | sordland | 예 | {'소우르네': 4, '소우른': 0} | {'소우르네': 2, '소우른': 2} |
+| Artor Wisci (인명) | Artor Wisci | 아르토르 비스지 | 아르토르 위시 | sordland | 예 | {'아르토르 비스지': 26, '아르토르 위시': 0} | {'아르토르 비스지': 0, '아르토르 위시': 2} |
+| United Sordland Party | United Sordland Party | 소르들란드통합당 | 소르들란드 통합당, 통합 소르들란드당 | sordland | 예 | {'소르들란드통합당': 199, '소르들란드 통합당': 12, '통합 소르들란드당': 0} | {'소르들란드통합당': 0, '소르들란드 통합당': 2, '통합 소르들란드당': 2} |

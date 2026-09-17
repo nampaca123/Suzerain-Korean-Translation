@@ -285,5 +285,42 @@
   ],
   "human_standard": "글로부리우스 악사 리치아",
   "human_reason": "R75 음차 원칙, 코퍼스 기존 음차형"
+ },
+ {
+  "concept": "Lachaven (도시)",
+  "en": "Lachaven",
+  "candidates": [
+   "라지하벤",
+   "라카벤",
+   "라차벤"
+  ]
+ },
+ {
+  "concept": "Sourne (지명)",
+  "en": "Sourne",
+  "candidates": [
+   "소우르네",
+   "소우른"
+  ]
+ },
+ {
+  "concept": "Artor Wisci (인명)",
+  "en": "Artor Wisci",
+  "candidates": [
+   "아르토르 비스지",
+   "아르토르 위시"
+  ]
+ },
+ {
+  "concept": "United Sordland Party",
+  "en": "United Sordland Party",
+  "candidates": [
+   "소르들란드통합당",
+   "소르들란드 통합당",
+   "통합 소르들란드당"
+  ],
+  "mask": [
+   "통합당"
+  ]
  }
 ]

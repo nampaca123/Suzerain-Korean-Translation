@@ -1,1 +1,1 @@
-{"batch": "d-turn04-d", "stage": "edited", "round": 1, "kind": "dialogue", "applied": 71, "rejected": 0}
+{"batch": "d-turn04-d", "stage": "passed", "round": 2, "kind": "dialogue", "applied": 13, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

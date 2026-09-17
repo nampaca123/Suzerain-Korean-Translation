@@ -1,1 +1,1 @@
-{"batch": "t-ReportData-02", "stage": "failed", "round": 1, "kind": "textassets", "applied": 190, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 22, "remaining_flags": {}}
+{"batch": "t-ReportData-02", "stage": "passed", "round": 2, "kind": "textassets", "applied": 42, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

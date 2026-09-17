@@ -1,1 +1,1 @@
-{"batch": "d-turn08-l", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 408, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 22, "remaining_flags": {}}
+{"batch": "d-turn08-l", "stage": "passed", "round": 2, "kind": "dialogue", "applied": 87, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

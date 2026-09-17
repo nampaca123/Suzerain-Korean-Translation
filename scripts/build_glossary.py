@@ -30,6 +30,11 @@ def decide(concept: dict, sord_counts: dict[str, int], rizia_counts: dict[str, i
     base = {"concept": concept["concept"], "en": concept.get("en", ""), "standard": None, "banned": [],
             "source": "needs_human", "auto_replace": False,
             "evidence": {"sordland": sord_counts, "rizia": rizia_counts}}
+    if concept.get("human_standard"):  # 사용자가 직접 정한 표기(뜻풀이형 등). 후보 전부를 금지 표기로 돌린다.
+        banned = [c for c in concept["candidates"] if c != concept["human_standard"]]
+        base.update(standard=concept["human_standard"], banned=banned, source="user_decision",
+                    auto_replace=all(_replaceable(b) for b in banned))
+        return base
     for name, counts, margin in (("sordland", sord_counts, 1.0), ("rizia_majority", rizia_counts, 1.2)):
         ranked = sorted(counts.items(), key=lambda kv: -kv[1])
         if not ranked or ranked[0][1] == 0:

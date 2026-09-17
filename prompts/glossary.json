@@ -598,23 +598,26 @@
  {
   "concept": "Crown Supreme Campaign",
   "en": "Crown Supreme Campaign",
-  "standard": "크라운 슈프림 캠페인",
+  "standard": "왕실 선양 캠페인",
   "banned": [
-   "왕관 최고 캠페인",
-   "크라운 수프림 캠페인"
+   "크라운 슈프림 캠페인",
+   "왕실 최고 캠페인",
+   "왕실 선전"
   ],
-  "source": "rizia_majority",
-  "auto_replace": false,
+  "source": "user_decision",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
+    "왕실 선양 캠페인": 0,
     "크라운 슈프림 캠페인": 0,
-    "왕관 최고 캠페인": 0,
-    "크라운 수프림 캠페인": 0
+    "왕실 최고 캠페인": 0,
+    "왕실 선전": 0
    },
    "rizia": {
+    "왕실 선양 캠페인": 0,
     "크라운 슈프림 캠페인": 4,
-    "왕관 최고 캠페인": 0,
-    "크라운 수프림 캠페인": 0
+    "왕실 최고 캠페인": 2,
+    "왕실 선전": 3
    }
   }
  }

@@ -2,7 +2,7 @@
 
 ## 시작 절차
 1. Skill 도구로 `humanizer` 스킬을 호출한다.
-2. `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\register_table.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\glossary.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\checklist.md`, `{BATCH_DIR}/context.md`를 읽는다.
+2. `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\register_table.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\glossary.md`, `C:\Users\a\Desktop\CodeWork\personal\suzerain-ko-patch\prompts\checklist.md`, `{BATCH_DIR}/context.md`를 읽는다. `{BATCH_DIR}/coined_terms.jsonl`이 있으면 읽고, 각 새 표기가 체크리스트 5의 R74(뜻풀이형은 진짜 고유명사가 아닌 이름에만)에 맞는지, 뜻이 영문과 같은지 검토해 어긋나면 지적한다.
 3. `{BATCH_DIR}/reviewed.jsonl`을 전부 읽는다(크면 Read의 offset/limit로 **80줄 이하**씩 나눠 읽는다. 120줄은 토큰 한도를 넘긴다). 각 줄: key, actor, en, ko(수정 후), ko_old(수정 전), edited, reason, flags, speech, menu_ko.
    `flags`·`register`·`speech`는 수정 전 본문으로 계산한 값이다. `edited`가 참인 줄에서는 이 값이 이미 맞지 않으므로 믿지 말고 지금 `ko`에 있는 문장을 직접 읽고 판단한다.
    선택지(menu_ko)에 대한 지적은 key 뒤에 `#menu`를 붙여 낸다(예: `"key": "d:288:27#menu"`). 그래야 대사가 아니라 선택지에 반영된다.

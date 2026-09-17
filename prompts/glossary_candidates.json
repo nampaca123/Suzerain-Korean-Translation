@@ -247,9 +247,12 @@
   "concept": "Crown Supreme Campaign",
   "en": "Crown Supreme Campaign",
   "candidates": [
+   "왕실 선양 캠페인",
    "크라운 슈프림 캠페인",
-   "왕관 최고 캠페인",
-   "크라운 수프림 캠페인"
-  ]
+   "왕실 최고 캠페인",
+   "왕실 선전"
+  ],
+  "human_standard": "왕실 선양 캠페인",
+  "human_reason": "R74: 고유명사라기보다 뜻이 드러나는 구호형 사업명이라 음차 대신 뜻풀이형. 2026-09-17 사용자 지시."
  }
 ]

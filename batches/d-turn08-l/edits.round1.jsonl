@@ -1,0 +1,408 @@
+{"key": "d:424:120", "ko_new": "\"미래의 지도자 수업 중이오?\"", "reason": "로무스가 외국 정상에게 반말을 써 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:121", "ko_new": "\"하! 그렇게 볼 수도 있습니다. 아내 여덟 명이 낳아 준 딸만 열한 명이었는데, 참고로 아직 모두와 결혼한 상태입니다만, 마침내 아들을 얻었습니다! 빅토르 스몰라크 2세를 소개합니다.\"", "reason": "외국 정상의 대사를 합쇼체로 통일했고 인명은 코퍼스 다수 표기 빅토르(163건 대 윅토르 7건)를 유지했다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:122", "ko_new": "\"아버지와 아들이 함께 보내는 주말입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:123", "ko_new": "\"멋진 비행선이오, 대통령 각하.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:124", "ko_new": "\"제 자랑이자 보물입니다, 폐하. 발그슬란드의 헤겔 총리와 내기해서 땄지요. 물어보면 본인은 인정하지 않겠지만요.\"", "reason": "용어집 표준에 따라 수상을 총리로 바꾸고 외국 정상 대사를 합쇼체로 맞췄다.", "flags_resolved": ["glossary_violation", "foreign_not_hapsyo"]}
+{"key": "d:424:126", "ko_new": "\"푹 쉬셨기를 바랍니다, 폐하.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:127", "ko_new": "\"사실 나는 위스키로 하겠소.\"", "reason": "연설이 아닌 자리에서 쓴 합쇼체를 외국 정상 대상 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:130", "ko_new": "스몰라크와 나는 잔을 부딪쳤다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:131", "ko_new": "한 모금 마시기 전, 나는 손을 뻗어 아기의 우유병에 내 잔을 살짝 부딪쳤고 스몰라크는 크게 웃음을 터뜨렸다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:132", "ko_new": "\"아주 좋습니다, 폐하! 자신을 지나치게 진지하게 여기지 않는 세계 지도자를 보니 참 신선합니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:133", "ko_new": "\"알바레츠 총리를 여기 초대할 수도 있지만, 그 양반은 경치보다 술에 더 관심을 둘 겁니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:134", "ko_new": "\"베아트리체 여왕은? 하! 말도 마십시오.\"", "reason": "외국 정상의 하오체 명령형을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:135", "ko_new": "\"마치 그들은 친구가 되고 싶지 않은 모양입니다. 우리와는 다르게 말입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:139", "ko_new": "\"친구란 서로 집에 놀러 갔다가 영구 거주자가 되어 가구를 마음대로 옮기고, 집안 규칙을 정하고, 끝내 떠나지 않는 사이를 말하는 것이오?\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:140", "ko_new": "\"우리가 그런 사이란 말이오? 친구?\"", "reason": "로무스가 외국 정상에게 쓰는 합쇼체를 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:141", "ko_new": "\"물만 주시오.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:145", "ko_new": "\"나도 언젠가 아들을 갖고 싶소.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:146", "ko_new": "\"참 훈훈하구려. 이제 질레 이야기를 합시다.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:147", "ko_new": "\"흥미롭군. 각하를 가정적인 사람이라고 생각한 적은 없었소.\"", "reason": "반말 종결을 하오체로 맞추고 독립 감탄만 남겼다.", "flags_resolved": []}
+{"key": "d:424:148", "ko_new": "\"요즘은 대통령도 여러 일을 동시에 해야 하나 보구려.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:149", "ko_new": "\"그래서 이 꼬마 신사분은 누구시오?\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:153", "ko_new": "\"친구를 어떻게 정의하느냐에 달린 것 같소.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:154", "ko_new": "\"마침 그 이야기를 꺼내시니 재미있습니다...\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:155", "ko_new": "\"바로 그 문제에 관한 합의를 우리가 체결하지 않았습니까.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:156", "ko_new": "\"내 기억에는 훨씬 길었던 것 같소만. 사실 수십 페이지는 더 길었소.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:157", "ko_new": "\"작은 비밀 하나 알려드리겠습니다... 뭐, 우리가 친구이기도 하니 말입니다...\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:158", "ko_new": "\"저는 서명하는 법안이나 조약을 하나도 읽지 않습니다. 그걸 처리하는 일만 맡은 부서가 따로 있거든요.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:159", "ko_new": "\"저는 주석 달린 요약본이 더 좋았습니다. 직설적이고 핵심만 있으니까요.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:160", "ko_new": "\"그럼 나도 직설적으로 핵심만 말하겠소. 나는 질레 영토에서 베흘렌군이 철수하도록 확실히 하기 위해 왔소. 이 노력이 헛되지 않았기를 바라오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고치고 1인칭을 나로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:161", "ko_new": "\"그건 제가 판단하겠습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:162", "ko_new": "\"그럼 뭘 기다리고 있습니까? 시작하시죠!\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:163", "ko_new": "\"우리는 합의했습니다, 폐하. 서로 그 조건을 기억하고 있다고 생각합니다만.\"", "reason": "폐하를 부르는 외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["royal_title_low_register", "foreign_not_hapsyo"]}
+{"key": "d:424:164", "ko_new": "\"그렇소. 무역 협정을 맺었소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:165", "ko_new": "\"예, 그랬습니다.\"", "reason": "외국 정상의 반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:169", "ko_new": "스몰라크는 술을 한 모금 마시고 재킷 주머니에서 칵테일 냅킨을 꺼냈다. 거기에는 알아보기 힘든 낙서가 적혀 있었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:175", "ko_new": "\"설마 수백만 명의 운명을 칵테일 냅킨으로 결정하고 있는 건 아니라고 말해 주시오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:176", "ko_new": "\"어떻게 잊겠소?\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:177", "ko_new": "\"솔직히 그건 조금도 관심 없소. 각하는 내게 질레에 관해 이야기할 빚이 있소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:178", "ko_new": "\"다시 본론으로 돌아가면 안 되겠소? 엉뚱한 방향으로 가고 있는 것 같구려.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:179", "ko_new": "\"그렇소, 기억하오. 보안 관련 조항이 있었소.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:180", "ko_new": "\"이런 연극은 건너뛰고 각하가 질레를 리치아에 돌려주겠다고 말하는 부분으로 바로 갔으면 하오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:181", "ko_new": "\"재촉하지 마십시오, 폐하. 다른 누구도 아닌 폐하께서는 격식과 예절을 잘 아실 텐데 말입니다.\"", "reason": "폐하를 부르는 외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["royal_title_low_register", "foreign_not_hapsyo"]}
+{"key": "d:424:185", "ko_new": "\"주인장의 판단에 맡기겠소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:186", "ko_new": "\"좋소. 그럼 무역 이야기를 합시다.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:187", "ko_new": "\"그게 각하가 원하는 순서라면, 보안 관련 사안을 이야기합시다.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:188", "ko_new": "\"대통령 각하, 나는 그런 문제에 충분히 정통하니 가르침을 받을 필요는 없다고 장담하오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고치고 1인칭을 나로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:189", "ko_new": "\"격식과 예절에 관한 설교는 필요 없소. 특히 각하에게서는 말이오. 지금 누구와 이야기하는지 잊으셨구려.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:190", "ko_new": "\"한 걸음 물러서서 지난 30초는 없었던 일로 하시지요.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:194", "ko_new": "\"협상을 처음부터 나쁘게 시작하지는 맙시다, 안 그렇습니까? 이제 막 시작하지 않았습니까.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:195", "ko_new": "\"그래도 시간을 아끼기 위해 무역 문제부터 꺼내겠습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:196", "ko_new": "\"반대가 없다면 베흘렌-리치아 무역 문제로 넘어가겠습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:212", "ko_new": "\"아, 맞습니다! 가스 수입에 관한 거래를 했었지요.\"", "reason": "외국 정상의 반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:213", "ko_new": "\"그리고 마침 그 약속은 지켜졌습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:214", "ko_new": "\"지금까지는 출발이 아주 좋습니다, 폐하.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:215", "ko_new": "\"그런데 유감스럽게도 그 약속은 지키지 않으셨습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:216", "ko_new": "스몰라크는 실망한 듯 고개를 저었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:217", "ko_new": "\"솔직히 말해서, 시작부터 영 마음에 들지 않습니다...\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:218", "ko_new": "\"글쎄, 나도 애초에 이 재통합 소동이 시작된 방식부터 마음에 들지 않았소!\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:219", "ko_new": "\"시작이 마음에 안 든다면 끝이 어떻게 되는지 볼 때까지 기다려 보시오.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:220", "ko_new": "\"앞으로의 길은 각하 마음에 좀 더 들었으면 좋겠구려.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:221", "ko_new": "\"그렇게 생각하신다니 기쁘구려.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:222", "ko_new": "\"예상했던 대로구려.\"", "reason": "로무스가 외국 정상 앞에서 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:223", "ko_new": "\"본론으로 들어가시오, 대통령 각하.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:224", "ko_new": "\"목소리를 좀 낮춰 주십시오. 아기가 놀라겠습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:226", "ko_new": "\"다음으로 넘어가지요...\"", "reason": "외국 정상의 반말을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:227", "ko_new": "\"우리 국민들은 폐하께서 아낌없이 보내 주신 와인에 아주 감사하고 있습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:228", "ko_new": "\"거래는 거래 아니겠소.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:229", "ko_new": "\"칸투아보? 어쩐지 낯익다 했소.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:230", "ko_new": "\"뭐라고 하겠소? 세상과 나누지 않는 와인이 무슨 소용이겠소?\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:231", "ko_new": "\"붉은 로무스입니다. 물론 폐하께 경의를 표한 이름이지요.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:235", "ko_new": "\"아, 지금 드시는 게 그것이오? 센스 있구려.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:236", "ko_new": "\"그렇습니다. 혼자 독차지한다면 와인이 아깝지 않겠습니까.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:238", "ko_new": "\"솔직히 말씀드려야겠습니다, 폐하. 그 문제에서 내리신 선택은 마음에 들지 않습니다.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:239", "ko_new": "\"유감이오. 피할 수 없는 일이었소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:240", "ko_new": "\"베흘렌에도 곡괭이와 삽은 있을 것 아니오? 그렇게 금이 절실하다면 직접 파기 시작하시길 권하오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:241", "ko_new": "\"그렇습니까...\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:242", "ko_new": "\"자본주의에 오신 걸 환영하오, 친구.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:243", "ko_new": "\"오, 그럼 우리를 친구라고 생각은 하시는 모양입니다. 행동은 정반대라 아쉽습니다만.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:244", "ko_new": "\"오, 물론 있습니다. 다만 우리는 그 도구들을 주로 무덤 파는 데 쓰는 편입니다.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:245", "ko_new": "\"경제적으로 꽤 큰 호재였습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:246", "ko_new": "\"사실 우리의 성공을 기념해서 욕실 전체를 리치아산 금으로 개조하는 중입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:247", "ko_new": "\"곧 제 아침 일과가 왕실 대관식처럼 느껴질 겁니다!\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:248", "ko_new": "\"실례하오만, 방금 그 말이 모욕인지 칭찬인지 판단하려고 애쓰는 중이오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:249", "ko_new": "\"내 대관식은 변기와 전혀 닮지 않았다는 건 믿으셔도 좋소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:250", "ko_new": "\"우리 쪽 러스티 몬토로와 이야기해 보시오. 그도 비슷한 방식으로 개조를 했소.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:251", "ko_new": "\"농담이었습니다! 그게 전부입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:252", "ko_new": "\"적어도 농담할 의도였다는 말입니다. 욕실을 금으로 개조하고 있다는 건 진짜입니다.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:253", "ko_new": "\"어쨌든 국경을 오가는 모든 상품의 세세한 내용까지 더 파고들지는 않고, 무역에 관해 제가 짚고 싶었던 핵심은 이 정도입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:258", "ko_new": "\"과찬이십니다. 그렇다면 무역 이야기를 하시죠.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:260", "ko_new": "\"물론입니다. 그럼 그 문제들에 관해서...\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:262", "ko_new": "\"제 필체를 제대로 해독하고 있다면, 여기에는...\"", "reason": "외국 정상의 1인칭을 합쇼체에 맞춰 낮췄다.", "flags_resolved": []}
+{"key": "d:424:266", "ko_new": "\"제 메모에 따르면...\"", "reason": "외국 정상의 1인칭을 합쇼체에 맞춰 낮췄다.", "flags_resolved": []}
+{"key": "d:424:268", "ko_new": "\"분명 그런 조항이 있었습니다.\"", "reason": "외국 정상의 반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:284", "ko_new": "\"폐하께서는 블루드인 시민의 리치아 입국을 금지하기로 한 합의를 어기시고, 다스트만이 알 만큼 많은 잠재적 테러리스트에게 안전한 피난처를 내주셨습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 존대 어휘를 맞췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:285", "ko_new": "\"리치아가 블루드인에게 안전한 피난처를 제공하지 않기로 한 덕분에 우리는 수많은 테러리스트를 잡을 수 있었습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:289", "ko_new": "\"제 글씨를 제대로 읽고 있다면, 여기 적혀 있기로는...\"", "reason": "외국 정상의 반말과 1인칭을 합쇼체에 맞췄다.", "flags_resolved": []}
+{"key": "d:424:293", "ko_new": "\"사실 리치아와 소르들란드 양국의 아낌없는 지원 덕분에 블루드 자유 전선의 위협을 완전히 제거할 수 있었습니다!\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:294", "ko_new": "\"리치아가 이웃 나라 국경 안에서 커지고 있던 불안과 혼란을 외면한 데 얼마나 실망했는지 다시 말씀드려야겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:304", "ko_new": "\"하지만 이자 시민들이 보는 앞에서 사촌을 체포할 줄은 상상도 못 했습니다! 훌륭하십니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:305", "ko_new": "\"하지만 그자는 아직 자유롭게 돌아다니고 있습니다.\"", "reason": "외국 정상의 반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:309", "ko_new": "\"폐하의 지원이 그들의 활동을 어느 정도 방해하긴 했지만, 유감스럽게도 리치아가 개입한 뒤에도 전체 상황은 달라진 게 없습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:310", "ko_new": "\"유감스럽게도 블루드 자유 전선을 공격한 것이 그들의 분노만 자극하고 세력을 더 키운 것 같습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:311", "ko_new": "\"폐하 덕분에 블루드 자유 전선은 이제 제 국민에게 위협이 아닙니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:312", "ko_new": "\"이 속도라면 테러 위협을 없애는 데 수년, 어쩌면 수십 년이 걸릴 겁니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:313", "ko_new": "\"우리도 고려해야 할 우선순위가 있소. 각하와 관련된 모든 일에 리치아가 개입할 수는 없소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:314", "ko_new": "\"우리 문제를 우선해야 한다는 점을 이해해 주시오. 리치아의 결정으로 불편을 끼쳤다면 유감이오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:315", "ko_new": "\"이 문제에 대한 리치아의 입장은 분명하오. 같은 말을 반복하지 않겠소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:316", "ko_new": "\"바로 그게 문제입니다. 블루드인의 위협은 베흘렌만의 위협이 아니라 지역 전체에 대한 위협이었습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:317", "ko_new": "\"그리고 그 문제는 당분간 사라질 것 같지도 않습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:321", "ko_new": "\"바로 그게 문제입니다. 블루드인의 위협은 베흘렌만의 위협이 아니라 지역 전체에 대한 위협입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:328", "ko_new": "\"바로 그게 문제입니다, 폐하. 블루드인의 위협은 베흘렌만의 위협이 아니라 지역 전체에 대한 위협입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:329", "ko_new": "\"바로 그게 문제입니다. 블루드인의 위협은 베흘렌만의 위협이 아니라 지역 전체에 대한 위협입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:330", "ko_new": "\"다행히 베흘렌에는 소르들란드처럼 BFF의 위협을 알아본 믿을 만한 동반자가 있습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:331", "ko_new": "\"그들의 협력 덕분에 블루드 자유 전선을 완전히 분쇄할 수 있었습니다!\"", "reason": "외국 정상의 반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:332", "ko_new": "\"다행히 베흘렌은 BFF가 초래하는 위험을 인정한 소르들란드 같은 확고한 동맹을 믿을 수 있습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:333", "ko_new": "\"작전은 아직 진행 중이지만 성공할 거라고 확신합니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:334", "ko_new": "\"그리고 유감스럽게도 문제는 점점 더 악화되고 있습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:335", "ko_new": "\"사과는 고맙지만, 유감스럽게도 지금 상황을 바꾸는 데는 아무 도움이 되지 않습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:339", "ko_new": "\"이 문제에 대한 리치아의 입장은 분명하오. 같은 말을 반복할 필요는 없을 것 같소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:340", "ko_new": "\"단정적인 말은 조심하십시오. 자신의 확신 때문에 스스로 궁지에 몰릴 수도 있습니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:341", "ko_new": "\"지금은 아닐지 몰라도, 그래도 열린 마음은 유지하는 게 좋을 겁니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:342", "ko_new": "\"조심하시오, 스몰라크. 누가 들으면 각하가 블루드인에게 원한이라도 품은 줄 알겠소.\"", "reason": "한 대사 안의 합쇼체를 하오체로 통일했다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:346", "ko_new": "\"블루드인을 정말 싫어하시는구려, 대통령 각하.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:347", "ko_new": "\"정반대입니다. 제 관심사는 오직 우리 나라의 안전과 번영을 지키는 데 있습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:348", "ko_new": "\"제 관심사는 오직 우리 나라의 안전과 번영을 지키는 데 있습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:349", "ko_new": "\"블루드인에 대한 조치는 베흘렌의 안정을 보장하기 위해 필요한 수단입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:350", "ko_new": "\"그 말을 들으니 다행이지만 조심해야 하오. 운동을 분쇄하는 것과 사상을 죽이는 건 다른 문제니 말이오.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:351", "ko_new": "\"당연히 우리의 지도력과 역량이 그 압도적인 승리를 이끌었고, 소르들란드는 그저 따라왔을 뿐이오.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:352", "ko_new": "\"그렇소. 우리의 합동 노력으로 압도적인 승리를 거두었소!\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:353", "ko_new": "\"그래서 베흘렌은 그들의 대의를 움직이는 이념까지 BFF와 함께 죽게 만드는 데 집중할 생각입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:354", "ko_new": "\"흠, 소르들란드 첩자가 우리 사이에 숨어 폐하의 그 작은 모욕을 엿듣지 않기를 바라야겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:355", "ko_new": "\"뭐, 우리끼리 하는 말이지만 소르들란드는 이런 일에서 자기 중요성을 지나치게 높게 평가하는 편입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:356", "ko_new": "\"그렇습니다. 앞으로 새로운 협력의 길을 열 수 있는 동반자 관계지요.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:357", "ko_new": "스몰라크는 칵테일 냅킨을 바라보았다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:358", "ko_new": "\"그자는 자리에서 쫓겨났소. 그래도 같은 목적은 달성했을 것이오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:359", "ko_new": "\"그자를 이자의 지도자 자리에서 끌어내렸소. 상황을 고려하면 내가 할 수 있었던 건 거기까지였다는 점을 알아주시오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고치고 1인칭을 나로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:360", "ko_new": "\"계속 고민할수록 사촌을 체포했을 때의 정치적 후폭풍이 너무 크다는 걸 깨달았기 때문이오. 그게 전부요.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:361", "ko_new": "\"그뿐만이 아닙니다.... 그자가 왕세녀와 결혼한다잖습니까! 왕족들이란 정말 이상한 전통을 갖고 있습니다...\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:365", "ko_new": "\"말할 필요도 없이 그 소식을 들으니 상당히 괴로웠습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:366", "ko_new": "\"그렇습니다, 보아하니 폐하께서 말씀하시는 '정치적 후폭풍'에는 베흘렌이 포함되지 않는 모양입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고치고 존대 어휘를 맞췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:367", "ko_new": "\"'행동할 수 없었다'는 말은 나약함의 표시입니다. 앞으로는 그런 문제를 좀 더 *효과적인* 방식으로 다룰 수 있기를 바라겠습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:368", "ko_new": "\"처벌과 정의를 혼동하지 마십시오. 둘은 같은 게 아니니까요.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:369", "ko_new": "\"그래야 하오. 결점이 있는 사람인 건 맞지만 그를 감옥에 넣는다고 각하의 문제가 사라지는 건 아니오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:370", "ko_new": "\"그렇소. 그래서?\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:371", "ko_new": "\"그렇다면 한 개인이 미칠 수 있는 영향을 제대로 보지 못하는 겁니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:372", "ko_new": "\"그리고 그건 질레 문제에서 폐하에게 아무 도움도 되지 않을 겁니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:373", "ko_new": "\"즐거운 일은 아니었지만, 나는 약속을 지키는 사람이오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고치고 1인칭을 나로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:374", "ko_new": "\"그곳에서 자신의 행동이 낳은 결과를 충분히 돌아보길 바라오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:375", "ko_new": "\"구금되어 있는 동안 자신의 잘못을 돌아보고 구원을 찾기를 바라오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:379", "ko_new": "\"그자가 뭘 생각하든 조금도 관심 없습니다. 거기 있다는 사실만으로 만족합니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:380", "ko_new": "\"그 점에서는 폐하를 존중합니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:381", "ko_new": "\"구원은 신께 맡기겠습니다. 하지만 신의 개입으로 그자가 만든 난장판이 해결될 거라 기대하지는 마십시오.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:382", "ko_new": "\"그렇소. 이제 그 개를 우리에 넣을 때도 됐소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:383", "ko_new": "\"하! 철창 뒤에서는 물기보다 짖는 게 더 무섭기를 바라야겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:389", "ko_new": "스몰라크는 다시 한번 냅킨을 확인했다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:390", "ko_new": "스몰라크는 아주 천천히 잔을 비웠다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:391", "ko_new": "\"그럼 말해 보시오... 합의가 된 것이오?\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:392", "ko_new": "\"그래서 어떻게 생각하시오... 리치아가 각하의 친구 기준을 충족하오?\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:393", "ko_new": "\"거기에 내가 알아야 할 냅킨이 더 있소?\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:394", "ko_new": "\"그래서 이제 우리는 어떻게 되는 것이오?\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:395", "ko_new": "스몰라크는 말을 하다 갑자기 멈췄다. 창밖 경치에 사로잡힌 듯했다. 그는 일어나 창가로 다가갔다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:396", "ko_new": "\"우리가 어떻게 되느냐고요? 글쎄요, 제가 보기에는...\"", "reason": "외국 정상의 반말과 1인칭을 합쇼체에 맞췄다.", "flags_resolved": []}
+{"key": "d:424:398", "ko_new": "\"글쎄요, 제가 보기에는...\"", "reason": "외국 정상의 반말과 1인칭을 합쇼체에 맞췄다.", "flags_resolved": []}
+{"key": "d:424:399", "ko_new": "\"그 이야기가 나와서 말씀입니다만...\"", "reason": "외국 정상의 반말을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:400", "ko_new": "\"폐하... 소개하겠습니다. 질레입니다.\"", "reason": "외국 정상의 해요체·하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:402", "ko_new": "\"이번에는 정말 제대로 해냈구려, 스몰라크. 경치가 정말 장관이오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:403", "ko_new": "\"이걸 보여 주려고 나를 여기까지 끌고 온 것이오? 내 시간을 더 낭비할 생각이라면 지금 말하시오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:404", "ko_new": "\"각하는 늘 연출을 좋아했소. 나도 감탄했소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:405", "ko_new": "\"그렇소, 내가 뭘 보고 있는지는 아주 잘 아오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고치고 1인칭을 나로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:406", "ko_new": "\"참 눈치도 빠르십니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:407", "ko_new": "\"감사합니다, 폐하. 저도 드라마만큼은 왕실 수준으로 유지하려고 노력합니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:408", "ko_new": "\"아주 순화해서 말씀드린 겁니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:409", "ko_new": "\"죄송합니다, 폐하. 즉흥적인 모험의 즐거움보다 왕좌의 편안함을 더 좋아하신다는 걸 알았어야 했습니다.\"", "reason": "폐하를 부르는 외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["royal_title_low_register", "foreign_not_hapsyo"]}
+{"key": "d:424:410", "ko_new": "스몰라크와 나는 말없이 계속 경치를 바라보았다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:411", "ko_new": "잠시 침묵이 흐르는 동안 스몰라크는 다시 우리 앞의 풍경으로 시선을 돌렸다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:415", "ko_new": "\"말씀드리자면... 질레는 볼 때마다 숨이 멎을 만큼 아름답습니다...\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:419", "ko_new": "\"말씀드리자면... 질레의 풍경은 볼 때마다 숨이 멎을 만큼 아름답습니다...\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:420", "ko_new": "\"그래서 그 넓은 땅 위로 베흘렌 국기가 당당히 휘날리는 모습을 정말 그리워하게 될 겁니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:421", "ko_new": "\"질레에 대한 통제권을 포기하겠다는 말이오?\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:422", "ko_new": "\"'베흘렌 국기가 그 위로 휘날리는 모습을 그리워할 거다'라고 하셨소? 잠깐... 지금 내가 들은 그 말을 정말 하신 것이오?\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:423", "ko_new": "\"에둘러 말하는 건 그만두시오, 스몰라크. 뜻하는 바를 분명하게 말해 보시오.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:424", "ko_new": "\"그래서 조건이 뭐요? 설마 갑자기 질레에 감상적이 되신 건 아닐 테고?\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:430", "ko_new": "\"그럴 줄 알았소.\"", "reason": "로무스가 외국 정상 앞에서 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:431", "ko_new": "\"베흘렌과 리치아의 관계는 우정을 넘어섭니다... 결코 끊을 수 없는 유대입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:443", "ko_new": "\"아, 정말 개소리도 정도가 있지 않소! 각하의 '조건'을 맞추려고 내가 해 온 일이 얼만데, 이제 또 다른 요구까지 들어줄 거라고 진심으로 생각하는 거요?\"", "reason": "반말 종결을 하오체로 통일하고 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["romus_mixed_register", "pronoun_dangsin"]}
+{"key": "d:424:453", "ko_new": "\"유감입니다. 하지만 저는 꼭 그 집을 가져야겠습니다. 그렇지 않다면... 폐하께서 궁극적으로 바라시는 걸 드릴 수 있을지 모르겠습니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:455", "ko_new": "\"하지만 방금까지 나눈 이야기를 생각하면, 유감스럽게도 저도 그걸 그냥 내드릴 수는 없습니다. 제게 너무나... 각별한 의미가 있어서 말입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:456", "ko_new": "\"이런 말을 듣게 될 줄은 정말 몰랐소. 리치아가 각하 마음을 돌리기 위해 할 수 있는 게 있소?\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:468", "ko_new": "\"협상의 여지는 언제나 있는 법입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:472", "ko_new": "스몰라크는 바지 주머니에 손을 넣더니 글씨가 적힌 또 다른 칵테일 냅킨을 꺼내 내밀었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:475", "ko_new": "\"그런 모양이구려.\"", "reason": "로무스가 외국 정상 앞에서 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:500", "ko_new": "\"여기에는 '국민투표'라는 말만 계속 적혀 있소. 이게 뭐요?\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": []}
+{"key": "d:424:501", "ko_new": "\"질레에서 국민투표를 실시하자는 거요? 재통합 여부를 묻자는 뜻이겠소?\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:502", "ko_new": "\"그렇다면 제가 설명해 드리겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:516", "ko_new": "\"각하 입에서 민주주의 원칙을 옹호하는 말이 나오다니 놀랍소. 이번만큼은 나와 생각이 같소. 주민들이 직접 결정하게 합시다.\"", "reason": "반말 종결을 하오체로 통일하고 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["romus_mixed_register", "pronoun_dangsin"]}
+{"key": "d:424:518", "ko_new": "\"철권으로 나라를 다스리는 사람 입에서 민주주의 원칙을 걱정하는 말이 나오니 참으로 흥미롭구려.\"", "reason": "반말 종결을 하오체 감탄으로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:534", "ko_new": "\"저는 충분히 공정한 기회를 드렸습니다. 그런데도 타협할 생각이 없으시다면 더 이야기할 이유가 없겠습니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:537", "ko_new": "스몰라크는 속셈을 감춘 듯한 미소를 지었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:538", "ko_new": "\"폐하께서는 불같은 기개를 지니셨습니다. 그 점은 존중합니다. 비록 그 기개 때문에 양국에 무엇이 최선인지 보지 못하고 계시더라도 말입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:543", "ko_new": "\"각하는 피할 수 없는 일을 늦추고 있을 뿐이오. 난 우리의 목표를 이루기 위해 다른 길도 택할 준비가 되어 있소. 이게 처음이자 마지막 경고요.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["romus_haeyo", "pronoun_dangsin"]}
+{"key": "d:424:544", "ko_new": "\"이거, 돌아가는 비행이 꽤 어색해지겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:545", "ko_new": "\"마음을 바꾸지 않으신다면 남은 여행 동안 폐하를 다시 뵐 일은 없을 것 같습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:546", "ko_new": "그리고 실제로 그랬다. 스몰라크가 나가자마자, 그는 우리 두 나라의 관계가 팽팽하게 긴장됐다는 말없는 이해만을 남겼다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:551", "ko_new": "스몰라크와 마지못해 시간을 보내는 동안, 질레 반환을 둘러싼 외교 협상의 무게가 서서히 선명해졌다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:556", "ko_new": "\"각하 같은 허세는 압도적인 결의 앞에서 무너지기 마련이오. 그리고 믿으시오. 지금의 리치아는 그 어느 때보다 강하고 유능하니까.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:424:557", "ko_new": "스몰라크가 문밖으로 나서는 순간, 그는 우리 두 나라의 관계가 팽팽하게 긴장됐다는 말없는 이해만을 남겼다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:560", "ko_new": "\"이거, 돌아가는 여정이 꽤 불편해지겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:562", "ko_new": "\"여전히 석유 수출을 밀어붙이고 있구려.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:572", "ko_new": "\"리치아산 금을 수출하라는 거구려. 놀랍지도 않소.\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:573", "ko_new": "\"여전히 군사 무기고를 불리는 데 열심인 모양이구려.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:575", "ko_new": "\"금과 경제의 관계를 제가 폐하께 강의할 필요는 없겠습니다만.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:577", "ko_new": "\"정말이오?! 경제가 그렇게 돌아가는 거요? 설마 농담이겠소.\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:587", "ko_new": "\"우리 국경 안에서 다시 고개를 들고 정부를 불안정하게 만들 기회를 노리는 블루드인 선동가들의 위협도 빼놓을 수 없습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:589", "ko_new": "\"상황이 각하 말만큼 나쁘다면, 어쩌면 변화가 필요할지도 모르겠구려.\"", "reason": "금지된 당신을 각하로 바꾸고 반말 종결을 하오체로 고쳤다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:598", "ko_new": "\"그 일을 해낼 적절한 수단을 받는다면 말입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:605", "ko_new": "\"당연히 폐하께서 리치아에 가장 이로운 선택을 하시길 기대합니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:622", "ko_new": "\"훌륭합니다! 상황에 맞춰 유연하게 대응하시는 자세가 훌륭하십니다, 폐하.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:623", "ko_new": "\"유감입니다. 뭐, 마음을 바꾸실 수 없다면 다른 양보안에는 동의하실지도 모르겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:630", "ko_new": "\"타협하려 하지 않으시니 실망스럽습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:644", "ko_new": "\"고대의 처방에 의지할 거라면 염소 몇 마리를 제물로 바치고 보름달 아래서 벌거벗고 춤추는 것도 생각해 보는 게 어떻겠소.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:646", "ko_new": "\"아! 그렇다면 듣던 중 반가운 소리입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:658", "ko_new": "\"당연히 아니오. 그럴 돈이 어디 있소. 제정신이오?\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:660", "ko_new": "\"오히려 제가 폐하께 같은 질문을 드려야겠습니다. 모든 걸 그렇게 기꺼이 내던지려는 분은 폐하이시니 말입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:662", "ko_new": "\"이 물자를 도덕적으로 정당한 목적에만 쓰겠다고 약속한다면 각하의 조건에 동의할 의향이 있소.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:662#menu", "ko_new": "\"이 물자를 도덕적으로 정당한 목적에만 쓰겠다고 약속한다면 각하의 조건에 동의할 의향이 있소.\" [-1000 군수 장비]", "reason": "대사와 선택지를 일치시키고 효과 표기를 HUD 라벨 군수 장비로 맞췄다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:663", "ko_new": "\"각하가 현재 벌이는 어떤 분쟁에도 우리를 직접 끌어들이지 않는다는 조건이라면 동의할 수 있소.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:663#menu", "ko_new": "\"각하가 현재 벌이는 어떤 분쟁에도 우리를 직접 끌어들이지 않는다는 조건이라면 동의할 수 있소.\" [-1000 군수 장비]", "reason": "대사와 선택지를 일치시키고 효과 표기를 HUD 라벨 군수 장비로 맞췄다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:664#menu", "ko_new": "\"합의하겠소. 하지만 어떤 분쟁이 벌어지더라도 우리가 직접 손을 더럽힐 거라 기대하지 마시오.\" [-1000 군수 장비]", "reason": "효과 표기를 HUD 라벨 군수 장비로 맞췄다.", "flags_resolved": []}
+{"key": "d:424:671#menu", "ko_new": "\"상당한 양을 보내줄 의향이 있소. 다만 성전에 적힌 가르침에 따라 의로운 목적에 사용하겠다고 약속해야 하오.\" [-1000 군수 장비]", "reason": "효과 표기를 HUD 라벨 군수 장비로 맞췄다.", "flags_resolved": []}
+{"key": "d:424:672", "ko_new": "\"아, 물론입니다! 잘 겨눈 포탄 몇 발만큼 '정당한 대의'를 잘 보여주는 것도 없지 않습니까.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:673", "ko_new": "\"도덕적으로 애매한 이유로 쓰겠다고 약속하는 건 어떻습니까? 그쪽이 더 재미있지 않습니까.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:674", "ko_new": "\"베흘렌이 그런 무기를 사용하더라도 리치아가 비난받는 일은 없을 거라 보장합니다. 표적이 된 이들은 아마 그 결과를 감당하느라 정신없을 테니 말입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:680", "ko_new": "\"아, 그렇습니까. 평화적 해결 대신 종이학이나 나눠주며 잘되길 빌겠다는 겁니까? 참 든든합니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:681", "ko_new": "\"농담은 그만하고 진지하게 말하자면, 그 말씀은 반갑습니다. 자신의 땅과 사랑하는 사람들을 지키는 것보다 도덕적으로 정당한 일은 없으니 말입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:693", "ko_new": "\"각하가 요구하는 걸 제공할 자원이 없소. 금은 다른 데서 찾는 게 좋겠구려.\"", "reason": "금지된 당신을 각하로 바꾸고 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register", "pronoun_dangsin"]}
+{"key": "d:424:694", "ko_new": "\"안타깝습니다. 하지만 입장이 확고하시다면 다른 방안을 찾아볼 수도 있지 않겠습니까?\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:700", "ko_new": "\"좋소. 협상하자는 거요? 협상합시다.\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:701", "ko_new": "\"그렇다면 내 대답은 아니오. 각하가 요구한 건 장기적으로 리치아에 해가 될 뿐이오.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:705", "ko_new": "\"참 안타깝습니다...\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:707", "ko_new": "\"제발... 각하가 주관하는 국민투표라면 결과는 이미 정해져 있을 게 뻔하오.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:722", "ko_new": "\"각하 인생 최대의 실수를 했다는 걸 깨달을 때 나를 떠올릴 기념품으로 가지시오.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:723", "ko_new": "\"각하가 갖고 있는 게 좋겠구려.\"", "reason": "금지된 당신을 각하로 바꾸고 반말 종결을 하오체로 고쳤다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:725", "ko_new": "스몰라크는 눈 하나 깜짝하지 않았다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:726", "ko_new": "스몰라크는 아무런 반응도 보이지 않았다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:728", "ko_new": "\"좋소. 협상하자는 거요? 협상합시다.\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:733", "ko_new": "잠시 우리 사이에 정적이 내려앉았다. 스몰라크는 다시 한 번 질레가 내려다보이는 곳으로 시선을 돌렸다. 평소와 달리 진지한 표정이었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:751", "ko_new": "\"무슨 국민투표 말이오? 우리 이미 합의한 줄 알았소만.\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:752", "ko_new": "\"합의는 했습니다. 하지만 폐하 표정을 보니 예상하신 내용과는 달랐던 모양입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:754", "ko_new": "\"기꺼이 말씀드리겠습니다. 보시다시피...\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:755", "ko_new": "\"무슨 장난을 치는 거요? 또 막판 조건을 들이미는 것처럼 들리기 시작하는구려.\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:757", "ko_new": "\"왜 곧 뒤통수를 맞을 것 같은 기분이 드는지 모르겠구려.\"", "reason": "로무스가 외국 정상 앞에서 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:758", "ko_new": "\"자, 자... 상황을 완전히 잘못 보고 계십니다. 폐하께서는 질레와 재통합할 기회를 받는 겁니다, 베흘렌이 받는 것과 똑같은 기회를 말입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고치고 존대 어휘를 맞췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:761", "ko_new": "\"생각해 보니 각하 장단에 맞춰준 것도 충분하구려. 더는 어떤 양보도 하지 않겠소.\"", "reason": "금지된 당신을 각하로 바꾸고 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register", "pronoun_dangsin"]}
+{"key": "d:424:762", "ko_new": "\"제 시간을 낭비하게 하셔서 썩 유쾌하지 않습니다, 폐하.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:764", "ko_new": "\"그럼 실례하겠습니다. 어린 빅토르를 돌봐야 해서 말입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고치고 인명을 코퍼스 다수 표기 빅토르(163건 대 7건)로 통일했다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:766", "ko_new": "\"그러니까 우리 합의 조건을 지킬 생각이 애초에 없었던 거구려.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:768", "ko_new": "\"각하 재치는 숟가락만큼 날카롭구려.\"", "reason": "금지된 당신을 각하로 바꾸고 반말 종결을 하오체로 고쳤다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:770", "ko_new": "\"사람들이 각하를 두고 하는 말보다도 훨씬 더한 사람이구려.\"", "reason": "금지된 당신을 각하로 바꾸고 반말 종결을 하오체로 고쳤다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:777", "ko_new": "\"허세라고 말하고 싶지만, 솔직히 각하는 걸어 다니며 말하는 똥덩어리일지도 모르겠구려.\"", "reason": "금지된 당신을 각하로 바꾸고 반말 종결을 하오체로 고쳤다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:778", "ko_new": "\"그것만이 오랫동안 기다려 온 질레와의 재통합을 가로막는 거라면... 받아들이겠소. 그 집은 각하 것이오.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:779", "ko_new": "\"하! 제가 바라던 대답은 아니지만 받아들일 수 있는 대답입니다. 그 부탁은 잊으십시오. 새로운 시작을 축하하시지요!\"", "reason": "외국 정상의 해요체·하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:783", "ko_new": "스몰라크는 고개를 저었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:784", "ko_new": "\"아, 로무스 국왕... 유감이지만 잘못된 대답을 하셨습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:788", "ko_new": "\"잘 봐두십시오, 폐하. 유감이지만 앞으로는 이렇게 볼 기회가 많지 않을 겁니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:792", "ko_new": "\"도와드리고 싶습니다. 진심으로요. 하지만 약속은 약속입니다. 저도 지켜야 할 평판이 있어서 말입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:801", "ko_new": "\"빈말이라고? 나를 과소평가하는구려, 스몰라크.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:802", "ko_new": "\"귀엽습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:803", "ko_new": "\"여기서 내 격에 못 미치는 사람은 각하뿐이오.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:804", "ko_new": "\"뭐, 폐하 말씀대로입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:808", "ko_new": "\"스몰라크가 키를 잡으면: 베흘렌은 더 높은 곳으로 날아오른다!\"", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:814", "ko_new": "그리고 그 모든 화려함 한가운데 오늘의 주인공, 빅토르 스몰라크가 서 있었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡고 인명을 코퍼스 다수 표기 빅토르(163건 대 7건)로 통일했다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:819", "ko_new": "\"이 아이가 제 아들, 빅토르 스몰라크 2세입니다. 여덟 아내, 지금도 전부 제 아내입니다, 사이에서 딸 열한 명을 낳고 나서야 마침내 아들을 얻었습니다!\"", "reason": "인명을 코퍼스 다수 표기 빅토르(163건 대 윅토르 7건)로 통일했다.", "flags_resolved": []}
+{"key": "d:424:820", "ko_new": "\"폐하, 절대 늦은 때란 없습니다! 우리 같은 남자들에게는 더더욱 그렇습니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:822", "ko_new": "\"회의를 시작하라는 신호인 것 같구려.\"", "reason": "로무스가 외국 정상 앞에서 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:826", "ko_new": "\"뭘 그리 서두르십니까? 이야기할 시간은 충분합니다. 앞으로 긴 비행이 남아 있습니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:828", "ko_new": "고개를 돌리자 스몰라크가 나를 내려다보고 있었다. 그의 품에는 어린 빅토르가 안겨 있었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡고 인명을 코퍼스 다수 표기 빅토르(163건 대 7건)로 통일했다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:834", "ko_new": "\"와인이 좋겠구려.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:835", "ko_new": "\"각하가 마시는 걸로 주시오.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:837", "ko_new": "\"좋은 선택입니다. 남자답게 마시며 이야기하시지요.\"", "reason": "외국 정상의 하오체 청유를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:839", "ko_new": "\"고백하자면 저는 술을 그다지 즐기지 않습니다, 폐하. 잠재적 무역 상대의 기분을 맞춰야 할 때가 아니라면 말입니다. 가시지요?\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:844", "ko_new": "\"영광이오.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:845", "ko_new": "\"내가 유일하게 각하 초대를 거절하지 않은 사람이어서 그런 거요?\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:847", "ko_new": "\"영광으로 여기셔야 합니다. 다른 사람들은 다 너무 격식 차리고 규칙대로만 움직이니 말입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:848", "ko_new": "\"왜 하나도 놀랍지 않은지 모르겠구려.\"", "reason": "로무스가 외국 정상 앞에서 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:849", "ko_new": "\"뭐라고 하겠습니까, 제가 사람을 다루는 재주가 좀 있습니다. 물론 아주 드물게 제 동행을 즐기지 않는 사람도 있긴 합니다만.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:852", "ko_new": "\"좋습니다. 그럼 바로 본론으로 들어가시죠.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:853", "ko_new": "\"그러려고 여기 온 것이니 시작하시지요.\"", "reason": "외국 정상의 하오체 청유를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:857", "ko_new": "스몰라크는 술을 한 모금 마시더니 재킷 주머니에서 칵테일 냅킨을 꺼냈다. 그 위에는 알아보기 힘든 글씨가 몇 자 휘갈겨져 있었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:860", "ko_new": "\"실례했습니다. 다음에는 칠판을 쓰도록 하겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:866", "ko_new": "\"그래서 어디부터 시작하시겠습니까? 무역 협정? 안보 협정?\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:867", "ko_new": "\"그렇다면 앞부분은 건너뛰고 바로 핵심으로 들어가도 되겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:868", "ko_new": "그는 가까이에 있던 전화기를 들어 무언가 말했다. 얼마 지나지 않아 한 여성이 들어와 어린 빅토르를 데리고 나갔다.", "reason": "인명을 코퍼스 다수 표기 빅토르(163건 대 윅토르 7건)로 통일했다.", "flags_resolved": []}
+{"key": "d:424:872", "ko_new": "\"그건 아직 두고 봐야겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:873", "ko_new": "\"우리는 각하를 존중하오. 내가 여기 와 있지 않소?\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:874", "ko_new": "\"말, 말, 또 말뿐이오. 들리는 건 그게 전부요. 그냥 본론으로 들어가서 조약을 지킬 건지 말하시오.\"", "reason": "한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:876", "ko_new": "\"폐하께서 여기 와 계시다는 사실만으로 신뢰할 수 있는 동맹이 되는 건 아닙니다. 그런 관계는 시간이 걸리는 법입니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고치고 존대 어휘를 맞췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:891", "ko_new": "스몰라크는 나를 불쾌한 눈빛으로 쏘아보았다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:892", "ko_new": "\"그런 것 같습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:893", "ko_new": "\"폐하께서는 우리에게 군사 장비를 제공하겠다고도 약속하셨습니다. 그런데 실제로 들어오는 건 거의 없습니다. 비축량이 바닥나고 있다는 얘기를 들었습니다만?\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고치고 존대 어휘를 맞췄다.", "flags_resolved": []}
+{"key": "d:424:894", "ko_new": "\"우리 둘 모두에게 좋은 일은 아니지 않겠습니까?\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:902", "ko_new": "스몰라크는 어린 빅토르를 품에 안은 채 씩 웃으며 나를 내려다보고 있었다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡고 인명을 코퍼스 다수 표기 빅토르(163건 대 7건)로 통일했다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:903", "ko_new": "\"그러니까 이게 정말 사실이라는 겁니까, 폐하?\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:904", "ko_new": "\"물론이오. 아니었다면 내가 게재를 명령하지도 않았을 것이오.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:906", "ko_new": "\"신문에 실렸다면 사실이겠소.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:907", "ko_new": "\"이거 참... 놀랍기도 하고 감탄스럽기도 합니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:908", "ko_new": "\"안심이 됩니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:911", "ko_new": "\"내 사촌을 권력에서 끌어내리고 싶어 한 건 각하요. 그가 무죄인지 아닌지는 신경도 쓰지 않았잖소. 그런데 내가 왜 신경 써야 하오?\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:913", "ko_new": "\"말이 됩니다, 폐하. 법정에서는 아닐지 몰라도 적어도 저에게는 그렇습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:927", "ko_new": "\"그렇소, 이 물건이야말로 우리 합의가 역사에 길이 남을 것임을 확실히 굳혀주는구려.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:928", "ko_new": "\"이번 협상 전체만큼이나 마음에 드는구려.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:930", "ko_new": "\"영광이오. 우리 둘 다 형편없는 거래를 떠안은 건 아니라는 증거로구려.\"", "reason": "로무스가 외국 정상에게 쓴 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:932", "ko_new": "스몰라크는 수납장을 열어 서류가방 하나를 꺼냈다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:941", "ko_new": "\"물론 딸들도 하나같이 사랑합니다. 하지만 빅토르 주니어와는 특별한 유대가 있다고 느낍니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:953", "ko_new": "\"제 친구 안톤은 바쁜 사람입니다. 뭐, 폐하께서도 마찬가지실 겁니다.\"", "reason": "금지된 당신을 폐하로 바꾸고 외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:954", "ko_new": "\"3년 전 우리의 만남은 질레의 치안에 대해 제게 그리 큰 확신을 주지는 못했습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:955", "ko_new": "\"우정의 날 폭탄 테러 수사를 폐하와 폐하의 치안 병력이 처리한 방식은 아주 만족스러웠습니다.\"", "reason": "금지된 당신을 폐하로 바꾸고 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo", "pronoun_dangsin"]}
+{"key": "d:424:956", "ko_new": "\"범인이 우리 둘 중 누구도 의심했던 사람이 아니었더라도 말입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:961", "ko_new": "\"재위가 시작된 뒤 그만한 군사력을 모아낸 건 정말 인상적입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:972", "ko_new": "\"룸부르크와의 일방적인 관계에 대해서는 마침내 정신을 차리기 시작하신 것 같습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:973", "ko_new": "\"룸부르크와의 일방적인 관계에 대해 아직도 정신을 차리지 못한 건 유감입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:988", "ko_new": "\"우리 곰 덫 작전에 귀국이 협력해 준 데 대해 깊이 감사드리고 싶습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:989", "ko_new": "\"하지만 그건 폐하 잘못이 아닙니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:990", "ko_new": "\"우리 곰 덫 작전에서 철수한 건 최악의 배신이었습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:994", "ko_new": "\"폐하의 용병들에게는 나쁜 소식입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:999", "ko_new": "\"그런데 폐하께서는... 감히 블루드인들을 용병으로 고용하셨습니까? 결국 반드시 역효과를 보실 겁니다.\"", "reason": "금지된 당신을 폐하로 바꾸고 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo", "pronoun_dangsin"]}
+{"key": "d:424:1000", "ko_new": "\"리카르두스 토라스 공작이 자신의 죄에 대한 대가를 치르게 하겠다고 제게 약속하시지 않았습니까.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1001", "ko_new": "\"그를 언제 베흘렌으로 넘겨주실 생각입니까?\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1002", "ko_new": "\"가능한 한 빨리 하겠소, 대통령 각하.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고치고 호칭 대통령님을 바로잡았다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:1003", "ko_new": "\"그는 리치아에 남을 것이오. 단두대에 오를 때 그 얼굴을 직접 보고 싶소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:1004", "ko_new": "\"미안하지만 그 거래의 그 부분은 지킬 수 없소. 리카르두스는 토라스 가문 사람이오. 타국 땅에서 죽게 둘 순 없소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:1008", "ko_new": "\"훌륭합니다. 정말이지, 폐하와 협력하는 건 큰 즐거움이었습니다.\"", "reason": "금지된 당신을 폐하로 바꾸고 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo", "pronoun_dangsin"]}
+{"key": "d:424:1014", "ko_new": "\"게다가 수도의 경찰청장까지 시키시지 않았습니까! 그건 벌을 준 게 아닙니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1020", "ko_new": "\"하지만 포도주 산업의 환경 피해에 관한 보고를 보면 앞으로 수출품의 품질과 물량 모두가 걱정됩니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1021", "ko_new": "\"국내 생산이 줄고 있는데 메프티엠 국제무역지대의 지분까지 줄이자고 하셨다니? 앞날이 그리 황금빛은 아닙니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1028", "ko_new": "\"그런데 리치아에 사는 우리 국민 출신 이주민들에게서는 감사하다는 말밖에 듣지 못했습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1032", "ko_new": "\"물론 새 종교세는 빼고 말입니다!\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1036", "ko_new": "\"그런데 리치아에서 일하는 우리 국민 출신 이주민들에게서는 감사하다는 말밖에 듣지 못했습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1041", "ko_new": "\"그래도 폐하께서 그들의 이익을 진심으로 생각하신다고 믿겠습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 존대 어휘를 맞췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1047", "ko_new": "\"우리에겐 거래가 있었소. 약속을 지키는 건 당연한 일이었소.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:1048", "ko_new": "\"그 말은 이제 질레 반환을 준비할 수 있다는 뜻이겠구려. 그렇지 않소?\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:1049", "ko_new": "\"잠깐, 폐하. 고려해야 할 건 조약뿐만이 아닙니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1051", "ko_new": "\"너무 겸손하십니다. 물론 다른 요소들도 잊지 마시지요.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1052", "ko_new": "\"일방적인 거래는 아니었소. 리치아도 이득을 봤소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:1056", "ko_new": "\"물론입니다. 우리 훌륭한 수출품을 잘 즐기고 계시길 바랍니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1057", "ko_new": "\"그렇다 해도 여기서 고려해야 할 건 협정뿐만이 아닙니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1058", "ko_new": "\"폐하께서 그렇게 말씀하신다면야. 얻은 것보다 내준 게 더 많았습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 존대 어휘를 맞췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1059", "ko_new": "\"조약 얘기는 그럼 여기까지입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1060", "ko_new": "\"미안하오, 대통령 각하. 최선을 다했소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고치고 호칭 대통령님을 바로잡았다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:1061", "ko_new": "\"그 말은 또다시 질레를 우리에게 돌려주지 않겠다는 뜻이오?\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:1062", "ko_new": "\"대통령 각하의 우려가 틀렸다는 걸 약속하오. 앞으로 리치아에 요구하시는 어떤 조건이든 모두 충족하겠소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고치고 호칭 대통령님을 바로잡았다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:1066", "ko_new": "\"우정의 날 폭탄 테러 범인은 5년 전이나 지금이나 전혀 더 가까이 찾지 못했습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1071", "ko_new": "\"반베흘렌 성향인 사촌을 지금까지 계속 권좌에 둔 건 솔직히 실망스럽습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1073", "ko_new": "\"잠깐 생각 좀 해봐야겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1074", "ko_new": "\"정말 좋은 소식이구려. 결국 서로 이해할 수 있을 줄 알았소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:1078", "ko_new": "\"조건 같은 건 없습니다. 전혀 없습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:1079", "ko_new": "\"이야말로 아름다운 우정의 시작이오.\"", "reason": "로무스가 외국 정상에게 쓰는 해요체를 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:424:1080", "ko_new": "\"저도 같은 생각입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1081", "ko_new": "\"그게 그렇게까지 중요하오? 고작 판잣집 하나잖소.\"", "reason": "한 대사 안의 합쇼체를 하오체로 통일했다.", "flags_resolved": []}
+{"key": "d:424:1092", "ko_new": "\"뭐라고 하셨습니까?\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1098", "ko_new": "\"그뿐만이 아니라, 그자를 폐하의 딸과 결혼시키신다는 겁니까?! 왕족들이 별난 전통이 많다는 건 알았지만, 이건 정말 기가 막힙니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1099", "ko_new": "\"좋소, 말이 좀 거칠어도 이해하시오. 이 배신자 개자식 같으니, 그딴 건 각하 엉덩이에나 처박으시오!\"", "reason": "원문의 욕설은 어휘로 살리고 한 대사 안의 반말 종결을 하오체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:424:1103", "ko_new": "\"참 친절하시구려. 답례로 내 딸 비나의 결혼식에 대통령 각하를 정중히 초대하고 싶소.\"", "reason": "연설이 아닌 자리의 합쇼체를 하오체로 고치고 호칭 대통령님을 바로잡았다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:424:1109", "ko_new": "\"제 아내들 중 한 명과 함께 참석하겠습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1111", "ko_new": "\"왜 아니겠습니까? 집에서 가장 중요한 방인데 말입니다.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1118", "ko_new": "\"그때까지 질레 반환은 보류라고 생각해 주십시오.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1119", "ko_new": "\"그 땅에 국민투표를 실시할 권리는 각하에게 없소. 불법이며 국제연합에 이의를 제기하겠소.\"", "reason": "외국 정상에게 금지된 그대를 각하로 바꿨다.", "flags_resolved": []}
+{"key": "d:424:1120", "ko_new": "\"도전을 받아들이겠습니다. 우리 베흘렌인은 회복력의 역사가 있습니다. 강대국에도 맞서봤으니 폐하의 왕국이라고 다를 건 없습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고치고 금지된 그대를 폐하로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1123", "ko_new": "\"그럼 투표로 결정하게 하시지요. 옛 아르카시아 혁명가들이 우리에게 준 공정한 절차이니 저는 그걸 활용할 생각입니다.\"", "reason": "외국 정상의 하오체 청유와 1인칭을 합쇼체에 맞췄다.", "flags_resolved": []}
+{"key": "d:424:1127", "ko_new": "\"스몰라크 대통령, 각하는 세계적인 지도자요. 이 사소한 집착은 이제 놓아주길 간청하오.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:1132", "ko_new": "\"사소하다는 말씀입니까? 제가 말입니까?\"", "reason": "외국 정상의 해요체와 1인칭을 합쇼체에 맞췄다.", "flags_resolved": []}
+{"key": "d:424:1141", "ko_new": "\"아, 잠깐. 애초에 그런 약속을 하신 적이 없었습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1142", "ko_new": "\"우리 병사들 무장조차 제대로 유지하기 힘든 판에 귀국까지 지원할 수는 없소. 이 요청은 들어줄 수 없소.\"", "reason": "외국 정상에게 금지된 당신들을 귀국으로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:1143", "ko_new": "\"됐소, 대통령 각하. 각하와는 이제 충분히 협상했소.\"", "reason": "외국 정상에게 금지된 당신을 각하로 바꾸고 호칭을 보완했다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:424:1182", "ko_new": "\"그럴 줄 알았습니다. 폐하의 낡은 군주제는 민주적 절차를 전혀 존중하지 않습니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1188", "ko_new": "스몰라크는 오랫동안 침묵했다. 마침내 그는 웃음을 터뜨렸다.", "reason": "받침 없는 고유명사 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:424:1189", "ko_new": "\"농담이었습니다, 폐하! 친구끼리 주고받는 악의 없는 농담이었습니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1192", "ko_new": "\"여덟 아내가 낳아 준 딸만 열하나를 본 끝에, 참고로 저는 아직 그 아내들 모두와 결혼 상태입니다만, 드디어 아들을 얻었습니다! 빅토르 스몰라크 2세를 소개하겠습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1193", "ko_new": "\"그런 건 곧 얼마든지 할 시간이 있을 겁니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1194", "ko_new": "\"앞으로 비행 시간이 기니, 이야기할 시간은 충분할 겁니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1195", "ko_new": "\"폐하의 금위대가 폭탄 테러에 연루된 리카르두스 토라스 공작을 체포했습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1196", "ko_new": "\"특히 뭔가 잘못한 일이 있다면 말입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1197", "ko_new": "\"아, 맞습니다. 질레를 두고 결국 합의를 못 했었지요.\"", "reason": "외국 정상의 반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1198", "ko_new": "\"마치 리치아가 베흘렌이나 베흘렌의 뜻을 전혀 존중하지 않는 것 같았습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1199", "ko_new": "\"정말 직접 나서서 그들의 처지를 개선하려고 하셨습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1202", "ko_new": "\"하지만 뭐, 그렇게 가문의 역사를 팔아넘기고 싶으시다면 제가 굳이 마다할 이유가 있겠습니까?\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1203", "ko_new": "\"외교 협상의 기술에서 첫 번째 규칙을 잊으신 모양입니다...\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:1204", "ko_new": "\"정말로 우리 둘 다 이기는 거래입니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1205", "ko_new": "\"그럴 리가 없습니다. 금을 베흘렌의 보조 통화로 두면 당연히 우리 금융 안정성이 높아지니까요.\"", "reason": "외국 정상의 반말을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:1206", "ko_new": "\"그리고 사람들이 저를 만만하게 이용해 먹을 수 있다고 생각하게 되는 건 정말 바라지 않습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1207", "ko_new": "\"아시다시피 우리 동포 중에는 아직도 민주적 절차를 존중하는 사람들이 있습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고치고 존대 어휘를 맞췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1208", "ko_new": "\"질레에서 주민투표를 열어, 베흘렌에 남을지 리치아로 돌아갈지를 주민들이 선택하게 하는 방안을 제안할까 생각 중이었습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1209", "ko_new": "\"그렇다면 유감이지만 재통합 문제를 두고 질레에서 주민투표를 여는 수밖에 없겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1210", "ko_new": "\"좀 봐주십시오... 아무튼...\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:424:1211", "ko_new": "\"질레에서 주민투표의 문을 여는 방안을 고려할 정도는 됩니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1212", "ko_new": "\"기저귀를 갈 때가 됐습니다. 적어도 이 방에 가득한 헛소리보다는 냄새가 낫겠습니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1213", "ko_new": "\"그 문제가 다시 수면 위로 떠오르게 둘 수는 없습니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1214", "ko_new": "\"그 사람 하나만의 문제가 아닙니다. 그를 체포함으로써 사회 규범을 뒤엎으려는 다른 자들에게 어떤 메시지를 보내느냐의 문제입니다.\"", "reason": "외국 정상의 하오체·반말을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1215", "ko_new": "\"재통합 여부는 질레 주민들이 결정해야 한다고 생각합니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1216", "ko_new": "\"제가 보기에는 질레 주민들이 결정하도록 해야 합니다.", "reason": "외국 정상의 하오체를 합쇼체로 고치고 1인칭을 낮췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1217", "ko_new": "\"이 문제에서 선택권을 갖는 것은 중요합니다.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1218", "ko_new": "\"진전과 상호 이해를 위한 기회로 받아들이시지요.\"", "reason": "외국 정상의 하오체 청유를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1219", "ko_new": "\"폐하께서 내리신 결정이 어떤 의미인지 생각해 보실 수 있도록 저는 이만 물러나겠습니다.\"", "reason": "금지된 당신을 폐하로 바꾸고 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo", "pronoun_dangsin"]}
+{"key": "d:424:1224", "ko_new": "\"그리고 우리 금 거래도 없던 일로 하십시오.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1235", "ko_new": "\"그리고 우리 석유 거래도 없던 일로 하십시오.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1236", "ko_new": "\"그리고 우리 무기 거래도 없던 일로 하십시오.\"", "reason": "외국 정상의 하오체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1243", "ko_new": "\"레스피아 말입니까?\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1246", "ko_new": "\"저는 어디든 이 아이를 데리고 다닙니다, 폐하! 어떤 암살자도 이 사랑스러운 얼굴에 총알을 박을 엄두는 못 낼 겁니다.\"", "reason": "외국 정상의 해요체 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:424:1257", "ko_new": "\"소형 비행선 말입니까? 이건 공중함입니다! 세상에서 가장 안전한 곳입니다.\"", "reason": "외국 정상의 해요체를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}

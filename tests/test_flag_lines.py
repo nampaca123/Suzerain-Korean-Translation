@@ -130,3 +130,16 @@ def test_glossary_violation_ignores_longer_standard_and_prefixed_word():
     assert "glossary_violation" in f["b"]["flags"]
     assert "glossary_violation" not in f["c"]["flags"]
     assert "glossary_violation" in f["d"]["flags"]
+
+def test_narration_ignores_trailing_quote():
+    rows = [D("a", "Narrator", '한 혁명가가 소리쳤다. "그만하십시오. 이제 충분합니다!"'),
+            D("b", "Narrator", '한 혁명가가 소리쳤습니다. "그만하십시오."', seq=1),
+            D("c", "Narrator", '그는 웃었다.', seq=2),
+            D("d", "Narrator", '그렇게 하고 있습니다.', seq=3),
+            D("e", "Narrator", '그러다 앞서 봤던 구호가 떠올랐다, "국민 외에는 왕이 없다."', seq=4)]
+    f = flag_dialogue(rows, [])
+    assert "narration_not_declarative" not in f["a"]["flags"]
+    assert "narration_not_declarative" not in f["e"]["flags"]
+    assert "narration_not_declarative" in f["b"]["flags"]
+    assert "narration_not_declarative" not in f["c"]["flags"]
+    assert "narration_not_declarative" in f["d"]["flags"]

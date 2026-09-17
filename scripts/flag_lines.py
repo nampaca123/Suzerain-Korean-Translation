@@ -28,7 +28,17 @@ _EFFECT_TAG = re.compile(r"\[[^\]가-힣]*[A-Za-z]{3,}[^\]가-힣]*\]")
 _TA_SKIP_FIELD = re.compile(r"(Title|Keywords|Name|Label|Header|Author)")
 _SENTENCE_END = re.compile(r"[.?!]")
 _ROYAL_VOCATIVE = re.compile(r"폐하(?!께|의|가|는|를|도|와|과|에게|님)")
+_TRAILING_QUOTE = re.compile(r"""[\s,]*(?:"[^"]*"|'[^']*')[\s.?!]*$""")
 MIN_CLAUSE_SYLLABLES = 5
+
+
+def _narration_part(ko: str) -> str:
+    text = ko.strip()
+    while True:
+        stripped = _TRAILING_QUOTE.sub("", text).strip()
+        if stripped == text:
+            return text
+        text = stripped
 
 
 def _long_clauses(ko: str) -> list[str]:
@@ -74,7 +84,9 @@ def _common_flags(ko: str, en: str, glossary: tuple) -> list[str]:
 def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
     a, ko, f = r["actor"], r["ko"], []
     if a in NARRATORS:
-        if not is_quoted(ko) and not is_narrative(ko) and reg != OTHER: f.append("narration_not_declarative")
+        narration = _narration_part(ko)
+        if narration and not is_quoted(ko) and not is_narrative(narration) and classify(narration) != OTHER:
+            f.append("narration_not_declarative")
         return f
     if is_quoted(ko) and is_narrative(ko.strip('"')) and reg == HAERA and re.search(r"(였|았|었|ㄴ|는|이)다[.!]?\"?$", ko.strip()):
         f.append("dialogue_declarative_ending")

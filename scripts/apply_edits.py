@@ -60,15 +60,15 @@ def apply_edits(batch_dir: Path) -> dict:
         if r["key"] in acc_ko: r["ko"] = acc_ko[r["key"]]["ko_new"]
         if r["key"] in acc_menu: r["menu_ko"] = acc_menu[r["key"]]["ko_new"]
     write_jsonl(current_path, current)
+    cur_by_key = {r["key"]: r for r in current}  # 기계 패스(용어·효과 라벨)로 바뀐 줄도 배치 입력·검수본에 반영한다
     reviewed = []
     for r in rows:
-        e, m = acc_ko.get(r["key"]), acc_menu.get(r["key"])
-        rv = {**r, "ko_old": r["ko"], "ko": e["ko_new"] if e else r["ko"], "edited": bool(e), "reason": e["reason"] if e else ""}
-        if m:
-            rv["menu_ko"] = r["menu_ko"] = m["ko_new"]
+        e, m, c = acc_ko.get(r["key"]), acc_menu.get(r["key"]), cur_by_key.get(r["key"], r)
+        rv = {**r, "ko_old": r["ko"], "ko": c["ko"], "edited": bool(e), "reason": e["reason"] if e else ""}
+        if m or c.get("menu_ko", "") != r.get("menu_ko", ""):
+            rv["menu_ko"] = r["menu_ko"] = c.get("menu_ko", "")
         reviewed.append(rv)
-        if e:
-            r["ko"] = e["ko_new"]
+        r["ko"] = c["ko"]
     write_jsonl(batch_dir / "input.jsonl", rows); write_jsonl(batch_dir / "reviewed.jsonl", reviewed)
     if rejected:
         write_jsonl(batch_dir / "apply_errors.jsonl", rejected)

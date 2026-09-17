@@ -1,6 +1,7 @@
 # 한글(패치)·영어(스팀) 추출본을 줄 단위로 정렬해 말뭉치 jsonl을 만든다. Rizia 항목과 지정 공용 코덱스만 포함.
 import json
 import os
+import time
 import re
 import sys
 from pathlib import Path
@@ -27,7 +28,14 @@ def write_jsonl(path: Path, rows: list[dict]) -> None:
     with open(tmp, "w", encoding="utf-8") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
-    os.replace(tmp, path)
+    for attempt in range(5):  # 다른 프로세스(에이전트 grep)가 잠깐 잠근 경우 재시도
+        try:
+            os.replace(tmp, path)
+            return
+        except PermissionError:
+            if attempt == 4:
+                raise
+            time.sleep(0.5 * (attempt + 1))
 
 
 def read_jsonl(path: Path) -> list[dict]:

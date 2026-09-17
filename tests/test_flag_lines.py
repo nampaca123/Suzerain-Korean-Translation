@@ -143,3 +143,12 @@ def test_narration_ignores_trailing_quote():
     assert "narration_not_declarative" in f["b"]["flags"]
     assert "narration_not_declarative" not in f["c"]["flags"]
     assert "narration_not_declarative" in f["d"]["flags"]
+
+def test_glossary_hint_for_non_auto_replace_entries():
+    g = [{"concept": "PM", "standard": "총리", "banned": ["수상", "재상"], "auto_replace": False, "source": "sordland"},
+         {"concept": "Pales", "standard": "팔레", "banned": ["페일스"], "auto_replace": True, "source": "sordland"}]
+    rows = [D("a", "Hugo Toras", '수상한 움직임이 있었네.'),
+            D("b", "Hugo Toras", '페일스는 위험하네.', seq=1)]
+    f = flag_dialogue(rows, g)
+    assert "glossary_hint" in f["a"]["flags"] and "glossary_violation" not in f["a"]["flags"]
+    assert "glossary_violation" in f["b"]["flags"] and "glossary_hint" not in f["b"]["flags"]

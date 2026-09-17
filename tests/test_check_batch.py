@@ -21,7 +21,7 @@ def test_passes_clean(tmp_path):
     b = _batch(tmp_path, '"어서 오십시오, 폐하."', [])
     r = check_batch(b)
     assert r["stage"] == "passed" and json.loads((b / "status.json").read_text())["stage"] == "passed"
-    assert "royal_title_low_register" in HARD_FLAGS and "dialogue_declarative_ending" not in HARD_FLAGS
+    assert "royal_title_low_register" in HARD_FLAGS and "dialogue_declarative_ending" not in HARD_FLAGS and "glossary_hint" not in HARD_FLAGS
 
 def _rows_batch(tmp_path, rows, kind="dialogue", findings=(), name="b", **status_extra):
     b = tmp_path / name; b.mkdir()

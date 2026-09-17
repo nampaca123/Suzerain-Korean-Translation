@@ -21,6 +21,7 @@ FLAGS = ("narration_not_declarative", "dialogue_declarative_ending", "royal_titl
          "subject_not_hapsyo", "vina_not_haeyo", "foreign_not_hapsyo", "hugo_low_register",
          "menu_mismatch", "same_en_diff_register", "glossary_violation", "josa_mismatch",
          "dash_remaining", "curly_quote", "quote_missing", "english_effect_tag", "pronoun_dangsin",
+         "glossary_hint",
          "ta_register_mismatch", "missing_paragraph", "placeholder_mismatch", "codex_variant_mismatch")
 
 def test_checklist_covers_every_flag():

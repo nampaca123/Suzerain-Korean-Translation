@@ -55,15 +55,21 @@ def _banned_rx(banned: str) -> re.Pattern:
 def _prepare_glossary(glossary: list[dict]) -> tuple:
     entries = [g for g in glossary if g.get("standard")]
     standards = sorted({g["standard"] for g in entries}, key=len, reverse=True)
-    return standards, [_banned_rx(b) for g in entries for b in g.get("banned", [])]
+    by_auto = {True: [], False: []}
+    for g in entries:
+        by_auto[bool(g.get("auto_replace", True))] += [_banned_rx(b) for b in g.get("banned", [])]
+    return standards, by_auto[True], by_auto[False]
 
 
-def _has_banned_term(ko: str, prepared: tuple) -> bool:
-    standards, banned = prepared
+def _glossary_flags(ko: str, prepared: tuple) -> list[str]:
+    standards, banned, hinted = prepared
     masked = ko
     for s in standards:
         masked = masked.replace(s, "\x00" * len(s))
-    return any(rx.search(masked) for rx in banned)
+    f = []
+    if any(r.search(masked) for r in banned): f.append("glossary_violation")
+    if any(r.search(masked) for r in hinted): f.append("glossary_hint")
+    return f
 
 
 def josa_ok(word: str, josa: str) -> bool:
@@ -77,7 +83,7 @@ def _common_flags(ko: str, en: str, glossary: tuple) -> list[str]:
     if re.search(r"--|—|–", ko): f.append("dash_remaining")
     if re.search(r"[“”‘’]", ko): f.append("curly_quote")
     if _EFFECT_TAG.search(ko): f.append("english_effect_tag")
-    if _has_banned_term(ko, glossary): f.append("glossary_violation")
+    f += _glossary_flags(ko, glossary)
     return f
 
 

@@ -146,12 +146,16 @@
   "concept": "profit share",
   "en": "profit share",
   "candidates": [
+   "수익 분배",
    "이익 배분",
    "이익 지분",
    "수익 배분",
    "수익 몫",
-   "이익 공유"
-  ]
+   "이익 공유",
+   "이익 분배"
+  ],
+  "human_standard": "수익 분배",
+  "human_reason": "사용자 결정"
  },
  {
   "concept": "Armed Forces",
@@ -160,7 +164,10 @@
    "리치아 국군",
    "리치아군",
    "리치아 육군"
-  ]
+  ],
+  "human_standard": "리치아 육군",
+  "human_auto_replace": false,
+  "human_reason": "사용자 결정. 리치아군은 일반 지칭으로도 쓰여 자동 치환 없이 영문 Armed Forces인 줄만 고친다"
  },
  {
   "concept": "Mouser",
@@ -184,7 +191,9 @@
   "candidates": [
    "카란자",
    "카란자스"
-  ]
+  ],
+  "human_standard": "카란자",
+  "human_reason": "사용자 결정"
  },
  {
   "concept": "Nur 종교",
@@ -212,7 +221,9 @@
   "candidates": [
    "할라이타",
    "Halaita"
-  ]
+  ],
+  "human_standard": "할라이타",
+  "human_reason": "R75: 메인 캠페인 구호 \"Greci Sordland!\"→\"그레지 소르들란드!\" 음차 선례"
  },
  {
   "concept": "Van Hoorten (인명)",
@@ -254,5 +265,25 @@
   ],
   "human_standard": "왕실 선양 캠페인",
   "human_reason": "R74: 고유명사라기보다 뜻이 드러나는 구호형 사업명이라 음차 대신 뜻풀이형. 2026-09-17 사용자 지시."
+ },
+ {
+  "concept": "Walker Plan",
+  "en": "Walker Plan",
+  "candidates": [
+   "워커 플랜",
+   "워커플랜"
+  ],
+  "human_standard": "워커 플랜",
+  "human_reason": "사용자 결정"
+ },
+ {
+  "concept": "Glovurius axa Rizia (구호)",
+  "en": "Glovurius axa Rizia",
+  "candidates": [
+   "글로부리우스 악사 리치아",
+   "Glovurius axa Rizia"
+  ],
+  "human_standard": "글로부리우스 악사 리치아",
+  "human_reason": "R75 음차 원칙, 코퍼스 기존 음차형"
  }
 ]

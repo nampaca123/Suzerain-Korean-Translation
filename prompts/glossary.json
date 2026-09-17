@@ -363,33 +363,47 @@
  {
   "concept": "profit share",
   "en": "profit share",
-  "standard": null,
-  "banned": [],
-  "source": "needs_human",
-  "auto_replace": false,
+  "standard": "수익 분배",
+  "banned": [
+   "이익 배분",
+   "이익 지분",
+   "수익 배분",
+   "수익 몫",
+   "이익 공유",
+   "이익 분배"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
+    "수익 분배": 3,
     "이익 배분": 0,
     "이익 지분": 0,
     "수익 배분": 0,
     "수익 몫": 0,
-    "이익 공유": 0
+    "이익 공유": 0,
+    "이익 분배": 0
    },
    "rizia": {
+    "수익 분배": 0,
     "이익 배분": 1,
     "이익 지분": 2,
     "수익 배분": 2,
     "수익 몫": 2,
-    "이익 공유": 0
+    "이익 공유": 0,
+    "이익 분배": 0
    }
   }
  },
  {
   "concept": "Armed Forces",
   "en": "Rizian Armed Forces",
-  "standard": null,
-  "banned": [],
-  "source": "needs_human",
+  "standard": "리치아 육군",
+  "banned": [
+   "리치아 국군",
+   "리치아군"
+  ],
+  "source": "user_decision",
   "auto_replace": false,
   "evidence": {
    "sordland": {
@@ -447,10 +461,12 @@
  {
   "concept": "Karanza",
   "en": "Karanza",
-  "standard": null,
-  "banned": [],
-  "source": "needs_human",
-  "auto_replace": false,
+  "standard": "카란자",
+  "banned": [
+   "카란자스"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "카란자": 0,
@@ -508,10 +524,12 @@
  {
   "concept": "Halaita(의례어)",
   "en": "Halaita",
-  "standard": null,
-  "banned": [],
-  "source": "needs_human",
-  "auto_replace": false,
+  "standard": "할라이타",
+  "banned": [
+   "Halaita"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "할라이타": 0,
@@ -618,6 +636,46 @@
     "크라운 슈프림 캠페인": 4,
     "왕실 최고 캠페인": 2,
     "왕실 선전": 3
+   }
+  }
+ },
+ {
+  "concept": "Walker Plan",
+  "en": "Walker Plan",
+  "standard": "워커 플랜",
+  "banned": [
+   "워커플랜"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "워커 플랜": 1,
+    "워커플랜": 0
+   },
+   "rizia": {
+    "워커 플랜": 6,
+    "워커플랜": 4
+   }
+  }
+ },
+ {
+  "concept": "Glovurius axa Rizia (구호)",
+  "en": "Glovurius axa Rizia",
+  "standard": "글로부리우스 악사 리치아",
+  "banned": [
+   "Glovurius axa Rizia"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "글로부리우스 악사 리치아": 0,
+    "Glovurius axa Rizia": 0
+   },
+   "rizia": {
+    "글로부리우스 악사 리치아": 52,
+    "Glovurius axa Rizia": 0
    }
   }
  }

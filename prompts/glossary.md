@@ -22,15 +22,17 @@
 | Grand Wiseman | Grand Wiseman | 대현사 | 이그나시우스 현자 | rizia_majority | 아니오(보고만) | {'대현사': 0, '이그나시우스 현자': 0} | {'대현사': 295, '이그나시우스 현자': 5} |
 | late King Valero | late King Valero | 선왕 | 부왕 | rizia_majority | 아니오(보고만) | {'선왕': 0, '부왕': 0} | {'선왕': 69, '부왕': 3} |
 | Grand Hall | Grand Hall | 대연회장 | 대회랑, 대전당 | rizia_majority | 아니오(보고만) | {'대전당': 0, '대연회장': 0, '대회랑': 0} | {'대전당': 5, '대연회장': 12, '대회랑': 8} |
-| profit share | profit share | (needs_human) |  | needs_human | 아니오(보고만) | {'이익 배분': 0, '이익 지분': 0, '수익 배분': 0, '수익 몫': 0, '이익 공유': 0} | {'이익 배분': 1, '이익 지분': 2, '수익 배분': 2, '수익 몫': 2, '이익 공유': 0} |
-| Armed Forces | Rizian Armed Forces | (needs_human) |  | needs_human | 아니오(보고만) | {'리치아 국군': 0, '리치아군': 0, '리치아 육군': 0} | {'리치아 국군': 0, '리치아군': 97, '리치아 육군': 82} |
+| profit share | profit share | 수익 분배 | 이익 배분, 이익 지분, 수익 배분, 수익 몫, 이익 공유, 이익 분배 | user_decision | 예 | {'수익 분배': 3, '이익 배분': 0, '이익 지분': 0, '수익 배분': 0, '수익 몫': 0, '이익 공유': 0, '이익 분배': 0} | {'수익 분배': 0, '이익 배분': 1, '이익 지분': 2, '수익 배분': 2, '수익 몫': 2, '이익 공유': 0, '이익 분배': 0} |
+| Armed Forces | Rizian Armed Forces | 리치아 육군 | 리치아 국군, 리치아군 | user_decision | 아니오(보고만) | {'리치아 국군': 0, '리치아군': 0, '리치아 육군': 0} | {'리치아 국군': 0, '리치아군': 97, '리치아 육군': 82} |
 | Mouser | Mouser | 무세르 | 모우세르 | rizia_majority | 아니오(보고만) | {'무세르': 0, '모우세르': 0} | {'무세르': 17, '모우세르': 9} |
 | Kabet | Kabet | 카베테 | 카베트 | sordland | 예 | {'카베트': 0, '카베테': 1} | {'카베트': 11, '카베테': 13} |
-| Karanza | Karanza | (needs_human) |  | needs_human | 아니오(보고만) | {'카란자': 0, '카란자스': 0} | {'카란자': 9, '카란자스': 9} |
+| Karanza | Karanza | 카란자 | 카란자스 | user_decision | 예 | {'카란자': 0, '카란자스': 0} | {'카란자': 9, '카란자스': 9} |
 | Nur 종교 | Nurist religion | 누리티교 | 누리교, 누르교 | sordland | 예 | {'누리티교': 63, '누르교': 0, '누리교': 1} | {'누리티교': 148, '누르교': 23, '누리교': 6} |
 | Dastnur 종교 | Dastnurist religion | 다스트누리티교 | 다스트누리교 | sordland | 예 | {'다스트누리티교': 36, '다스트누리교': 1} | {'다스트누리티교': 381, '다스트누리교': 0} |
-| Halaita(의례어) | Halaita | (needs_human) |  | needs_human | 아니오(보고만) | {'할라이타': 0, 'Halaita': 0} | {'할라이타': 40, 'Halaita': 43} |
+| Halaita(의례어) | Halaita | 할라이타 | Halaita | user_decision | 예 | {'할라이타': 0, 'Halaita': 0} | {'할라이타': 40, 'Halaita': 43} |
 | Van Hoorten (인명) | Van Hoorten | 판호르턴 | 판 호르턴, 판 호르텐, 판판호르턴, 반 판판호르턴 | sordland | 예 | {'판호르턴': 66, '판 호르턴': 1, '판 호르텐': 0, '판판호르턴': 0, '반 판판호르턴': 0} | {'판호르턴': 12, '판 호르턴': 0, '판 호르텐': 0, '판판호르턴': 6, '반 판판호르턴': 2} |
 | Drazon | Drazon | 드라촌 | 드라존 | sordland | 예 | {'드라존': 1, '드라촌': 7} | {'드라존': 655, '드라촌': 2} |
 | Wiscerer (직함) | Wiscerer | 위스세러 | 위스케러, 위스커러 | rizia_majority | 아니오(보고만) | {'위스세러': 0, '위스케러': 0, '위스커러': 0} | {'위스세러': 10, '위스케러': 4, '위스커러': 0} |
 | Crown Supreme Campaign | Crown Supreme Campaign | 왕실 선양 캠페인 | 크라운 슈프림 캠페인, 왕실 최고 캠페인, 왕실 선전 | user_decision | 예 | {'왕실 선양 캠페인': 0, '크라운 슈프림 캠페인': 0, '왕실 최고 캠페인': 0, '왕실 선전': 0} | {'왕실 선양 캠페인': 0, '크라운 슈프림 캠페인': 4, '왕실 최고 캠페인': 2, '왕실 선전': 3} |
+| Walker Plan | Walker Plan | 워커 플랜 | 워커플랜 | user_decision | 예 | {'워커 플랜': 1, '워커플랜': 0} | {'워커 플랜': 6, '워커플랜': 4} |
+| Glovurius axa Rizia (구호) | Glovurius axa Rizia | 글로부리우스 악사 리치아 | Glovurius axa Rizia | user_decision | 예 | {'글로부리우스 악사 리치아': 0, 'Glovurius axa Rizia': 0} | {'글로부리우스 악사 리치아': 52, 'Glovurius axa Rizia': 0} |

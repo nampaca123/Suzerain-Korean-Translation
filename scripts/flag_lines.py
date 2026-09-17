@@ -137,6 +137,9 @@ def flag_dialogue(rows: list[dict], glossary: list[dict]) -> dict[str, dict]:
     return out
 
 
+_WRITTEN_Q = re.compile(r'(인가|는가|은가|ㄹ까|을까|일까)\?["”]?$')
+
+
 def flag_textassets(rows: list[dict], glossary: list[dict]) -> dict[str, dict]:
     out, by_base, prepared = {}, defaultdict(list), _prepare_glossary(glossary)
     for r in rows:
@@ -147,7 +150,8 @@ def flag_textassets(rows: list[dict], glossary: list[dict]) -> dict[str, dict]:
         if sorted(_PLACEHOLDER.findall(r["ko"])) != sorted(_PLACEHOLDER.findall(r["en"])): f.append("placeholder_mismatch")
         leaf = r["field_path"].rsplit("/", 1)[-1]
         gradable = not _TA_SKIP_FIELD.search(leaf) and _SENTENCE_END.search(r["ko"])
-        if target and gradable and reg not in target and reg != OTHER: f.append("ta_register_mismatch")
+        written_q = target and HAERA in target and reg == HAGE and _WRITTEN_Q.search(r["ko"].strip())  # -다체 기사의 "-인가?" 수사 의문
+        if target and gradable and reg not in target and reg != OTHER and not written_q: f.append("ta_register_mismatch")
         # 한국어는 영문보다 글자 수가 늘 짧아(길이비 중앙값 0.44) 길이비는 신호가 못 된다. 문단 구분 손실만 센다.
         if r["en"].count("\n") > r["ko"].count("\n"): f.append("missing_paragraph")
         out[r["key"]] = {"flags": f, "register": reg, "target": sorted(target) if target else []}

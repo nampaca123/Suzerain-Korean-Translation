@@ -24,10 +24,9 @@ def to_md(rows: list[dict]) -> str:
              "| 영문 | 채택 표기 | 종류 | 근거 | 출처 | key |", "|---|---|---|---|---|---|"]
     for r in rows:
         keys = ", ".join(r.get("keys", [])[:3]) + (" …" if len(r.get("keys", [])) > 3 else "")
-        lines.append(f"| {r.get('en','')} | {r.get('ko','')} | {r.get('kind','')} | {r.get('reason','')} | {r['source']} | {keys} |")
-    return "
-".join(lines) + "
-"
+        lines.append(f"| {r.get('en', '')} | {r.get('ko', '')} | {r.get('kind', '')} | {r.get('reason', '')} | "
+                     f"{r['source']} | {keys} |")
+    return "\n".join(lines) + "\n"
 
 
 if __name__ == "__main__":

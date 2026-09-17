@@ -571,5 +571,51 @@
     "드라촌": 2
    }
   }
+ },
+ {
+  "concept": "Wiscerer (직함)",
+  "en": "Wiscerer",
+  "standard": "위스세러",
+  "banned": [
+   "위스케러",
+   "위스커러"
+  ],
+  "source": "rizia_majority",
+  "auto_replace": false,
+  "evidence": {
+   "sordland": {
+    "위스세러": 0,
+    "위스케러": 0,
+    "위스커러": 0
+   },
+   "rizia": {
+    "위스세러": 10,
+    "위스케러": 4,
+    "위스커러": 0
+   }
+  }
+ },
+ {
+  "concept": "Crown Supreme Campaign",
+  "en": "Crown Supreme Campaign",
+  "standard": "크라운 슈프림 캠페인",
+  "banned": [
+   "왕관 최고 캠페인",
+   "크라운 수프림 캠페인"
+  ],
+  "source": "rizia_majority",
+  "auto_replace": false,
+  "evidence": {
+   "sordland": {
+    "크라운 슈프림 캠페인": 0,
+    "왕관 최고 캠페인": 0,
+    "크라운 수프림 캠페인": 0
+   },
+   "rizia": {
+    "크라운 슈프림 캠페인": 4,
+    "왕관 최고 캠페인": 0,
+    "크라운 수프림 캠페인": 0
+   }
+  }
  }
 ]

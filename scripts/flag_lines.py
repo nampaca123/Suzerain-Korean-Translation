@@ -49,7 +49,10 @@ def _long_clauses(ko: str) -> list[str]:
 
 @lru_cache(maxsize=None)
 def _banned_rx(banned: str) -> re.Pattern:
-    return re.compile((r"(?<![가-힣])" if _HANGUL.match(banned) else "") + re.escape(banned))
+    esc = re.escape(banned)
+    if banned.isascii():  # 라틴 금지 표기는 라틴 문자·숫자 경계만 본다(SANA 속 AN 제외)
+        return re.compile(rf"(?<![A-Za-z0-9]){esc}(?![A-Za-z0-9])")
+    return re.compile((r"(?<![가-힣])" if _HANGUL.match(banned) else "") + esc)
 
 
 def _prepare_glossary(glossary: list[dict]) -> tuple:

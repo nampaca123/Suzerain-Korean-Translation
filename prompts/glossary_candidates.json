@@ -1,29 +1,255 @@
 [
- {"concept": "St. Wruhec (성인 이름)", "en": "St. Wruhec", "candidates": ["성 브루헤지", "성 브루헤크"]},
- {"concept": "Wruhec 종교", "en": "Wruhec", "candidates": ["브루헤크교", "브루헤지교"]},
- {"concept": "Golcondism", "en": "Golcondism", "candidates": ["골콘다교", "골콘디즘", "골콘다주의"]},
- {"concept": "House of Delegates", "en": "House of Delegates", "candidates": ["대의회", "대의원회"]},
- {"concept": "Alliance of Nations", "en": "Alliance of Nations", "candidates": ["국제연합", "AN", "국가연합"]},
- {"concept": "WHR", "en": "WHR", "candidates": ["인권감시단", "WHR"]},
- {"concept": "Gasom", "en": "Gasom", "candidates": ["가솜", "Gasom", "GASOM"]},
- {"concept": "OMEC", "en": "OMEC", "candidates": ["메르코파경제개발기구", "메르코파 경제개발기구", "OMEC"]},
- {"concept": "GRACE", "en": "Guild of Royal Allies for Commercial Exchange", "candidates": ["GRACE", "상호무역 왕실연합 길드", "왕실 동맹국 상업 교류 길드"]},
- {"concept": "Rizia Imperii", "en": "Rizia Imperii", "candidates": ["리치아 임페리이", "리치아 임페리"]},
- {"concept": "Pales", "en": "Pales", "candidates": ["팔레", "페일스"]},
- {"concept": "Prime Minister", "en": "Prime Minister", "candidates": ["총리", "수상", "재상"]},
- {"concept": "Duke Reinhart", "en": "Duke Reinhart", "candidates": ["레이나르트 공작", "레이나르트 대공"]},
- {"concept": "Butler", "en": "Butler", "candidates": ["집사", "시종"]},
- {"concept": "Grand Wiseman", "en": "Grand Wiseman", "candidates": ["대현사", "이그나시우스 현자"]},
- {"concept": "late King Valero", "en": "late King Valero", "candidates": ["선왕", "부왕"]},
- {"concept": "Grand Hall", "en": "Grand Hall", "candidates": ["대전당", "대연회장", "대회랑"]},
- {"concept": "profit share", "en": "profit share", "candidates": ["이익 배분", "이익 지분", "수익 배분", "수익 몫", "이익 공유"]},
- {"concept": "Armed Forces", "en": "Rizian Armed Forces", "candidates": ["리치아 국군", "리치아군", "리치아 육군"]},
- {"concept": "Mouser", "en": "Mouser", "candidates": ["무세르", "모우세르"]},
- {"concept": "Kabet", "en": "Kabet", "candidates": ["카베트", "카베테"]},
- {"concept": "Karanza", "en": "Karanza", "candidates": ["카란자", "카란자스"]},
- {"concept": "Nur 종교", "en": "Nurist religion", "candidates": ["누리티교", "누르교", "누리교"], "mask": ["다스트누리티교"]},
- {"concept": "Dastnur 종교", "en": "Dastnurist religion", "candidates": ["다스트누리티교", "다스트누리교"]},
- {"concept": "Halaita(의례어)", "en": "Halaita", "candidates": ["할라이타", "Halaita"]},
- {"concept": "Van Hoorten (인명)", "en": "Van Hoorten", "candidates": ["판호르턴", "판 호르턴", "판 호르텐", "판판호르턴", "반 판판호르턴"], "mask": []},
- {"concept": "Drazon", "en": "Drazon", "candidates": ["드라존", "드라촌"]}
+ {
+  "concept": "St. Wruhec (성인 이름)",
+  "en": "St. Wruhec",
+  "candidates": [
+   "성 브루헤지",
+   "성 브루헤크"
+  ]
+ },
+ {
+  "concept": "Wruhec 종교",
+  "en": "Wruhec",
+  "candidates": [
+   "브루헤크교",
+   "브루헤지교"
+  ]
+ },
+ {
+  "concept": "Golcondism",
+  "en": "Golcondism",
+  "candidates": [
+   "골콘다교",
+   "골콘디즘",
+   "골콘다주의"
+  ]
+ },
+ {
+  "concept": "House of Delegates",
+  "en": "House of Delegates",
+  "candidates": [
+   "대의회",
+   "대의원회"
+  ]
+ },
+ {
+  "concept": "Alliance of Nations",
+  "en": "Alliance of Nations",
+  "candidates": [
+   "국제연합",
+   "AN",
+   "국가연합"
+  ]
+ },
+ {
+  "concept": "WHR",
+  "en": "WHR",
+  "candidates": [
+   "인권감시단",
+   "WHR"
+  ]
+ },
+ {
+  "concept": "Gasom",
+  "en": "Gasom",
+  "candidates": [
+   "가솜",
+   "Gasom",
+   "GASOM"
+  ]
+ },
+ {
+  "concept": "OMEC",
+  "en": "OMEC",
+  "candidates": [
+   "메르코파경제개발기구",
+   "메르코파 경제개발기구",
+   "OMEC"
+  ]
+ },
+ {
+  "concept": "GRACE",
+  "en": "Guild of Royal Allies for Commercial Exchange",
+  "candidates": [
+   "GRACE",
+   "상호무역 왕실연합 길드",
+   "왕실 동맹국 상업 교류 길드"
+  ]
+ },
+ {
+  "concept": "Rizia Imperii",
+  "en": "Rizia Imperii",
+  "candidates": [
+   "리치아 임페리이",
+   "리치아 임페리"
+  ]
+ },
+ {
+  "concept": "Pales",
+  "en": "Pales",
+  "candidates": [
+   "팔레",
+   "페일스"
+  ]
+ },
+ {
+  "concept": "Prime Minister",
+  "en": "Prime Minister",
+  "candidates": [
+   "총리",
+   "수상",
+   "재상"
+  ]
+ },
+ {
+  "concept": "Duke Reinhart",
+  "en": "Duke Reinhart",
+  "candidates": [
+   "레이나르트 공작",
+   "레이나르트 대공"
+  ]
+ },
+ {
+  "concept": "Butler",
+  "en": "Butler",
+  "candidates": [
+   "집사",
+   "시종"
+  ]
+ },
+ {
+  "concept": "Grand Wiseman",
+  "en": "Grand Wiseman",
+  "candidates": [
+   "대현사",
+   "이그나시우스 현자"
+  ]
+ },
+ {
+  "concept": "late King Valero",
+  "en": "late King Valero",
+  "candidates": [
+   "선왕",
+   "부왕"
+  ]
+ },
+ {
+  "concept": "Grand Hall",
+  "en": "Grand Hall",
+  "candidates": [
+   "대전당",
+   "대연회장",
+   "대회랑"
+  ]
+ },
+ {
+  "concept": "profit share",
+  "en": "profit share",
+  "candidates": [
+   "이익 배분",
+   "이익 지분",
+   "수익 배분",
+   "수익 몫",
+   "이익 공유"
+  ]
+ },
+ {
+  "concept": "Armed Forces",
+  "en": "Rizian Armed Forces",
+  "candidates": [
+   "리치아 국군",
+   "리치아군",
+   "리치아 육군"
+  ]
+ },
+ {
+  "concept": "Mouser",
+  "en": "Mouser",
+  "candidates": [
+   "무세르",
+   "모우세르"
+  ]
+ },
+ {
+  "concept": "Kabet",
+  "en": "Kabet",
+  "candidates": [
+   "카베트",
+   "카베테"
+  ]
+ },
+ {
+  "concept": "Karanza",
+  "en": "Karanza",
+  "candidates": [
+   "카란자",
+   "카란자스"
+  ]
+ },
+ {
+  "concept": "Nur 종교",
+  "en": "Nurist religion",
+  "candidates": [
+   "누리티교",
+   "누르교",
+   "누리교"
+  ],
+  "mask": [
+   "다스트누리티교"
+  ]
+ },
+ {
+  "concept": "Dastnur 종교",
+  "en": "Dastnurist religion",
+  "candidates": [
+   "다스트누리티교",
+   "다스트누리교"
+  ]
+ },
+ {
+  "concept": "Halaita(의례어)",
+  "en": "Halaita",
+  "candidates": [
+   "할라이타",
+   "Halaita"
+  ]
+ },
+ {
+  "concept": "Van Hoorten (인명)",
+  "en": "Van Hoorten",
+  "candidates": [
+   "판호르턴",
+   "판 호르턴",
+   "판 호르텐",
+   "판판호르턴",
+   "반 판판호르턴"
+  ],
+  "mask": []
+ },
+ {
+  "concept": "Drazon",
+  "en": "Drazon",
+  "candidates": [
+   "드라존",
+   "드라촌"
+  ]
+ },
+ {
+  "concept": "Wiscerer (직함)",
+  "en": "Wiscerer",
+  "candidates": [
+   "위스세러",
+   "위스케러",
+   "위스커러"
+  ]
+ },
+ {
+  "concept": "Crown Supreme Campaign",
+  "en": "Crown Supreme Campaign",
+  "candidates": [
+   "크라운 슈프림 캠페인",
+   "왕관 최고 캠페인",
+   "크라운 수프림 캠페인"
+  ]
+ }
 ]

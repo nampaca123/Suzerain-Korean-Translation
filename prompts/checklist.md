@@ -12,12 +12,13 @@ flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래
 5. 용어는 glossary.md의 표준 표기만 쓴다. 용어 표기는 glossary.md가 최종 기준이며 register_table.md 6.4의 후보 목록과 어긋나면 glossary.md를 따른다 (glossary_violation).
    - `자동 치환: 예` 항목: 기계 전처리가 이미 바꿔 놓았다. 손댈 것이 없다.
    - `자동 치환: 아니오(보고만)`인데 표준 표기가 있는 항목(예: 수상·재상 → 총리, 대회랑·대전당 → 대연회장): **에디터가 직접 고친다.** 다만 그 문장이 정말 그 용어를 뜻하는지 먼저 확인한다(예: "수상"이 prime minister가 아니라 상을 받는다는 뜻이면 고치지 않는다). 고칠 때 reason을 남긴다.
-   - 표준이 `(needs_human)`인 개념만 `{BATCH_DIR}/needs_human.jsonl`로 보낸다. 그 밖의 항목은 needs_human이 아니다.
+   - `{BATCH_DIR}/needs_human.jsonl`에는 (a) 용어집에서 표준이 `(needs_human)`인 4개념, (b) 리치아어 구호·의례어, (c) 코퍼스에 한국어 표기가 없는 새 고유명사, (d) 그 밖에 규칙으로 정할 수 없는 표기 쟁점을 기록한다. 화계·호칭·문체 문제는 needs_human 대상이 아니다(그것은 고쳐서 edits.jsonl로 낸다).
    - 표준 표기는 영문 철자가 달라도 같은 대상이면 똑같이 적용한다(예: Great Hall = Grand Hall → 대연회장).
    - glossary.md에 없는 용어·고유명사는 이 코퍼스(`data/current/dialogue.jsonl`, `data/current/textassets.jsonl`)에서 이미 다수로 쓰이는 표기로 통일할 수 있다(예: "리치아 정보국" 40줄 ← "해외정보부" 3줄, "팔란토르 시큐리티 솔루션즈" 39줄 ← 로마자 Palantor, "소르들란드" ← 오타 "소르드"). 근거 수치(`Grep -c`로 센 줄 수)를 reason에 적는다. 코퍼스에 없는 새 표기를 만드는 것은 여전히 금지다.
    - register_table.md 5.2의 인명 표기(예: 알바레즈)는 화계 규칙을 위한 것이지 철자 표준이 아니다. 철자는 코퍼스 다수 표기(알바레츠)를 따른다.
+   - 코퍼스 어디에도 한국어 표기가 없는 새 고유명사(예: 누락 문단 안의 "bransalch")는 음차도 의역도 하지 않는다. 로마자 그대로 두고 needs_human.jsonl에 기록한다.
    - 리치아어 구호·의례어(Halaita, Glovurius axa Rizia, Salutenas axa regu novus 등)는 음차로도 로마자로도 바꾸지 않는다. 표기 결정이 사람 판단 목록에 있으므로 교정자도 검수자도 이 줄을 문제 삼지 않는다.
-   - `needs_human` 개념은 네 가지뿐이다(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita). 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 그 줄을 `{BATCH_DIR}/needs_human.jsonl`에 `{"key": …, "reason": …}` 한 줄로 기록한다. needs_human 쟁점이 있는 줄도 확실한 수정(화계 등)은 edits.jsonl에 넣되, 미결 쟁점 부분은 원문 그대로 두고 needs_human.jsonl에 사유를 적는다. 새 표기를 지어내지 않는다.
+   - 용어집에서 표준이 `(needs_human)`인 개념은 네 가지다(profit share, Armed Forces = 리치아군/리치아 육군, Karanza = 카란자/카란자스, Halaita = 할라이타/Halaita). 표준 표기가 정해지지 않았다. 고르지 말고 원문 표기를 유지한 채 그 줄을 `{BATCH_DIR}/needs_human.jsonl`에 `{"key": …, "reason": …}` 한 줄로 기록한다. needs_human 쟁점이 있는 줄도 확실한 수정(화계 등)은 edits.jsonl에 넣되, 미결 쟁점 부분은 원문 그대로 두고 needs_human.jsonl에 사유를 적는다. 새 표기를 지어내지 않는다.
 6. 고유명사 뒤 조사가 받침과 맞는다. `{변수}` 뒤에 조사를 고정으로 붙이지 않는다 (josa_mismatch).
 7. "당신"은 로무스가 루시타(혼인 후)에게, 에스텔라·베아트리체가 로무스에게 쓰는 경우 외에는 쓰지 않는다 (pronoun_dangsin).
 8. 새 표기·새 용어·새 사실을 창작하지 않는다. 의미는 영문 원문을 따른다.

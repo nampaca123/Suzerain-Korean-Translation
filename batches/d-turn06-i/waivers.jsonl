@@ -1,0 +1,3 @@
+{"key": "d:376:312", "flag": "subject_mixed_register", "reason": "\"개혁가 로무스라.\" 감탄 조각 — 종결어미 아님(컨트롤러 확인)"}
+{"key": "d:376:503", "flag": "romus_mixed_register", "reason": "\"이제는 이것까지?\" 되묻기 조각(체크리스트 10 예외)(컨트롤러 확인)"}
+{"key": "d:376:1031", "flag": "romus_mixed_register", "reason": "\"차라리 잘됐군.\" 짧은 독립 감탄(체크리스트 10 예외)(컨트롤러 확인)"}

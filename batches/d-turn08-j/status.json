@@ -1,1 +1,1 @@
-{"batch": "d-turn08-j", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 223, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}
+{"batch": "d-turn08-j", "stage": "passed", "round": 3, "kind": "dialogue", "applied": 1, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {"glossary_violation": 1}}

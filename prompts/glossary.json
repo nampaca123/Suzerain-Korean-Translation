@@ -1899,5 +1899,25 @@
     "아가르드": 11
    }
   }
+ },
+ {
+  "concept": "Baroness de Rava (본인 작위)",
+  "en": "Baroness de Rava",
+  "standard": "데 라바 여남작",
+  "banned": [
+   "데 라바 남작부인"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "데 라바 여남작": 0,
+    "데 라바 남작부인": 0
+   },
+   "rizia": {
+    "데 라바 여남작": 0,
+    "데 라바 남작부인": 26
+   }
+  }
  }
 ]

@@ -919,5 +919,16 @@
   "human_standard": "아가드",
   "human_auto_replace": true,
   "human_reason": "R152: 코퍼스 15:11, 외래어 표기 간결형."
+ },
+ {
+  "concept": "Baroness de Rava (본인 작위)",
+  "en": "Baroness de Rava",
+  "candidates": [
+   "데 라바 여남작",
+   "데 라바 남작부인"
+  ],
+  "human_standard": "데 라바 여남작",
+  "human_auto_replace": true,
+  "human_reason": "R155: R94 본인 작위자 원칙(여공작·여백작과 동일). 코퍼스 선례 0이나 원칙 우선; 사용자 사후 확인 목록."
  }
 ]

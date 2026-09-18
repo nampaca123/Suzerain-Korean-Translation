@@ -93,3 +93,4 @@
 | Duchess of Iza (이자 여공작) | Duchess of Iza | 이자 여공작 | 이자 공작부인 | user_decision | 예 | {'이자 여공작': 0, '이자 공작부인': 0} | {'이자 여공작': 0, '이자 공작부인': 11} |
 | Golden Shield (황금 방패) | Golden Shield | 황금 방패 | 골든 실드 | user_decision | 예 | {'황금 방패': 0, '골든 실드': 0} | {'황금 방패': 14, '골든 실드': 12} |
 | Agard (아가드) | Agard | 아가드 | 아가르드 | user_decision | 예 | {'아가드': 0, '아가르드': 5} | {'아가드': 15, '아가르드': 11} |
+| Baroness de Rava (본인 작위) | Baroness de Rava | 데 라바 여남작 | 데 라바 남작부인 | user_decision | 예 | {'데 라바 여남작': 0, '데 라바 남작부인': 0} | {'데 라바 여남작': 0, '데 라바 남작부인': 26} |

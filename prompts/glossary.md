@@ -62,3 +62,4 @@
 | Queen Lucita (왕비) | Queen Lucita | 루시타 왕비 | 루시타 여왕 | user_decision | 예 | {'루시타 왕비': 0, '루시타 여왕': 0} | {'루시타 왕비': 7, '루시타 여왕': 10} |
 | Golden Gate (의회 정문) | Golden Gate | 황금문 | 골든 게이트 | user_decision | 예 | {'황금문': 0, '골든 게이트': 0} | {'황금문': 3, '골든 게이트': 0} |
 | Silver Gate (의회 문) | Silver Gate | 은문 | 실버 게이트 | user_decision | 예 | {'은문': 0, '실버 게이트': 0} | {'은문': 1, '실버 게이트': 4} |
+| shell corporation | shell corporation | 페이퍼 컴퍼니 | 유령회사, 유령 회사 | user_decision | 예 | {'페이퍼 컴퍼니': 0, '유령회사': 0, '유령 회사': 0} | {'페이퍼 컴퍼니': 8, '유령회사': 4, '유령 회사': 0} |

@@ -1246,5 +1246,28 @@
     "실버 게이트": 4
    }
   }
+ },
+ {
+  "concept": "shell corporation",
+  "en": "shell corporation",
+  "standard": "페이퍼 컴퍼니",
+  "banned": [
+   "유령회사",
+   "유령 회사"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "페이퍼 컴퍼니": 0,
+    "유령회사": 0,
+    "유령 회사": 0
+   },
+   "rizia": {
+    "페이퍼 컴퍼니": 8,
+    "유령회사": 4,
+    "유령 회사": 0
+   }
+  }
  }
 ]

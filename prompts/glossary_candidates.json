@@ -567,5 +567,17 @@
   "human_standard": "은문",
   "human_auto_replace": true,
   "human_reason": "R74 뜻풀이형, 황금문과 짝. 편집자가 음차로 바꾼 4줄 되돌림"
+ },
+ {
+  "concept": "shell corporation",
+  "en": "shell corporation",
+  "candidates": [
+   "페이퍼 컴퍼니",
+   "유령회사",
+   "유령 회사"
+  ],
+  "human_standard": "페이퍼 컴퍼니",
+  "human_auto_replace": true,
+  "human_reason": "R90: 코퍼스 다수(4:2). 보통명사이므로 통일만."
  }
 ]

@@ -463,5 +463,28 @@
   "mask": [
    "로무스 국왕"
   ]
+ },
+ {
+  "concept": "MITZ (메프티엠 국제무역지대)",
+  "en": "Meftiem International Trade Zone",
+  "candidates": [
+   "메프티엠 국제무역지대",
+   "메프티엠 국제 무역 지대",
+   "메프티엠 국제 무역지대"
+  ]
+ },
+ {
+  "concept": "International Trade Zone (약칭)",
+  "en": "International Trade Zone",
+  "candidates": [
+   "국제무역지대",
+   "국제 무역 지대",
+   "국제 무역지대"
+  ],
+  "mask": [
+   "메프티엠 국제무역지대",
+   "메프티엠 국제 무역 지대",
+   "메프티엠 국제 무역지대"
+  ]
  }
 ]

@@ -76,3 +76,10 @@ def test_effect_tag_per_turn_order():
 
 def test_effect_tag_slash_turn():
     assert fix_effect_tags("[향후 +2 에너지/턴]") == "[향후 턴당 +2 에너지]"
+
+
+def test_fix_josa_after_replacement():
+    from scripts.preprocess_mechanical import fix_josa_after
+    assert fix_josa_after("은문로 향했다", "은문") == "은문으로 향했다"
+    assert fix_josa_after("헤겔 총리이 말했다", "헤겔 총리") == "헤겔 총리가 말했다"
+    assert fix_josa_after("은문으로 향했다", "은문") == "은문으로 향했다"

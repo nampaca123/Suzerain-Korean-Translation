@@ -66,6 +66,27 @@ def _banned_rx(form: str) -> re.Pattern:
     return re.compile(rf"(?<![A-Za-z0-9]){esc}(?![A-Za-z0-9])" if form.isascii() else esc)
 
 
+_JOSA_PAIRS = (("은", "는"), ("이", "가"), ("을", "를"), ("과", "와"), ("으로", "로"))
+
+
+def _has_final(ch: str) -> bool:
+    code = ord(ch) - 0xAC00
+    return 0 <= code < 11172 and code % 28 != 0
+
+
+def fix_josa_after(ko: str, word: str) -> str:
+    # 치환된 표준 표기 바로 뒤 조사를 받침에 맞춘다("실버 게이트로"→"은문으로", "총리이"→"총리가").
+    if not word or not ("가" <= word[-1] <= "힣"):
+        return ko
+    final = _has_final(word[-1])
+    for with_final, without in _JOSA_PAIRS:
+        want, wrong = (with_final, without) if final else (without, with_final)
+        if final and with_final == "으로" and word[-1] in "를룰릴랄렬":  # ㄹ 받침은 '로'
+            want, wrong = "로", "으로"
+        ko = re.sub(re.escape(word) + re.escape(wrong) + r"(?![가-힣])", word + want, ko)
+    return ko
+
+
 def apply_glossary(ko: str, glossary: list[dict]) -> tuple[str, list[str]]:
     applied, kept = [], [p for p in _PROTECTED if p in ko]
     for i, p in enumerate(kept):
@@ -78,7 +99,7 @@ def apply_glossary(ko: str, glossary: list[dict]) -> tuple[str, list[str]]:
                 continue
             new = _banned_rx(b).sub(lambda _m, s=g["standard"]: s, ko)
             if new != ko:
-                ko = new
+                ko = fix_josa_after(new, g["standard"])
                 applied.append(g["concept"])
     for i, p in enumerate(kept):
         ko = ko.replace(f"\x00{i}\x00", p)

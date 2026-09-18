@@ -65,7 +65,7 @@
 {"key": "d:331:121", "ko_new": "\"알겠습니다.\"", "reason": "합쇼체 화자 악셀의 \"-군요\"를 합쇼체로 바꾸고 같은 영문 \"I see.\"의 d:331:231과 표현을 통일.", "flags_resolved": ["subject_not_hapsyo", "same_en_diff_register"]}
 {"key": "d:331:125", "ko_new": "\"그대도 마찬가지요.\"", "reason": "로무스의 \"자네\"를 귀족 상대 2인칭 \"그대\"로 교정.", "flags_resolved": ["romus_haeyo"]}
 {"key": "d:331:126", "ko_new": "\"그런데 폐하께서는 어떠십니까? 이렇게 사적으로 이야기를 나눈 지도 꽤 됐습니다.\"", "reason": "합쇼체 화자 악셀의 \"-군요\" 종결을 합쇼체로 바꾸고 존대 대상 주어에 \"께서\"를 맞춤.", "flags_resolved": ["subject_not_hapsyo"]}
-{"key": "d:331:127", "ko_new": "\"걱정 마시오, 아들. 앞으로 평생 이런 이야기를 더 많이 나눌 수 있을 것이오.\"", "reason": "로무스의 연결어미 종결을 하오체 종결로 교정.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:331:127", "ko_new": "\"걱정 마시오, 사위. 앞으로 평생 이런 이야기를 더 많이 나눌 수 있을 것이오.\"", "reason": "로무스의 연결어미 종결을 하오체 종결로 바꾸고, 사위를 부르는 호격 son을 코퍼스 표기 \"사위\"(d:439:544·557)로 통일.", "flags_resolved": ["romus_mixed_register"]}
 {"key": "d:331:128", "ko_new": "\"나는 괜찮소, 고맙소. 그대도 알다시피 일이 많아서 말이오.\"", "reason": "로무스의 \"자네\"를 귀족 상대 2인칭 \"그대\"로 교정.", "flags_resolved": []}
 {"key": "d:331:137", "ko_new": "\"모든 게 잘되고 있다고 하면 거짓말일 것이오. 하지만 그대도 사정을 알잖소.\"", "reason": "로무스의 반말 \"-겠지\"를 하오체로 바꾸고 \"자네\"를 \"그대\"로 교정.", "flags_resolved": ["romus_mixed_register"]}
 {"key": "d:331:139", "ko_new": "\"우리도 잘 압니다.\"", "reason": "합쇼체 화자 악셀의 \"-죠\" 종결을 합쇼체로 교정.", "flags_resolved": ["subject_not_hapsyo"]}

@@ -492,5 +492,17 @@
   "human_standard": "국제무역지대",
   "human_auto_replace": true,
   "human_reason": "R85: 정식 명칭과 같은 붙여쓰기"
+ },
+ {
+  "concept": "PaleStream (가스관·사업명)",
+  "en": "PaleStream",
+  "candidates": [
+   "페일스트림",
+   "PaleStream",
+   "팔레스트림"
+  ],
+  "human_standard": "페일스트림",
+  "human_auto_replace": true,
+  "human_reason": "R86: 코퍼스에 한글 표기 선례가 있는 브랜드형 고유명(한글 11:2)은 로마자 잔존(33)이 더 많아도 한글 다수형을 쓴다. 메인 캠페인은 Suzerain 외 로마자를 남기지 않는다. 사용자 사후 확인 목록."
  }
 ]

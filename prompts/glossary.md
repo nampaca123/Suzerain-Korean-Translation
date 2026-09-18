@@ -55,3 +55,4 @@
 | King Romus (호칭) | King Romus | 로무스 국왕 | 로무스 왕 | sordland | 예 | {'로무스 국왕': 8, '로무스 왕': 1} | {'로무스 국왕': 590, '로무스 왕': 6} |
 | MITZ (메프티엠 국제무역지대) | Meftiem International Trade Zone | 메프티엠 국제무역지대 | 메프티엠 국제 무역 지대, 메프티엠 국제 무역지대 | user_decision | 예 | {'메프티엠 국제무역지대': 0, '메프티엠 국제 무역 지대': 0, '메프티엠 국제 무역지대': 0} | {'메프티엠 국제무역지대': 83, '메프티엠 국제 무역 지대': 12, '메프티엠 국제 무역지대': 4} |
 | International Trade Zone (약칭) | International Trade Zone | 국제무역지대 | 국제 무역 지대, 국제 무역지대 | user_decision | 예 | {'국제무역지대': 0, '국제 무역 지대': 0, '국제 무역지대': 0} | {'국제무역지대': 5, '국제 무역 지대': 7, '국제 무역지대': 0} |
+| PaleStream (가스관·사업명) | PaleStream | 페일스트림 | PaleStream, 팔레스트림 | user_decision | 예 | {'페일스트림': 0, 'PaleStream': 0, '팔레스트림': 0} | {'페일스트림': 13, 'PaleStream': 8, '팔레스트림': 2} |

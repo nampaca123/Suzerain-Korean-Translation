@@ -1,0 +1,271 @@
+{"key": "d:439:10", "ko_new": "\"존경하는 귀빈 여러분. 오늘 이 자리에 함께해 주셔서 감사합니다.\"", "reason": "\"귀빈 여러분\" 호격이 있는 개회 연설이므로 합쇼체로 고쳤다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:439:11", "ko_new": "\"나 로무스 토라스는 여러분 모두와 함께 메르코파 역사의 새로운 장을 열게 되어 영광입니다.\"", "reason": "개회 연설 구간이므로 합쇼체로 고치고 1인칭 \"나\"를 유지했다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:439:12", "ko_new": "\"리치아 국왕으로서, 지금부터 이 회의를 개회하겠습니다.\"", "reason": "앞 두 줄과 이어지는 공식 개회 선언이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:439:29", "ko_new": "\"별들이 우리 나라들을 위해 써 내려간 신성한 유대를 맺을 준비가 되어 있습니다.\"", "reason": "외국 정상(데르디아 최고 대현자)은 합쇼체다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:34", "ko_new": "스몰라크는 자리에서 일어나 힘차게 허리를 숙였다.", "reason": "받침 없는 이름 뒤 조사를 \"는\"으로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:439:60", "ko_new": "\"오늘날 끊임없이 변하는 경제 환경에서는 재정적 안정을 확립하는 일을 최우선으로 삼아야 하오.\"", "reason": "연설이 아닌 원탁 대화이므로 외국 정상 상대 기본 화계인 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:61", "ko_new": "\"석유와 가스 협정은 이 동맹의 중추요. 에너지 자립을 확립하기 위해 더 협력할 것을 제안하오.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:68", "ko_new": "\"군사 자산을 공동으로 모아 공유할 것을 제안하오. 리치아 자체도 이를 위해 상당한 장비 예비분을 배정하겠소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다(선택지 문안도 하오체다).", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:75", "ko_new": "\"우리 왕국은 이 분야에서 구체적인 약속을 할 수 없소. 하지만 모두가 상호 방위의 중요성을 인정해 주기를 바라오.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:78", "ko_new": "\"따라서 동맹에 지속적으로 자금을 지원하겠다고 약속하오.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:85", "ko_new": "\"공동 재정 준비금 창설을 위해 후한 금액을 출자하겠소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:90", "ko_new": "\"리치아 자체는 자금을 투입하지 않겠지만, 내 평의원들이 우리 재정 정책 전반의 조율을 지원할 준비가 되어 있소.\"", "reason": "하오체로 고치고 1인칭을 \"내\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:95", "ko_new": "\"이에 전략적 에너지 비축량 창설을 제안하며, 리치아는 여기에 상당량을 기여할 준비가 되어 있소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:99", "ko_new": "\"기존 에너지 계약을 이행하는 것과 별개로, 리치아는 공동 에너지 풀에 매년 기여하겠소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:105", "ko_new": "\"리치아는 현재의 에너지 협정 이상을 약속할 수 없소. 하지만 앞으로는 그렇게 할 수 있기를 바라오.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:109", "ko_new": "\"이것이 내 제안이오. 지금까지는 모두가 동의해 주기를 바라오.\"", "reason": "하오체로 고치고 1인칭을 \"내\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:120", "ko_new": "\"죄송합니다, 토라스 씨... 하지만 본인이 제안한 동맹에 아무런 약속도 할 수 없다면, 우리가 왜 약속할 거라 생각하십니까?\"", "reason": "외국 정상이므로 \"-하시죠\"를 합쇼체 의문형으로 고쳤다(원문 Mr. Toras 표현은 유지).", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:125", "ko_new": "\"이 회의가 농담이었다면, 폐하, 그다지 웃기지 않는 농담입니다.\"", "reason": "외국 정상이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:135", "ko_new": "\"가족에게 싫다고 할 수는 없습니다. 하지만 모든 게 너무 모호하다는 점은 걱정스럽습니다.\"", "reason": "합쇼체 화자의 앞 문장에 남은 \"-지요\" 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:144", "ko_new": "\"이제야 제가 폐하의 왕국에서 기대했던 관대함이 나왔습니다.\"", "reason": "외국 정상이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:145", "ko_new": "\"참으로 유망한 제안입니다, 로무스 국왕. 농담이 아니기를 바랍니다.\"", "reason": "합쇼체 화자의 앞 문장에 남은 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:155", "ko_new": "\"어차피 가족에게 싫다고 할 수는 없습니다. 하지만 지금 제안하신 내용에는 기꺼이 찬성할 수 있습니다.\"", "reason": "합쇼체 화자의 앞 문장에 남은 \"-지요\" 종결을 고쳤다.", "flags_resolved": []}
+{"key": "d:439:160", "ko_new": "\"실로 위대하고 성스러운 연합의 시작이 보입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:163", "ko_new": "\"여러분 각자에게 따로 엄청난 관대함을 보여주었소. 나를 말려 죽이려는 것이오?\"", "reason": "호격 없는 원탁 대화이고 같은 노드의 다른 선택지와 맞춰 하오체로 고치고 1인칭을 \"나\"로 맞췄다.", "flags_resolved": []}
+{"key": "d:439:164", "ko_new": "\"우려는 이해하오. 각자의 필요를 가장 잘 충족할 수 있도록 개별적으로 협상할 의향이 있소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:165", "ko_new": "\"처음 제안으로 돌아갑시다. 어쩌면 결국 약속을 하나 할 수 있을지도 모르겠소.\"", "reason": "로무스의 해요체는 에스텔라 상대에만 허용되므로 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:439:171", "ko_new": "\"전쟁의 제약 때문에 손발이 묶여 있소. 팔레를 정복하고 나면 앞서 말한 모든 자원은 물론 그 이상도 투입할 수 있을 것이오.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:177", "ko_new": "\"누구부터 시작하면 좋겠습니까?\"", "reason": "신하이므로 해요체 \"-까요\"를 합쇼체 의문형으로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:183", "ko_new": "\"아즈말 최고 대현자, 지금까지 인터메르코품의 조건에 대해 데르디아는 어떻게 생각하오?\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:190", "ko_new": "\"스몰라크 대통령, 베흘렌의 의견을 듣고 싶소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:194", "ko_new": "\"살타나 총리, 모렐라 공화국에는 어떤 우려가 있소?\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:198", "ko_new": "\"레이나르트 토라스 대공, 팔레는 이 동맹에 동의하오?\"", "reason": "하오체로 고치고 용어집대로 Duke Reinhart를 \"대공\"으로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech", "glossary_violation"]}
+{"key": "d:439:202", "ko_new": "\"레이나르트 대공, 팔레는 이 동맹에 동의하오?\"", "reason": "외국 정상·귀족 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:213", "ko_new": "\"폐하께서 저를 설득하는 데 실패하셨다고 말씀드려야겠습니다.\"", "reason": "외국 정상이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:220", "ko_new": "\"솔직히 말해 베흘렌에는 의구심이 있습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:222", "ko_new": "\"베흘렌은 완전히 만족하고 있습니다, 폐하.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:224", "ko_new": "\"제가 바라는 건 아들의 안전한 미래뿐입니다. 그 미래의 토대를 우리가 함께 놓을 것입니다.\"", "reason": "합쇼체로 고치고 1인칭을 \"저\"로 맞췄으며 영문 평서문에 맞춰 청유형을 평서형으로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:225", "ko_new": "\"질레 협상 결과에는 더없이 만족했습니다. 하지만 여기 있는 이웃들과 그런 신뢰의 토대를 쌓을 기회는 아직 없었습니다.\"", "reason": "외국 정상이므로 반말 종결까지 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:232", "ko_new": "\"그래도 로무스 국왕 덕분에 아즈말 최고 대현자와 저는 좋은 출발을 했습니다.\"", "reason": "합쇼체로 고치고 1인칭을 \"저\"로 맞췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:234", "ko_new": "\"국왕께서는 에너지 자립을 이야기하셨습니다. 그런데 아직 베흘렌의 석유 매장량은 언급하지 않으셨습니다.\"", "reason": "합쇼체로 고치고 존대 대상(국왕)이 주어인 문장에 \"-시-\"를 넣었다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:235", "ko_new": "\"주께서 허락하신다면 그렇습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:239", "ko_new": "\"협력을 그렇게 이야기하면서도 국왕께서는 에너지를 언급하지 않으셨습니다.\"", "reason": "합쇼체로 고치고 존대 대상(국왕) 주어에 \"-시-\"를 넣었다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:240", "ko_new": "\"하지만 그 점에서 베흘렌이 얼마나 많은 걸 제공할 수 있는지는 모두 아실 거라 생각합니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:241", "ko_new": "\"다른 무역 상대국들의 수요를 충족하고도, 우리는 인터메르코품 국가들에 최고급 제품을 좋은 가격으로 공급할 의향이 충분합니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:245", "ko_new": "\"다른 국제 무역 상대국이 없는 상황이라면, 우리는 인터메르코품 국가들에 최고급 제품을 헐값에 공급할 의향이 충분합니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:254", "ko_new": "\"베흘렌 석유와 아우레우스 가스전을 합치면, 우리 동맹은 말 그대로 에너지가 넘쳐납니다.\"", "reason": "신하이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:256", "ko_new": "\"우리가 이미 리치아, 데르디아와 맺은 것과 비슷한 형태로 말입니다.\"", "reason": "합쇼체로 고치고 \"…와 맺다\"에 맞게 조사를 바로잡았다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:257", "ko_new": "\"우리가 이야기하는 건 석유입니다. 가스가 아닙니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:258", "ko_new": "\"인터메르코품 국가들에 베흘렌산 석유를 공급할 파이프라인을 건설하는 데 도움을 받고 싶습니다. 데르디아부터 시작해서 말입니다.\"", "reason": "앞 문장에 남아 있던 하오체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:262", "ko_new": "\"이제 어디로 지나갈지만 정하면 됩니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:263", "ko_new": "\"인터메르코품의 각 나라가 베흘렌과 독점 석유 협정을 맺기를 바랍니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:270", "ko_new": "\"우리가 이미 리치아와 맺은 것과 비슷하게 말입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:271", "ko_new": "\"우리가 이미 데르디아와 맺은 것과 비슷하게 말입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:275", "ko_new": "\"요구가 너무 많소, 스몰라크 대통령. 리치아도 고려해야 할 자체 에너지 이해관계가 있소.\"", "reason": "하오체로 고치고 금지 호칭 \"대통령님\"을 직함 호격 \"스몰라크 대통령\"으로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:276", "ko_new": "\"그런 사업이라면 먼저 최고 대현자의 동의가 필요하오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:277", "ko_new": "\"필요하지도 원하지도 않는 나라들에 석유를 억지로 떠넘길 수는 없소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:278", "ko_new": "\"장기적으로는 우리 모두에게 수익성이 있을 수 있소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:279", "ko_new": "\"지난 20년간 베흘렌 역사에서 배운 교훈이 하나 있다면, 누구나 석유를 원한다는 것입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:280", "ko_new": "\"이것이 제 조건입니다, 폐하. 다른 분들도 합리적이라고 생각할 것입니다.\"", "reason": "합쇼체로 고치고 1인칭을 \"제\"로 맞췄다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:282", "ko_new": "\"바로 그렇습니다. 우리는 말이 통합니다.\"", "reason": "외국 정상이므로 반말 종결을 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:287", "ko_new": "\"데르디아가 그런 건설비를 내지 않아도 된다면, 에너지 공급을 거절하지는 않겠습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:288", "ko_new": "\"신께서 우리에게 이해의 싹을 내려주셨습니다. 이 사업이 그것을 키우는 데 도움이 될 것입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:297", "ko_new": "\"이렇게 합시다. 리치아가 베흘렌에서 데르디아로 이어지는 석유 파이프라인 건설비를 부담하겠소. 또한 다른 인터메르코품 국가에 가스를 판매할 때 팔레에 우선권을 주겠소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:297#menu", "ko_new": "\"이렇게 합시다. 리치아가 베흘렌에서 데르디아까지 이어지는 송유관 건설 비용을 대겠소. 또한 팔레가 다른 인터메르코품 회원국에 가스를 판매할 때 우선권을 주겠소.\" [-4 예산, -2 에너지/턴]", "reason": "선택지 첫 문장의 반말 \"이렇게 하지\"를 하오체로 고쳐 대사와 화계를 맞췄다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:439:304", "ko_new": "\"베흘렌과 데르디아 사이 석유 파이프라인 건설을 돕겠소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:305", "ko_new": "\"파이프라인은 도울 수 없지만, 베흘렌 석유 판매 공간을 마련하기 위해 우리 에너지 수출을 줄이겠소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:319", "ko_new": "\"베흘렌 석유와 팔레 가스 판매 공간을 마련하기 위해 리치아의 에너지 수출을 크게 줄이겠소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:320", "ko_new": "\"인터메르코품에 대한 선의의 표시로 우리도 베흘렌과 석유 협정을 맺겠소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:324", "ko_new": "\"베흘렌의 이 요구는 도와줄 수 없소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:325", "ko_new": "스몰라크는 콧수염 아래로 서글픈 미소를 지었다.", "reason": "받침 없는 이름 뒤 조사를 \"는\"으로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:439:326", "ko_new": "\"그렇다면 베흘렌은 빠지겠습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:328", "ko_new": "\"물론 농담입니다.\"", "reason": "외국 정상이므로 합쇼체로 고치고 어순을 자연스럽게 다듬었다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:329", "ko_new": "스몰라크와 레이나르트 모두 만족스러워 보였다.", "reason": "받침 없는 이름 뒤 조사를 \"와\"로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:439:334", "ko_new": "\"훌륭합니다, 폐하! 역시 해내실 줄 알았습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:350", "ko_new": "\"인계식에서 뵙겠습니다. 동맹에 행운이 있기를 바랍니다, 폐하.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:358", "ko_new": "\"재밌군. 참 우습구려.\"", "reason": "짧은 독립 감탄은 남기고 반말 조각문을 하오체 감탄형으로 마무리했다.", "flags_resolved": []}
+{"key": "d:439:360", "ko_new": "\"이 일을 성사시키지 못해 진심으로 유감이오.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:363", "ko_new": "\"음... 제 생각에는 그래도 인터메르코품 동맹을 의미 있게 만들 만큼 참가국은 충분합니다. 계속하시지요.\"", "reason": "신하이므로 해요체 청유 \"계속하죠\"를 \"계속하시지요\"로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:368", "ko_new": "\"함께해 주셔서 정말 기쁘오, 스몰라크 대통령.\"", "reason": "하오체로 고치고 금지 호칭 \"대통령님\"을 직함 호격으로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:369", "ko_new": "\"잠깐, 뭡니까? 룸부르크를 공격하겠다는 말은 한 적 없습니다, 폐하.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:370", "ko_new": "\"빅토르라고 부르십시오.\"", "reason": "외국 정상이므로 합쇼체 명령형으로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:371", "ko_new": "\"아주 잘 지냅니다. 지난주엔 처음으로 완전한 문장을 말했습니다! '서방에 죽음을.' 귀엽지 않습니까.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:372", "ko_new": "\"협조해 주셔서 감사합니다, 스몰라크 대통령. 이제 다음으로 넘어가시지요.\"", "reason": "신하이므로 \"-까요\"를 허용된 청유 \"-시지요\"로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:374", "ko_new": "\"전부 동의합니다. 오늘 주께서 진정 우리에게 미소를 내리셨습니다, 폐하.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:375", "ko_new": "\"성 브루헤지께서 예언하셨듯, 우리 나라들은 위대한 불사조처럼 일어설 것입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:377", "ko_new": "\"브루헤지교도든 아니든, 우리는 공통의 적과 싸운다는 점에서 하나로 뭉쳐 있소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:378", "ko_new": "\"초강대국은 하나뿐이오. 하지만 인터메르코품은 그 바로 다음이 될 것이오.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:379", "ko_new": "\"훌륭하오. 고맙소.\"", "reason": "원탁 대화이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:389", "ko_new": "\"하지만 데르디아의 많은 지역은 여전히 어둠 속에 있습니다. 우리의 신앙은 강하지만, 우리를 믿는 이는 거의 없습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:390", "ko_new": "\"데르디아의 많은 지역이 여전히 어둠 속에 있다는 게 걱정입니다. 우리의 신앙은 강하지만, 우리를 믿는 이는 거의 없습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:391", "ko_new": "\"리치아에 바라는 건 투자 하나뿐입니다. 고전하는 우리 공화국이 운명대로 불사조처럼 일어서도록 도와주십시오.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:396", "ko_new": "\"그 투자를 현명하게 쓰겠소? 아니면 종교적 광신을 부추기는 데 쓸 생각이오?\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:397", "ko_new": "\"데르디아에 추가 자금을 주면 다른 나라들도 모두 요구하기 시작할 것이오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:398", "ko_new": "\"투자를 한다면 반드시 그에 대한 수익을 봐야 하오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:399", "ko_new": "\"우리에게 골콘다주의만 있는 게 아닙니다, 폐하. 이미 우리 군사 기술을 보시지 않았습니까.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:400", "ko_new": "\"그들과 폐하께는 각자의 자원이 있습니다. 없는 건 우리뿐입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:401", "ko_new": "\"그건 말할 필요도 없습니다.\"", "reason": "외국 정상이므로 \"-지요\"를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:408", "ko_new": "\"폐하께서는 이미 자비롭게도 우리의 에너지 수요를 지원해 주셨습니다. 많은 걸 요구하지는 않겠습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:409", "ko_new": "\"주님의 말씀에 귀 기울이십시오, 폐하. 그분께서 답을 보여주실 것입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:410", "ko_new": "\"주님께서는 안 된다고 하시오. 이 일은 도울 수 없소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:411", "ko_new": "\"리치아에 자금이 있었다면 기꺼이 투자했을 것이오. 하지만 지금은 없소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:412", "ko_new": "\"투자가 인터메르코품에 합류할 확신을 준다면 기꺼이 제공하겠소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:416", "ko_new": "\"리치아는 이미 데르디아를 충분히 도왔소. 지금 요구는 선을 넘었소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:419", "ko_new": "\"그렇다면 안타깝게도 이 동맹은 운명이 아니었던 모양입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:420", "ko_new": "\"그래도 데르디아를 지원해 주신 데 감사드립니다. 언젠가 폐하의 진정한 길을 찾으시길 바랍니다.\"", "reason": "앞 문장의 하오체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:421", "ko_new": "\"나는 이미 찾았소.\"", "reason": "외국 정상 상대이므로 하오체로 고치고 1인칭을 \"나\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:438", "ko_new": "\"일어나시오, 최고 대현자. 귀하는 나와 동등하오.\"", "reason": "하오체로 고치고 금지된 \"당신\"을 외국 정상용 2인칭 \"귀하\"로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:439:439", "ko_new": "\"한곳에 전부 써버리지는 마시오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:440", "ko_new": "\"너무 겸손하십니다.\"", "reason": "외국 정상이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:442", "ko_new": "\"아니, 아닙니다. 두고 보시면 알 것입니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:465", "ko_new": "\"참여하지 않으면 바보일 겁니다. 대공국도 함께하겠습니다.\"", "reason": "합쇼체 화자의 앞 문장에 남은 \"-죠\" 종결을 고쳤다.", "flags_resolved": []}
+{"key": "d:439:483", "ko_new": "\"일리가 있소. 팔레의 안보를 보장하기 위한 특별 조항을 논의할 의향이 있소.\"", "reason": "귀족·신하 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:484", "ko_new": "\"팔레가 리치아와 또 전쟁을 시작하려 해놓고 이제 우리 군사 지원을 구걸하는 것이오? 참 뻔뻔하구려.\"", "reason": "로무스의 해요체는 에스텔라 상대에만 허용되므로 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:439:488", "ko_new": "\"우리가 그대에게 빚진 것은 없소, 레이나르트. 건방지게 굴지 마시오.\"", "reason": "하오체로 고치고 금지된 \"당신\"을 신하용 2인칭 \"그대\"로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:439:490", "ko_new": "\"1920년대에 우리를 완패시켜 놓고 이제 우리 군사 지원을 구걸하는 것이오? 세상 참 바뀌었구려.\"", "reason": "로무스의 해요체는 에스텔라 상대에만 허용되므로 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:439:496", "ko_new": "\"성은 토라스입니다, 기억하십니까? 전 폐하의 왕국을 위해 제 혈통 전체를 포기했습니다.\"", "reason": "합쇼체 화자의 의문형 \"-시죠?\"를 합쇼체로 고쳤다(청유가 아니므로 허용 예외가 아니다).", "flags_resolved": []}
+{"key": "d:439:497", "ko_new": "\"잠재적 침략자를 억제하는 목적으로 병력을 배치할 수 있소.\"", "reason": "귀족·신하 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:507", "ko_new": "\"이미 기여하는 것에 더해, 팔레 방위를 위한 추가 장비를 별도로 배정하겠소.\"", "reason": "귀족·신하 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:508", "ko_new": "\"팔레 방위를 위해 군사 장비 비축분을 별도로 배정하겠소.\"", "reason": "귀족·신하 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:509", "ko_new": "\"군사 자원은 투입할 수 없지만, 팔레 방위를 위해 국고 자금을 배정하겠소.\"", "reason": "귀족·신하 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:513", "ko_new": "\"구체적인 약속은 할 수 없소. 하지만 잠재적인 분쟁이 벌어진다면 리치아가 팔레를 도울 것이니 안심하시오.\"", "reason": "귀족·신하 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:518", "ko_new": "\"그 정도로 만족해야겠습니다.\"", "reason": "신하이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:519", "ko_new": "\"말뿐입니다, 폐하.\"", "reason": "신하이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:521", "ko_new": "\"1920년대에 우리를 정복하려 한 건 폐하 쪽입니다. 그런데 우리더러 건방지다고 하십니까?\"", "reason": "신하이므로 \"-다고요?\"를 합쇼체 의문형으로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:525", "ko_new": "\"좋소. 선택지를 논의할 의향이 있소.\"", "reason": "귀족·신하 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:526", "ko_new": "\"안됐구려. 어떤 특별 대우도 해주지 않겠소.\"", "reason": "귀족·신하 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:540", "ko_new": "\"나머지 분들과 계속 진행하시겠습니까?\"", "reason": "신하이므로 \"-까요\"를 합쇼체 의문형으로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:543", "ko_new": "\"더 도와주지 못해 미안하오.\"", "reason": "하게체는 파벨 상대에만 쓰므로 귀족 상대 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:544", "ko_new": "\"바로 그 정신이오, 아들.\"", "reason": "귀족(사위) 상대이므로 해라체를 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:545", "ko_new": "\"그대의 아이가 리치아 왕좌에 앉게 되면 내게 고마워할 것이오.\"", "reason": "해라체와 \"네\"를 하오체와 신하용 2인칭 \"그대\"로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:547", "ko_new": "\"감사합니다, 공작 각하. 인터메르코품 가입이 충분한 가치가 있도록 만들겠다고 약속드립니다.\"", "reason": "공작 호칭은 화계표 5.3대로 \"공작 각하\"로 고쳤다(전하는 공주용, 코퍼스도 공작 각하 34줄 대 공작 전하 16줄).", "flags_resolved": []}
+{"key": "d:439:554", "ko_new": "\"훌륭하오. 실망시키지 않을 줄 알았소.\"", "reason": "한 대사 안의 반말과 합쇼체 혼용을 하오체로 통일했다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:555", "ko_new": "\"후회하지 않을 것이오, 공작 각하.\"", "reason": "하오체로 고치고 공작 호칭을 \"공작 각하\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:556", "ko_new": "\"말할 필요도 없겠지만, 우리의 호의에도 보답이 있기를 바라오.\"", "reason": "귀족·신하 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:557", "ko_new": "\"바로 그 정신이오, 아들.\"", "reason": "같은 영문·같은 화자(d:439:544)와 동일하게 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:558", "ko_new": "\"네, 감사합니다, 공작 각하. 인터메르코품 가입이 충분한 가치가 있도록 만들겠다고 약속드립니다.\"", "reason": "공작 호칭을 화계표 5.3대로 \"공작 각하\"로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:573", "ko_new": "\"다른 나라들을 좋아할 필요는 없소. 이건 순전히 실용적인 협정이오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:574", "ko_new": "\"의견 충돌이 생기면 리치아가 중재할 것이오. 이전에도 그랬듯이.\"", "reason": "로무스의 해요체는 에스텔라 상대에만 허용되므로 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:439:578", "ko_new": "\"살타나 총리께서 참여해 주신다니 기쁘오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:579", "ko_new": "\"나를 믿으시오. 장기적으로는 CSP와 한배를 타는 편이 더 나쁠 것이오.\"", "reason": "하오체로 고치고 1인칭을 \"나\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:580", "ko_new": "\"감사합니다, 살타나 총리. 총리와 다른 인터메르코품 회원국들 사이에 신뢰가 자리 잡도록 최선을 다하겠습니다.\"", "reason": "\"총리님\"은 그 총리의 부하만 쓸 수 있으므로 직함 호격으로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:582", "ko_new": "\"무슨 말이오? 내가 살타나 총리 편이라는 걸 알고 있잖소.\"", "reason": "하오체로 고치고 금지 호칭 \"총리님\"을 직함으로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:586", "ko_new": "\"정치적 견해가 같지 않더라도 함께 일할 수 있소, 살타나 총리.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:587", "ko_new": "\"그 우려를 덜기 위해 우리가 무엇을 할 수 있겠소?\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:588", "ko_new": "\"내가 살타나 총리께 제공한 게 얼마인데, 우리 성향을 걱정하시오?\"", "reason": "하오체로 고치고 금지 호칭 \"총리님\"을 직함으로, 1인칭을 \"내\"로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:589", "ko_new": "\"군주국이 그럴 수 있는 범위에서는 말입니다.\"", "reason": "외국 정상이므로 \"-죠\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:591", "ko_new": "\"물으셨으니 말씀드리겠습니다...\"", "reason": "외국 정상이므로 \"-죠\"를 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:593", "ko_new": "\"폐하께서는 정부에 항의했다는 것 외에는 죄가 없는 민간인들을 부당하게 다수 투옥하셨습니다.\"", "reason": "존대 대상(폐하)이 주어이므로 \"께서는\"과 \"-시-\"를 넣었다.", "flags_resolved": []}
+{"key": "d:439:600", "ko_new": "\"부당한 요구요. 그 사람들이 무슨 일을 했는지 살타나 총리는 알지 못하오.\"", "reason": "하오체로 고치고 금지 호칭 \"총리님\"을 직함으로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:603", "ko_new": "\"내 뜻대로만 할 수 있다면 석방했을 것이오. 하지만 아버지의 유산을 모욕하고 싶지는 않소.\"", "reason": "하오체로 고치고 1인칭을 \"내\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:604", "ko_new": "\"그럴 수는 없소. 내가 약해 보일 것이오.\"", "reason": "하오체로 고치고 1인칭을 \"내\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:605", "ko_new": "\"어차피 좋은 생각이오. 우리는 현대적인 군주국이오. 정책을 싫어한다는 이유만으로 사람들을 가둬서는 안 되오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:621", "ko_new": "\"혁명가들이 폐하의 나라와 제 나라에 얼마나 큰 피해를 줬는지 아시잖습니까. 설마 이 요구에 굴복하지는 않으시리라 믿습니다.\"", "reason": "신하이므로 \"-겠죠\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:628", "ko_new": "\"조건을 받아들이겠소, 살타나 총리. 발레로 국왕이 투옥한 정치범들을 석방하겠소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다(선택지 문안도 하오체다).", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:629", "ko_new": "\"미안하오, 살타나 총리. 하지만 요구대로 할 수는 없소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:630", "ko_new": "\"살타나 총리 뜻대로 하겠소. 투옥된 모든 시위대를 석방하고 일괄 사면하겠소.\"", "reason": "하오체로 고치고 금지 호칭 \"총리님\"을 직함으로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:648", "ko_new": "\"*오히려 제가* 감사드립니다, 살타나 총리. 총리와 다른 인터메르코품 회원국들 사이에 신뢰가 자리 잡도록 최선을 다하겠습니다.\"", "reason": "\"총리님\"은 그 총리의 부하만 쓸 수 있으므로 직함 호격으로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:659", "ko_new": "\"결국 이렇게 됐습니다, 폐하. 리치아와 베흘렌이 세상을 상대로 맞서는 겁니다.\"", "reason": "합쇼체 화자의 앞 문장에 남은 \"-군요\"를 고쳤다.", "flags_resolved": []}
+{"key": "d:439:660", "ko_new": "\"이제 폐하와 저, 그리고 주님뿐입니다.\"", "reason": "외국 정상이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:661", "ko_new": "\"그리고 둘만 남았습니다.\"", "reason": "외국 정상이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:662", "ko_new": "\"그 거창한 동맹 계획의 결과가 이겁니까? 어차피 붙어 있을 수밖에 없는 두 나라뿐입니까?\"", "reason": "신하이므로 \"-라고요?\"를 합쇼체 의문형으로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:668", "ko_new": "\"이 계획을 믿어주어 고맙소. 다른 누구도 믿지 않았더라도 말이오.\"", "reason": "로무스의 해요체는 에스텔라 상대에만 허용되므로 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:439:669", "ko_new": "\"시간을 낭비하게 해서 미안하오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:670", "ko_new": "\"무슨 일이 있어도 베흘렌을 동맹국이라 부를 수 있어 자랑스럽소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:671", "ko_new": "\"이 계획을 믿어주어 고맙소. 다른 누구도 믿지 않았더라도 말이오.\"", "reason": "같은 영문·같은 화자와 동일하게 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:439:672", "ko_new": "\"시간을 낭비하게 해서 미안하오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:673", "ko_new": "\"무슨 일이 있어도 데르디아를 동맹국이라 부를 수 있어 자랑스럽소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:674", "ko_new": "\"이 계획을 믿어주어 고맙소. 다른 누구도 믿지 않았더라도 말이오.\"", "reason": "같은 영문·같은 화자와 동일하게 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:439:675", "ko_new": "\"시간을 낭비하게 해서 미안하오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:676", "ko_new": "\"무슨 일이 있어도 모렐라를 동맹국이라 부를 수 있어 자랑스럽소.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:677", "ko_new": "\"이 계획을 믿어주어 고맙소. 다른 누구도 믿지 않았더라도 말이오.\"", "reason": "같은 영문·같은 화자와 동일하게 하오체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:439:678", "ko_new": "\"시간을 낭비하게 해서 미안하오.\"", "reason": "외국 정상 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:679", "ko_new": "\"무슨 일이 있어도, 이 모든 세월이 흐른 뒤 팔레가 우리 편에 서게 된 것이 자랑스럽소.\"", "reason": "귀족 상대이므로 하오체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:439:680", "ko_new": "\"전혀 아닙니다. 제가 가장 좋아하는 이웃을 찾아올 핑계라면 뭐든 환영입니다.\"", "reason": "외국 정상이므로 \"-죠\"를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:681", "ko_new": "\"다른 사람들은 폐하를 저만큼 알지 못합니다, 로무스 국왕. 우리는 서로를 위해 태어난 사이입니다.\"", "reason": "외국 정상이므로 \"-예요\"를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:687", "ko_new": "\"질레 인계식에서 뵙겠습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:689", "ko_new": "\"믿음이 없다면 우리에게 무엇이 남겠습니까?\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:690", "ko_new": "\"리치아에서 보내는 시간은 낭비가 아닙니다. 여기 온 김에 플라보에도 들르겠습니다.\"", "reason": "외국 정상이므로 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:692", "ko_new": "\"폐하께서 모아놓으신 이 잡다한 면면을 보십시오. 애초에 잘될 리가 없었습니다.\"", "reason": "합쇼체 화자의 해요체 명령 \"보세요\"를 고치고 폐하 주어에 \"-시-\"를 넣었다.", "flags_resolved": []}
+{"key": "d:439:693", "ko_new": "\"그래도 시도해볼 가치는 있었습니다.\"", "reason": "외국 정상이므로 \"-죠\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:694", "ko_new": "\"저도 마찬가지입니다. 어느 정도까지는 말입니다.\"", "reason": "뒤 조각문의 해요체 \"-는요\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:696", "ko_new": "\"아니요, 정말 흥미로웠습니다. 이웃들을 알아가는 건 언제나 좋은 일입니다.\"", "reason": "신하이므로 \"-죠\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:708", "ko_new": "\"이걸 내 처형 얼굴 앞에서 자랑할 생각을 하니 벌써 기대되오. 물론 국왕답게 말이오.\"", "reason": "하오체와 반말 혼용을 하오체로 통일하고 1인칭을 \"내\"로 맞췄다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:439:709", "ko_new": "\"인터메르코품의 국가들이여, 단결합시다!\"", "reason": "호격이 있는 구호이므로 해라체 명령형을 청유형으로 고쳐 같은 노드의 하오체와도 어긋나지 않게 했다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:439:725", "ko_new": "빅토르 스몰라크는 만년필을 집어 들고 멋들어지게 서명했다.", "reason": "받침 없는 이름 뒤 조사를 \"는\"으로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:439:733", "ko_new": "\"우리는 성 브루헤지의 선조 대지를 하나로 잇고 있습니다. 주께서 예언하신 그대로 말입니다.\"", "reason": "외국 정상이므로 하오체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:739", "ko_new": "\"잘하셨습니다, 폐하. 조만간 저녁 식사하면서 축하하시지요.\"", "reason": "신하의 청유는 \"-시지요\"만 허용되므로 \"축하하죠\"를 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:751#menu", "ko_new": "\"위대한 통합자 로무스\"로 서명한다.", "reason": "같은 영문의 대사 쪽 표기(\"위대한 통합자 로무스\")에 맞췄다. 코퍼스도 \"통합자 로무스\" 2줄 대 \"대통합자 로무스\" 1줄이다.", "flags_resolved": ["menu_mismatch"]}
+{"key": "d:439:860", "ko_new": "\"아, 물론입니다. 혁명 활동이 조금 있는 건 스튜에 파프리카를 한 꼬집 넣는 것과 같습니다. 없으면 심심하잖습니까.\"", "reason": "합쇼체 화자의 첫 문장에 남은 \"-죠\"를 고쳤다.", "flags_resolved": []}
+{"key": "d:439:861", "ko_new": "\"물론 폐하께서 냄비가 넘치지 않게만 하신다면 말입니다.\"", "reason": "외국 정상이므로 \"-죠\"를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:896", "ko_new": "\"리치아 법을 꽤 많이 공부하셨구려.\"", "reason": "하게체 종결을 외국 정상 상대 하오체 감탄형으로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:898", "ko_new": "\"우리는 국경을 맞대고 있습니다. 리치아의 정치적 자유, 혹은 그 부재가 우리에게 영향을 미치는 건 말할 필요도 없습니다.\"", "reason": "\"-지요\"를 합쇼체로 고치고 영문 줄표를 옮기다 끊긴 조사 결합을 바로잡았다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:926", "ko_new": "\"물론 질문이 있습니다. 개혁파의 요구에 그렇게 쉽게 굴복한 국왕이 필요할 때 이웃을 지키기 위해 나설지 말입니다.\"", "reason": "합쇼체 화자의 첫 문장에 남은 \"-지요\"를 고쳤다.", "flags_resolved": []}
+{"key": "d:439:943", "ko_new": "\"그 선언이 당황스럽기는 했습니다. 보셨듯 모든 리치아 지도자가 팔레의 주권을 존중하리라는 보장은 없습니다.\"", "reason": "신하이므로 \"-니까요\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:951", "ko_new": "\"하지만 폐하께서 저 반역자들이 의사 결정에 영향을 미치게 두시는 듯해 의아합니다.\"", "reason": "외국 정상이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:439:985", "ko_new": "\"우리 동맹의 주춧돌은 비나라고 생각했는데 말이오.\"", "reason": "반말 조각문을 귀족 상대 하오체로 마무리했다.", "flags_resolved": []}
+{"key": "d:439:1000", "ko_new": "\"훌륭합니다.\"", "reason": "신하이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:439:1015", "ko_new": "\"죄송합니다, 폐하. 하지만 이 모든 걸 진지하게 받아들일 수가 없습니다.\"", "reason": "신하이므로 \"-군요\"를 합쇼체로 고쳤다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:440:3", "ko_new": "\"존경하는 신민 여러분, 오늘은 우리 위대한 왕국의 역사에 길이 남을 중대한 날입니다.\"", "reason": "군중 앞 공개 연설이므로 합쇼체로 고치고 2인칭을 \"여러분\"으로 맞췄다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:4", "ko_new": "\"베흘렌의 멍에 아래 살아가는 이들이 보여준 힘과 굳건함은 우리 모두에게 영감을 주었습니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:5", "ko_new": "\"우리는 자랑스러운 리치아 시민으로서 손을 맞잡고 함께 역사의 기록 속으로 전진할 것입니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:6", "ko_new": "\"질레의 귀환과 함께 우리는 하나의 국민, 하나의 왕국으로 뜻을 모아 헤아릴 수 없는 위업을 이룰 준비를 마쳤습니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:7", "ko_new": "\"오랜 단절의 시간을 지나 마침내 질레가 고향으로 돌아오고 있습니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:9", "ko_new": "\"그러니 모두 목소리를 높여 축하해 주십시오. 오늘은 우리 왕국에 새 시대가 밝아오는 날입니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:10", "ko_new": "\"질레 시민 여러분, 베흘렌의 철권을 꺾은 우리의 승리를 마음껏 기뻐합시다.\"", "reason": "연설이므로 호격을 \"여러분\"으로 맞췄다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:11", "ko_new": "\"이 승리를 일궈낸 것은 왕실의 힘과 결단이었습니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:12", "ko_new": "\"정당하게 우리의 것인 땅을 되찾는 여정에서 우리와 함께해 준 여러분. 여러분의 충성은 기억되고 보답받을 것입니다.\"", "reason": "연설이므로 합쇼체로 고치고 2인칭을 \"여러분\"으로 맞췄다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:13", "ko_new": "\"우리 깃발 아래 하나로 뭉친 국가로서, 우리는 비할 데 없이 위대한 미래를 만들어갈 것입니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:14", "ko_new": "\"질레의 귀환은 군주제의 힘과 우리 승리의 필연성을 증명하는 증거입니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:15", "ko_new": "\"그러니 충성스러운 신민 여러분, 이 순간을 우리 왕국의 압도적 우위를 향한 헌신을 다시 다짐하는 기회로 삼읍시다.\"", "reason": "연설이므로 호격을 \"여러분\"으로 맞췄다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:16", "ko_new": "\"우리는 하나 되어 감히 우리에게 맞서는 자들을 모두 짓밟고, 이 땅의 의심할 여지 없는 지배자로서 우리의 유산을 굳힐 것입니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:17", "ko_new": "\"신민 여러분, 오늘 우리는 고통과 분열의 상처를 안은 질레가 돌아오는 엄숙한 순간을 맞이하고 있습니다.\"", "reason": "연설이므로 합쇼체로 고치고 호격을 \"여러분\"으로 맞췄다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:18", "ko_new": "\"굳건히 견뎌온 질레 주민 여러분께 깊은 위로를 전합니다. 역경 속에서도 보여준 여러분의 강인함은 암흑 같은 시대를 밝히는 등불이었습니다.\"", "reason": "연설이므로 합쇼체로 고쳤다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:19", "ko_new": "\"여러분이 견뎌온 일을 돌아보며, 여러분을 버티게 한 연대를 기억해 주십시오. 함께 겪은 고통 속에서 끝까지 버틸 힘을 찾았습니다.\"", "reason": "연설이므로 합쇼체로 고쳤다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:20", "ko_new": "\"해방으로 가는 길은 수많은 난관으로 가득했지만, 그 고난을 넘어선 우리는 그 어느 때보다 강해졌습니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:23", "ko_new": "\"우리 앞의 길은 험난했지만, 끝내 우리는 버텨냈습니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:24", "ko_new": "\"그리고 이 승리를 가능케 한 것은 왕실의 힘과 결단이었습니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:25", "ko_new": "\"질레의 형제자매들에게 겸허한 기도와 깊은 축복을 전합니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:26", "ko_new": "\"사랑하는 형제자매 여러분, 오늘 우리는 질레의 귀환이라는 성스러운 순간을 맞이하고 있습니다.\"", "reason": "연설이므로 합쇼체로 고치고 호격을 \"여러분\"으로 맞췄다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:30", "ko_new": "\"전능하신 분을 향한 굳건한 믿음으로 이 승리를 얻을 수 있었습니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:31", "ko_new": "\"하지만 이 위업을 이룬 것은 전능하신 분을 향한 우리의 굳건한 믿음이었습니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:33", "ko_new": "\"우리는 영원한 신앙의 빛을 따라 함께 의로운 길을 걸어갈 것입니다.\"", "reason": "같은 연설 구간이므로 합쇼체로 통일했다.", "flags_resolved": []}
+{"key": "d:440:38", "ko_new": "\"제가 예전 모습 그대로 되돌려 놓겠어요.\"", "reason": "로무스가 어머니 에스텔라에게 하는 말이므로 해요체로 고치고 1인칭을 \"제\"로 맞췄다.", "flags_resolved": []}
+{"key": "d:440:39", "ko_new": "\"우리 모두에게 힘든 시간이었어요. 하지만 이제 끝났어요.\"", "reason": "어머니 상대이므로 해요체로 고쳤다.", "flags_resolved": []}
+{"key": "d:440:40", "ko_new": "\"이해해요. 아버지가 질레를 베흘렌에 넘긴 결정은 제 재위 내내 그림자를 드리웠어요.\"", "reason": "어머니 상대이므로 해요체로 고치고 1인칭을 \"제\"로 맞췄다.", "flags_resolved": []}
+{"key": "d:440:47", "ko_new": "\"제 의무였어요, 어머니. 우리 왕국과 우리 가족을 위한.\"", "reason": "어머니 상대이므로 해요체로 고치고 1인칭을 \"제\"로 맞췄다.", "flags_resolved": []}
+{"key": "d:440:48", "ko_new": "\"아버지가 못한 일을 제가 대신하게 돼 다행이에요. 그분의 유산을 더 망치고 싶지는 않았거든요.\"", "reason": "어머니 상대이므로 반말·합쇼체 혼용을 해요체로 통일했다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:440:49", "ko_new": "\"그렇게 말씀해 주시니 정말 감사해요. 마음이 깊이 움직였어요.\"", "reason": "어머니 상대이므로 해요체로 고쳤다.", "flags_resolved": []}
+{"key": "d:440:50", "ko_new": "\"질레는 우리와 함께해야 해요. 그게 전부예요.\"", "reason": "어머니 상대이므로 해요체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:440:56", "ko_new": "\"이날을 정말 보게 될 줄은 몰랐어요...\"", "reason": "어머니와 함께 있는 장면이므로 해요체로 고쳤다.", "flags_resolved": []}
+{"key": "d:440:57", "ko_new": "\"발레로 국왕이 우리에게 잃게 만든 고통 말씀이시겠죠.\"", "reason": "어머니에게는 반말을 쓰지 않으므로 해요체로 고쳤다.", "flags_resolved": []}
+{"key": "d:440:64", "ko_new": "\"믿으세요, 어머니. 우리 나머지에 비하면 어머니는 편했어요. 여기서 '우리'란 사실 저를 말하는 거예요.\"", "reason": "어머니 상대이므로 하오체·반말 혼용을 해요체로 통일하고 1인칭을 \"저\"로 맞췄다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:440:76", "ko_new": "혼란, 비명, 아수라장까지 그 운명의 날에 대한 기억이 한꺼번에 밀려왔다.", "reason": "영문 줄표를 옮기며 체언으로 끝난 나레이션을 \"-다\" 서술체 한 문장으로 다시 썼다.", "flags_resolved": ["narration_not_declarative"]}
+{"key": "d:440:79", "ko_new": "\"진정한 변화는 안에서부터 시작되는 법이에요. 광장 이름을 바꾸는 일보다 먼저 사람들의 마음을 북돋우는 데 집중해야 해요.\"", "reason": "군중 연설이 아니라 어머니와의 대화이므로 해요체로 고쳤다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:81", "ko_new": "\"그대로 두는 게 좋겠어요. 스몰라크라면 틀림없이 국제적 사건으로 만들 테니까요.\"", "reason": "어머니와의 대화이므로 해요체로 고치고 받침 없는 이름 뒤 조사를 바로잡았다.", "flags_resolved": []}
+{"key": "d:440:83", "ko_new": "\"어머니 말씀이 옳아요. 우리 도시에서 과거의 흔적을 지울 때가 됐어요.\"", "reason": "어머니 상대이므로 하오체·반말 혼용을 해요체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:440:88", "ko_new": "\"고마워요. 어머니가 그래오셨듯 품위와 기품을 갖춰 우리 왕국을 대표하도록 최선을 다하겠어요.\"", "reason": "어머니 상대이므로 해요체로 고쳤다.", "flags_resolved": []}
+{"key": "d:440:89", "ko_new": "\"운에 기대는 건 약한 자들이나 하는 일이에요, 어머니. 그래도 고마워요.\"", "reason": "어머니 상대이므로 해요체로 통일했다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:440:90", "ko_new": "\"'잘하라고요?' 제발... 제 운은 제가 만드는 거예요.\"", "reason": "어머니와의 대화이므로 해요체로 고치고 1인칭을 \"제\"로 맞췄다.", "flags_resolved": ["speech_not_hapsyo"]}
+{"key": "d:440:91", "ko_new": "\"그 마음은 고마워요, 어머니. 우리 백성 앞에 서는 동안 신성한 빛이 제 말과 행동을 인도해 주기를 빌어요.\"", "reason": "어머니 상대이므로 해요체로 통일하고 1인칭을 \"제\"로 맞췄다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:440:107", "ko_new": "\"질레 전체가 그 사람 것이 되는 편이 나았겠어요?\"", "reason": "어머니 상대이므로 해요체로 고쳤다.", "flags_resolved": []}
+{"key": "d:440:111", "ko_new": "\"그 집을 주겠다고 약속한 건 정말 후회해요. 하지만 수년간 협상한 끝에 남은 선택지가 그것뿐이었어요.\"", "reason": "어머니 상대이므로 해요체로 고쳤다.", "flags_resolved": []}
+{"key": "d:440:112", "ko_new": "\"어차피 무너져가던 집이었어요. 어머니가 다시 들어가 살 일도 없었잖아요.\"", "reason": "어머니 상대이므로 해요체로 고쳤다.", "flags_resolved": []}
+{"key": "d:440:113", "ko_new": "\"일방적으로 손해 본 거래는 아니에요. 그 사람이 제게 준 문받침 못 보셨어요?\"", "reason": "어머니 상대이므로 해요체로 고치고 1인칭을 \"제\"로 맞췄다.", "flags_resolved": []}
+{"key": "d:440:138", "ko_new": "\"말씀은 고맙지만 질레 주민들을 빼놓아선 안 돼요. 그들의 표와 집단적 의지가 오늘 우리가 이 자리에 있는 이유예요.\"", "reason": "어머니 상대이므로 해요체로 고쳤다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:440:123", "ko_new": "광장 반대편에서는 데르디아인과 블루드인 골콘다주의자 무리가 승리를 자축하는 듯한 구호를 연이어 외치고 있었다. 그중 \"욜라크 블루데라트!\"라는 말이 희미하게 들렸다.", "reason": "R75에 따라 구호를 한글 음차로 옮겼다(coined_terms 기록). 같은 대화의 \"글로부리우스 악사 사조니\" 음차 선례를 따랐다.", "flags_resolved": []}
+{"key": "d:440:190", "ko_new": "\"나 역시 질레에서 행복한 어린 시절의 추억을 많이 쌓았습니다. 내 마음속에서 특별한 곳입니다.\"", "reason": "연설 구간이므로 1인칭을 화계표대로 \"나/내\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:440:194", "ko_new": "\"나 자신도 절반은 질레인의 피를 이었습니다. 이 지역은 나와 내 어머니의 마음속에서 특별한 곳입니다.\"", "reason": "연설 구간이므로 1인칭을 화계표대로 \"나/내\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:440:196", "ko_new": "\"하지만 나는 용서할 줄 아는 국왕입니다. 따라서 이 땅을 정당한 관리자에게 돌려주겠다고 발표합니다. 질레는 다시 브레나스와 사존 가문의 영지가 될 것입니다.\"", "reason": "연설 구간의 왕권 대사이므로 1인칭을 \"나\"로 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:440:266", "ko_new": "\"멋진 별장으로 바꿔 드릴게요. 왕대비만의 호화 휴양지로 말이에요.\"", "reason": "어머니 상대이므로 해요체로 고치고 금지 극존칭 \"대비마마\"를 \"왕대비\"로 바꿨다.", "flags_resolved": []}
+{"key": "d:440:267", "ko_new": "\"저도 마찬가지예요.\"", "reason": "어머니 상대이므로 해요체로 고치고 1인칭을 \"저\"로 맞췄다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:440:278", "ko_new": "\"너무 익숙해지지는 마세요. 소르드인들에게 이 집을 또 다른 휴양지로 바꿔도 된다고 허가했으니까요.\"", "reason": "어머니 상대이므로 해요체로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:440:280", "ko_new": "\"그게 웃기다고 생각한다면 너도 스몰라크와 다를 게 없구나.\"", "reason": "받침 없는 이름 뒤 조사를 \"와\"로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:440:295", "ko_new": "광장 반대편에서는 블루드계 베흘렌인들이 승리를 외치는 듯한 구호를 연이어 외치고 있었다. \"욜라크 블루데라트!\"라는 말이 희미하게 들렸다.", "reason": "구호를 R75대로 음차하고 Wehzek 표기를 코퍼스 다수 표기로 통일했다(베흘렌인 125줄, 웨첵인 4줄).", "flags_resolved": []}
+{"key": "d:441:22", "ko_new": "\"들어오시오.\"", "reason": "신하 상대이므로 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:441:23", "ko_new": "\"좋은 소식이기를 바라오.\"", "reason": "하게체는 파벨 상대에만 쓰므로 신하 상대 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:441:24", "ko_new": "\"누가 문 좀 열어주겠소?\"", "reason": "하게체는 파벨 상대에만 쓰므로 신하 상대 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:441:25", "ko_new": "\"무슨 일이오?\"", "reason": "신하 상대이므로 반말을 하오체로 고쳤다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:441:139", "ko_new": "\"고맙소. 적어도 시도는 해봤잖소.\"", "reason": "하게체는 파벨 상대에만 쓰므로 신하 상대 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:441:140", "ko_new": "\"다들 무능하기 짝이 없군! 제대로 하는 게 하나도 없소!\"", "reason": "짧은 독립 감탄은 남기고 나머지 반말 종결을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:441:144", "ko_new": "\"내 책임이오. 이 일의 책임은 오롯이 내게 있소.\"", "reason": "신하 상대이므로 해라체를 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:441:145", "ko_new": "\"그대 말이 맞는 게 좋을 것이오. 그대 자신을 위해서라도.\"", "reason": "하오체로 고치고 \"자네\"를 신하용 2인칭 \"그대\"로 바꿨다.", "flags_resolved": []}
+{"key": "d:441:146", "ko_new": "\"우리가 되찾을 것이오. 나는 확신하오.\"", "reason": "신하 상대이므로 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:441:147", "ko_new": "\"훌륭하오! 이 일을 그대에게 맡겨도 된다고 믿고 있었소.\"", "reason": "하오체로 고치고 \"자네\"를 \"그대\"로 바꿨다.", "flags_resolved": []}
+{"key": "d:441:231", "ko_new": "스몰라크는 공식 대국민 연설을 통해 리치아가 민주적 선거 절차에 개입했다고 비난하고 있었다.", "reason": "받침 없는 이름 뒤 조사를 \"는\"으로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:441:236", "ko_new": "\"로렌토, 그대가 적절히 처리하리라 믿소.\"", "reason": "하게체·\"자네\"를 신하 상대 하오체와 \"그대\"로 고쳤다.", "flags_resolved": []}
+{"key": "d:441:237", "ko_new": "\"스몰라크가 뭐라 하든 무슨 상관이오? 질레는 다시 우리 것이오.\"", "reason": "반말을 하오체로 고치고 받침 없는 이름 뒤 조사를 바로잡았다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:441:238", "ko_new": "\"내 복수를 똑똑히 알게 될 것이오. 맹세하오.\"", "reason": "신하 상대이므로 반말을 하오체로 고쳤다.", "flags_resolved": []}
+{"key": "d:441:282", "ko_new": "\"스몰라크가 무슨 상관이오? 질레는 잃었소.\"", "reason": "받침 없는 이름 뒤 조사를 \"가\"로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:439:385", "ko_new": "\"새 에너지 파이프라인은 유망한 출발이었습니다...\"", "reason": "외국 정상이므로 하오체 종결을 합쇼체로 고쳤다.", "flags_resolved": []}
+{"key": "d:439:706", "ko_new": "\"그럼 이걸로 됐습니다. 우리에게 동맹이 생겼습니다.\"", "reason": "합쇼체 화자의 앞 문장에 남은 \"-군요\"를 고쳤다.", "flags_resolved": []}

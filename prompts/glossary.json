@@ -1103,5 +1103,28 @@
     "국제 무역지대": 0
    }
   }
+ },
+ {
+  "concept": "PaleStream (가스관·사업명)",
+  "en": "PaleStream",
+  "standard": "페일스트림",
+  "banned": [
+   "PaleStream",
+   "팔레스트림"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "페일스트림": 0,
+    "PaleStream": 0,
+    "팔레스트림": 0
+   },
+   "rizia": {
+    "페일스트림": 13,
+    "PaleStream": 8,
+    "팔레스트림": 2
+   }
+  }
  }
 ]

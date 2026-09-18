@@ -1919,5 +1919,25 @@
     "데 라바 남작부인": 26
    }
   }
+ },
+ {
+  "concept": "Duchess Vina (비나 여공작)",
+  "en": "Duchess Vina",
+  "standard": "비나 여공작",
+  "banned": [
+   "비나 공작부인"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "비나 여공작": 0,
+    "비나 공작부인": 0
+   },
+   "rizia": {
+    "비나 여공작": 0,
+    "비나 공작부인": 3
+   }
+  }
  }
 ]

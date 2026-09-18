@@ -930,5 +930,16 @@
   "human_standard": "데 라바 여남작",
   "human_auto_replace": true,
   "human_reason": "R155: R94 본인 작위자 원칙(여공작·여백작과 동일). 코퍼스 선례 0이나 원칙 우선; 사용자 사후 확인 목록."
+ },
+ {
+  "concept": "Duchess Vina (비나 여공작)",
+  "en": "Duchess Vina",
+  "candidates": [
+   "비나 여공작",
+   "비나 공작부인"
+  ],
+  "human_standard": "비나 여공작",
+  "human_auto_replace": true,
+  "human_reason": "R94 본인 작위(몬키즈 여공작 서임)."
  }
 ]

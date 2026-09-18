@@ -905,7 +905,7 @@
    "칙령"
   ],
   "source": "user_decision",
-  "auto_replace": false,
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "왕령": 0,

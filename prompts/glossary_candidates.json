@@ -388,7 +388,8 @@
    "칙령"
   ],
   "human_standard": "왕령",
-  "human_reason": "R78: 게임 UI 패널 라벨 'Royal Decrees'=왕령, 텍스트에셋 510:36. 대화 다수(칙령 178)보다 UI·전체 다수를 따른다."
+  "human_reason": "R78: 게임 UI 패널 라벨 'Royal Decrees'=왕령, 텍스트에셋 510:36. 대화 다수(칙령 178)보다 UI·전체 다수를 따른다.",
+  "human_auto_replace": true
  },
  {
   "concept": "Beatrice 친족어(비나→베아트리체)",

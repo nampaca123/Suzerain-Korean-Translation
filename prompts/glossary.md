@@ -46,7 +46,7 @@
 | Haelm (지명) | Haelm | 헬름 | 하엘름 | sordland | 예 | {'헬름': 17, '하엘름': 0} | {'헬름': 9, '하엘름': 1} |
 | Nines (인명) | Ephraim Nines | 니네스 | 나인스 | sordland | 예 | {'니네스': 16, '나인스': 0} | {'니네스': 20, '나인스': 17} |
 | President Nines (국제연합 총회 의장) | President Nines | 니네스 의장 | 니네스 대통령 | sordland | 예 | {'니네스 의장': 11, '니네스 대통령': 0} | {'니네스 의장': 2, '니네스 대통령': 12} |
-| Royal Decree (칙령/왕령) | Royal Decree | 왕령 | 칙령 | user_decision | 아니오(보고만) | {'왕령': 0, '칙령': 1} | {'왕령': 550, '칙령': 214} |
+| Royal Decree (칙령/왕령) | Royal Decree | 왕령 | 칙령 | user_decision | 예 | {'왕령': 0, '칙령': 1} | {'왕령': 550, '칙령': 214} |
 | Beatrice 친족어(비나→베아트리체) | Aunt Bea | 베아 이모 | 베아 고모 | user_decision | 예 | {'베아 이모': 0, '베아 고모': 0} | {'베아 이모': 11, '베아 고모': 6} |
 | Beatrice 친족어 2 | Aunt Beatrice | 베아트리체 이모 | 베아트리체 고모 | user_decision | 예 | {'베아트리체 이모': 0, '베아트리체 고모': 0} | {'베아트리체 이모': 0, '베아트리체 고모': 0} |
 | Captain Gordion (금위대장) | Captain Gordion | 고르디온 대장 | 고르디온 대위 | user_decision | 예 | {'고르디온 대장': 0, '고르디온 대위': 0} | {'고르디온 대장': 53, '고르디온 대위': 98} |

@@ -65,3 +65,4 @@
 | shell corporation | shell corporation | 페이퍼 컴퍼니 | 유령회사, 유령 회사 | user_decision | 예 | {'페이퍼 컴퍼니': 0, '유령회사': 0, '유령 회사': 0} | {'페이퍼 컴퍼니': 8, '유령회사': 4, '유령 회사': 0} |
 | A proso (리치아어 구호) | A proso | 아 프로소 | A proso, A Proso | user_decision | 예 | {'아 프로소': 0, 'A proso': 0, 'A Proso': 0} | {'아 프로소': 4, 'A proso': 0, 'A Proso': 0} |
 | Heart of Sordland (기구명) | Heart of Sordland | 소르들란드의 심장 | 하트 오브 소르들란드 | user_decision | 예 | {'소르들란드의 심장': 0, '하트 오브 소르들란드': 0} | {'소르들란드의 심장': 0, '하트 오브 소르들란드': 2} |
+| Duchess Azaro (루시타 작위) | Duchess Azaro | 아자로 여공작 | 아자로 공작부인 | user_decision | 예 | {'아자로 여공작': 0, '아자로 공작부인': 0} | {'아자로 여공작': 40, '아자로 공작부인': 153} |

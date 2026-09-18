@@ -1312,5 +1312,25 @@
     "하트 오브 소르들란드": 2
    }
   }
+ },
+ {
+  "concept": "Duchess Azaro (루시타 작위)",
+  "en": "Duchess Azaro",
+  "standard": "아자로 여공작",
+  "banned": [
+   "아자로 공작부인"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "아자로 여공작": 0,
+    "아자로 공작부인": 0
+   },
+   "rizia": {
+    "아자로 여공작": 40,
+    "아자로 공작부인": 153
+   }
+  }
  }
 ]

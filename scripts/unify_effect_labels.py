@@ -23,8 +23,7 @@ def main(argv: list[str]) -> None:
     dry = "--dry" in argv
     targets = [paths.CURRENT / "dialogue.jsonl", paths.CURRENT / "textassets.jsonl"]
     for st in paths.BATCHES.glob("*/status.json"):  # 진행 중 배치의 입력도 함께 갱신해 편집자·게이트가 옛 표기를 보지 않게 한다
-        if (st.parent / "input.jsonl").exists():
-            targets.append(st.parent / "input.jsonl")
+        targets += [st.parent / n for n in ("input.jsonl", "reviewed.jsonl") if (st.parent / n).exists()]  # 검수본도 갱신
     total = 0
     for t in targets:
         n = unify_file(t, dry)

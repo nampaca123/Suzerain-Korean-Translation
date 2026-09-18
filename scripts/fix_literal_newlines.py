@@ -20,7 +20,8 @@ def fix_row(r: dict) -> bool:
 def main(argv: list[str]) -> None:
     dry = "--dry" in argv
     targets = [paths.CURRENT / "dialogue.jsonl", paths.CURRENT / "textassets.jsonl"]
-    targets += [st.parent / "input.jsonl" for st in paths.BATCHES.glob("*/status.json") if (st.parent / "input.jsonl").exists()]
+    for st in paths.BATCHES.glob("*/status.json"):  # 배치 입력과 검수본도 함께 갱신(검수자가 옛 표기를 보지 않게)
+        targets += [st.parent / n for n in ("input.jsonl", "reviewed.jsonl") if (st.parent / n).exists()]
     total = 0
     for t in targets:
         rows = list(read_jsonl(t))

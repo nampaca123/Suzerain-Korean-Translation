@@ -1779,5 +1779,25 @@
     "대신전": 14
    }
   }
+ },
+ {
+  "concept": "East Merkopa (동메르코파)",
+  "en": "East Merkopa",
+  "standard": "동메르코파",
+  "banned": [
+   "동부 메르코파"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "동메르코파": 43,
+    "동부 메르코파": 13
+   },
+   "rizia": {
+    "동메르코파": 56,
+    "동부 메르코파": 14
+   }
+  }
  }
 ]

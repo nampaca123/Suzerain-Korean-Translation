@@ -87,3 +87,4 @@
 | Bi mare volu (리치아어 의례어) | Bi mare volu | 비 마레 볼루 | Bi mare volu | user_decision | 예 | {'비 마레 볼루': 0, 'Bi mare volu': 0} | {'비 마레 볼루': 2, 'Bi mare volu': 12} |
 | Ales Bay (알레스만) | Ales Bay | 알레스만 | 알레스 만 | user_decision | 예 | {'알레스만': 0, '알레스 만': 0} | {'알레스만': 3, '알레스 만': 2} |
 | Archsanctuary (대성소) | Archsanctuary | 대성소 | 대신전 | user_decision | 예 | {'대성소': 30, '대신전': 0} | {'대성소': 303, '대신전': 14} |
+| East Merkopa (동메르코파) | East Merkopa | 동메르코파 | 동부 메르코파 | user_decision | 예 | {'동메르코파': 43, '동부 메르코파': 13} | {'동메르코파': 56, '동부 메르코파': 14} |

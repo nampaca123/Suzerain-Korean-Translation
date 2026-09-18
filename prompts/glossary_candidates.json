@@ -842,5 +842,16 @@
   "human_standard": "알레스만",
   "human_auto_replace": true,
   "human_reason": "R135: 코퍼스 3:2, 외래어 지명+만 붙여쓰기."
+ },
+ {
+  "concept": "Archsanctuary (대성소)",
+  "en": "Archsanctuary",
+  "candidates": [
+   "대성소",
+   "대신전"
+  ],
+  "human_standard": "대성소",
+  "human_auto_replace": true,
+  "human_reason": "R139: 코퍼스 대성소 160줄, 코덱스 베니에본 대성소; 대신전 14줄 잔존 통일."
  }
 ]

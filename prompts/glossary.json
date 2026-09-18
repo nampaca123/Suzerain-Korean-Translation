@@ -1759,5 +1759,25 @@
     "알레스 만": 2
    }
   }
+ },
+ {
+  "concept": "Archsanctuary (대성소)",
+  "en": "Archsanctuary",
+  "standard": "대성소",
+  "banned": [
+   "대신전"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "대성소": 30,
+    "대신전": 0
+   },
+   "rizia": {
+    "대성소": 303,
+    "대신전": 14
+   }
+  }
  }
 ]

@@ -1,1 +1,1 @@
-{"batch": "d-turn06-i", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 217, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {"Russello Montoro": 0.0508}, "blocks": 0, "remaining_flags": {"subject_mixed_register": 16, "romus_mixed_register": 2}}
+{"batch": "d-turn06-i", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 217, "rejected": 0, "reason": "", "hard_flag_rate": {"Russello Montoro": 0.0476}, "blocks": 18, "remaining_flags": {"subject_mixed_register": 15}}

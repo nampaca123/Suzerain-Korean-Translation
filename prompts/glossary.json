@@ -1424,5 +1424,25 @@
     "발렌키리스의 공작부인": 0
    }
   }
+ },
+ {
+  "concept": "Ax populat Rizati (구호)",
+  "en": "Ax populat Rizati",
+  "standard": "악스 포풀라트 리차티",
+  "banned": [
+   "Ax populat Rizati"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "악스 포풀라트 리차티": 0,
+    "Ax populat Rizati": 0
+   },
+   "rizia": {
+    "악스 포풀라트 리차티": 0,
+    "Ax populat Rizati": 0
+   }
+  }
  }
 ]

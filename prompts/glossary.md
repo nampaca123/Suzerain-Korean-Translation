@@ -70,3 +70,4 @@
 | National Defense Headquarters | National Defense Headquarters | 국가 국방본부 | 국가 방위 본부 | user_decision | 예 | {'국가 국방본부': 0, '국가 방위 본부': 0} | {'국가 국방본부': 10, '국가 방위 본부': 2} |
 | Supreme Council of Nur | Supreme Council of Nur | 누르 최고평의회 | 누리티교 최고평의회 | user_decision | 예 | {'누르 최고평의회': 0, '누리티교 최고평의회': 0} | {'누르 최고평의회': 8, '누리티교 최고평의회': 0} |
 | Duchess of Valenqiris (비나 작위) | Duchess of Valenqiris | 발렌키리스 여공작 | 발렌키리스 공작부인, 발렌키리스의 여공작, 발렌키리스의 공작부인 | user_decision | 예 | {'발렌키리스 여공작': 0, '발렌키리스 공작부인': 0, '발렌키리스의 여공작': 0, '발렌키리스의 공작부인': 0} | {'발렌키리스 여공작': 3, '발렌키리스 공작부인': 18, '발렌키리스의 여공작': 1, '발렌키리스의 공작부인': 0} |
+| Ax populat Rizati (구호) | Ax populat Rizati | 악스 포풀라트 리차티 | Ax populat Rizati | user_decision | 예 | {'악스 포풀라트 리차티': 0, 'Ax populat Rizati': 0} | {'악스 포풀라트 리차티': 0, 'Ax populat Rizati': 0} |

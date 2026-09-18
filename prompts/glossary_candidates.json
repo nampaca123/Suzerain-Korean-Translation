@@ -661,5 +661,16 @@
   "human_standard": "발렌키리스 여공작",
   "human_auto_replace": true,
   "human_reason": "R101: 비나 본인의 작위(R94와 같은 논리). Duke of Valenqiris(남성)는 '발렌키리스 공작' 유지."
+ },
+ {
+  "concept": "Ax populat Rizati (구호)",
+  "en": "Ax populat Rizati",
+  "candidates": [
+   "악스 포풀라트 리차티",
+   "Ax populat Rizati"
+  ],
+  "human_standard": "악스 포풀라트 리차티",
+  "human_auto_replace": true,
+  "human_reason": "R75 음차(d-turn10-i coined)"
  }
 ]

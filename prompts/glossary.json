@@ -791,13 +791,13 @@
  {
   "concept": "NSWNP (베흘렌 여당)",
   "en": "Nurist Socialist Wehlen Nationalist Party",
-  "standard": "누리티교사회주의베흘렌민족주의당",
+  "standard": "누리티교 사회주의 베흘렌 민족주의당",
   "banned": [
-   "누리스트 사회주의 베흘렌 민족주의당",
-   "누리티교 사회주의 베흘렌 민족주의당"
+   "누리티교사회주의베흘렌민족주의당",
+   "누리스트 사회주의 베흘렌 민족주의당"
   ],
-  "source": "rizia_majority",
-  "auto_replace": false,
+  "source": "user_decision",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "누리티교사회주의베흘렌민족주의당": 0,

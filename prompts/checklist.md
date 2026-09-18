@@ -24,6 +24,7 @@ flag 이름은 flag_lines.py와 같다. 에이전트는 flag가 없어도 아래
    - 코퍼스 어디에도 한국어 표기가 없는 새 고유명사(예: 누락 문단 안의 "bransalch")는 음차도 의역도 하지 않는다. 로마자 그대로 두고 needs_human.jsonl에 기록한다.
    - (R74) 인명·지명·조직 약칭처럼 진짜 고유명사가 아니라 **뜻이 드러나는 영어 구로 된 이름**(칙령·정책·사업·캠페인·행사·제도명 등, 예: Crown Supreme Campaign)은 음차하지 않고 뜻풀이형으로 옮긴다(→ 왕실 선양 캠페인). 코퍼스에 선례가 없는 표기를 새로 만들었으면 반드시 `{BATCH_DIR}/coined_terms.jsonl`에 한 줄로 기록한다: `{"en": "...", "ko": "...", "kind": "칙령명|정책명|사업명|기타", "reason": "...", "keys": ["<key>", ...]}`. 같은 이름이 코퍼스에 이미 음차로 여러 번 있으면 그 줄들도 같이 고치되, 배치 밖의 줄은 reason에 적어 보고만 한다. 인명·지명은 이 규칙의 대상이 아니다(계속 코퍼스 다수 표기·로마자 유지).
    - (R75) 리치아어 구호·의례어는 **한글 음차**로 적는다. 근거: 메인 캠페인이 소르드어 구호 "Greci Sordland!"를 "그레지 소르들란드!"로 음차했다. 표준: Halaita → 할라이타, Glovurius axa Rizia → 글로부리우스 악사 리치아(둘 다 용어집, 기계 치환됨). 그 밖의 리치아어 구(Salutenas axa regu novus, Glovurius axa Sazoni 등)는 같은 방식으로 음차하고 `coined_terms.jsonl`에 기록한다(kind: "리치아어 구호").
+   - (R77) 당명 띄어쓰기: 메인 캠페인의 짧은 당명(소르들란드통합당·블루디아노동자당·국민자유정의당)은 붙여 쓴 선례를 그대로 쓴다. 메인에 선례가 없는 긴 당명(4어절 이상)은 가독성을 위해 어절 단위로 띄어 쓴다(예: 누리티교 사회주의 베흘렌 민족주의당).
    - 사용자 결정 표기(용어집 근거 `user_decision`): Armed Forces → 리치아 육군(영문이 Armed Forces인 줄만. "리치아군"은 일반 지칭이면 유지), Karanza → 카란자, profit share → 수익 분배, Walker Plan → 워커 플랜, Crown Supreme Campaign → 왕실 선양 캠페인. 이제 needs_human 대상이 아니다.
    - `(needs_human)` 개념이 남아 있으면 고르지 말고 원문 표기를 유지한 채 그 줄을 `{BATCH_DIR}/needs_human.jsonl`에 `{"key": …, "reason": …}` 한 줄로 기록한다. needs_human 쟁점이 있는 줄도 확실한 수정(화계 등)은 edits.jsonl에 넣되, 미결 쟁점 부분은 원문 그대로 두고 needs_human.jsonl에 사유를 적는다.
 6. 고유명사 뒤 조사가 받침과 맞는다. `{변수}` 뒤에 조사를 고정으로 붙이지 않는다 (josa_mismatch).

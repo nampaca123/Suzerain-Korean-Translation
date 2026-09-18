@@ -48,7 +48,7 @@ def _long_clauses(ko: str) -> list[str]:
 
 
 # 허용 예외: 청유 "-시죠"(체크리스트 14), 되묻기 "-라니?/-다니?"(독립 감탄류), 감탄사 "글쎄요"
-_TOLERATED = re.compile(r'(시죠|시지요|[가-힣]라니|[가-힣]다니|^"?글쎄요)[.!?]*["”]?$')
+_TOLERATED = re.compile(r'((시죠|시지요|[라다]\*?니)[.!?]*["”]?$|^["“]?글쎄요[,.])')
 
 
 def _all_clauses(ko: str) -> list[str]:

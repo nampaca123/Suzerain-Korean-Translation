@@ -1,1 +1,1 @@
-{"batch": "d-turn08-k", "stage": "failed", "round": 2, "kind": "dialogue", "applied": 57, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {"romus_mixed_register": 1, "subject_mixed_register": 1}}
+{"batch": "d-turn08-k", "stage": "failed", "round": 2, "kind": "dialogue", "applied": 57, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

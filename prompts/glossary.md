@@ -79,3 +79,4 @@
 | Capital Police (수도 경찰) | Capital Police | 수도 경찰 | 수도경찰 | user_decision | 예 | {'수도 경찰': 0, '수도경찰': 0} | {'수도 경찰': 4, '수도경찰': 3} |
 | Captain Castellanus (카스텔라누스 대장) | Captain Castellanus | 카스텔라누스 대장 | 카스텔라누스 대위 | user_decision | 예 | {'카스텔라누스 대장': 0, '카스텔라누스 대위': 0} | {'카스텔라누스 대장': 6, '카스텔라누스 대위': 9} |
 | Palantor Security Solutions (팔란토르 시큐리티) | Palantor Security Solutions | 팔란토르 시큐리티 | 팔란토르 보안 솔루션 | user_decision | 예 | {'팔란토르 시큐리티': 2, '팔란토르 보안 솔루션': 0} | {'팔란토르 시큐리티': 8, '팔란토르 보안 솔루션': 2} |
+| Wruhec (브루헤지, 단독형) | Wruhec | 브루헤지 | 브루헤크 | user_decision | 예 | {'브루헤지': 43, '브루헤크': 0} | {'브루헤지': 779, '브루헤크': 304} |

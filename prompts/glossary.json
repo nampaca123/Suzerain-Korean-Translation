@@ -1613,5 +1613,25 @@
     "팔란토르 보안 솔루션": 2
    }
   }
+ },
+ {
+  "concept": "Wruhec (브루헤지, 단독형)",
+  "en": "Wruhec",
+  "standard": "브루헤지",
+  "banned": [
+   "브루헤크"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "브루헤지": 43,
+    "브루헤크": 0
+   },
+   "rizia": {
+    "브루헤지": 779,
+    "브루헤크": 304
+   }
+  }
  }
 ]

@@ -763,5 +763,16 @@
   "human_standard": "팔란토르 시큐리티",
   "human_auto_replace": true,
   "human_reason": "R112: 회사명(고유명) — 코퍼스 다수형 9:2(R86)."
+ },
+ {
+  "concept": "Wruhec (브루헤지, 단독형)",
+  "en": "Wruhec",
+  "candidates": [
+   "브루헤지",
+   "브루헤크"
+  ],
+  "human_standard": "브루헤지",
+  "human_auto_replace": true,
+  "human_reason": "R117: 메인 캠페인은 브루헤지만 사용(소르들란드 브루헤크 0건). 성인·종교 항목 외 단독형/수호대 등 잔존 126건 일괄 통일."
  }
 ]

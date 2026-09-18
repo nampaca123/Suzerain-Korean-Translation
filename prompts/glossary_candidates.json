@@ -430,5 +430,27 @@
   ],
   "human_standard": "귀족 가문들",
   "human_reason": "R81: 토라스·사존·아자로 등 'houses'는 귀족 가문. 왕가는 토라스 하나뿐이라 복수 '왕가들'은 오역."
+ },
+ {
+  "concept": "Councilor of War and Internal Security",
+  "en": "Councilor of War and Internal Security",
+  "candidates": [
+   "전쟁·안보 평의원",
+   "전쟁 및 국내안보 평의원",
+   "전쟁·안보 대의원",
+   "전쟁·안보 담당 평의원",
+   "전쟁·내부안보 왕실 평의원",
+   "전쟁·내부안보 왕실평의원",
+   "전쟁·안보 왕실평의원",
+   "전쟁·내무안보 대의원",
+   "전쟁·내무 평의원"
+  ],
+  "mask": [
+   "전쟁·안보 담당 임시 평의원",
+   "전쟁 평의원"
+  ],
+  "human_standard": "전쟁·안보 평의원",
+  "human_reason": "R82: 같은 직위가 9가지로 갈림. Rizia 다수 표기(34)이자 가장 짧은 형태로 통일. 'Councilor of War'만 있는 줄은 '전쟁 평의원' 유지.",
+  "human_auto_replace": true
  }
 ]

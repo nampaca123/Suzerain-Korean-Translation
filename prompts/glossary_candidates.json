@@ -614,5 +614,17 @@
   "human_standard": "아자로 여공작",
   "human_auto_replace": true,
   "human_reason": "R94: 루시타는 본인 작위자(아자로 가문 상속인)이므로 '공작부인'(공작의 아내)은 오역. 코퍼스 여공작 선례 80줄. 사용자 사후 확인: 레오나 사존 '백작부인'도 본인 작위자라 같은 문제(미수정)."
+ },
+ {
+  "concept": "Camp Domus (군 기지)",
+  "en": "Camp Domus",
+  "candidates": [
+   "캠프 도무스",
+   "도무스 훈련소",
+   "도무스 캠프"
+  ],
+  "human_standard": "캠프 도무스",
+  "human_auto_replace": true,
+  "human_reason": "R96: 코퍼스 다수(28:6). 캠프 데이비드처럼 기지 고유명으로 취급."
  }
 ]

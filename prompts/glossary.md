@@ -66,3 +66,4 @@
 | A proso (리치아어 구호) | A proso | 아 프로소 | A proso, A Proso | user_decision | 예 | {'아 프로소': 0, 'A proso': 0, 'A Proso': 0} | {'아 프로소': 4, 'A proso': 0, 'A Proso': 0} |
 | Heart of Sordland (기구명) | Heart of Sordland | 소르들란드의 심장 | 하트 오브 소르들란드 | user_decision | 예 | {'소르들란드의 심장': 0, '하트 오브 소르들란드': 0} | {'소르들란드의 심장': 0, '하트 오브 소르들란드': 2} |
 | Duchess Azaro (루시타 작위) | Duchess Azaro | 아자로 여공작 | 아자로 공작부인, 아자로 공작 | user_decision | 예 | {'아자로 여공작': 0, '아자로 공작부인': 0, '아자로 공작': 0} | {'아자로 여공작': 40, '아자로 공작부인': 153, '아자로 공작': 28} |
+| Camp Domus (군 기지) | Camp Domus | 캠프 도무스 | 도무스 훈련소, 도무스 캠프 | user_decision | 예 | {'캠프 도무스': 0, '도무스 훈련소': 0, '도무스 캠프': 0} | {'캠프 도무스': 27, '도무스 훈련소': 7, '도무스 캠프': 1} |

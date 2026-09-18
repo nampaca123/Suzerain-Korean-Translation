@@ -1335,5 +1335,28 @@
     "아자로 공작": 28
    }
   }
+ },
+ {
+  "concept": "Camp Domus (군 기지)",
+  "en": "Camp Domus",
+  "standard": "캠프 도무스",
+  "banned": [
+   "도무스 훈련소",
+   "도무스 캠프"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "캠프 도무스": 0,
+    "도무스 훈련소": 0,
+    "도무스 캠프": 0
+   },
+   "rizia": {
+    "캠프 도무스": 27,
+    "도무스 훈련소": 7,
+    "도무스 캠프": 1
+   }
+  }
  }
 ]

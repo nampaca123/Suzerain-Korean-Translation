@@ -1,0 +1,2 @@
+{"key": "d:450:231", "flag": "romus_mixed_register", "reason": "\"놀랍지도 않군.\" 짧은 독립 감탄(체크리스트 10 예외, 컨트롤러 확인)"}
+{"key": "d:450:530", "flag": "subject_mixed_register", "reason": "\"발그슬란드, 소르들란드, 모렐라.\" 국명 열거를 '-라' 종결로 오분류(컨트롤러 확인)"}

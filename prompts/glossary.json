@@ -1739,5 +1739,25 @@
     "Bi mare volu": 12
    }
   }
+ },
+ {
+  "concept": "Ales Bay (알레스만)",
+  "en": "Ales Bay",
+  "standard": "알레스만",
+  "banned": [
+   "알레스 만"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "알레스만": 0,
+    "알레스 만": 0
+   },
+   "rizia": {
+    "알레스만": 3,
+    "알레스 만": 2
+   }
+  }
  }
 ]

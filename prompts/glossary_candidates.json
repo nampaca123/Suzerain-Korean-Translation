@@ -831,5 +831,16 @@
   "human_standard": "비 마레 볼루",
   "human_auto_replace": true,
   "human_reason": "R116/R75: 리치아어 의례어 음차(코퍼스 4줄 선례)."
+ },
+ {
+  "concept": "Ales Bay (알레스만)",
+  "en": "Ales Bay",
+  "candidates": [
+   "알레스만",
+   "알레스 만"
+  ],
+  "human_standard": "알레스만",
+  "human_auto_replace": true,
+  "human_reason": "R135: 코퍼스 3:2, 외래어 지명+만 붙여쓰기."
  }
 ]

@@ -85,3 +85,4 @@
 | Duke Axel (악셀 대공) | Duke Axel | 악셀 대공 | 악셀 공작 | user_decision | 예 | {'악셀 대공': 0, '악셀 공작': 0} | {'악셀 대공': 0, '악셀 공작': 3} |
 | Divus zaitu (리치아어 의례어) | Divus zaitu | 디부스 자이투 | Divus zaitu | user_decision | 예 | {'디부스 자이투': 0, 'Divus zaitu': 0} | {'디부스 자이투': 0, 'Divus zaitu': 8} |
 | Bi mare volu (리치아어 의례어) | Bi mare volu | 비 마레 볼루 | Bi mare volu | user_decision | 예 | {'비 마레 볼루': 0, 'Bi mare volu': 0} | {'비 마레 볼루': 2, 'Bi mare volu': 12} |
+| Ales Bay (알레스만) | Ales Bay | 알레스만 | 알레스 만 | user_decision | 예 | {'알레스만': 0, '알레스 만': 0} | {'알레스만': 3, '알레스 만': 2} |

@@ -6,7 +6,7 @@ from scripts.build_corpus import read_jsonl
 from scripts.build_glossary import load_glossary, GLOSSARY_JSON
 from scripts.flag_lines import flag_dialogue, flag_textassets
 
-HARD_FLAGS = {"royal_title_low_register", "romus_mixed_register", "narration_not_declarative",
+HARD_FLAGS = {"royal_title_low_register", "romus_mixed_register", "subject_mixed_register", "narration_not_declarative",
               "speech_not_hapsyo", "menu_mismatch", "glossary_violation", "placeholder_mismatch", "english_effect_tag",
               "curly_quote", "ta_register_mismatch", "missing_paragraph"}
 LIMIT = {"dialogue": 0.02, "narration": 0.005, "textassets": 0.01}

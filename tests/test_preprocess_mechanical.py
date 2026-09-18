@@ -67,3 +67,8 @@ def test_preprocess_menu_adds_quotes_and_applies_glossary():
     row = {"key": "d:1:2", "en": "", "ko": "", "menu_en": '"To Drazon."', "menu_ko": '드라존으로.'}
     assert preprocess_menu(row, g)[0] == '"드라촌으로."'
     assert preprocess_menu({"key": "d:1:3", "menu_en": "", "menu_ko": ""}, g) == ("", [])
+
+
+def test_effect_tag_per_turn_order():
+    assert fix_effect_tags("[-1 턴당 예산]") == "[턴당 -1 예산]"
+    assert fix_effect_tags("[+2 예산, -1 턴당 에너지]") == "[+2 예산, 턴당 -1 에너지]"

@@ -1,1 +1,1 @@
-{"batch": "d-turn08-k", "stage": "edited", "round": 1, "kind": "dialogue", "applied": 202, "rejected": 0}
+{"batch": "d-turn08-k", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 202, "rejected": 0, "reason": "", "hard_flag_rate": {"Patricio Alvarez (R)": 0.0889}, "blocks": 33, "remaining_flags": {"subject_mixed_register": 33}}

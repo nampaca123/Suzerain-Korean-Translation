@@ -152,3 +152,10 @@ def test_glossary_hint_for_non_auto_replace_entries():
     f = flag_dialogue(rows, g)
     assert "glossary_hint" in f["a"]["flags"] and "glossary_violation" not in f["a"]["flags"]
     assert "glossary_violation" in f["b"]["flags"] and "glossary_hint" not in f["b"]["flags"]
+
+
+def test_subject_mixed_register_flags_mid_sentence_haeyo():
+    rows = [D("m1", "Elena Werner", '"그렇군요. 바로 보고드리겠습니다."'), D("m2", "Elena Werner", '"알겠습니다. 바로 보고드리겠습니다."')]
+    f = flag_dialogue(rows, [])
+    assert "subject_mixed_register" in f["m1"]["flags"]
+    assert "subject_mixed_register" not in f["m2"]["flags"]

@@ -47,6 +47,11 @@ def _long_clauses(ko: str) -> list[str]:
     return [p for p in _SENTENCE.split(body) if len(_HANGUL.findall(p)) >= MIN_CLAUSE_SYLLABLES]
 
 
+def _all_clauses(ko: str) -> list[str]:
+    body = " ".join(l for l in ko.split("\n") if l.strip())
+    return [p for p in _SENTENCE.split(body) if len(_HANGUL.findall(p)) >= 2]
+
+
 @lru_cache(maxsize=None)
 def _banned_rx(banned: str) -> re.Pattern:
     esc = re.escape(banned)
@@ -114,6 +119,9 @@ def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
     elif a == "Vina Toras" and reg not in (HAEYO, OTHER): f.append("vina_not_haeyo")
     elif a in FOREIGN and reg not in (HAPSYO, OTHER): f.append("foreign_not_hapsyo")
     elif a == "Hugo Toras" and reg in LOW: f.append("hugo_low_register")
+    if a in SUBJECTS or a in FOREIGN:  # 마지막 절만 보면 앞 문장의 "-군요/-죠"가 새므로 문장 단위로 훑는다
+        cr = [c for c in (classify(p) for p in _all_clauses(ko)) if c != OTHER]  # 합쇼체 화자는 짧은 "물론이죠"도 위반
+        if HAPSYO in cr and (set(cr) & (LOW | {HAEYO})): f.append("subject_mixed_register")
     if "당신" in ko and a not in {"Lucita Azaro", "Estela Toras", "Beatrice Livingston (R)"}:
         f.append("pronoun_dangsin")
     return f

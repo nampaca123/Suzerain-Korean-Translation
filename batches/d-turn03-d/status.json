@@ -1,1 +1,1 @@
-{"batch": "d-turn03-d", "stage": "failed", "round": 3, "kind": "dialogue", "applied": 5, "rejected": 0, "reason": "", "hard_flag_rate": {"Player_Romus": 0.025}, "blocks": 0, "remaining_flags": {"romus_mixed_register": 2}}
+{"batch": "d-turn03-d", "stage": "passed", "round": 3, "kind": "dialogue", "applied": 5, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

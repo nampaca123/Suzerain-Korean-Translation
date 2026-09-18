@@ -77,3 +77,5 @@
 | Countess Leona Sazon (본인 작위) | Countess Leona Sazon | 레오나 사존 여백작 | 레오나 사존 백작부인, 레오나 백작부인, 사존 백작부인 | user_decision | 예 | {'레오나 사존 여백작': 0, '레오나 사존 백작부인': 0, '레오나 백작부인': 0, '사존 백작부인': 0} | {'레오나 사존 여백작': 0, '레오나 사존 백작부인': 5, '레오나 백작부인': 2, '사존 백작부인': 1} |
 | Museum Mile (박물관 거리) | Museum Mile | 박물관 거리 | 뮤지엄 마일 | user_decision | 예 | {'박물관 거리': 0, '뮤지엄 마일': 0} | {'박물관 거리': 2, '뮤지엄 마일': 4} |
 | Capital Police (수도 경찰) | Capital Police | 수도 경찰 | 수도경찰 | user_decision | 예 | {'수도 경찰': 0, '수도경찰': 0} | {'수도 경찰': 4, '수도경찰': 3} |
+| Captain Castellanus (카스텔라누스 대장) | Captain Castellanus | 카스텔라누스 대장 | 카스텔라누스 대위 | user_decision | 예 | {'카스텔라누스 대장': 0, '카스텔라누스 대위': 0} | {'카스텔라누스 대장': 6, '카스텔라누스 대위': 9} |
+| Palantor Security Solutions (팔란토르 시큐리티) | Palantor Security Solutions | 팔란토르 시큐리티 | 팔란토르 보안 솔루션 | user_decision | 예 | {'팔란토르 시큐리티': 2, '팔란토르 보안 솔루션': 0} | {'팔란토르 시큐리티': 8, '팔란토르 보안 솔루션': 2} |

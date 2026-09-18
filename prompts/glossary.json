@@ -1573,5 +1573,45 @@
     "수도경찰": 3
    }
   }
+ },
+ {
+  "concept": "Captain Castellanus (카스텔라누스 대장)",
+  "en": "Captain Castellanus",
+  "standard": "카스텔라누스 대장",
+  "banned": [
+   "카스텔라누스 대위"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "카스텔라누스 대장": 0,
+    "카스텔라누스 대위": 0
+   },
+   "rizia": {
+    "카스텔라누스 대장": 6,
+    "카스텔라누스 대위": 9
+   }
+  }
+ },
+ {
+  "concept": "Palantor Security Solutions (팔란토르 시큐리티)",
+  "en": "Palantor Security Solutions",
+  "standard": "팔란토르 시큐리티",
+  "banned": [
+   "팔란토르 보안 솔루션"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "팔란토르 시큐리티": 2,
+    "팔란토르 보안 솔루션": 0
+   },
+   "rizia": {
+    "팔란토르 시큐리티": 8,
+    "팔란토르 보안 솔루션": 2
+   }
+  }
  }
 ]

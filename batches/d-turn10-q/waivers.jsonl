@@ -1,0 +1,3 @@
+{"key": "d:560:159", "flag": "subject_mixed_register", "reason": "첫 문장은 국왕에게(합쇼), 둘째는 부하에게 명령(반말) — 청자 전환, 컨트롤러 확인"}
+{"key": "d:561:403", "flag": "subject_mixed_register", "reason": "폐하에게 합쇼체 후 아들 마누스에게 반말 — 청자 전환, 컨트롤러 확인"}
+{"key": "d:561:403", "flag": "royal_title_low_register", "reason": "청자 전환(폐하→아들) 오탐, 컨트롤러 확인"}

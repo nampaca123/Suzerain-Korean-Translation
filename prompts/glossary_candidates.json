@@ -741,5 +741,27 @@
   "human_standard": "수도 경찰",
   "human_auto_replace": true,
   "human_reason": "코퍼스 6:1"
+ },
+ {
+  "concept": "Captain Castellanus (카스텔라누스 대장)",
+  "en": "Captain Castellanus",
+  "candidates": [
+   "카스텔라누스 대장",
+   "카스텔라누스 대위"
+  ],
+  "human_standard": "카스텔라누스 대장",
+  "human_auto_replace": true,
+  "human_reason": "R113: 브루헤지 수호대장(근위 지휘관)이라 고르디온(R78)과 같은 \"대장\". 코퍼스 대위 9:대장 6이었으나 직책 기준 통일."
+ },
+ {
+  "concept": "Palantor Security Solutions (팔란토르 시큐리티)",
+  "en": "Palantor Security Solutions",
+  "candidates": [
+   "팔란토르 시큐리티",
+   "팔란토르 보안 솔루션"
+  ],
+  "human_standard": "팔란토르 시큐리티",
+  "human_auto_replace": true,
+  "human_reason": "R112: 회사명(고유명) — 코퍼스 다수형 9:2(R86)."
  }
 ]

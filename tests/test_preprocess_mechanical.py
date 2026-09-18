@@ -72,3 +72,7 @@ def test_preprocess_menu_adds_quotes_and_applies_glossary():
 def test_effect_tag_per_turn_order():
     assert fix_effect_tags("[-1 턴당 예산]") == "[턴당 -1 예산]"
     assert fix_effect_tags("[+2 예산, -1 턴당 에너지]") == "[+2 예산, 턴당 -1 에너지]"
+
+
+def test_effect_tag_slash_turn():
+    assert fix_effect_tags("[향후 +2 에너지/턴]") == "[향후 턴당 +2 에너지]"

@@ -38,6 +38,7 @@ def fix_dashes(ko: str) -> tuple[str, bool]:
 
 
 _NUM_PER_TURN = re.compile(r"([+-]?\d+)\s+턴당\s+([가-힣 ]+?)(?=[,\]]|$)")
+_SLASH_TURN = re.compile(r"([+-]?\d+)\s+([가-힣 ]+?)/턴")
 _KO_LABEL_FIRST = re.compile(rf"(?<![가-힣])(?<!군수 )(?<!군사 )({_LABEL_RX})(?=\s*[+-]?\d)")  # '[병력 -250]'처럼 라벨이 앞에 오는 꼴
 
 
@@ -47,6 +48,7 @@ def _translate_tag(m: re.Match) -> str:
         return f"턴당 {num} {label}" if per else f"{num} {label}"
     body = _EFFECT_ITEM.sub(item, m.group(1))
     body = _NUM_PER_TURN.sub(lambda nm: f"턴당 {nm.group(1)} {nm.group(2)}", body)  # "-1 턴당 예산" → "턴당 -1 예산"
+    body = _SLASH_TURN.sub(lambda sm: f"턴당 {sm.group(1)} {sm.group(2)}", body)  # "+2 에너지/턴" → "턴당 +2 에너지"
     return "[" + _KO_LABEL_FIRST.sub(lambda lm: EFFECT_LABELS[lm.group(1)], body) + "]"
 
 

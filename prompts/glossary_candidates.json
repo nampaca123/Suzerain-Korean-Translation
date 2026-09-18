@@ -471,7 +471,10 @@
    "메프티엠 국제무역지대",
    "메프티엠 국제 무역 지대",
    "메프티엠 국제 무역지대"
-  ]
+  ],
+  "human_standard": "메프티엠 국제무역지대",
+  "human_auto_replace": true,
+  "human_reason": "R85: 코퍼스 다수(88) 붙여쓰기로 통일"
  },
  {
   "concept": "International Trade Zone (약칭)",
@@ -485,6 +488,9 @@
    "메프티엠 국제무역지대",
    "메프티엠 국제 무역 지대",
    "메프티엠 국제 무역지대"
-  ]
+  ],
+  "human_standard": "국제무역지대",
+  "human_auto_replace": true,
+  "human_reason": "R85: 정식 명칭과 같은 붙여쓰기"
  }
 ]

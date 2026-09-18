@@ -1066,8 +1066,8 @@
    "메프티엠 국제 무역 지대",
    "메프티엠 국제 무역지대"
   ],
-  "source": "rizia_majority",
-  "auto_replace": false,
+  "source": "user_decision",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "메프티엠 국제무역지대": 0,
@@ -1084,13 +1084,13 @@
  {
   "concept": "International Trade Zone (약칭)",
   "en": "International Trade Zone",
-  "standard": "국제 무역 지대",
+  "standard": "국제무역지대",
   "banned": [
-   "국제무역지대",
+   "국제 무역 지대",
    "국제 무역지대"
   ],
-  "source": "rizia_majority",
-  "auto_replace": false,
+  "source": "user_decision",
+  "auto_replace": true,
   "evidence": {
    "sordland": {
     "국제무역지대": 0,

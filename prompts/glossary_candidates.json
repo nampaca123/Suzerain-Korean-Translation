@@ -379,5 +379,55 @@
   "mask": [
    "니네스 총회 의장"
   ]
+ },
+ {
+  "concept": "Royal Decree (칙령/왕령)",
+  "en": "Royal Decree",
+  "candidates": [
+   "왕령",
+   "칙령"
+  ],
+  "human_standard": "왕령",
+  "human_reason": "R78: 게임 UI 패널 라벨 'Royal Decrees'=왕령, 텍스트에셋 510:36. 대화 다수(칙령 178)보다 UI·전체 다수를 따른다."
+ },
+ {
+  "concept": "Beatrice 친족어(비나→베아트리체)",
+  "en": "Aunt Bea",
+  "candidates": [
+   "베아 이모",
+   "베아 고모"
+  ],
+  "human_standard": "베아 이모",
+  "human_reason": "R79: 베아트리체는 로무스의 아내 레나의 언니(코덱스 'younger sister of Queen Beatrice')이므로 비나에게는 이모."
+ },
+ {
+  "concept": "Beatrice 친족어 2",
+  "en": "Aunt Beatrice",
+  "candidates": [
+   "베아트리체 이모",
+   "베아트리체 고모"
+  ],
+  "human_standard": "베아트리체 이모",
+  "human_reason": "R79"
+ },
+ {
+  "concept": "Captain Gordion (금위대장)",
+  "en": "Captain Gordion",
+  "candidates": [
+   "고르디온 대장",
+   "고르디온 대위"
+  ],
+  "human_standard": "고르디온 대장",
+  "human_reason": "R80: 'Captain of the Golden Guard'는 직위(대장)이지 계급(대위)이 아님. 메인 캠페인도 Captain 직위를 대장으로 옮김(7:2)."
+ },
+ {
+  "concept": "noble houses (귀족 가문)",
+  "en": "noble houses",
+  "candidates": [
+   "귀족 가문들",
+   "왕가들"
+  ],
+  "human_standard": "귀족 가문들",
+  "human_reason": "R81: 토라스·사존·아자로 등 'houses'는 귀족 가문. 왕가는 토라스 하나뿐이라 복수 '왕가들'은 오역."
  }
 ]

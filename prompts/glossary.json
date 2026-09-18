@@ -896,5 +896,105 @@
     "니네스 대통령": 12
    }
   }
+ },
+ {
+  "concept": "Royal Decree (칙령/왕령)",
+  "en": "Royal Decree",
+  "standard": "왕령",
+  "banned": [
+   "칙령"
+  ],
+  "source": "user_decision",
+  "auto_replace": false,
+  "evidence": {
+   "sordland": {
+    "왕령": 0,
+    "칙령": 1
+   },
+   "rizia": {
+    "왕령": 550,
+    "칙령": 214
+   }
+  }
+ },
+ {
+  "concept": "Beatrice 친족어(비나→베아트리체)",
+  "en": "Aunt Bea",
+  "standard": "베아 이모",
+  "banned": [
+   "베아 고모"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "베아 이모": 0,
+    "베아 고모": 0
+   },
+   "rizia": {
+    "베아 이모": 11,
+    "베아 고모": 6
+   }
+  }
+ },
+ {
+  "concept": "Beatrice 친족어 2",
+  "en": "Aunt Beatrice",
+  "standard": "베아트리체 이모",
+  "banned": [
+   "베아트리체 고모"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "베아트리체 이모": 0,
+    "베아트리체 고모": 0
+   },
+   "rizia": {
+    "베아트리체 이모": 0,
+    "베아트리체 고모": 0
+   }
+  }
+ },
+ {
+  "concept": "Captain Gordion (금위대장)",
+  "en": "Captain Gordion",
+  "standard": "고르디온 대장",
+  "banned": [
+   "고르디온 대위"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "고르디온 대장": 0,
+    "고르디온 대위": 0
+   },
+   "rizia": {
+    "고르디온 대장": 53,
+    "고르디온 대위": 98
+   }
+  }
+ },
+ {
+  "concept": "noble houses (귀족 가문)",
+  "en": "noble houses",
+  "standard": "귀족 가문들",
+  "banned": [
+   "왕가들"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "귀족 가문들": 0,
+    "왕가들": 0
+   },
+   "rizia": {
+    "귀족 가문들": 40,
+    "왕가들": 49
+   }
+  }
  }
 ]

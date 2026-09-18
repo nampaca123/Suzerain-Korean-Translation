@@ -1,5 +1,5 @@
 # 효과 표기 [N 라벨]의 라벨을 HUDStatData 명칭(권위·예산·에너지·군수 장비·군사 인력 등)으로 통일한다(R72).
-# data/current 전체와 아직 시작하지 않은(ready) 배치의 input.jsonl에만 적용. 실행: .venv\Scripts\python -m scripts.unify_effect_labels [--dry]
+# data/current 전체와 모든 배치의 input.jsonl에만 적용. 실행: .venv\Scripts\python -m scripts.unify_effect_labels [--dry]
 import json
 import sys
 
@@ -22,8 +22,8 @@ def unify_file(path, dry: bool) -> int:
 def main(argv: list[str]) -> None:
     dry = "--dry" in argv
     targets = [paths.CURRENT / "dialogue.jsonl", paths.CURRENT / "textassets.jsonl"]
-    for st in paths.BATCHES.glob("*/status.json"):
-        if json.loads(st.read_text(encoding="utf-8"))["stage"] == "ready":
+    for st in paths.BATCHES.glob("*/status.json"):  # 진행 중 배치의 입력도 함께 갱신해 편집자·게이트가 옛 표기를 보지 않게 한다
+        if (st.parent / "input.jsonl").exists():
             targets.append(st.parent / "input.jsonl")
     total = 0
     for t in targets:

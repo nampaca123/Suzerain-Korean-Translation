@@ -1,4 +1,4 @@
-# 용어집의 자동 치환 항목을 data/current 전체와 아직 시작하지 않은(ready) 배치의 input.jsonl에 다시 적용한다(멱등).
+# 용어집의 자동 치환 항목을 data/current 전체와 모든 배치의 input.jsonl에 다시 적용한다(멱등).
 # 용어집에 항목을 추가·변경했을 때 한 번 실행. 실행: .venv\Scripts\python -m scripts.reapply_glossary [--dry]
 import json
 import sys
@@ -25,8 +25,8 @@ def reapply_file(path, glossary: list[dict], dry: bool) -> int:
 def main(argv: list[str]) -> None:
     dry, glossary = "--dry" in argv, load_glossary()
     targets = [paths.CURRENT / "dialogue.jsonl", paths.CURRENT / "textassets.jsonl"]
-    for st in paths.BATCHES.glob("*/status.json"):
-        if json.loads(st.read_text(encoding="utf-8"))["stage"] == "ready":
+    for st in paths.BATCHES.glob("*/status.json"):  # 진행 중 배치의 입력도 함께 갱신해 편집자·게이트가 옛 표기를 보지 않게 한다
+        if (st.parent / "input.jsonl").exists():
             targets.append(st.parent / "input.jsonl")
     total = 0
     for t in targets:

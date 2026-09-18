@@ -1,1 +1,1 @@
-{"batch": "d-turn01-b", "stage": "edited", "round": 1, "kind": "dialogue", "applied": 282, "rejected": 0}
+{"batch": "d-turn01-b", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 282, "rejected": 0, "reason": "", "hard_flag_rate": {"narration": 0.0088}, "blocks": 23, "remaining_flags": {"romus_mixed_register": 2, "narration_not_declarative": 1}}

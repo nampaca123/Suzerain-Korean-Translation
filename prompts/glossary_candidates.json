@@ -897,5 +897,16 @@
   "human_standard": "이자 여공작",
   "human_auto_replace": true,
   "human_reason": "R123 확장: 안젤리카 본인 작위(이자 영주)."
+ },
+ {
+  "concept": "Golden Shield (황금 방패)",
+  "en": "Golden Shield",
+  "candidates": [
+   "황금 방패",
+   "골든 실드"
+  ],
+  "human_standard": "황금 방패",
+  "human_auto_replace": true,
+  "human_reason": "R145: 작전/조직명 뜻풀이형(R74), 코퍼스 14:12."
  }
 ]

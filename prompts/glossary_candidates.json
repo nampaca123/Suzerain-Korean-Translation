@@ -908,5 +908,16 @@
   "human_standard": "황금 방패",
   "human_auto_replace": true,
   "human_reason": "R145: 작전/조직명 뜻풀이형(R74), 코퍼스 14:12."
+ },
+ {
+  "concept": "Agard (아가드)",
+  "en": "Agard",
+  "candidates": [
+   "아가드",
+   "아가르드"
+  ],
+  "human_standard": "아가드",
+  "human_auto_replace": true,
+  "human_reason": "R152: 코퍼스 15:11, 외래어 표기 간결형."
  }
 ]

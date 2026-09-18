@@ -92,3 +92,4 @@
 | North Merkopa (북메르코파) | North Merkopa | 북메르코파 | 북부 메르코파 | user_decision | 예 | {'북메르코파': 0, '북부 메르코파': 0} | {'북메르코파': 1, '북부 메르코파': 4} |
 | Duchess of Iza (이자 여공작) | Duchess of Iza | 이자 여공작 | 이자 공작부인 | user_decision | 예 | {'이자 여공작': 0, '이자 공작부인': 0} | {'이자 여공작': 0, '이자 공작부인': 11} |
 | Golden Shield (황금 방패) | Golden Shield | 황금 방패 | 골든 실드 | user_decision | 예 | {'황금 방패': 0, '골든 실드': 0} | {'황금 방패': 14, '골든 실드': 12} |
+| Agard (아가드) | Agard | 아가드 | 아가르드 | user_decision | 예 | {'아가드': 0, '아가르드': 5} | {'아가드': 15, '아가르드': 11} |

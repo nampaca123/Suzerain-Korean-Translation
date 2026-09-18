@@ -1879,5 +1879,25 @@
     "골든 실드": 12
    }
   }
+ },
+ {
+  "concept": "Agard (아가드)",
+  "en": "Agard",
+  "standard": "아가드",
+  "banned": [
+   "아가르드"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "아가드": 0,
+    "아가르드": 5
+   },
+   "rizia": {
+    "아가드": 15,
+    "아가르드": 11
+   }
+  }
  }
 ]

@@ -90,3 +90,4 @@
 | East Merkopa (동메르코파) | East Merkopa | 동메르코파 | 동부 메르코파 | user_decision | 예 | {'동메르코파': 43, '동부 메르코파': 13} | {'동메르코파': 56, '동부 메르코파': 14} |
 | West Merkopa (서메르코파) | West Merkopa | 서메르코파 | 서부 메르코파 | user_decision | 예 | {'서메르코파': 2, '서부 메르코파': 0} | {'서메르코파': 4, '서부 메르코파': 2} |
 | North Merkopa (북메르코파) | North Merkopa | 북메르코파 | 북부 메르코파 | user_decision | 예 | {'북메르코파': 0, '북부 메르코파': 0} | {'북메르코파': 1, '북부 메르코파': 4} |
+| Duchess of Iza (이자 여공작) | Duchess of Iza | 이자 여공작 | 이자 공작부인 | user_decision | 예 | {'이자 여공작': 0, '이자 공작부인': 0} | {'이자 여공작': 0, '이자 공작부인': 11} |

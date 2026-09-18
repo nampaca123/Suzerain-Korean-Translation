@@ -886,5 +886,16 @@
   "human_standard": "북메르코파",
   "human_auto_replace": true,
   "human_reason": "R144: 동/남메르코파 패턴 통일(코퍼스 1:4이나 방위+메르코파 붙여쓰기 원칙)."
+ },
+ {
+  "concept": "Duchess of Iza (이자 여공작)",
+  "en": "Duchess of Iza",
+  "candidates": [
+   "이자 여공작",
+   "이자 공작부인"
+  ],
+  "human_standard": "이자 여공작",
+  "human_auto_replace": true,
+  "human_reason": "R123 확장: 안젤리카 본인 작위(이자 영주)."
  }
 ]

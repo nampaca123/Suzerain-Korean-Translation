@@ -1839,5 +1839,25 @@
     "북부 메르코파": 4
    }
   }
+ },
+ {
+  "concept": "Duchess of Iza (이자 여공작)",
+  "en": "Duchess of Iza",
+  "standard": "이자 여공작",
+  "banned": [
+   "이자 공작부인"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "이자 여공작": 0,
+    "이자 공작부인": 0
+   },
+   "rizia": {
+    "이자 여공작": 0,
+    "이자 공작부인": 11
+   }
+  }
  }
 ]

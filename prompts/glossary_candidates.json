@@ -626,5 +626,27 @@
   "human_standard": "캠프 도무스",
   "human_auto_replace": true,
   "human_reason": "R96: 코퍼스 다수(28:6). 캠프 데이비드처럼 기지 고유명으로 취급."
+ },
+ {
+  "concept": "National Defense Headquarters",
+  "en": "National Defense Headquarters",
+  "candidates": [
+   "국가 국방본부",
+   "국가 방위 본부"
+  ],
+  "human_standard": "국가 국방본부",
+  "human_auto_replace": true,
+  "human_reason": "R97: Rizia 다수(10:2). '국방본부' 단독형은 부분 문자열이라 금지 목록에서 제외."
+ },
+ {
+  "concept": "Supreme Council of Nur",
+  "en": "Supreme Council of Nur",
+  "candidates": [
+   "누르 최고평의회",
+   "누리티교 최고평의회"
+  ],
+  "human_standard": "누르 최고평의회",
+  "human_auto_replace": true,
+  "human_reason": "R98: Nur는 신격 이름(누르), Nurity는 종교명(누리티교)이라 어간이 달라도 오류가 아님. 코퍼스 8줄."
  }
 ]

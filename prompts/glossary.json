@@ -1358,5 +1358,45 @@
     "도무스 캠프": 1
    }
   }
+ },
+ {
+  "concept": "National Defense Headquarters",
+  "en": "National Defense Headquarters",
+  "standard": "국가 국방본부",
+  "banned": [
+   "국가 방위 본부"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "국가 국방본부": 0,
+    "국가 방위 본부": 0
+   },
+   "rizia": {
+    "국가 국방본부": 10,
+    "국가 방위 본부": 2
+   }
+  }
+ },
+ {
+  "concept": "Supreme Council of Nur",
+  "en": "Supreme Council of Nur",
+  "standard": "누르 최고평의회",
+  "banned": [
+   "누리티교 최고평의회"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "누르 최고평의회": 0,
+    "누리티교 최고평의회": 0
+   },
+   "rizia": {
+    "누르 최고평의회": 8,
+    "누리티교 최고평의회": 0
+   }
+  }
  }
 ]

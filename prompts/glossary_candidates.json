@@ -515,5 +515,24 @@
   "human_standard": "정보거점",
   "human_auto_replace": true,
   "human_reason": "R87: 9:9 동수. 국제무역지대와 같은 붙여쓰기 관례로 통일"
+ },
+ {
+  "concept": "Rumburg (국명)",
+  "en": "Rumburg",
+  "candidates": [
+   "룸부르크",
+   "룸버그"
+  ]
+ },
+ {
+  "concept": "South Merkopa (지역)",
+  "en": "South Merkopa",
+  "candidates": [
+   "남메르코파",
+   "남부 메르코파"
+  ],
+  "human_standard": "남메르코파",
+  "human_auto_replace": true,
+  "human_reason": "R88: 메인 2:2 동수, Rizia 179:19 다수. 편집자 간 방향이 엇갈려 고정."
  }
 ]

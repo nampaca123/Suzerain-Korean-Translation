@@ -1146,5 +1146,45 @@
     "정보 거점": 9
    }
   }
+ },
+ {
+  "concept": "Rumburg (국명)",
+  "en": "Rumburg",
+  "standard": "룸부르크",
+  "banned": [
+   "룸버그"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "룸부르크": 1033,
+    "룸버그": 0
+   },
+   "rizia": {
+    "룸부르크": 961,
+    "룸버그": 9
+   }
+  }
+ },
+ {
+  "concept": "South Merkopa (지역)",
+  "en": "South Merkopa",
+  "standard": "남메르코파",
+  "banned": [
+   "남부 메르코파"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "남메르코파": 2,
+    "남부 메르코파": 2
+   },
+   "rizia": {
+    "남메르코파": 179,
+    "남부 메르코파": 19
+   }
+  }
  }
 ]

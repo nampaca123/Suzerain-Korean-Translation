@@ -1,1 +1,1 @@
-{"batch": "d-turn09-e", "stage": "failed", "round": 3, "kind": "dialogue", "applied": 30, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}
+{"batch": "d-turn09-e", "stage": "passed", "round": 4, "kind": "dialogue", "applied": 10, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

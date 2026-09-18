@@ -1,1 +1,1 @@
-{"batch": "d-turn07-f", "stage": "edited", "round": 2, "kind": "dialogue", "applied": 1, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {"Axel Reinhart": 0.025}, "blocks": 0, "remaining_flags": {"subject_mixed_register": 6}}
+{"batch": "d-turn07-f", "stage": "failed", "round": 2, "kind": "dialogue", "applied": 1, "rejected": 0, "reason": "", "hard_flag_rate": {"Axel Reinhart": 0.025}, "blocks": 8, "remaining_flags": {"subject_mixed_register": 6}}

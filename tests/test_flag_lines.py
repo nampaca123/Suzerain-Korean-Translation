@@ -175,3 +175,8 @@ def test_menu_mismatch_ignores_effect_tags():
             D("mm2", "Player_Romus", '"거래하겠소."', en='"Deal."', menu_ko='"거래하겠소." [+1 권위]', menu_en='"Deal." [+1 Authority]')]
     f = flag_dialogue(rows, [])
     assert "menu_mismatch" in f["mm"]["flags"] and "menu_mismatch" not in f["mm2"]["flags"]
+
+
+def test_mixed_register_ignores_single_quoted_scripture():
+    rows = [D("q1", "Jorga Azmal", "\"성 브루헤지께서 쓰셨듯, '신께서 내려 주신 미덕은 흔들리지 않는다.' 그렇습니다.\"")]
+    assert "subject_mixed_register" not in flag_dialogue(rows, [])["q1"]["flags"]

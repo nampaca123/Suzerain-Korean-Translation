@@ -60,3 +60,7 @@ def test_guryeo_is_hao():
 def test_slogan_tail_is_other():
     assert classify("글로부리우스 악사 리치아!") == OTHER
     assert classify("리치아 만세!") == OTHER
+
+
+def test_interjection_plus_vocative_is_other():
+    assert classify("자, 대현사.") == OTHER

@@ -55,9 +55,12 @@ def _classify_clause(c: str) -> str:
     found = _match_ending(c)
     if found != OTHER:
         return found
-    # 끝에 호격("…, 폐하.")이 붙으면 쉼표로 잘라 뒤에서부터 실제 종결어미를 찾는다
+    # 끝에 호격("…, 폐하.")이 붙으면 쉼표로 잘라 뒤에서부터 실제 종결어미를 찾는다. 한 음절 감탄사("자,")는 종결어미가 아니다.
     for seg in reversed(c.split(",")):
-        found = _match_ending(seg.strip())
+        seg = seg.strip()
+        if len(_HANGUL.findall(seg)) <= 1:
+            continue
+        found = _match_ending(seg)
         if found != OTHER:
             return found
     return OTHER

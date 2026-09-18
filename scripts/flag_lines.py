@@ -41,9 +41,13 @@ def _narration_part(ko: str) -> str:
         text = stripped
 
 
+_SINGLE_QUOTED = re.compile(r"'[^']{4,}'")  # 성구·문서 인용('…다')은 화자의 화계가 아니다
+
+
 def _long_clauses(ko: str) -> list[str]:
     # R23: "그렇군." 같은 짧은 독립 감탄절은 화계 혼용 판정에서 뺀다(하오체와 섞여도 자연스럽다).
-    body = " ".join(l for l in ko.split("\n") if l.strip())
+    body = _SINGLE_QUOTED.sub(" ", " ".join(l for l in ko.split("
+") if l.strip()))
     return [p for p in _SENTENCE.split(body) if len(_HANGUL.findall(p)) >= MIN_CLAUSE_SYLLABLES]
 
 
@@ -58,7 +62,8 @@ def _tolerated(p: str) -> bool:
 
 
 def _all_clauses(ko: str) -> list[str]:
-    body = " ".join(l for l in ko.split("\n") if l.strip())
+    body = _SINGLE_QUOTED.sub(" ", " ".join(l for l in ko.split("
+") if l.strip()))
     return [p for p in _SENTENCE.split(body) if len(_HANGUL.findall(p)) >= 2]
 
 

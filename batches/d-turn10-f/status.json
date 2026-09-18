@@ -1,1 +1,1 @@
-{"batch": "d-turn10-f", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 233, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 86, "remaining_flags": {"romus_mixed_register": 2, "subject_mixed_register": 2}}
+{"batch": "d-turn10-f", "stage": "failed", "round": 2, "kind": "dialogue", "applied": 104, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {"Lucita Azaro": 0.0286}, "blocks": 0, "remaining_flags": {"royal_title_low_register": 2, "subject_mixed_register": 1}}

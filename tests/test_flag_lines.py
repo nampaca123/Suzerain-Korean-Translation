@@ -159,3 +159,11 @@ def test_subject_mixed_register_flags_mid_sentence_haeyo():
     f = flag_dialogue(rows, [])
     assert "subject_mixed_register" in f["m1"]["flags"]
     assert "subject_mixed_register" not in f["m2"]["flags"]
+
+
+def test_mixed_register_tolerates_hortative_and_echo():
+    rows = [D("t1", "Patricio Alvarez (R)", '"좋습니다. 이야기해 보시죠."'), D("t2", "Patricio Alvarez (R)", '"글쎄요, 폐하. 병력을 많이 잃으셨잖습니까."'),
+            D("t3", "Player_Romus", '"반리치아적이라니? 그게 무슨 협박이오?"')]
+    f = flag_dialogue(rows, [])
+    assert "subject_mixed_register" not in f["t1"]["flags"] and "subject_mixed_register" not in f["t2"]["flags"]
+    assert "romus_mixed_register" not in f["t3"]["flags"]

@@ -47,6 +47,10 @@ def _long_clauses(ko: str) -> list[str]:
     return [p for p in _SENTENCE.split(body) if len(_HANGUL.findall(p)) >= MIN_CLAUSE_SYLLABLES]
 
 
+# 허용 예외: 청유 "-시죠"(체크리스트 14), 되묻기 "-라니?/-다니?"(독립 감탄류), 감탄사 "글쎄요"
+_TOLERATED = re.compile(r'(시죠|시지요|[가-힣]라니|[가-힣]다니|^"?글쎄요)[.!?]*["”]?$')
+
+
 def _all_clauses(ko: str) -> list[str]:
     body = " ".join(l for l in ko.split("\n") if l.strip())
     return [p for p in _SENTENCE.split(body) if len(_HANGUL.findall(p)) >= 2]
@@ -109,7 +113,7 @@ def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
         f.append("dialogue_declarative_ending")
     if _ROYAL_VOCATIVE.search(ko) and reg in LOW: f.append("royal_title_low_register")
     if a == "Player_Romus":
-        cr = [c for c in (classify(p) for p in _long_clauses(ko)) if c != OTHER]
+        cr = [c for c in (classify(p) for p in _long_clauses(ko) if not _TOLERATED.search(p.strip())) if c != OTHER]
         if HAO in cr and (set(cr) & LOW): f.append("romus_mixed_register")
         if reg == HAPSYO and speech != "speech": f.append("romus_hapsyo_not_speech")
         if speech == "speech" and reg not in (HAPSYO, OTHER) and not _HORTATIVE.search(ko.strip()):  # R76: 연설의 "-ㅂ시다"는 허용
@@ -120,7 +124,7 @@ def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
     elif a in FOREIGN and reg not in (HAPSYO, OTHER): f.append("foreign_not_hapsyo")
     elif a == "Hugo Toras" and reg in LOW: f.append("hugo_low_register")
     if a in SUBJECTS or a in FOREIGN:  # 마지막 절만 보면 앞 문장의 "-군요/-죠"가 새므로 문장 단위로 훑는다
-        cr = [c for c in (classify(p) for p in _all_clauses(ko)) if c != OTHER]  # 합쇼체 화자는 짧은 "물론이죠"도 위반
+        cr = [c for c in (classify(p) for p in _all_clauses(ko) if not _TOLERATED.search(p.strip())) if c != OTHER]  # 짧은 "물론이죠"도 위반
         if HAPSYO in cr and (set(cr) & (LOW | {HAEYO})): f.append("subject_mixed_register")
     if "당신" in ko and a not in {"Lucita Azaro", "Estela Toras", "Beatrice Livingston (R)"}:
         f.append("pronoun_dangsin")

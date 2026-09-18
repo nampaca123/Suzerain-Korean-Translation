@@ -1,1 +1,1 @@
-{"batch": "d-turn08-k", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 202, "rejected": 0, "reason": "", "hard_flag_rate": {"Patricio Alvarez (R)": 0.0889}, "blocks": 33, "remaining_flags": {"subject_mixed_register": 33}}
+{"batch": "d-turn08-k", "stage": "failed", "round": 2, "kind": "dialogue", "applied": 57, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {"romus_mixed_register": 1, "subject_mixed_register": 1}}

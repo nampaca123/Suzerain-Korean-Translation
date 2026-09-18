@@ -534,5 +534,38 @@
   "human_standard": "남메르코파",
   "human_auto_replace": true,
   "human_reason": "R88: 메인 2:2 동수, Rizia 179:19 다수. 편집자 간 방향이 엇갈려 고정."
+ },
+ {
+  "concept": "Queen Lucita (왕비)",
+  "en": "Queen Lucita",
+  "candidates": [
+   "루시타 왕비",
+   "루시타 여왕"
+  ],
+  "human_standard": "루시타 왕비",
+  "human_auto_replace": true,
+  "human_reason": "R89: 국왕의 배우자는 왕비(Queen Consort, 코퍼스 108). '여왕'은 여성 군주 오역."
+ },
+ {
+  "concept": "Golden Gate (의회 정문)",
+  "en": "Golden Gate",
+  "candidates": [
+   "황금문",
+   "골든 게이트"
+  ],
+  "human_standard": "황금문",
+  "human_auto_replace": true,
+  "human_reason": "R74 뜻풀이형(코퍼스 3)"
+ },
+ {
+  "concept": "Silver Gate (의회 문)",
+  "en": "Silver Gate",
+  "candidates": [
+   "은문",
+   "실버 게이트"
+  ],
+  "human_standard": "은문",
+  "human_auto_replace": true,
+  "human_reason": "R74 뜻풀이형, 황금문과 짝. 편집자가 음차로 바꾼 4줄 되돌림"
  }
 ]

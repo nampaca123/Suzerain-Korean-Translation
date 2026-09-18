@@ -59,3 +59,6 @@
 | intelligence hub (정보거점) | intelligence hub | 정보거점 | 정보 거점 | user_decision | 예 | {'정보거점': 0, '정보 거점': 0} | {'정보거점': 9, '정보 거점': 9} |
 | Rumburg (국명) | Rumburg | 룸부르크 | 룸버그 | sordland | 예 | {'룸부르크': 1033, '룸버그': 0} | {'룸부르크': 961, '룸버그': 9} |
 | South Merkopa (지역) | South Merkopa | 남메르코파 | 남부 메르코파 | user_decision | 예 | {'남메르코파': 2, '남부 메르코파': 2} | {'남메르코파': 179, '남부 메르코파': 19} |
+| Queen Lucita (왕비) | Queen Lucita | 루시타 왕비 | 루시타 여왕 | user_decision | 예 | {'루시타 왕비': 0, '루시타 여왕': 0} | {'루시타 왕비': 7, '루시타 여왕': 10} |
+| Golden Gate (의회 정문) | Golden Gate | 황금문 | 골든 게이트 | user_decision | 예 | {'황금문': 0, '골든 게이트': 0} | {'황금문': 3, '골든 게이트': 0} |
+| Silver Gate (의회 문) | Silver Gate | 은문 | 실버 게이트 | user_decision | 예 | {'은문': 0, '실버 게이트': 0} | {'은문': 1, '실버 게이트': 4} |

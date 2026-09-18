@@ -1186,5 +1186,65 @@
     "남부 메르코파": 19
    }
   }
+ },
+ {
+  "concept": "Queen Lucita (왕비)",
+  "en": "Queen Lucita",
+  "standard": "루시타 왕비",
+  "banned": [
+   "루시타 여왕"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "루시타 왕비": 0,
+    "루시타 여왕": 0
+   },
+   "rizia": {
+    "루시타 왕비": 7,
+    "루시타 여왕": 10
+   }
+  }
+ },
+ {
+  "concept": "Golden Gate (의회 정문)",
+  "en": "Golden Gate",
+  "standard": "황금문",
+  "banned": [
+   "골든 게이트"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "황금문": 0,
+    "골든 게이트": 0
+   },
+   "rizia": {
+    "황금문": 3,
+    "골든 게이트": 0
+   }
+  }
+ },
+ {
+  "concept": "Silver Gate (의회 문)",
+  "en": "Silver Gate",
+  "standard": "은문",
+  "banned": [
+   "실버 게이트"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "은문": 0,
+    "실버 게이트": 0
+   },
+   "rizia": {
+    "은문": 1,
+    "실버 게이트": 4
+   }
+  }
  }
 ]

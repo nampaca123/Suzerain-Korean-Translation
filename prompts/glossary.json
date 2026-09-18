@@ -1126,5 +1126,25 @@
     "팔레스트림": 2
    }
   }
+ },
+ {
+  "concept": "intelligence hub (정보거점)",
+  "en": "intelligence hub",
+  "standard": "정보거점",
+  "banned": [
+   "정보 거점"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "정보거점": 0,
+    "정보 거점": 0
+   },
+   "rizia": {
+    "정보거점": 9,
+    "정보 거점": 9
+   }
+  }
  }
 ]

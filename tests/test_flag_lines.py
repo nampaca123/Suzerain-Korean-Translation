@@ -168,3 +168,10 @@ def test_mixed_register_tolerates_hortative_and_echo():
     assert "subject_mixed_register" not in f["t1"]["flags"] and "subject_mixed_register" not in f["t2"]["flags"]
     assert "romus_mixed_register" not in f["t3"]["flags"]
     assert "subject_mixed_register" not in f["t4"]["flags"]
+
+
+def test_menu_mismatch_ignores_effect_tags():
+    rows = [D("mm", "Player_Romus", '"거래하겠소."', en='"Deal."', menu_ko='"거래하지." [+1 권위]', menu_en='"Deal." [+1 Authority]'),
+            D("mm2", "Player_Romus", '"거래하겠소."', en='"Deal."', menu_ko='"거래하겠소." [+1 권위]', menu_en='"Deal." [+1 Authority]')]
+    f = flag_dialogue(rows, [])
+    assert "menu_mismatch" in f["mm"]["flags"] and "menu_mismatch" not in f["mm2"]["flags"]

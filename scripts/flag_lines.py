@@ -137,6 +137,13 @@ def _register_flags(r: dict, reg: str, speech: str) -> list[str]:
     return f
 
 
+_TAIL_TAGS = re.compile(r"(\s*\[[^\]]*\])+\s*$")
+
+
+def _strip_tags(text: str) -> str:
+    return _TAIL_TAGS.sub("", text).strip()
+
+
 def flag_dialogue(rows: list[dict], glossary: list[dict]) -> dict[str, dict]:
     out, by_en, prepared = {}, defaultdict(list), _prepare_glossary(glossary)
     for _, grp in itertools.groupby(sorted(rows, key=lambda r: (r["conv_id"], r["seq"])), key=lambda r: r["conv_id"]):
@@ -144,8 +151,8 @@ def flag_dialogue(rows: list[dict], glossary: list[dict]) -> dict[str, dict]:
         for r in g:
             reg = classify(r["ko"]); f = _common_flags(r["ko"], r["en"], prepared) + _register_flags(r, reg, speech[r["key"]])
             if r["en"].strip().startswith('"') and not is_quoted(r["ko"]): f.append("quote_missing")
-            if r.get("menu_ko") and r.get("menu_en", "").strip() == r["en"].strip() and r["menu_ko"].strip() != r["ko"].strip():
-                f.append("menu_mismatch")
+            if r.get("menu_ko") and _strip_tags(r.get("menu_en", "")) == _strip_tags(r["en"]) and _strip_tags(r["menu_ko"]) != _strip_tags(r["ko"]):
+                f.append("menu_mismatch")  # 선택지 뒤 효과 표기 [..]는 떼고 비교한다
             if any(not josa_ok(m.group(1), m.group(2)) for m in _JOSA.finditer(r["ko"])): f.append("josa_mismatch")
             out[r["key"]] = {"flags": f, "speech": speech[r["key"]], "register": reg}
             if r["en"].strip(): by_en[(r["actor"], r["en"].strip())].append(r["key"])

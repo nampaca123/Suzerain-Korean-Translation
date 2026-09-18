@@ -1,0 +1,2 @@
+{"en": "Talum esthari zirak na'leen!", "ko": "탈룸 에스타리 지라크 나린", "kind": "리치아어 구호", "reason": "R75의 한글 음차 규칙은 언어 종류를 가리지 않으므로(근거: 소르드어 \"Greci Sordland!\" → \"그레지 소르들란드!\") 데르디아어 구호에도 동일 적용했다. 현행 본문 표기를 그대로 확정한다.", "keys": ["d:377:52"]}
+{"en": "Anata Strike", "ko": "아나타 일격", "kind": "기타", "reason": "골콘다 무술 동작명. \"Anata\"는 뜻이 드러나지 않는 고유명이라 음차하고 \"Strike\"만 뜻풀이한 혼합형이다(R74). EN 설명 \"The piercing of universal truth through the cycle of infinity\"가 동작을 가리키므로 \"일격\"이 적절하다. 코퍼스 출현은 이 두 줄뿐이다.", "keys": ["d:377:682", "d:377:683"]}

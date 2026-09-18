@@ -452,5 +452,16 @@
   "human_standard": "전쟁·안보 평의원",
   "human_reason": "R82: 같은 직위가 9가지로 갈림. Rizia 다수 표기(34)이자 가장 짧은 형태로 통일. 'Councilor of War'만 있는 줄은 '전쟁 평의원' 유지.",
   "human_auto_replace": true
+ },
+ {
+  "concept": "King Romus (호칭)",
+  "en": "King Romus",
+  "candidates": [
+   "로무스 국왕",
+   "로무스 왕"
+  ],
+  "mask": [
+   "로무스 국왕"
+  ]
  }
 ]

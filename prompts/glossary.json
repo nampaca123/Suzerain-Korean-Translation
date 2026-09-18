@@ -1037,5 +1037,25 @@
     "전쟁·내무 평의원": 1
    }
   }
+ },
+ {
+  "concept": "King Romus (호칭)",
+  "en": "King Romus",
+  "standard": "로무스 국왕",
+  "banned": [
+   "로무스 왕"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "로무스 국왕": 8,
+    "로무스 왕": 1
+   },
+   "rizia": {
+    "로무스 국왕": 590,
+    "로무스 왕": 6
+   }
+  }
  }
 ]

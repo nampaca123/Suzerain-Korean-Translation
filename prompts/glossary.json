@@ -1679,5 +1679,25 @@
     "안젤리카 공작부인": 9
    }
   }
+ },
+ {
+  "concept": "Duke Axel (악셀 대공)",
+  "en": "Duke Axel",
+  "standard": "악셀 대공",
+  "banned": [
+   "악셀 공작"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "악셀 대공": 0,
+    "악셀 공작": 0
+   },
+   "rizia": {
+    "악셀 대공": 0,
+    "악셀 공작": 3
+   }
+  }
  }
 ]

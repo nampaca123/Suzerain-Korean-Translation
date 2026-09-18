@@ -798,5 +798,16 @@
   "human_standard": "안젤리카 여공작",
   "human_auto_replace": true,
   "human_reason": "R123 짧은 형."
+ },
+ {
+  "concept": "Duke Axel (악셀 대공)",
+  "en": "Duke Axel",
+  "candidates": [
+   "악셀 대공",
+   "악셀 공작"
+  ],
+  "human_standard": "악셀 대공",
+  "human_auto_replace": true,
+  "human_reason": "R124: 코퍼스 악셀 레이나르트 대공 51:악셀 공작 2; 레이나르트 대공 항목과 동일 인물·작위."
  }
 ]

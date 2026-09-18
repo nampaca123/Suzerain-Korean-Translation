@@ -83,3 +83,5 @@
 | Duchess Angelica Sazon (본인 작위) | Duchess Angelica Sazon | 안젤리카 사존 여공작 | 안젤리카 사존 공작부인, 안젤리카 여공작, 안젤리카 공작부인 | user_decision | 예 | {'안젤리카 사존 여공작': 0, '안젤리카 사존 공작부인': 0, '안젤리카 여공작': 0, '안젤리카 공작부인': 0} | {'안젤리카 사존 여공작': 3, '안젤리카 사존 공작부인': 2, '안젤리카 여공작': 4, '안젤리카 공작부인': 9} |
 | Duchess Angelica (짧은 형) | Duchess Angelica | 안젤리카 여공작 | 안젤리카 공작부인 | user_decision | 예 | {'안젤리카 여공작': 0, '안젤리카 공작부인': 0} | {'안젤리카 여공작': 4, '안젤리카 공작부인': 9} |
 | Duke Axel (악셀 대공) | Duke Axel | 악셀 대공 | 악셀 공작 | user_decision | 예 | {'악셀 대공': 0, '악셀 공작': 0} | {'악셀 대공': 0, '악셀 공작': 3} |
+| Divus zaitu (리치아어 의례어) | Divus zaitu | 디부스 자이투 | Divus zaitu | user_decision | 예 | {'디부스 자이투': 0, 'Divus zaitu': 0} | {'디부스 자이투': 0, 'Divus zaitu': 8} |
+| Bi mare volu (리치아어 의례어) | Bi mare volu | 비 마레 볼루 | Bi mare volu | user_decision | 예 | {'비 마레 볼루': 0, 'Bi mare volu': 0} | {'비 마레 볼루': 2, 'Bi mare volu': 12} |

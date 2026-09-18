@@ -1699,5 +1699,45 @@
     "악셀 공작": 3
    }
   }
+ },
+ {
+  "concept": "Divus zaitu (리치아어 의례어)",
+  "en": "Divus zaitu",
+  "standard": "디부스 자이투",
+  "banned": [
+   "Divus zaitu"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "디부스 자이투": 0,
+    "Divus zaitu": 0
+   },
+   "rizia": {
+    "디부스 자이투": 0,
+    "Divus zaitu": 8
+   }
+  }
+ },
+ {
+  "concept": "Bi mare volu (리치아어 의례어)",
+  "en": "Bi mare volu",
+  "standard": "비 마레 볼루",
+  "banned": [
+   "Bi mare volu"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "비 마레 볼루": 0,
+    "Bi mare volu": 0
+   },
+   "rizia": {
+    "비 마레 볼루": 2,
+    "Bi mare volu": 12
+   }
+  }
  }
 ]

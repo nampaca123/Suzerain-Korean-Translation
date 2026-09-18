@@ -809,5 +809,27 @@
   "human_standard": "악셀 대공",
   "human_auto_replace": true,
   "human_reason": "R124: 코퍼스 악셀 레이나르트 대공 51:악셀 공작 2; 레이나르트 대공 항목과 동일 인물·작위."
+ },
+ {
+  "concept": "Divus zaitu (리치아어 의례어)",
+  "en": "Divus zaitu",
+  "candidates": [
+   "디부스 자이투",
+   "Divus zaitu"
+  ],
+  "human_standard": "디부스 자이투",
+  "human_auto_replace": true,
+  "human_reason": "R116/R75: 리치아어 의례어 음차(메인 캠페인 그레지 소르들란드 선례). 한글 본문 로마자 잔존 일괄 치환."
+ },
+ {
+  "concept": "Bi mare volu (리치아어 의례어)",
+  "en": "Bi mare volu",
+  "candidates": [
+   "비 마레 볼루",
+   "Bi mare volu"
+  ],
+  "human_standard": "비 마레 볼루",
+  "human_auto_replace": true,
+  "human_reason": "R116/R75: 리치아어 의례어 음차(코퍼스 4줄 선례)."
  }
 ]

@@ -1269,5 +1269,48 @@
     "유령 회사": 0
    }
   }
+ },
+ {
+  "concept": "A proso (리치아어 구호)",
+  "en": "A proso",
+  "standard": "아 프로소",
+  "banned": [
+   "A proso",
+   "A Proso"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "아 프로소": 0,
+    "A proso": 0,
+    "A Proso": 0
+   },
+   "rizia": {
+    "아 프로소": 4,
+    "A proso": 0,
+    "A Proso": 0
+   }
+  }
+ },
+ {
+  "concept": "Heart of Sordland (기구명)",
+  "en": "Heart of Sordland",
+  "standard": "소르들란드의 심장",
+  "banned": [
+   "하트 오브 소르들란드"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "소르들란드의 심장": 0,
+    "하트 오브 소르들란드": 0
+   },
+   "rizia": {
+    "소르들란드의 심장": 0,
+    "하트 오브 소르들란드": 2
+   }
+  }
  }
 ]

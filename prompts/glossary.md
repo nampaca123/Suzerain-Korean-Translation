@@ -63,3 +63,5 @@
 | Golden Gate (의회 정문) | Golden Gate | 황금문 | 골든 게이트 | user_decision | 예 | {'황금문': 0, '골든 게이트': 0} | {'황금문': 3, '골든 게이트': 0} |
 | Silver Gate (의회 문) | Silver Gate | 은문 | 실버 게이트 | user_decision | 예 | {'은문': 0, '실버 게이트': 0} | {'은문': 1, '실버 게이트': 4} |
 | shell corporation | shell corporation | 페이퍼 컴퍼니 | 유령회사, 유령 회사 | user_decision | 예 | {'페이퍼 컴퍼니': 0, '유령회사': 0, '유령 회사': 0} | {'페이퍼 컴퍼니': 8, '유령회사': 4, '유령 회사': 0} |
+| A proso (리치아어 구호) | A proso | 아 프로소 | A proso, A Proso | user_decision | 예 | {'아 프로소': 0, 'A proso': 0, 'A Proso': 0} | {'아 프로소': 4, 'A proso': 0, 'A Proso': 0} |
+| Heart of Sordland (기구명) | Heart of Sordland | 소르들란드의 심장 | 하트 오브 소르들란드 | user_decision | 예 | {'소르들란드의 심장': 0, '하트 오브 소르들란드': 0} | {'소르들란드의 심장': 0, '하트 오브 소르들란드': 2} |

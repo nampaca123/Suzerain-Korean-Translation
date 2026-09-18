@@ -579,5 +579,28 @@
   "human_standard": "페이퍼 컴퍼니",
   "human_auto_replace": true,
   "human_reason": "R90: 코퍼스 다수(4:2). 보통명사이므로 통일만."
+ },
+ {
+  "concept": "A proso (리치아어 구호)",
+  "en": "A proso",
+  "candidates": [
+   "아 프로소",
+   "A proso",
+   "A Proso"
+  ],
+  "human_standard": "아 프로소",
+  "human_auto_replace": true,
+  "human_reason": "R75 음차(코퍼스 4)"
+ },
+ {
+  "concept": "Heart of Sordland (기구명)",
+  "en": "Heart of Sordland",
+  "candidates": [
+   "소르들란드의 심장",
+   "하트 오브 소르들란드"
+  ],
+  "human_standard": "소르들란드의 심장",
+  "human_auto_replace": true,
+  "human_reason": "R91: 뜻이 드러나는 기구명 → 뜻풀이형(R74). 메인 선례 0, Rizia 음차 2줄뿐. 사용자 사후 확인."
  }
 ]

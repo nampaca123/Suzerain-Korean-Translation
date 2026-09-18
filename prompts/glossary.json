@@ -810,5 +810,91 @@
     "누리스트 사회주의 베흘렌 민족주의당": 2
    }
   }
+ },
+ {
+  "concept": "United Contana",
+  "en": "United Contana",
+  "standard": "콘타나 연방",
+  "banned": [
+   "통일 콘타나",
+   "연합 콘타나",
+   "콘타나 연합"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "콘타나 연방": 357,
+    "통일 콘타나": 0,
+    "연합 콘타나": 0,
+    "콘타나 연합": 0
+   },
+   "rizia": {
+    "콘타나 연방": 52,
+    "통일 콘타나": 32,
+    "연합 콘타나": 22,
+    "콘타나 연합": 1
+   }
+  }
+ },
+ {
+  "concept": "Haelm (지명)",
+  "en": "Haelm",
+  "standard": "헬름",
+  "banned": [
+   "하엘름"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "헬름": 17,
+    "하엘름": 0
+   },
+   "rizia": {
+    "헬름": 9,
+    "하엘름": 1
+   }
+  }
+ },
+ {
+  "concept": "Nines (인명)",
+  "en": "Ephraim Nines",
+  "standard": "니네스",
+  "banned": [
+   "나인스"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "니네스": 16,
+    "나인스": 0
+   },
+   "rizia": {
+    "니네스": 20,
+    "나인스": 17
+   }
+  }
+ },
+ {
+  "concept": "President Nines (국제연합 총회 의장)",
+  "en": "President Nines",
+  "standard": "니네스 의장",
+  "banned": [
+   "니네스 대통령"
+  ],
+  "source": "sordland",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "니네스 의장": 11,
+    "니네스 대통령": 0
+   },
+   "rizia": {
+    "니네스 의장": 2,
+    "니네스 대통령": 12
+   }
+  }
  }
 ]

@@ -1,1 +1,1 @@
-{"batch": "t-DecreeData-01", "stage": "failed", "round": 1, "kind": "textassets", "applied": 152, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}
+{"batch": "t-DecreeData-01", "stage": "passed", "round": 2, "kind": "textassets", "applied": 5, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

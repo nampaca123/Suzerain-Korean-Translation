@@ -864,5 +864,27 @@
   "human_standard": "동메르코파",
   "human_auto_replace": true,
   "human_reason": "R144: 코퍼스 동메르코파 다수(대화 15:2, 에셋 34:12); 남메르코파(R88) 패턴과 통일."
+ },
+ {
+  "concept": "West Merkopa (서메르코파)",
+  "en": "West Merkopa",
+  "candidates": [
+   "서메르코파",
+   "서부 메르코파"
+  ],
+  "human_standard": "서메르코파",
+  "human_auto_replace": true,
+  "human_reason": "R144: 동/남메르코파 패턴 통일(코퍼스 4:2)."
+ },
+ {
+  "concept": "North Merkopa (북메르코파)",
+  "en": "North Merkopa",
+  "candidates": [
+   "북메르코파",
+   "북부 메르코파"
+  ],
+  "human_standard": "북메르코파",
+  "human_auto_replace": true,
+  "human_reason": "R144: 동/남메르코파 패턴 통일(코퍼스 1:4이나 방위+메르코파 붙여쓰기 원칙)."
  }
 ]

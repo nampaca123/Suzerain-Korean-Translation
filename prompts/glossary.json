@@ -1799,5 +1799,45 @@
     "동부 메르코파": 14
    }
   }
+ },
+ {
+  "concept": "West Merkopa (서메르코파)",
+  "en": "West Merkopa",
+  "standard": "서메르코파",
+  "banned": [
+   "서부 메르코파"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "서메르코파": 2,
+    "서부 메르코파": 0
+   },
+   "rizia": {
+    "서메르코파": 4,
+    "서부 메르코파": 2
+   }
+  }
+ },
+ {
+  "concept": "North Merkopa (북메르코파)",
+  "en": "North Merkopa",
+  "standard": "북메르코파",
+  "banned": [
+   "북부 메르코파"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "북메르코파": 0,
+    "북부 메르코파": 0
+   },
+   "rizia": {
+    "북메르코파": 1,
+    "북부 메르코파": 4
+   }
+  }
  }
 ]

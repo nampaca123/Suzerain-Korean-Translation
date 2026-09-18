@@ -719,5 +719,27 @@
   "human_standard": "레오나 사존 여백작",
   "human_auto_replace": true,
   "human_reason": "R104: 레오나는 살라베스 백작위를 아버지에게서 상속한 본인 작위자(코덱스). R94와 같은 논리로 여백작. 단독 '백작부인'(25)은 문맥 불명이라 미치환 → 사용자 사후 확인."
+ },
+ {
+  "concept": "Museum Mile (박물관 거리)",
+  "en": "Museum Mile",
+  "candidates": [
+   "박물관 거리",
+   "뮤지엄 마일"
+  ],
+  "human_standard": "박물관 거리",
+  "human_auto_replace": true,
+  "human_reason": "R106: 뜻이 드러나는 지명(R74 취지). 코퍼스 5:4 동수 → 뜻풀이형."
+ },
+ {
+  "concept": "Capital Police (수도 경찰)",
+  "en": "Capital Police",
+  "candidates": [
+   "수도 경찰",
+   "수도경찰"
+  ],
+  "human_standard": "수도 경찰",
+  "human_auto_replace": true,
+  "human_reason": "코퍼스 6:1"
  }
 ]

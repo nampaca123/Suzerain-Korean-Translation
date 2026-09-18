@@ -1533,5 +1533,45 @@
     "사존 백작부인": 1
    }
   }
+ },
+ {
+  "concept": "Museum Mile (박물관 거리)",
+  "en": "Museum Mile",
+  "standard": "박물관 거리",
+  "banned": [
+   "뮤지엄 마일"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "박물관 거리": 0,
+    "뮤지엄 마일": 0
+   },
+   "rizia": {
+    "박물관 거리": 2,
+    "뮤지엄 마일": 4
+   }
+  }
+ },
+ {
+  "concept": "Capital Police (수도 경찰)",
+  "en": "Capital Police",
+  "standard": "수도 경찰",
+  "banned": [
+   "수도경찰"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "수도 경찰": 0,
+    "수도경찰": 0
+   },
+   "rizia": {
+    "수도 경찰": 4,
+    "수도경찰": 3
+   }
+  }
  }
 ]

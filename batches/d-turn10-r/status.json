@@ -1,1 +1,1 @@
-{"batch": "d-turn10-r", "stage": "ready", "round": 0, "kind": "dialogue"}
+{"batch": "d-turn10-r", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 217, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {"Rico Toras": 0.08, "Manus Sazon": 0.04, "Carlos Robles Azaro": 0.04}, "blocks": 0, "remaining_flags": {"subject_mixed_register": 11, "romus_mixed_register": 1}}

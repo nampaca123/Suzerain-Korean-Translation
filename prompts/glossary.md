@@ -71,3 +71,7 @@
 | Supreme Council of Nur | Supreme Council of Nur | 누르 최고평의회 | 누리티교 최고평의회 | user_decision | 예 | {'누르 최고평의회': 0, '누리티교 최고평의회': 0} | {'누르 최고평의회': 8, '누리티교 최고평의회': 0} |
 | Duchess of Valenqiris (비나 작위) | Duchess of Valenqiris | 발렌키리스 여공작 | 발렌키리스 공작부인, 발렌키리스의 여공작, 발렌키리스의 공작부인 | user_decision | 예 | {'발렌키리스 여공작': 0, '발렌키리스 공작부인': 0, '발렌키리스의 여공작': 0, '발렌키리스의 공작부인': 0} | {'발렌키리스 여공작': 3, '발렌키리스 공작부인': 18, '발렌키리스의 여공작': 1, '발렌키리스의 공작부인': 0} |
 | Ax populat Rizati (구호) | Ax populat Rizati | 악스 포풀라트 리차티 | Ax populat Rizati | user_decision | 예 | {'악스 포풀라트 리차티': 0, 'Ax populat Rizati': 0} | {'악스 포풀라트 리차티': 0, 'Ax populat Rizati': 0} |
+| Queen Mother 극존칭 | Queen Mother | 왕대비 | 왕대비마마, 대비마마 | user_decision | 예 | {'왕대비': 1, '왕대비마마': 0, '대비마마': 0} | {'왕대비': 80, '왕대비마마': 67, '대비마마': 40} |
+| Queen 극존칭 | Queen (마마) | 왕비 | 왕비마마 | user_decision | 예 | {'왕비': 0, '왕비마마': 0} | {'왕비': 103, '왕비마마': 5} |
+| Princess 극존칭 | Princess (마마) | 공주 전하 | 공주마마 | user_decision | 예 | {'공주 전하': 0, '공주마마': 0} | {'공주 전하': 95, '공주마마': 5} |
+| Countess Leona Sazon (본인 작위) | Countess Leona Sazon | 레오나 사존 여백작 | 레오나 사존 백작부인, 레오나 백작부인, 사존 백작부인 | user_decision | 예 | {'레오나 사존 여백작': 0, '레오나 사존 백작부인': 0, '레오나 백작부인': 0, '사존 백작부인': 0} | {'레오나 사존 여백작': 0, '레오나 사존 백작부인': 5, '레오나 백작부인': 2, '사존 백작부인': 1} |

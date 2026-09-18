@@ -672,5 +672,52 @@
   "human_standard": "악스 포풀라트 리차티",
   "human_auto_replace": true,
   "human_reason": "R75 음차(d-turn10-i coined)"
+ },
+ {
+  "concept": "Queen Mother 극존칭",
+  "en": "Queen Mother",
+  "candidates": [
+   "왕대비",
+   "왕대비마마",
+   "대비마마"
+  ],
+  "human_standard": "왕대비",
+  "human_auto_replace": true,
+  "human_reason": "R43 극존칭 금지(화계표 5.3). 코퍼스 잔존 83줄 일괄."
+ },
+ {
+  "concept": "Queen 극존칭",
+  "en": "Queen (마마)",
+  "candidates": [
+   "왕비",
+   "왕비마마"
+  ],
+  "human_standard": "왕비",
+  "human_auto_replace": true,
+  "human_reason": "R43 극존칭 금지"
+ },
+ {
+  "concept": "Princess 극존칭",
+  "en": "Princess (마마)",
+  "candidates": [
+   "공주 전하",
+   "공주마마"
+  ],
+  "human_standard": "공주 전하",
+  "human_auto_replace": true,
+  "human_reason": "R43 극존칭 금지, 5.3 공주=전하"
+ },
+ {
+  "concept": "Countess Leona Sazon (본인 작위)",
+  "en": "Countess Leona Sazon",
+  "candidates": [
+   "레오나 사존 여백작",
+   "레오나 사존 백작부인",
+   "레오나 백작부인",
+   "사존 백작부인"
+  ],
+  "human_standard": "레오나 사존 여백작",
+  "human_auto_replace": true,
+  "human_reason": "R104: 레오나는 살라베스 백작위를 아버지에게서 상속한 본인 작위자(코덱스). R94와 같은 논리로 여백작. 단독 '백작부인'(25)은 문맥 불명이라 미치환 → 사용자 사후 확인."
  }
 ]

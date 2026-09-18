@@ -2,8 +2,3 @@
 {"key": "d:344:1341", "reason": "d:344:1118과 같은 사안. 영문 \"His Grace\"(자기 혈육=발레로의 형제)를 \"휴고 공작\"으로 고쳤다. 인물 지정 확인 필요."}
 {"key": "d:344:555", "reason": "영문 \"the great hall\"을 체크리스트 5의 \"Great Hall = Grand Hall → 대연회장\" 규정대로 옮겼으나, 이 장면은 알현실(throne room)에서 이어지는 대목이라 실제 공간이 대연회장인지 확정이 필요하다. d:344:605·607·1092도 같은 문장이다."}
 {"key": "d:344:441", "reason": "영문 \"security team\" 표기. 코퍼스에 \"보안팀\" 3줄, \"안보팀\" 1줄(모두 이 대화 안팎의 소수 사례)뿐이라 근거가 약하다. 일단 다수형 \"보안팀\"으로 통일했다. d:344:484도 같다."}
-{"key": "d:344:704", "reason": "화계와 무관한 내용 오역. 영문은 \"His gaze shifted between the two of us\"(티투스의 시선)인데 한글은 \"내 시선은 두 사람 사이를 오갔다\"로 주어가 바뀌어 있다. 뜻이 달라지는 수정이라 손대지 않았다."}
-{"key": "d:344:851", "reason": "화계와 무관한 내용 오역. 영문은 루시타의 1인칭(\"I have no business in the Palace these days\")인데 한글은 \"그자는 궁전에 있을 이유가 없습니다\"로 3인칭이다. 뜻이 달라지는 수정이라 손대지 않았다."}
-{"key": "d:344:852", "reason": "종결어미만 합쇼체로 고쳤다. 영문 \"If that will be all, I'll see you soon.\"과 한글 \"곧 모두가 알게 될 겁니다\"는 내용이 어긋나지만 뜻이 달라지는 수정이라 본문은 그대로 두었다."}
-{"key": "d:344:961", "reason": "\"당신\"만 \"그대\"로 고쳤다. 영문 \"I knew I did the right thing by naming you my security councilor. This just confirms it.\"과 한글(임명 문서 설명)이 완전히 다르지만, 뜻이 달라지는 수정이라 본문은 그대로 두었다."}
-{"key": "d:344:965", "reason": "\"당신\"만 \"그대\"로 고쳤다. 영문 \"He's the only other person who possibly could've known about the ritual...\"과 한글의 지시 대상이 어긋나 보이지만 뜻이 달라지는 수정이라 본문은 그대로 두었다."}

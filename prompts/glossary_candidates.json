@@ -774,5 +774,29 @@
   "human_standard": "브루헤지",
   "human_auto_replace": true,
   "human_reason": "R117: 메인 캠페인은 브루헤지만 사용(소르들란드 브루헤크 0건). 성인·종교 항목 외 단독형/수호대 등 잔존 126건 일괄 통일."
+ },
+ {
+  "concept": "Duchess Angelica Sazon (본인 작위)",
+  "en": "Duchess Angelica Sazon",
+  "candidates": [
+   "안젤리카 사존 여공작",
+   "안젤리카 사존 공작부인",
+   "안젤리카 여공작",
+   "안젤리카 공작부인"
+  ],
+  "human_standard": "안젤리카 사존 여공작",
+  "human_auto_replace": true,
+  "human_reason": "R123: EN \"Duchess Angelica has had Iza restored to her\" — 이자 영주로서 본인 작위자(R94 원칙, 아자로 여공작과 동일). 공작부인 9:여공작 4였으나 원칙 우선."
+ },
+ {
+  "concept": "Duchess Angelica (짧은 형)",
+  "en": "Duchess Angelica",
+  "candidates": [
+   "안젤리카 여공작",
+   "안젤리카 공작부인"
+  ],
+  "human_standard": "안젤리카 여공작",
+  "human_auto_replace": true,
+  "human_reason": "R123 짧은 형."
  }
 ]

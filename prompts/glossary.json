@@ -1633,5 +1633,51 @@
     "브루헤크": 304
    }
   }
+ },
+ {
+  "concept": "Duchess Angelica Sazon (본인 작위)",
+  "en": "Duchess Angelica Sazon",
+  "standard": "안젤리카 사존 여공작",
+  "banned": [
+   "안젤리카 사존 공작부인",
+   "안젤리카 여공작",
+   "안젤리카 공작부인"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "안젤리카 사존 여공작": 0,
+    "안젤리카 사존 공작부인": 0,
+    "안젤리카 여공작": 0,
+    "안젤리카 공작부인": 0
+   },
+   "rizia": {
+    "안젤리카 사존 여공작": 3,
+    "안젤리카 사존 공작부인": 2,
+    "안젤리카 여공작": 4,
+    "안젤리카 공작부인": 9
+   }
+  }
+ },
+ {
+  "concept": "Duchess Angelica (짧은 형)",
+  "en": "Duchess Angelica",
+  "standard": "안젤리카 여공작",
+  "banned": [
+   "안젤리카 공작부인"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "안젤리카 여공작": 0,
+    "안젤리카 공작부인": 0
+   },
+   "rizia": {
+    "안젤리카 여공작": 4,
+    "안젤리카 공작부인": 9
+   }
+  }
  }
 ]

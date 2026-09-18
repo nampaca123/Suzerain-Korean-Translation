@@ -80,3 +80,5 @@
 | Captain Castellanus (카스텔라누스 대장) | Captain Castellanus | 카스텔라누스 대장 | 카스텔라누스 대위 | user_decision | 예 | {'카스텔라누스 대장': 0, '카스텔라누스 대위': 0} | {'카스텔라누스 대장': 6, '카스텔라누스 대위': 9} |
 | Palantor Security Solutions (팔란토르 시큐리티) | Palantor Security Solutions | 팔란토르 시큐리티 | 팔란토르 보안 솔루션 | user_decision | 예 | {'팔란토르 시큐리티': 2, '팔란토르 보안 솔루션': 0} | {'팔란토르 시큐리티': 8, '팔란토르 보안 솔루션': 2} |
 | Wruhec (브루헤지, 단독형) | Wruhec | 브루헤지 | 브루헤크 | user_decision | 예 | {'브루헤지': 43, '브루헤크': 0} | {'브루헤지': 779, '브루헤크': 304} |
+| Duchess Angelica Sazon (본인 작위) | Duchess Angelica Sazon | 안젤리카 사존 여공작 | 안젤리카 사존 공작부인, 안젤리카 여공작, 안젤리카 공작부인 | user_decision | 예 | {'안젤리카 사존 여공작': 0, '안젤리카 사존 공작부인': 0, '안젤리카 여공작': 0, '안젤리카 공작부인': 0} | {'안젤리카 사존 여공작': 3, '안젤리카 사존 공작부인': 2, '안젤리카 여공작': 4, '안젤리카 공작부인': 9} |
+| Duchess Angelica (짧은 형) | Duchess Angelica | 안젤리카 여공작 | 안젤리카 공작부인 | user_decision | 예 | {'안젤리카 여공작': 0, '안젤리카 공작부인': 0} | {'안젤리카 여공작': 4, '안젤리카 공작부인': 9} |

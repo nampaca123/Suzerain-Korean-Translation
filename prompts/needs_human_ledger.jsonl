@@ -31,3 +31,6 @@
 {"key": "t-NewsData-08 (Marzcel Inovitz)", "batch": "t-NewsData-08", "issue": "가수 이름 음차 '마르젤 이노비츠' 선례 없음", "controller": "유지, 사용자 확정 필요"}
 {"key": "t-NewsData-06 (TerraGrowth Agrochem, CircuitRise Systems)", "batch": "t-NewsData-06", "issue": "기업명 한국어 표기 전무 → 로마자 유지", "controller": "로마자 유지, 사용자 확정 필요"}
 {"key": "t-NewsData-07 (Verloa Bay)", "batch": "t-NewsData-07", "issue": "벨로아만 — 코퍼스·메인 선례 없음", "controller": "음차 유지, 사용자 확정 필요"}
+{"key": "t-NewsData-11 (Royal Defense Department)", "batch": "t-NewsData-11", "issue": "왕립국방부 ↔ 국가 국방본부 ↔ 국가방위평의회 표기 체계", "controller": "영문 각각 대응 유지, 사용자 확정 필요"}
+{"key": "t-NewsData-11 (Countless Colors, Palica)", "batch": "t-NewsData-11", "issue": "Countess 말장난 상품명 음차, Palica 선례 1건", "controller": "현행 유지, 사용자 확정 필요"}
+{"key": "t-NewsData-11 (all three royal houses)", "batch": "t-NewsData-11", "issue": "'세 왕실 가문' — R105(왕실 가문=토라스)와 충돌 가능", "controller": "영문 직역 유지, 사용자 확정 필요"}

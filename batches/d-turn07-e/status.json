@@ -1,1 +1,1 @@
-{"batch": "d-turn07-e", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 393, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {"subject_mixed_register": 2}}
+{"batch": "d-turn07-e", "stage": "failed", "round": 2, "kind": "dialogue", "applied": 32, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

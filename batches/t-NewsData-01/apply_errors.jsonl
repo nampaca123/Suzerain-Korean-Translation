@@ -1,0 +1,4 @@
+{"key": "t:NewsData:0x010000510002FBCC:/NewsProperties/Description", "errors": ["newline count decreased"]}
+{"key": "t:NewsData:0x010000510002FC04:/NewsProperties/Title", "errors": ["length out of range"]}
+{"key": "t:NewsData:0x010000510002FC0C:/NewsProperties/Title", "errors": ["length out of range"]}
+{"key": "t:NewsData:0x0100005200018358:/NewsProperties/Title", "errors": ["length out of range"]}

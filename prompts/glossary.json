@@ -2157,5 +2157,25 @@
     "마르키아 해": 4
    }
   }
+ },
+ {
+  "concept": "head butler",
+  "en": "head butler",
+  "standard": "수석 집사",
+  "banned": [
+   "집사장"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "수석 집사": 0,
+    "집사장": 0
+   },
+   "rizia": {
+    "수석 집사": 23,
+    "집사장": 8
+   }
+  }
  }
 ]

@@ -1057,5 +1057,16 @@
     "human_standard": "마르키아해",
     "human_auto_replace": true,
     "human_reason": "R187: 해역명 붙임(코퍼스 8:0 외 배치 4)"
+  },
+  {
+    "concept": "head butler",
+    "en": "head butler",
+    "candidates": [
+      "수석 집사",
+      "집사장"
+    ],
+    "human_standard": "수석 집사",
+    "human_auto_replace": true,
+    "human_reason": "R110 보충: 코퍼스 24:4"
   }
 ]

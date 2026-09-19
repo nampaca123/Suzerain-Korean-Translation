@@ -1,1 +1,1 @@
-{"batch": "t-CodexEntryData-01", "stage": "edited", "round": 2, "kind": "textassets", "applied": 0, "rejected": 19, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}
+{"batch": "t-CodexEntryData-01", "stage": "passed", "round": 3, "kind": "textassets", "applied": 15, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

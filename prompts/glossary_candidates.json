@@ -941,5 +941,16 @@
   "human_standard": "비나 여공작",
   "human_auto_replace": true,
   "human_reason": "R94 본인 작위(몬키즈 여공작 서임)."
+ },
+ {
+  "concept": "Nurist (형용사형, 누리티)",
+  "en": "Nurist",
+  "candidates": [
+   "누리티",
+   "누리스트"
+  ],
+  "human_standard": "누리티",
+  "human_auto_replace": true,
+  "human_reason": "R158: Nurity=누리티교(172:8) 파생형 통일 — 누리티 공화국(코덱스), 누리티 신앙, 누리티 민족주의. 사람 지칭(누리티가)은 Task 15 확인."
  }
 ]

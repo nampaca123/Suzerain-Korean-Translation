@@ -1939,5 +1939,25 @@
     "비나 공작부인": 3
    }
   }
+ },
+ {
+  "concept": "Nurist (형용사형, 누리티)",
+  "en": "Nurist",
+  "standard": "누리티",
+  "banned": [
+   "누리스트"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "누리티": 110,
+    "누리스트": 0
+   },
+   "rizia": {
+    "누리티": 567,
+    "누리스트": 18
+   }
+  }
  }
 ]

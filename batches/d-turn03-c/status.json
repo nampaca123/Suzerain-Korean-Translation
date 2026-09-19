@@ -1,1 +1,1 @@
-{"batch": "d-turn03-c", "stage": "ready", "round": 0, "kind": "dialogue"}
+{"batch": "d-turn03-c", "stage": "failed", "round": 1, "kind": "dialogue", "applied": 203, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {"Manus Sazon": 0.0549, "Lucita Azaro": 0.0288}, "blocks": 0, "remaining_flags": {"subject_mixed_register": 10, "royal_title_low_register": 2, "romus_mixed_register": 2}}

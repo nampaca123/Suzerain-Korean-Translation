@@ -10,7 +10,7 @@ EFFECT_LABELS = {"Authority": "권위", "Budget": "예산", "Energy": "에너지
                  "Military Personnel": "군사 인력", "Tanks": "전차", "Support Vehicles": "지원 차량",
                  "Bombers": "폭격기", "Fighters": "전투기", "Warships": "군함", "Submarines": "잠수함",
                  "Equipment": "군수 장비", "Manpower": "군사 인력", "Military Manpower": "군사 인력",
-                 "Trucks": "지원 차량", "Military Ships": "군함",
+                 "Trucks": "지원 차량", "Military Ships": "군함", "Recruitment": "모병",
                  "군사 장비": "군수 장비", "장비": "군수 장비", "인력": "군사 인력", "병력": "군사 인력", "함선": "군함"}
 _LABEL_RX = "|".join(sorted(map(re.escape, EFFECT_LABELS), key=len, reverse=True))
 _EFFECT_ITEM = re.compile(rf"([+-]?\d+)\s+({_LABEL_RX})(?![가-힣A-Za-z])(\s+Per Turn)?")

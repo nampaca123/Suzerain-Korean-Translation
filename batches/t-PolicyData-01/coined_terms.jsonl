@@ -1,0 +1,1 @@
+{"en": "Royal Monqiz Port and Shipyard", "ko": "몬키즈 왕립 항구·조선소", "kind": "사업명", "reason": "코퍼스 다수 표기 '몬키즈 항구'(41줄)와 통과 배치 t-DecreeData-01의 '몬키즈 항구 및 해군 조선소 확장'을 어간으로 삼아 '항만'을 '항구'로 맞춘 뜻풀이형이다. 이 조합 자체는 코퍼스에 선례가 없다.", "keys": ["t:PolicyData:0x0100009E000033F6:/PolicyProperties/Title", "t:PolicyData:0x0100009E000033F6:/PolicyProperties/Description"]}

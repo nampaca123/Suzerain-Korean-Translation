@@ -37,3 +37,5 @@
 {"key": "t-NewsData-12 (Fabian Ibarra, Tomaso Elizagarai)", "batch": "t-NewsData-12", "issue": "누락 문단 복원 중 나온 새 인명 — 코퍼스 한국어 표기 전무 → 로마자 유지", "controller": "로마자 유지(창작 금지), 사용자 확정 필요"}
 {"key": "t-TokenStatusEffectData-01 (RizWehl)", "batch": "t-TokenStatusEffectData-01", "issue": "Riz+Wehl 합성 조어 3줄 — 한국어 선례 없음(PaleStream/MorGas는 음차됨)", "controller": "로마자 유지, 사용자 확정 필요"}
 {"key": "t-TokenStatusEffectData-01 (Wehlen oil trade)", "batch": "t-TokenStatusEffectData-01", "issue": "영문이 리치아 문맥에서 'Sordland's economy'라 적은 원문 오류", "controller": "R140 원문대로 유지"}
+{"key": "t-PolicyData-01 (Lespian Blue, Lyzian, Kings Cars Program)", "batch": "t-PolicyData-01", "issue": "레스피아 블루(음차)·리자식(형용사형)·국왕 자동차 지원 프로그램(R74) — 선례 없음", "controller": "현행 유지, 사용자 확정 필요"}
+{"key": "t-PolicyData-01 (Valgish fortress)", "batch": "t-PolicyData-01", "issue": "발그슬란드 요새 — 형용사형 Valgish 고정 표기 미확정(관형 발그계 R166과 별개)", "controller": "발그슬란드 요새 유지, 사용자 확정 필요"}

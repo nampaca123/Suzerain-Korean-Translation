@@ -1,1 +1,1 @@
-{"batch": "t-NewsData-07", "stage": "edited", "round": 1, "kind": "textassets", "applied": 46, "rejected": 0}
+{"batch": "t-NewsData-07", "stage": "passed", "round": 2, "kind": "textassets", "applied": 29, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

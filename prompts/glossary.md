@@ -65,7 +65,7 @@
 | shell corporation | shell corporation | 페이퍼 컴퍼니 | 유령회사, 유령 회사 | user_decision | 예 | {'페이퍼 컴퍼니': 0, '유령회사': 0, '유령 회사': 0} | {'페이퍼 컴퍼니': 8, '유령회사': 4, '유령 회사': 0} |
 | A proso (리치아어 구호) | A proso | 아 프로소 | A proso, A Proso | user_decision | 예 | {'아 프로소': 0, 'A proso': 0, 'A Proso': 0} | {'아 프로소': 4, 'A proso': 0, 'A Proso': 0} |
 | Heart of Sordland (기구명) | Heart of Sordland | 소르들란드의 심장 | 하트 오브 소르들란드 | user_decision | 예 | {'소르들란드의 심장': 0, '하트 오브 소르들란드': 0} | {'소르들란드의 심장': 0, '하트 오브 소르들란드': 2} |
-| Duchess Azaro (루시타 작위) | Duchess Azaro | 아자로 여공작 | 아자로 공작부인, 아자로 공작 | user_decision | 예 | {'아자로 여공작': 0, '아자로 공작부인': 0, '아자로 공작': 0} | {'아자로 여공작': 40, '아자로 공작부인': 153, '아자로 공작': 28} |
+| Duchess Azaro (루시타 작위) | Duchess Azaro | 아자로 여공작 | 아자로 공작부인, 루시타 아자로 공작 | user_decision | 예 | {'아자로 여공작': 0, '아자로 공작부인': 0, '루시타 아자로 공작': 0} | {'아자로 여공작': 40, '아자로 공작부인': 145, '루시타 아자로 공작': 8} |
 | Camp Domus (군 기지) | Camp Domus | 캠프 도무스 | 도무스 훈련소, 도무스 캠프 | user_decision | 예 | {'캠프 도무스': 0, '도무스 훈련소': 0, '도무스 캠프': 0} | {'캠프 도무스': 27, '도무스 훈련소': 7, '도무스 캠프': 1} |
 | National Defense Headquarters | National Defense Headquarters | 국가 국방본부 | 국가 방위 본부 | user_decision | 예 | {'국가 국방본부': 0, '국가 방위 본부': 0} | {'국가 국방본부': 10, '국가 방위 본부': 2} |
 | Supreme Council of Nur | Supreme Council of Nur | 누르 최고평의회 | 누리티교 최고평의회 | user_decision | 예 | {'누르 최고평의회': 0, '누리티교 최고평의회': 0} | {'누르 최고평의회': 8, '누리티교 최고평의회': 0} |

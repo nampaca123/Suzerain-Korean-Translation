@@ -34,3 +34,4 @@
 {"key": "t-NewsData-11 (Royal Defense Department)", "batch": "t-NewsData-11", "issue": "왕립국방부 ↔ 국가 국방본부 ↔ 국가방위평의회 표기 체계", "controller": "영문 각각 대응 유지, 사용자 확정 필요"}
 {"key": "t-NewsData-11 (Countless Colors, Palica)", "batch": "t-NewsData-11", "issue": "Countess 말장난 상품명 음차, Palica 선례 1건", "controller": "현행 유지, 사용자 확정 필요"}
 {"key": "t-NewsData-11 (all three royal houses)", "batch": "t-NewsData-11", "issue": "'세 왕실 가문' — R105(왕실 가문=토라스)와 충돌 가능", "controller": "영문 직역 유지, 사용자 확정 필요"}
+{"key": "t-NewsData-12 (Fabian Ibarra, Tomaso Elizagarai)", "batch": "t-NewsData-12", "issue": "누락 문단 복원 중 나온 새 인명 — 코퍼스 한국어 표기 전무 → 로마자 유지", "controller": "로마자 유지(창작 금지), 사용자 확정 필요"}

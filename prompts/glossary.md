@@ -110,3 +110,5 @@
 | Ventry City | Ventry City | 벤트리 시티 | 벤트리시 | user_decision | 예 | {'벤트리 시티': 33, '벤트리시': 2} | {'벤트리 시티': 7, '벤트리시': 1} |
 | Valgsland socialism | Valgsland socialism | 발그슬란드 사회주의 | 발그슬란드식 사회주의 | user_decision | 예 | {'발그슬란드 사회주의': 18, '발그슬란드식 사회주의': 2} | {'발그슬란드 사회주의': 21, '발그슬란드식 사회주의': 13} |
 | Rizian National Coalition (RNC) | Rizian National Coalition | 리치아 국민 연합 | 리치아 국민연합 | user_decision | 예 | {'리치아 국민 연합': 0, '리치아 국민연합': 0} | {'리치아 국민 연합': 81, '리치아 국민연합': 8} |
+| Bludish (민족) | Bludish | 블루드족 | 블루드인 | user_decision | 예 | {'블루드족': 1029, '블루드인': 59} | {'블루드족': 18, '블루드인': 130} |
+| Wehzek language | Wehzek (language) | 베흘렌어 | 웨흐제크어 | user_decision | 예 | {'베흘렌어': 2, '웨흐제크어': 1} | {'베흘렌어': 3, '웨흐제크어': 2} |

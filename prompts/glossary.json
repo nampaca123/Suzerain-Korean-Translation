@@ -2257,5 +2257,45 @@
     "리치아 국민연합": 8
    }
   }
+ },
+ {
+  "concept": "Bludish (민족)",
+  "en": "Bludish",
+  "standard": "블루드족",
+  "banned": [
+   "블루드인"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "블루드족": 1029,
+    "블루드인": 59
+   },
+   "rizia": {
+    "블루드족": 18,
+    "블루드인": 130
+   }
+  }
+ },
+ {
+  "concept": "Wehzek language",
+  "en": "Wehzek (language)",
+  "standard": "베흘렌어",
+  "banned": [
+   "웨흐제크어"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "베흘렌어": 2,
+    "웨흐제크어": 1
+   },
+   "rizia": {
+    "베흘렌어": 3,
+    "웨흐제크어": 2
+   }
+  }
  }
 ]

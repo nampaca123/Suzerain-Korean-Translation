@@ -1112,5 +1112,27 @@
     "human_standard": "리치아 국민 연합",
     "human_auto_replace": true,
     "human_reason": "R198: 코퍼스 63:6, R77 띄어쓰기"
+  },
+  {
+    "concept": "Bludish (민족)",
+    "en": "Bludish",
+    "candidates": [
+      "블루드족",
+      "블루드인"
+    ],
+    "human_standard": "블루드족",
+    "human_auto_replace": true,
+    "human_reason": "R201: 메인 470:153 — 메인 다수형 우선(이전 리치아 코퍼스 다수형 블루드인 결정 번복)"
+  },
+  {
+    "concept": "Wehzek language",
+    "en": "Wehzek (language)",
+    "candidates": [
+      "베흘렌어",
+      "웨흐제크어"
+    ],
+    "human_standard": "베흘렌어",
+    "human_auto_replace": true,
+    "human_reason": "R202: 메인 3:0"
   }
 ]

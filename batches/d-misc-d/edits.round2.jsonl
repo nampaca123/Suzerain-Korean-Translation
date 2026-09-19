@@ -1,0 +1,29 @@
+{"key": "d:582:53", "ko_new": "\"내가 리치아 인민당을 지지한다는 건 이제 그대도 아시잖소, 휴고.\"", "reason": "controller r2: register"}
+{"key": "d:582:73", "ko_new": "\"그러니까 누가 제안했는지 때문에 이 왕령에 반대하시는 거요?\"", "reason": "controller r2: register"}
+{"key": "d:583:65", "ko_new": "\"그러니까 누가 제안했는지 때문에 반대하시는 거요?\"", "reason": "controller r2: register"}
+{"key": "d:582:95", "ko_new": "\"그게 대체 무슨 뜻이오, 휴고? 나를 좀 더 존중해서 말씀하시길 권하오.\"", "reason": "controller r2: register"}
+{"key": "d:583:67", "ko_new": "\"그게 대체 무슨 뜻이오, 휴고? 나를 좀 더 존중해서 말씀하시길 권하오.\"", "reason": "controller r2: register"}
+{"key": "d:582:115", "ko_new": "\"그대는 이걸 정치적 조치로 보고 계시오, 휴고. 나는 경제적 조치로 보오.\"", "reason": "controller r2: register"}
+{"key": "d:583:98", "ko_new": "\"그대는 이걸 정치적 조치로 보고 계시오, 휴고. 나는 경제적 조치로 보오.\"", "reason": "controller r2: register"}
+{"key": "d:582:136", "ko_new": "\"똑같은 말을 반복하고 계시오, 휴고. 그대 우려는 이해하지만 내 판단을 믿으셔야 하오.\"", "reason": "controller r2: register"}
+{"key": "d:583:129", "ko_new": "\"똑같은 말을 반복하고 계시오, 휴고. 그대 우려는 이해하지만 내 판단을 믿으셔야 하오.\"", "reason": "controller r2: register"}
+{"key": "d:583:49", "ko_new": "\"전에 똑같은 말을 하셨잖소.\"", "reason": "controller r2: register"}
+{"key": "d:583:50", "ko_new": "\"나는 누구에게도 휘둘리지 않소. 이건 내 결정이오. 그 점을 존중하시는 게 좋을 거요.\"", "reason": "controller r2: register"}
+{"key": "d:584:43", "ko_new": "\"그게 정말 그들이 원하는 거라고 확신하시오? 지금까지 말할 엄두를 못 냈던 것뿐이라면?\"", "reason": "controller r2: register"}
+{"key": "d:584:91", "ko_new": "\"그게 문제라고는 생각하지 않으시오?\"", "reason": "controller r2: register"}
+{"key": "d:584:96", "ko_new": "\"그건 그대도 모르시오. 리치아인들이 그대 생각보다 동성애를 더 지지할 수도 있잖소.\"", "reason": "controller r2: register"}
+{"key": "d:584:122", "ko_new": "\"내게는 '하찮은' 일이 아니오. 그대는 역사의 잘못된 편에 서 계시오.\"", "reason": "controller r2: register"}
+{"key": "d:584:123", "ko_new": "\"내게는 '분열을 부르는' 일도 아니오. 그대는 역사의 잘못된 편에 서 계시오.\"", "reason": "controller r2: register"}
+{"key": "d:584:126", "ko_new": "\"그대가 동성애자였다면 그렇게 생각하지 않으셨을 거요. 그들에게 공감하실 수는 없소?\"", "reason": "controller r2: register"}
+{"key": "d:584:112", "ko_new": "그는 허리를 숙여 인사하고 방을 나갔다.", "reason": "controller r2: consistency"}
+{"key": "d:582:21", "ko_new": "\"이미 왕령들로 왕실 가문들을 약화시키셨소, 로무스.\"", "reason": "controller r2: consistency"}
+{"key": "d:583:31", "ko_new": "\"이미 왕령들로 왕실 가문들을 약화시키셨소, 로무스.\"", "reason": "controller r2: consistency"}
+{"key": "d:582:67", "ko_new": "\"로무스, 그대가 전통에 도전하는 모습을 전에도 지켜봤소. 남들이 너무 멀리 나간다고 수군거릴 때도 나는 그대를 두둔했소.\"", "reason": "controller r2: style"}
+{"key": "d:583:57", "ko_new": "\"로무스, 그대가 전통에 도전하는 모습을 전에도 지켜봤소. 남들이 너무 멀리 나간다고 수군거릴 때도 나는 그대를 두둔했소.\"", "reason": "controller r2: style"}
+{"key": "d:582:104", "ko_new": "\"그렇소, 휴고. 이 왕국에서 가장 부유한 영지에 세금을 매기는 일이야말로 정말 가장 끔찍한 불의겠소.\"", "reason": "controller r2: style"}
+{"key": "d:583:81", "ko_new": "\"그렇소, 휴고. 이 왕국에서 가장 부유한 영지에 세금을 매기는 일이야말로 정말 가장 끔찍한 불의겠소.\"", "reason": "controller r2: style"}
+{"key": "d:584:92", "ko_new": "\"그렇소. 성소가 그들을 그렇게 느끼도록 세뇌했기 때문이오.\"", "reason": "controller r2: style"}
+{"key": "d:584:26", "ko_new": "\"내가 숭배하는 누르는 모든 형태의 사랑을 기뻐하신다오. 그분은 피조물이 증오와 편견을 실천하길 바라지 않을 거요.\"", "reason": "controller r2: style"}
+{"key": "d:584:89", "ko_new": "\"리치아인 대다수는 전하께서 리코와 결혼하셔도 눈 하나 깜빡하지 않을 겁니다. 하지만 자기 아이들이 남자 이웃 두 사람이 공개적으로 손을 잡는 모습을 본다면 자신들의 가치에 대한 공격으로 받아들일 겁니다.\"", "reason": "controller r2: style"}
+{"key": "d:584:132", "ko_new": "\"결정은 폐하 몫입니다. 하지만 폐하의 통치가 이런 조치의 후폭풍을 견딜 수 있을지 신중히 생각하시길 권합니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:584:49", "ko_new": "\"군주로서 폐하의 권위가 흔들리고 있습니다. 국민의 존경을 잃고 계십니다. 그 존경을 잃는 순간 국민을 다스릴 힘도 함께 잃으십니다.\"", "reason": "controller r2: style"}

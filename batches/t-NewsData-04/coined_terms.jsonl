@@ -1,0 +1,2 @@
+{"en": "Revolutionary Destiny", "ko": "혁명적 필연", "kind": "정책명", "reason": "말레니예프가 제시한 교리 이름으로 뜻이 드러나는 영어 구라 R74에 따라 음차하지 않고 뜻풀이형으로 옮겼다. 코퍼스 선례는 본 줄뿐이어서(Grep 1줄) 기존 번역의 표기를 그대로 채택했다.", "keys": ["t:NewsData:0x01000065000002A1:/NewsProperties/Description"]}
+{"en": "Red Unity Chronicle", "ko": "적색 단결 연대기", "kind": "기타", "reason": "콘타나 연방 관영 매체명으로 뜻이 드러나는 영어 구라 R74에 따라 뜻풀이형으로 옮겼다. 코퍼스 선례는 본 줄뿐이어서(Grep 1줄) 기존 번역의 표기를 그대로 채택했고 needs_human.jsonl에도 함께 기록했다.", "keys": ["t:NewsData:0x010000650000CE4C:/NewsProperties/Description"]}

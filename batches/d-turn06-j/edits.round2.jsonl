@@ -1,0 +1,9 @@
+{"key": "d:587:16", "ko_new": "\"알려 주셔서 고맙소, 공작 각하.\"", "reason": "controller r2: register"}
+{"key": "d:586:173", "ko_new": "\"가솜 협정을 두고 소르들란드와 벌인 협상도 결렬됐습니다. 새 소르들란드 대통령이 우리의 투자를 허용하지 않기로 했습니다. 따라서 그쪽에서 예상되는 수익은 없습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:587:39", "ko_new": "\"다만 이번 선거가 다른 점은 베흘렌인, 키날인, 데르디아인 등 엄청난 수의 신규 유권자가 등록됐다는 겁니다...\"", "reason": "controller r2: style"}
+{"key": "d:586:175", "ko_new": "\"즈파나 수력발전 댐 사업은 빠르게 진행 중입니다. 성공한다면 에너지 산업에 어느 정도 숨통을 틔워줄 것으로 전망합니다. 재생 가능 대안이라는 점에서도 전략적 가치가 있습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:586:332", "ko_new": "\"에너지 비축량은 이미 고갈됐고 새로운 매장지를 찾는 데 어려움을 겪고 있습니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:586:267", "ko_new": "\"우리 에너지 상황을 개선할 방안이 있소?\"", "reason": "controller r2: style"}
+{"key": "d:586:223", "ko_new": "\"그곳의 가스 채굴은 현재 어떤 상황이오? 대공이 우리 매입 계약을 지키고 있는 것으로 알고 있소만?\"", "reason": "controller r2: style"}
+{"key": "d:586:253", "ko_new": "\"지금까지는 우리 몫의 가스전을 채굴할 준비를 협력해서 진행해 왔습니다.\"", "reason": "controller r2: style"}
+{"key": "d:586:211", "ko_new": "그녀가 메모를 훑어보았다.", "reason": "controller r2: style"}

@@ -1,0 +1,5 @@
+{"key": "d:298:73", "flag": "romus_mixed_register", "reason": "\"인상적이군.\" 짧은 독립 감탄(컨트롤러 확인)"}
+{"key": "d:299:48", "flag": "subject_mixed_register", "reason": "\"위대한 리자.\" 이름 조각 — 종결어미 아님(컨트롤러 확인)"}
+{"key": "d:299:75", "flag": "subject_mixed_register", "reason": "소르드어 의례어 음차(\"벡턴 시스 다\") — 화계 아님(컨트롤러 확인)"}
+{"key": "d:299:340", "flag": "speech_not_hapsyo", "reason": "식탁의 사업가들에게 하는 하오체(\"신사 여러분\") — 연설 아님, speech 창 오탐(컨트롤러 확인)"}
+{"key": "d:299:255", "flag": "romus_mixed_register", "reason": "\"완전히 사기군.\" 짧은 독립 감탄(체크리스트 10 예외, 컨트롤러 확인)"}

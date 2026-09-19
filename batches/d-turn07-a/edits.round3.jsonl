@@ -1,0 +1,14 @@
+{"key": "d:377:60", "ko_new": "\"아니오. 내가 직접 내 대표 투사가 되겠소.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:377:715", "ko_new": "\"이제 각 투사에게 준비 시간 5분을 주겠습니다.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:377:369", "ko_new": "\"최고 대현자의 광신적인 종파가 성 브루헤지의 가르침을 조롱하고 있는데, 감히 내게 그 가르침을 훈계하려는 거요?\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:377:234", "ko_new": "\"데르디아가 모렐라 국경을 침범한 문제를 두고 최고 대현자와 이야기해 달라고 모렐라 총리가 내게 부탁했소.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:377:825", "ko_new": "\"신이시여, 우리가 바꿀 수 없는 것을 받아들일 평온과, 바꿀 수 있는 것을 바꿀 용기와, 그 차이를 분별할 지혜를 우리에게 주소서.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:377:293", "ko_new": "\"나는 내 국민의 생명을 소중히 여기고, 최고 대현자도 귀국 국민을 소중히 여기지 않소. 분명 타협점을 찾을 수 있을 거요.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:378:28", "ko_new": "\"살타나 총리가 CSP와 동맹을 맺으면 어떻게 될 것 같소? 귀국의 반군은 산산조각 날 거요.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:377:368", "ko_new": "\"그보다 더 나쁩니다. 폐하께서는 자기 나라에서 골콘다주의자들이 존재할 권리 자체를 부정하는 빅토르 스몰라크를 달래고 계십니다.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:378:81", "ko_new": "\"그렇다면 리치아가 가스로 쌓았다는 전설적인 부는 신화였나 봅니다.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:377:263", "ko_new": "\"리치아의 왕에게 명령을 내리려는 거요? 내가 최고 대현자의 빌어먹을 제자 중 하나로 보이오?\"", "reason": "r3 controller: 직함 우선(293)·중립 대명사(378:28)와 동일 처리", "flags_resolved": []}
+{"key": "d:377:366", "ko_new": "\"최고 대현자는 골콘다주의자들이 아무 잘못 없는 피해자인 양 말하는구려. 반란과 테러에 관여하지 않은 것처럼 말이오.\"", "reason": "r3 controller: 직함 우선(293)·중립 대명사(378:28)와 동일 처리", "flags_resolved": []}
+{"key": "d:378:59", "ko_new": "\"주께서 우리 편이시니, 살타나 총리가 귀국 사람들의 성스러운 순례를 돕도록 설득할 수 있을 거요.\"", "reason": "r3 controller: 직함 우선(293)·중립 대명사(378:28)와 동일 처리", "flags_resolved": []}
+{"key": "d:379:31", "ko_new": "\"주께서 우리 편이시니, 살타나 총리가 귀국 사람들의 성스러운 순례를 돕도록 설득할 수 있을 거요.\"", "reason": "r3 controller: 직함 우선(293)·중립 대명사(378:28)와 동일 처리", "flags_resolved": []}
+{"key": "d:379:37", "ko_new": "\"살타나 총리와 이야기해 봤소. 그 문제에서 타협할 가능성은 거의 없다고 보오.\"", "reason": "r3 controller: 직함 우선(293)·중립 대명사(378:28)와 동일 처리", "flags_resolved": []}

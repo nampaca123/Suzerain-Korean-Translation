@@ -1,0 +1,17 @@
+{"key": "t:HUDPeriodicStatModifierData:0x0100008E00007815:/HUDPeriodicStatModifierProperties/Description", "ko_new": "{0} RPP의 대의회 주도로 턴당", "reason": "reviewer r1: meaning"}
+{"key": "t:HUDPeriodicStatModifierData:0x0100008E00007823:/HUDPeriodicStatModifierProperties/Description", "ko_new": "{0} RNC의 대의회 주도로 턴당", "reason": "reviewer r1: meaning"}
+{"key": "t:ConversationData:0x01000064000002AB:/ConversationProperties/Title", "ko_new": "붉은 킹버드 축제 왕실 방문", "reason": "reviewer r1: glossary"}
+{"key": "t:CarouselChoiceOptionData:0x0100008E00002CEC:/CarouselChoiceOptionProperties/Description", "ko_new": "함포 사격과 상륙 작전에 특화된 첨단 군함을 리치아 해군에 도입하면 해상 침공 능력이 크게 향상됩니다. 이 전략적 확장은 해군력을 강화하고 전문 해병대 부대를 추가합니다.  [-3 예산, +1 군함, +1 잠수함, +1 해병대]", "reason": "reviewer r1: glossary"}
+{"key": "t:MultipleChoiceOptionData:0x0100005200026833:/MultipleChoiceOptionProperties/Title", "ko_new": "유리한 에너지 협정 [턴당 -3 에너지, 턴당 +3 예산, 파이프라인에 -2 예산]", "reason": "reviewer r1: meaning"}
+{"key": "t:ConversationData:0x0100006A00019039:/ConversationProperties/Title", "ko_new": "왕실 평의회 회의", "reason": "reviewer r1: consistency"}
+{"key": "t:CountryDetailsPanelData:0x0100006C00000D12:/CountryDetailsPanelProperties/Subtitle", "ko_new": "황금에 닻을 내리고", "reason": "reviewer r1: consistency"}
+{"key": "t:ConversationData:0x0100009E00001530:/ConversationProperties/Subtitle", "ko_new": "왕실 경기장, 몬타클라르", "reason": "reviewer r1: consistency"}
+{"key": "t:ConversationData:0x0100009E000015C9:/ConversationProperties/Subtitle", "ko_new": "은빛 주둔지, 네아엘", "reason": "reviewer r1: consistency"}
+{"key": "t:PagedDecisionPanelData:0x0100008E00002C96:/PagedDecisionPanelProperties/Description", "ko_new": "로무스 토라스 국왕으로서 당신은 황금 왕국의 진로를 정하고 정책을 시행할 광범위한 권한을 갖고 있다. 서로 다른 중점 분야를 선택하면 각기 다른 전략적 이점을 얻을 수 있다.", "reason": "reviewer r1: style"}
+{"key": "t:PagedDecisionPanelData:0x0100009A0000BC89:/PagedDecisionPanelProperties/Description", "ko_new": "체포된 이 죄수들은 왕실과 국왕을 상대로 중대한 범죄를 저질렀다. 이들이 계속 형을 복역하게 할지, 단두대에 세울지 처벌을 결정해야 한다.", "reason": "reviewer r1: style"}
+{"key": "t:MultipleChoicePageData:0x0100009A0000BC90:/MultipleChoicePageProperties/Subtitle", "ko_new": "아래 범죄자들은 포르테 드라촌 시타델에 수감되어 당신의 판결을 기다리고 있다. 누구를 처형할 것인가?", "reason": "reviewer r1: consistency"}
+{"key": "t:FactionData:0x0100008E00002AED:/FactionProperties/Description", "ko_new": "토라스 가문은 현재 리치아를 통치하는 왕가이자 국가의 세 귀족 가문 가운데 가장 강력한 가문이다. 왕좌는 물론 몬키즈 지방과 이자 시까지 지배한다.", "reason": "reviewer r1: style"}
+{"key": "t:ConversationData:0x0100006A00014660:/ConversationProperties/Title", "ko_new": "러스티 몬토로와의 통화", "reason": "reviewer r1: consistency"}
+{"key": "t:CharacterDetailsSectionData:0x0100008E00002138:/CharacterDetailsSectionProperties/SectionValues[0]/Value", "ko_new": "1924년, 왕실 평의회 교육", "reason": "reviewer r1: style"}
+{"key": "t:TooltipData:0x010000690000041E:/TooltipProperties/Title", "ko_new": "베흘렌인", "reason": "reviewer r1: consistency"}
+{"key": "t:BillData:0x0100009E0000B1F4:/BillProperties/Description", "ko_new": "대의회는 1958년 리치아 기본법 헌장에 따라 첫 조치로 팔레 침공을 중단하라는 명령을 발표했습니다.\n\n명령에 따라 리치아 육군은 모든 점령지에서 즉시 철수하고, 팔레인 인질은 모두 석방되며, 총리와 레이나르트 대공 사이에 최종 조약 체결을 위한 외교 회담이 마련됩니다.", "reason": "reviewer r1: consistency"}

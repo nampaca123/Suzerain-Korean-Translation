@@ -1,0 +1,2 @@
+{"en": "The Guild of Royal Allies", "ko": "왕실 동맹 길드", "kind": "기타", "reason": "R74 뜻풀이형. 용어집의 GRACE 표준은 약칭 'GRACE'뿐이고 풀어 쓴 이름의 선례는 코퍼스에 이 줄(1줄)밖에 없어 기존 표기를 그대로 채택함. 금지 표기('상호무역 왕실연합 길드','왕실 동맹국 상업 교류 길드')와는 다름.", "keys": ["t:MapTokenData:0x0100008E0000379E:/MapTokenProperties/Title"]}
+{"en": "Zille Inpendentia", "ko": "질레 인펜덴티아", "kind": "리치아어 구호", "reason": "R75에 따른 한글 음차. 코퍼스에 이 줄(1줄) 말고 선례가 없어 기존 음차를 그대로 채택함.", "keys": ["t:MapTokenData:0x010000C70000032F:/MapTokenProperties/Subtitle"]}

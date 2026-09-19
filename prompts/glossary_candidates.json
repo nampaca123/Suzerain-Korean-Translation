@@ -1,0 +1,1137 @@
+[
+  {
+    "concept": "St. Wruhec (성인 이름)",
+    "en": "St. Wruhec",
+    "candidates": [
+      "성 브루헤지",
+      "성 브루헤크",
+      "성 루헥",
+      "성 브루헥"
+    ]
+  },
+  {
+    "concept": "Wruhec 종교",
+    "en": "Wruhec",
+    "candidates": [
+      "브루헤크교",
+      "브루헤지교"
+    ]
+  },
+  {
+    "concept": "Golcondism",
+    "en": "Golcondism",
+    "candidates": [
+      "골콘다교",
+      "골콘디즘",
+      "골콘다주의"
+    ]
+  },
+  {
+    "concept": "House of Delegates",
+    "en": "House of Delegates",
+    "candidates": [
+      "대의회",
+      "대의원회"
+    ]
+  },
+  {
+    "concept": "Alliance of Nations",
+    "en": "Alliance of Nations",
+    "candidates": [
+      "국제연합",
+      "AN",
+      "국가연합"
+    ]
+  },
+  {
+    "concept": "WHR",
+    "en": "WHR",
+    "candidates": [
+      "인권감시단",
+      "WHR"
+    ]
+  },
+  {
+    "concept": "Gasom",
+    "en": "Gasom",
+    "candidates": [
+      "가솜",
+      "Gasom",
+      "GASOM"
+    ]
+  },
+  {
+    "concept": "OMEC",
+    "en": "OMEC",
+    "candidates": [
+      "메르코파경제개발기구",
+      "메르코파 경제개발기구",
+      "OMEC"
+    ]
+  },
+  {
+    "concept": "GRACE",
+    "en": "Guild of Royal Allies for Commercial Exchange",
+    "candidates": [
+      "GRACE",
+      "상호무역 왕실연합 길드",
+      "왕실 동맹국 상업 교류 길드"
+    ]
+  },
+  {
+    "concept": "Rizia Imperii",
+    "en": "Rizia Imperii",
+    "candidates": [
+      "리치아 임페리이",
+      "리치아 임페리"
+    ]
+  },
+  {
+    "concept": "Pales",
+    "en": "Pales",
+    "candidates": [
+      "팔레",
+      "페일스"
+    ]
+  },
+  {
+    "concept": "Prime Minister",
+    "en": "Prime Minister",
+    "candidates": [
+      "총리",
+      "수상",
+      "재상"
+    ]
+  },
+  {
+    "concept": "Duke Reinhart",
+    "en": "Duke Reinhart",
+    "candidates": [
+      "레이나르트 공작",
+      "레이나르트 대공"
+    ]
+  },
+  {
+    "concept": "Butler",
+    "en": "Butler",
+    "candidates": [
+      "집사",
+      "시종"
+    ]
+  },
+  {
+    "concept": "Grand Wiseman",
+    "en": "Grand Wiseman",
+    "candidates": [
+      "대현사",
+      "이그나시우스 현자"
+    ]
+  },
+  {
+    "concept": "late King Valero",
+    "en": "late King Valero",
+    "candidates": [
+      "선왕",
+      "부왕"
+    ]
+  },
+  {
+    "concept": "Grand Hall",
+    "en": "Grand Hall",
+    "candidates": [
+      "대전당",
+      "대연회장",
+      "대회랑"
+    ]
+  },
+  {
+    "concept": "profit share",
+    "en": "profit share",
+    "candidates": [
+      "수익 분배",
+      "이익 배분",
+      "이익 지분",
+      "수익 배분",
+      "수익 몫",
+      "이익 공유",
+      "이익 분배"
+    ],
+    "human_standard": "수익 분배",
+    "human_reason": "사용자 결정"
+  },
+  {
+    "concept": "Armed Forces",
+    "en": "Rizian Armed Forces",
+    "candidates": [
+      "리치아 국군",
+      "리치아군",
+      "리치아 육군"
+    ],
+    "human_standard": "리치아 육군",
+    "human_auto_replace": false,
+    "human_reason": "사용자 결정. 리치아군은 일반 지칭으로도 쓰여 자동 치환 없이 영문 Armed Forces인 줄만 고친다"
+  },
+  {
+    "concept": "Mouser",
+    "en": "Mouser",
+    "candidates": [
+      "무세르",
+      "모우세르"
+    ]
+  },
+  {
+    "concept": "Kabet",
+    "en": "Kabet",
+    "candidates": [
+      "카베트",
+      "카베테"
+    ]
+  },
+  {
+    "concept": "Karanza",
+    "en": "Karanza",
+    "candidates": [
+      "카란자",
+      "카란자스"
+    ],
+    "human_standard": "카란자",
+    "human_reason": "사용자 결정"
+  },
+  {
+    "concept": "Nur 종교",
+    "en": "Nurist religion",
+    "candidates": [
+      "누리티교",
+      "누르교",
+      "누리교"
+    ],
+    "mask": [
+      "다스트누리티교"
+    ]
+  },
+  {
+    "concept": "Dastnur 종교",
+    "en": "Dastnurist religion",
+    "candidates": [
+      "다스트누리티교",
+      "다스트누리교"
+    ]
+  },
+  {
+    "concept": "Halaita(의례어)",
+    "en": "Halaita",
+    "candidates": [
+      "할라이타",
+      "Halaita"
+    ],
+    "human_standard": "할라이타",
+    "human_reason": "R75: 메인 캠페인 구호 \"Greci Sordland!\"→\"그레지 소르들란드!\" 음차 선례"
+  },
+  {
+    "concept": "Van Hoorten (인명)",
+    "en": "Van Hoorten",
+    "candidates": [
+      "판호르턴",
+      "판 호르턴",
+      "판 호르텐",
+      "판판호르턴",
+      "반 판판호르턴"
+    ],
+    "mask": []
+  },
+  {
+    "concept": "Drazon",
+    "en": "Drazon",
+    "candidates": [
+      "드라존",
+      "드라촌"
+    ]
+  },
+  {
+    "concept": "Wiscerer (직함)",
+    "en": "Wiscerer",
+    "candidates": [
+      "위스세러",
+      "위스케러",
+      "위스커러"
+    ]
+  },
+  {
+    "concept": "Crown Supreme Campaign",
+    "en": "Crown Supreme Campaign",
+    "candidates": [
+      "왕실 선양 캠페인",
+      "크라운 슈프림 캠페인",
+      "왕실 최고 캠페인",
+      "왕실 선전"
+    ],
+    "human_standard": "왕실 선양 캠페인",
+    "human_reason": "R74: 고유명사라기보다 뜻이 드러나는 구호형 사업명이라 음차 대신 뜻풀이형. 2026-09-17 사용자 지시."
+  },
+  {
+    "concept": "Walker Plan",
+    "en": "Walker Plan",
+    "candidates": [
+      "워커 플랜",
+      "워커플랜"
+    ],
+    "human_standard": "워커 플랜",
+    "human_reason": "사용자 결정"
+  },
+  {
+    "concept": "Glovurius axa Rizia (구호)",
+    "en": "Glovurius axa Rizia",
+    "candidates": [
+      "글로부리우스 악사 리치아",
+      "Glovurius axa Rizia"
+    ],
+    "human_standard": "글로부리우스 악사 리치아",
+    "human_reason": "R75 음차 원칙, 코퍼스 기존 음차형"
+  },
+  {
+    "concept": "Lachaven (도시)",
+    "en": "Lachaven",
+    "candidates": [
+      "라지하벤",
+      "라카벤",
+      "라차벤"
+    ]
+  },
+  {
+    "concept": "Sourne (지명)",
+    "en": "Sourne",
+    "candidates": [
+      "소우르네",
+      "소우른"
+    ]
+  },
+  {
+    "concept": "Artor Wisci (인명)",
+    "en": "Artor Wisci",
+    "candidates": [
+      "아르토르 비스지",
+      "아르토르 위시"
+    ]
+  },
+  {
+    "concept": "United Sordland Party",
+    "en": "United Sordland Party",
+    "candidates": [
+      "소르들란드통합당",
+      "소르들란드 통합당",
+      "통합 소르들란드당"
+    ],
+    "mask": [
+      "통합당"
+    ]
+  },
+  {
+    "concept": "Deivid Wisci (인명)",
+    "en": "Deivid Wisci",
+    "candidates": [
+      "데이비드 비스지",
+      "데이비드 위시",
+      "데이비드 위스치"
+    ]
+  },
+  {
+    "concept": "NSWNP (베흘렌 여당)",
+    "en": "Nurist Socialist Wehlen Nationalist Party",
+    "candidates": [
+      "누리티교사회주의베흘렌민족주의당",
+      "누리티교 사회주의 베흘렌 민족주의당",
+      "누리스트 사회주의 베흘렌 민족주의당"
+    ],
+    "human_standard": "누리티교 사회주의 베흘렌 민족주의당",
+    "human_reason": "R77 사용자 결정(2026-09-18): 5어절 당명은 붙여 쓰면 가독성이 나빠 띄어 쓴다. 메인 캠페인의 짧은 당명(소르들란드통합당 등)은 붙여 쓴 선례 유지."
+  },
+  {
+    "concept": "United Contana",
+    "en": "United Contana",
+    "candidates": [
+      "콘타나 연방",
+      "통일 콘타나",
+      "연합 콘타나",
+      "콘타나 연합"
+    ]
+  },
+  {
+    "concept": "Haelm (지명)",
+    "en": "Haelm",
+    "candidates": [
+      "헬름",
+      "하엘름"
+    ]
+  },
+  {
+    "concept": "Nines (인명)",
+    "en": "Ephraim Nines",
+    "candidates": [
+      "니네스",
+      "나인스"
+    ]
+  },
+  {
+    "concept": "President Nines (국제연합 총회 의장)",
+    "en": "President Nines",
+    "candidates": [
+      "니네스 의장",
+      "니네스 대통령"
+    ],
+    "mask": [
+      "니네스 총회 의장"
+    ]
+  },
+  {
+    "concept": "Royal Decree (칙령/왕령)",
+    "en": "Royal Decree",
+    "candidates": [
+      "왕령",
+      "칙령"
+    ],
+    "human_standard": "왕령",
+    "human_reason": "R78: 게임 UI 패널 라벨 'Royal Decrees'=왕령, 텍스트에셋 510:36. 대화 다수(칙령 178)보다 UI·전체 다수를 따른다.",
+    "human_auto_replace": true
+  },
+  {
+    "concept": "Beatrice 친족어(비나→베아트리체)",
+    "en": "Aunt Bea",
+    "candidates": [
+      "베아 이모",
+      "베아 고모"
+    ],
+    "human_standard": "베아 이모",
+    "human_reason": "R79: 베아트리체는 로무스의 아내 레나의 언니(코덱스 'younger sister of Queen Beatrice')이므로 비나에게는 이모."
+  },
+  {
+    "concept": "Beatrice 친족어 2",
+    "en": "Aunt Beatrice",
+    "candidates": [
+      "베아트리체 이모",
+      "베아트리체 고모"
+    ],
+    "human_standard": "베아트리체 이모",
+    "human_reason": "R79"
+  },
+  {
+    "concept": "Captain Gordion (금위대장)",
+    "en": "Captain Gordion",
+    "candidates": [
+      "고르디온 대장",
+      "고르디온 대위"
+    ],
+    "human_standard": "고르디온 대장",
+    "human_reason": "R80: 'Captain of the Golden Guard'는 직위(대장)이지 계급(대위)이 아님. 메인 캠페인도 Captain 직위를 대장으로 옮김(7:2)."
+  },
+  {
+    "concept": "noble houses (귀족 가문)",
+    "en": "noble houses",
+    "candidates": [
+      "귀족 가문들",
+      "왕가들"
+    ],
+    "human_standard": "귀족 가문들",
+    "human_reason": "R81: 토라스·사존·아자로 등 'houses'는 귀족 가문. 왕가는 토라스 하나뿐이라 복수 '왕가들'은 오역."
+  },
+  {
+    "concept": "Councilor of War and Internal Security",
+    "en": "Councilor of War and Internal Security",
+    "candidates": [
+      "전쟁·안보 평의원",
+      "전쟁 및 국내안보 평의원",
+      "전쟁·안보 대의원",
+      "전쟁·안보 담당 평의원",
+      "전쟁·내부안보 왕실 평의원",
+      "전쟁·내부안보 왕실평의원",
+      "전쟁·안보 왕실평의원",
+      "전쟁·내무안보 대의원",
+      "전쟁·내무 평의원"
+    ],
+    "mask": [
+      "전쟁·안보 담당 임시 평의원",
+      "전쟁 평의원"
+    ],
+    "human_standard": "전쟁·안보 평의원",
+    "human_reason": "R82: 같은 직위가 9가지로 갈림. Rizia 다수 표기(34)이자 가장 짧은 형태로 통일. 'Councilor of War'만 있는 줄은 '전쟁 평의원' 유지.",
+    "human_auto_replace": true
+  },
+  {
+    "concept": "King Romus (호칭)",
+    "en": "King Romus",
+    "candidates": [
+      "로무스 국왕",
+      "로무스 왕"
+    ],
+    "mask": [
+      "로무스 국왕"
+    ]
+  },
+  {
+    "concept": "MITZ (메프티엠 국제무역지대)",
+    "en": "Meftiem International Trade Zone",
+    "candidates": [
+      "메프티엠 국제무역지대",
+      "메프티엠 국제 무역 지대",
+      "메프티엠 국제 무역지대"
+    ],
+    "human_standard": "메프티엠 국제무역지대",
+    "human_auto_replace": true,
+    "human_reason": "R85: 코퍼스 다수(88) 붙여쓰기로 통일"
+  },
+  {
+    "concept": "International Trade Zone (약칭)",
+    "en": "International Trade Zone",
+    "candidates": [
+      "국제무역지대",
+      "국제 무역 지대",
+      "국제 무역지대"
+    ],
+    "mask": [
+      "메프티엠 국제무역지대",
+      "메프티엠 국제 무역 지대",
+      "메프티엠 국제 무역지대"
+    ],
+    "human_standard": "국제무역지대",
+    "human_auto_replace": true,
+    "human_reason": "R85: 정식 명칭과 같은 붙여쓰기"
+  },
+  {
+    "concept": "PaleStream (가스관·사업명)",
+    "en": "PaleStream",
+    "candidates": [
+      "페일스트림",
+      "PaleStream",
+      "팔레스트림"
+    ],
+    "human_standard": "페일스트림",
+    "human_auto_replace": true,
+    "human_reason": "R86: 코퍼스에 한글 표기 선례가 있는 브랜드형 고유명(한글 11:2)은 로마자 잔존(33)이 더 많아도 한글 다수형을 쓴다. 메인 캠페인은 Suzerain 외 로마자를 남기지 않는다. 사용자 사후 확인 목록."
+  },
+  {
+    "concept": "intelligence hub (정보거점)",
+    "en": "intelligence hub",
+    "candidates": [
+      "정보거점",
+      "정보 거점"
+    ],
+    "human_standard": "정보거점",
+    "human_auto_replace": true,
+    "human_reason": "R87: 9:9 동수. 국제무역지대와 같은 붙여쓰기 관례로 통일"
+  },
+  {
+    "concept": "Rumburg (국명)",
+    "en": "Rumburg",
+    "candidates": [
+      "룸부르크",
+      "룸버그"
+    ]
+  },
+  {
+    "concept": "South Merkopa (지역)",
+    "en": "South Merkopa",
+    "candidates": [
+      "남메르코파",
+      "남부 메르코파"
+    ],
+    "human_standard": "남메르코파",
+    "human_auto_replace": true,
+    "human_reason": "R88: 메인 2:2 동수, Rizia 179:19 다수. 편집자 간 방향이 엇갈려 고정."
+  },
+  {
+    "concept": "Queen Lucita (왕비)",
+    "en": "Queen Lucita",
+    "candidates": [
+      "루시타 왕비",
+      "루시타 여왕"
+    ],
+    "human_standard": "루시타 왕비",
+    "human_auto_replace": true,
+    "human_reason": "R89: 국왕의 배우자는 왕비(Queen Consort, 코퍼스 108). '여왕'은 여성 군주 오역."
+  },
+  {
+    "concept": "Golden Gate (의회 정문)",
+    "en": "Golden Gate",
+    "candidates": [
+      "황금문",
+      "골든 게이트"
+    ],
+    "human_standard": "황금문",
+    "human_auto_replace": true,
+    "human_reason": "R74 뜻풀이형(코퍼스 3)"
+  },
+  {
+    "concept": "Silver Gate (의회 문)",
+    "en": "Silver Gate",
+    "candidates": [
+      "은문",
+      "실버 게이트"
+    ],
+    "human_standard": "은문",
+    "human_auto_replace": true,
+    "human_reason": "R74 뜻풀이형, 황금문과 짝. 편집자가 음차로 바꾼 4줄 되돌림"
+  },
+  {
+    "concept": "shell corporation",
+    "en": "shell corporation",
+    "candidates": [
+      "페이퍼 컴퍼니",
+      "유령회사",
+      "유령 회사"
+    ],
+    "human_standard": "페이퍼 컴퍼니",
+    "human_auto_replace": true,
+    "human_reason": "R90: 코퍼스 다수(4:2). 보통명사이므로 통일만."
+  },
+  {
+    "concept": "A proso (리치아어 구호)",
+    "en": "A proso",
+    "candidates": [
+      "아 프로소",
+      "A proso",
+      "A Proso"
+    ],
+    "human_standard": "아 프로소",
+    "human_auto_replace": true,
+    "human_reason": "R75 음차(코퍼스 4)"
+  },
+  {
+    "concept": "Heart of Sordland (기구명)",
+    "en": "Heart of Sordland",
+    "candidates": [
+      "소르들란드의 심장",
+      "하트 오브 소르들란드"
+    ],
+    "human_standard": "소르들란드의 심장",
+    "human_auto_replace": true,
+    "human_reason": "R91: 뜻이 드러나는 기구명 → 뜻풀이형(R74). 메인 선례 0, Rizia 음차 2줄뿐. 사용자 사후 확인."
+  },
+  {
+    "concept": "Duchess Azaro (루시타 작위)",
+    "en": "Duchess Azaro",
+    "candidates": [
+      "아자로 여공작",
+      "아자로 공작부인",
+      "루시타 아자로 공작"
+    ],
+    "human_standard": "아자로 여공작",
+    "human_auto_replace": true,
+    "human_reason": "R94: 루시타는 본인 작위자(아자로 가문 상속인)이므로 '공작부인'(공작의 아내)은 오역. 코퍼스 여공작 선례 80줄. 사용자 사후 확인: 레오나 사존 '백작부인'도 본인 작위자라 같은 문제(미수정)."
+  },
+  {
+    "concept": "Camp Domus (군 기지)",
+    "en": "Camp Domus",
+    "candidates": [
+      "캠프 도무스",
+      "도무스 훈련소",
+      "도무스 캠프"
+    ],
+    "human_standard": "캠프 도무스",
+    "human_auto_replace": true,
+    "human_reason": "R96: 코퍼스 다수(28:6). 캠프 데이비드처럼 기지 고유명으로 취급."
+  },
+  {
+    "concept": "National Defense Headquarters",
+    "en": "National Defense Headquarters",
+    "candidates": [
+      "국가 국방본부",
+      "국가 방위 본부"
+    ],
+    "human_standard": "국가 국방본부",
+    "human_auto_replace": true,
+    "human_reason": "R97: Rizia 다수(10:2). '국방본부' 단독형은 부분 문자열이라 금지 목록에서 제외."
+  },
+  {
+    "concept": "Supreme Council of Nur",
+    "en": "Supreme Council of Nur",
+    "candidates": [
+      "누르 최고평의회",
+      "누리티교 최고평의회"
+    ],
+    "human_standard": "누르 최고평의회",
+    "human_auto_replace": true,
+    "human_reason": "R98: Nur는 신격 이름(누르), Nurity는 종교명(누리티교)이라 어간이 달라도 오류가 아님. 코퍼스 8줄."
+  },
+  {
+    "concept": "Duchess of Valenqiris (비나 작위)",
+    "en": "Duchess of Valenqiris",
+    "candidates": [
+      "발렌키리스 여공작",
+      "발렌키리스 공작부인",
+      "발렌키리스의 여공작",
+      "발렌키리스의 공작부인"
+    ],
+    "human_standard": "발렌키리스 여공작",
+    "human_auto_replace": true,
+    "human_reason": "R101: 비나 본인의 작위(R94와 같은 논리). Duke of Valenqiris(남성)는 '발렌키리스 공작' 유지."
+  },
+  {
+    "concept": "Ax populat Rizati (구호)",
+    "en": "Ax populat Rizati",
+    "candidates": [
+      "악스 포풀라트 리차티",
+      "Ax populat Rizati"
+    ],
+    "human_standard": "악스 포풀라트 리차티",
+    "human_auto_replace": true,
+    "human_reason": "R75 음차(d-turn10-i coined)"
+  },
+  {
+    "concept": "Queen Mother 극존칭",
+    "en": "Queen Mother",
+    "candidates": [
+      "왕대비",
+      "왕대비마마",
+      "대비마마"
+    ],
+    "human_standard": "왕대비",
+    "human_auto_replace": true,
+    "human_reason": "R43 극존칭 금지(화계표 5.3). 코퍼스 잔존 83줄 일괄."
+  },
+  {
+    "concept": "Queen 극존칭",
+    "en": "Queen (마마)",
+    "candidates": [
+      "왕비",
+      "왕비마마"
+    ],
+    "human_standard": "왕비",
+    "human_auto_replace": true,
+    "human_reason": "R43 극존칭 금지"
+  },
+  {
+    "concept": "Princess 극존칭",
+    "en": "Princess (마마)",
+    "candidates": [
+      "공주 전하",
+      "공주마마"
+    ],
+    "human_standard": "공주 전하",
+    "human_auto_replace": true,
+    "human_reason": "R43 극존칭 금지, 5.3 공주=전하"
+  },
+  {
+    "concept": "Countess Leona Sazon (본인 작위)",
+    "en": "Countess Leona Sazon",
+    "candidates": [
+      "레오나 사존 여백작",
+      "레오나 사존 백작부인",
+      "레오나 백작부인",
+      "사존 백작부인"
+    ],
+    "human_standard": "레오나 사존 여백작",
+    "human_auto_replace": true,
+    "human_reason": "R104: 레오나는 살라베스 백작위를 아버지에게서 상속한 본인 작위자(코덱스). R94와 같은 논리로 여백작. 단독 '백작부인'(25)은 문맥 불명이라 미치환 → 사용자 사후 확인."
+  },
+  {
+    "concept": "Museum Mile (박물관 거리)",
+    "en": "Museum Mile",
+    "candidates": [
+      "박물관 거리",
+      "뮤지엄 마일"
+    ],
+    "human_standard": "박물관 거리",
+    "human_auto_replace": true,
+    "human_reason": "R106: 뜻이 드러나는 지명(R74 취지). 코퍼스 5:4 동수 → 뜻풀이형."
+  },
+  {
+    "concept": "Capital Police (수도 경찰)",
+    "en": "Capital Police",
+    "candidates": [
+      "수도 경찰",
+      "수도경찰"
+    ],
+    "human_standard": "수도 경찰",
+    "human_auto_replace": true,
+    "human_reason": "코퍼스 6:1"
+  },
+  {
+    "concept": "Captain Castellanus (카스텔라누스 대장)",
+    "en": "Captain Castellanus",
+    "candidates": [
+      "카스텔라누스 대장",
+      "카스텔라누스 대위"
+    ],
+    "human_standard": "카스텔라누스 대장",
+    "human_auto_replace": true,
+    "human_reason": "R113: 브루헤지 수호대장(근위 지휘관)이라 고르디온(R78)과 같은 \"대장\". 코퍼스 대위 9:대장 6이었으나 직책 기준 통일."
+  },
+  {
+    "concept": "Palantor Security Solutions (팔란토르 시큐리티)",
+    "en": "Palantor Security Solutions",
+    "candidates": [
+      "팔란토르 시큐리티",
+      "팔란토르 보안 솔루션"
+    ],
+    "human_standard": "팔란토르 시큐리티",
+    "human_auto_replace": true,
+    "human_reason": "R112: 회사명(고유명) — 코퍼스 다수형 9:2(R86)."
+  },
+  {
+    "concept": "Wruhec (브루헤지, 단독형)",
+    "en": "Wruhec",
+    "candidates": [
+      "브루헤지",
+      "브루헤크"
+    ],
+    "human_standard": "브루헤지",
+    "human_auto_replace": true,
+    "human_reason": "R117: 메인 캠페인은 브루헤지만 사용(소르들란드 브루헤크 0건). 성인·종교 항목 외 단독형/수호대 등 잔존 126건 일괄 통일."
+  },
+  {
+    "concept": "Duchess Angelica Sazon (본인 작위)",
+    "en": "Duchess Angelica Sazon",
+    "candidates": [
+      "안젤리카 사존 여공작",
+      "안젤리카 사존 공작부인",
+      "안젤리카 여공작",
+      "안젤리카 공작부인"
+    ],
+    "human_standard": "안젤리카 사존 여공작",
+    "human_auto_replace": true,
+    "human_reason": "R123: EN \"Duchess Angelica has had Iza restored to her\" — 이자 영주로서 본인 작위자(R94 원칙, 아자로 여공작과 동일). 공작부인 9:여공작 4였으나 원칙 우선."
+  },
+  {
+    "concept": "Duchess Angelica (짧은 형)",
+    "en": "Duchess Angelica",
+    "candidates": [
+      "안젤리카 여공작",
+      "안젤리카 공작부인"
+    ],
+    "human_standard": "안젤리카 여공작",
+    "human_auto_replace": true,
+    "human_reason": "R123 짧은 형."
+  },
+  {
+    "concept": "Duke Axel (악셀 대공)",
+    "en": "Duke Axel",
+    "candidates": [
+      "악셀 대공",
+      "악셀 공작"
+    ],
+    "human_standard": "악셀 대공",
+    "human_auto_replace": true,
+    "human_reason": "R124: 코퍼스 악셀 레이나르트 대공 51:악셀 공작 2; 레이나르트 대공 항목과 동일 인물·작위."
+  },
+  {
+    "concept": "Divus zaitu (리치아어 의례어)",
+    "en": "Divus zaitu",
+    "candidates": [
+      "디부스 자이투",
+      "Divus zaitu"
+    ],
+    "human_standard": "디부스 자이투",
+    "human_auto_replace": true,
+    "human_reason": "R116/R75: 리치아어 의례어 음차(메인 캠페인 그레지 소르들란드 선례). 한글 본문 로마자 잔존 일괄 치환."
+  },
+  {
+    "concept": "Bi mare volu (리치아어 의례어)",
+    "en": "Bi mare volu",
+    "candidates": [
+      "비 마레 볼루",
+      "Bi mare volu"
+    ],
+    "human_standard": "비 마레 볼루",
+    "human_auto_replace": true,
+    "human_reason": "R116/R75: 리치아어 의례어 음차(코퍼스 4줄 선례)."
+  },
+  {
+    "concept": "Ales Bay (알레스만)",
+    "en": "Ales Bay",
+    "candidates": [
+      "알레스만",
+      "알레스 만"
+    ],
+    "human_standard": "알레스만",
+    "human_auto_replace": true,
+    "human_reason": "R135: 코퍼스 3:2, 외래어 지명+만 붙여쓰기."
+  },
+  {
+    "concept": "Archsanctuary (대성소)",
+    "en": "Archsanctuary",
+    "candidates": [
+      "대성소",
+      "대신전"
+    ],
+    "human_standard": "대성소",
+    "human_auto_replace": true,
+    "human_reason": "R139: 코퍼스 대성소 160줄, 코덱스 베니에본 대성소; 대신전 14줄 잔존 통일."
+  },
+  {
+    "concept": "East Merkopa (동메르코파)",
+    "en": "East Merkopa",
+    "candidates": [
+      "동메르코파",
+      "동부 메르코파"
+    ],
+    "human_standard": "동메르코파",
+    "human_auto_replace": true,
+    "human_reason": "R144: 코퍼스 동메르코파 다수(대화 15:2, 에셋 34:12); 남메르코파(R88) 패턴과 통일."
+  },
+  {
+    "concept": "West Merkopa (서메르코파)",
+    "en": "West Merkopa",
+    "candidates": [
+      "서메르코파",
+      "서부 메르코파"
+    ],
+    "human_standard": "서메르코파",
+    "human_auto_replace": true,
+    "human_reason": "R144: 동/남메르코파 패턴 통일(코퍼스 4:2)."
+  },
+  {
+    "concept": "North Merkopa (북메르코파)",
+    "en": "North Merkopa",
+    "candidates": [
+      "북메르코파",
+      "북부 메르코파"
+    ],
+    "human_standard": "북메르코파",
+    "human_auto_replace": true,
+    "human_reason": "R144: 동/남메르코파 패턴 통일(코퍼스 1:4이나 방위+메르코파 붙여쓰기 원칙)."
+  },
+  {
+    "concept": "Duchess of Iza (이자 여공작)",
+    "en": "Duchess of Iza",
+    "candidates": [
+      "이자 여공작",
+      "이자 공작부인"
+    ],
+    "human_standard": "이자 여공작",
+    "human_auto_replace": true,
+    "human_reason": "R123 확장: 안젤리카 본인 작위(이자 영주)."
+  },
+  {
+    "concept": "Golden Shield (황금 방패)",
+    "en": "Golden Shield",
+    "candidates": [
+      "황금 방패",
+      "골든 실드"
+    ],
+    "human_standard": "황금 방패",
+    "human_auto_replace": true,
+    "human_reason": "R145: 작전/조직명 뜻풀이형(R74), 코퍼스 14:12."
+  },
+  {
+    "concept": "Agard (아가드)",
+    "en": "Agard",
+    "candidates": [
+      "아가드",
+      "아가르드"
+    ],
+    "human_standard": "아가드",
+    "human_auto_replace": true,
+    "human_reason": "R152: 코퍼스 15:11, 외래어 표기 간결형."
+  },
+  {
+    "concept": "Baroness de Rava (본인 작위)",
+    "en": "Baroness de Rava",
+    "candidates": [
+      "데 라바 여남작",
+      "데 라바 남작부인"
+    ],
+    "human_standard": "데 라바 여남작",
+    "human_auto_replace": true,
+    "human_reason": "R155: R94 본인 작위자 원칙(여공작·여백작과 동일). 코퍼스 선례 0이나 원칙 우선; 사용자 사후 확인 목록."
+  },
+  {
+    "concept": "Duchess Vina (비나 여공작)",
+    "en": "Duchess Vina",
+    "candidates": [
+      "비나 여공작",
+      "비나 공작부인"
+    ],
+    "human_standard": "비나 여공작",
+    "human_auto_replace": true,
+    "human_reason": "R94 본인 작위(몬키즈 여공작 서임)."
+  },
+  {
+    "concept": "Nurist (형용사형, 누리티)",
+    "en": "Nurist",
+    "candidates": [
+      "누리티",
+      "누리스트"
+    ],
+    "human_standard": "누리티",
+    "human_auto_replace": true,
+    "human_reason": "R158: Nurity=누리티교(172:8) 파생형 통일 — 누리티 공화국(코덱스), 누리티 신앙, 누리티 민족주의. 사람 지칭(누리티가)은 Task 15 확인."
+  },
+  {
+    "concept": "opposition speaker",
+    "en": "opposition speaker",
+    "candidates": [
+      "야당 대표",
+      "야당 의장"
+    ],
+    "human_standard": "야당 대표",
+    "human_auto_replace": true,
+    "human_reason": "R160: opposition speaker=야당 대표(코퍼스 d:312:477·d:422:119 선례), '야당 의장' 금지"
+  },
+  {
+    "concept": "Valgish (민족명 단독형)",
+    "en": "Valgish",
+    "candidates": [
+      "발그슬란드인",
+      "발그인",
+      "발그족",
+      "발기쉬"
+    ],
+    "human_standard": "발그슬란드인",
+    "human_auto_replace": true,
+    "human_reason": "R166: 메인 켐페인 11:6(발그계, 관형형 유지):2 — 단독 민족명은 발그슬란드인"
+  },
+  {
+    "concept": "Central Police",
+    "en": "Central Police",
+    "candidates": [
+      "중앙 경찰",
+      "중앙경찰"
+    ],
+    "human_standard": "중앙 경찰",
+    "human_auto_replace": true,
+    "human_reason": "R168: 코퍼스 25:16 다수형·띄어쓰기 원칙(R77)"
+  },
+  {
+    "concept": "Antacean Sea",
+    "en": "Antacean Sea",
+    "candidates": [
+      "안타케아해",
+      "안타시아해",
+      "안타세아해"
+    ],
+    "human_standard": "안타케아해",
+    "human_auto_replace": true,
+    "human_reason": "R172: 메인 8:3·코퍼스 18:2 다수형"
+  },
+  {
+    "concept": "Sordland (MT 오기 솔드랜드)",
+    "en": "Sordland",
+    "candidates": [
+      "소르들란드",
+      "솔드랜드"
+    ],
+    "human_standard": "소르들란드",
+    "human_auto_replace": true,
+    "human_reason": "R173: 메인 3635 대 24 — 솔드랜드는 MT 잔재"
+  },
+  {
+    "concept": "Sords (MT 오기 솔드인)",
+    "en": "Sords",
+    "candidates": [
+      "소르드인",
+      "솔드인"
+    ],
+    "human_standard": "소르드인",
+    "human_auto_replace": true,
+    "human_reason": "R173: 코퍼스 29 대 5"
+  },
+  {
+    "concept": "Trade Zone (단독형)",
+    "en": "Trade Zone",
+    "candidates": [
+      "무역지대",
+      "무역 지대"
+    ],
+    "human_standard": "무역지대",
+    "human_auto_replace": true,
+    "human_reason": "R183: 용어집 국제무역지대(붙임)와 통일, 코퍼스 153:23"
+  },
+  {
+    "concept": "Alka River",
+    "en": "Alka River",
+    "candidates": [
+      "알카강",
+      "알카 강"
+    ],
+    "human_standard": "알카강",
+    "human_auto_replace": true,
+    "human_reason": "R185: 코퍼스 16:1 붙임"
+  },
+  {
+    "concept": "Markian Sea",
+    "en": "Markian Sea",
+    "candidates": [
+      "마르키아해",
+      "마르키아 해"
+    ],
+    "human_standard": "마르키아해",
+    "human_auto_replace": true,
+    "human_reason": "R187: 해역명 붙임(코퍼스 8:0 외 배치 4)"
+  },
+  {
+    "concept": "head butler",
+    "en": "head butler",
+    "candidates": [
+      "수석 집사",
+      "집사장"
+    ],
+    "human_standard": "수석 집사",
+    "human_auto_replace": true,
+    "human_reason": "R110 보충: 코퍼스 24:4"
+  },
+  {
+    "concept": "Thornbourgh",
+    "en": "Thornbourgh",
+    "candidates": [
+      "토른부르크",
+      "손버러"
+    ],
+    "human_standard": "토른부르크",
+    "human_auto_replace": true,
+    "human_reason": "R192: 메인 48:30"
+  },
+  {
+    "concept": "Ventry City",
+    "en": "Ventry City",
+    "candidates": [
+      "벤트리 시티",
+      "벤트리시"
+    ],
+    "human_standard": "벤트리 시티",
+    "human_auto_replace": true,
+    "human_reason": "R193: 메인 11:2"
+  },
+  {
+    "concept": "Valgsland socialism",
+    "en": "Valgsland socialism",
+    "candidates": [
+      "발그슬란드 사회주의",
+      "발그슬란드식 사회주의"
+    ],
+    "human_standard": "발그슬란드 사회주의",
+    "human_auto_replace": true,
+    "human_reason": "R194: 메인 17:3"
+  },
+  {
+    "concept": "Rizian National Coalition (RNC)",
+    "en": "Rizian National Coalition",
+    "candidates": [
+      "리치아 국민 연합",
+      "리치아 국민연합"
+    ],
+    "human_standard": "리치아 국민 연합",
+    "human_auto_replace": true,
+    "human_reason": "R198: 코퍼스 63:6, R77 띄어쓰기"
+  },
+  {
+    "concept": "Bludish (민족)",
+    "en": "Bludish",
+    "candidates": [
+      "블루드족",
+      "블루드인"
+    ],
+    "human_standard": "블루드족",
+    "human_auto_replace": true,
+    "human_reason": "R201: 메인 470:153 — 메인 다수형 우선(이전 리치아 코퍼스 다수형 블루드인 결정 번복)"
+  },
+  {
+    "concept": "Wehzek language",
+    "en": "Wehzek (language)",
+    "candidates": [
+      "베흘렌어",
+      "웨흐제크어"
+    ],
+    "human_standard": "베흘렌어",
+    "human_auto_replace": true,
+    "human_reason": "R202: 메인 3:0"
+  }
+]

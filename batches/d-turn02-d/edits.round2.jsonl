@@ -1,0 +1,19 @@
+{"key": "d:302:158", "ko_new": "\"하! 동물권 운동가들에게 허락만 받는다면 말입니다.\"", "reason": "controller r2: register"}
+{"key": "d:302:237", "ko_new": "\"폐하께서 농담하신 것 같습니다. 하지만 역시 우리 모두 삼가는 게 좋겠습니다.\"", "reason": "controller r2: register"}
+{"key": "d:302:280", "ko_new": "\"어떻게 먹고살았습니까?\"", "reason": "controller r2: register"}
+{"key": "d:302:323", "ko_new": "\"다시 한번 환대에 감사합니다, 대장.\"", "reason": "controller r2: register"}
+{"key": "d:302:477", "ko_new": "\"폐하께서는 본인 가문의 역사를 이미 알고 계실 겁니다, 대장.\"", "reason": "controller r2: register"}
+{"key": "d:302:481", "ko_new": "\"그런... 물리 치료가 도움이 될 사람이 몇 명 떠오릅니다.\"", "reason": "controller r2: register"}
+{"key": "d:302:482", "ko_new": "\"물론 진심으로 하는 말은 아닙니다.\"", "reason": "controller r2: register"}
+{"key": "d:302:588", "ko_new": "\"그런 추측으로 폐하를 걱정시키지 마십시오, 고르디온 대장. 아자로 가문과 토라스 가문은 리치아 왕위계승전쟁 이래 가까운 동맹이었습니다.\"", "reason": "controller r2: register"}
+{"key": "d:302:684", "ko_new": "\"그렇다면 내 잔에도 따라 주십시오. 분위기를 망치고 싶지는 않습니다.\"", "reason": "controller r2: register"}
+{"key": "d:302:714", "ko_new": "\"대장이 와인 감식가인 줄은 몰랐습니다. 나도 한 잔 하겠습니다.\"", "reason": "controller r2: register"}
+{"key": "d:302:719", "ko_new": "\"아직 이른 시간입니다, 대장. 우리 모두 삼가는 게 어떻겠습니까.\"", "reason": "controller r2: register"}
+{"key": "d:302:519", "ko_new": "\"겸손은 강인함과 도덕적 품성의 표시입니다. 폐하께서도 그것을 드러내시는 걸 두려워하실 필요는 없습니다.\"", "reason": "controller r2: register"}
+{"key": "d:302:674", "ko_new": "\"제가 일을 제대로 한다면 폐하께서 그러실 필요는 영원히 없을 겁니다.\"", "reason": "controller r2: register"}
+{"key": "d:302:604", "ko_new": "\"그럼 내가 그대가 나를 지켜보기를 *원한다면*?\"", "reason": "controller r2: meaning"}
+{"key": "d:302:248", "ko_new": "\"평의회 사람들에게서 잠시 벗어나 진짜 평민과 이야기하고 싶었소. 그대의 관점은 늘 신선하오.\"", "reason": "controller r2: meaning"}
+{"key": "d:302:289", "ko_new": "\"알았소, 알았소... 그 얘기는 이미 들었소. 내가 모르는 걸 말해보시오.\"", "reason": "controller r2: consistency"}
+{"key": "d:302:33", "ko_new": "\"거 보시오. 그렇게 어렵지 않았잖소.\"", "reason": "controller r2: style"}
+{"key": "d:302:384", "ko_new": "\"제가 좋아서 한 일입니다.\"", "reason": "controller r2: style"}
+{"key": "d:302:265", "ko_new": "\"저는 포르테 드라촌에서 태어나 자랐습니다. 아버지는 군인이었고 어머니는 저와 형제자매들을 돌봤습니다.\"", "reason": "controller r2: consistency"}

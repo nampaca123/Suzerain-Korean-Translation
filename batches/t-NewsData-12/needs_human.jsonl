@@ -1,0 +1,8 @@
+{"key": "t:NewsData:0x010000C30001C014:/NewsProperties/Description", "reason": "누락 문단 복원 중 나온 새 인명 'Fabian Ibarra'(이자 시 선거 담당자). dialogue.jsonl/textassets.jsonl 어디에도 한국어 표기가 없어(로마자 3줄, 한글 0줄) 음차하지 않고 로마자 그대로 두었다. 한글 표기 확정 필요."}
+{"key": "t:NewsData:0x010000C30001C018:/NewsProperties/Description", "reason": "누락 문단 복원 중 나온 새 인명 'Fabian Ibarra'(이자 시 선거 담당자). dialogue.jsonl/textassets.jsonl 어디에도 한국어 표기가 없어(로마자 3줄, 한글 0줄) 음차하지 않고 로마자 그대로 두었다. 한글 표기 확정 필요."}
+{"key": "t:NewsData:0x010000C30001C01C:/NewsProperties/Description", "reason": "누락 문단 복원 중 나온 새 인명 'Fabian Ibarra'(이자 시 선거 담당자). dialogue.jsonl/textassets.jsonl 어디에도 한국어 표기가 없어(로마자 3줄, 한글 0줄) 음차하지 않고 로마자 그대로 두었다. 한글 표기 확정 필요."}
+{"key": "t:NewsData:0x010000C30001C020:/NewsProperties/Description", "reason": "누락 문단 복원 중 나온 새 인명 'Tomaso Elizagarai'(로열 헤럴드 수석 정치분석가). 코퍼스에 한국어 표기가 없어(로마자 3줄, 한글 0줄) 로마자 그대로 두었다. 한글 표기 확정 필요."}
+{"key": "t:NewsData:0x010000C30001C024:/NewsProperties/Description", "reason": "누락 문단 복원 중 나온 새 인명 'Tomaso Elizagarai'(로열 헤럴드 수석 정치분석가). 코퍼스에 한국어 표기가 없어(로마자 3줄, 한글 0줄) 로마자 그대로 두었다. 한글 표기 확정 필요."}
+{"key": "t:NewsData:0x010000C30001C028:/NewsProperties/Description", "reason": "누락 문단 복원 중 나온 새 인명 'Tomaso Elizagarai'(로열 헤럴드 수석 정치분석가). 코퍼스에 한국어 표기가 없어(로마자 3줄, 한글 0줄) 로마자 그대로 두었다. 한글 표기 확정 필요."}
+{"key": "t:NewsData:0x010000CA00000077:/NewsProperties/Description", "reason": "신문명 'Voice of Rizia' 표기 방식 쟁점. 지시대로 따옴표 없이 '리치아의 목소리'로 적었으나 코퍼스 textassets는 작은따옴표를 붙인 형태가 다수(67줄 중 45줄)다. 배치 밖 줄까지 포함한 일괄 방침 확정 필요."}
+{"key": "t:NewsData:0x010000CA00000082:/NewsProperties/Description", "reason": "같은 쟁점: 'Voice of Rizia'를 따옴표 없이 적었으나 코퍼스 다수는 작은따옴표 형태다. 일괄 방침 확정 필요."}

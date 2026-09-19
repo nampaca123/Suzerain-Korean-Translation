@@ -1,0 +1,21 @@
+{"key": "d:321:325", "ko_new": "\"하지만 애초에 그 유출을 허용한 건 누구였소, 살타나 총리? 이사회가 처음부터 더 나은 규제를 만들 수도 있었잖소.\"", "reason": "controller r2: register"}
+{"key": "d:321:360", "ko_new": "\"보시오, 헤겔 총리, 살타나 총리. 이념적 차이 때문에 우리가 만들어 낸 것을 지키지 못해서는 안 되오.\"", "reason": "controller r2: register"}
+{"key": "d:321:588", "ko_new": "\"그때와는 상황이 달랐소, 살타나 총리. 오늘은 훨씬 더 강하게 협상할 생각이오.\"", "reason": "controller r2: register"}
+{"key": "d:321:607", "ko_new": "\"그 점에는 동의하기 어렵소, 살타나 총리. 국내든 해외든 리치아 왕국은 언제나 책임 있는 채굴 관행을 지켜 왔소.\"", "reason": "controller r2: register"}
+{"key": "d:321:618", "ko_new": "\"진정하시오, 알바레츠 총리. 모렐라 총리와 의견이 다를 수는 있지만 그렇다고 그분을 깎아내릴 이유는 되지 않소.\"", "reason": "controller r2: register"}
+{"key": "d:321:692", "ko_new": "\"아주 훌륭한 일이오, 헤겔 총리. 하지만 리치아는 식민 제국이었던 적이 없소. 우리가 속죄해야 할 일은 없소.\"", "reason": "controller r2: register"}
+{"key": "d:321:589", "ko_new": "\"그걸 '합의'라고 부르지는 않겠소. 베흘렌이 우리 영토를 인질로 잡고 있는 거요.\"", "reason": "controller r2: meaning"}
+{"key": "d:321:226", "ko_new": "\"나는 웃음이 나오지 않소. 지금 이 방에 들어와 있는 것만으로도 다행인 줄 아시오.\"", "reason": "controller r2: meaning"}
+{"key": "d:321:345", "ko_new": "\"네 파트너 모두가 준수하도록 해야 합니다. 그렇지 않으면 그중 하나, 이를테면 레스피아가 부당한 이점을 얻을 수 있습니다.\"", "reason": "controller r2: style"}
+{"key": "d:321:609", "ko_new": "\"유감이지만 우리 정부는 MITZ 계약을 겉만 조금 손보는 수준으로는 만족하지 않을 겁니다.\"", "reason": "controller r2: register"}
+{"key": "d:321:837", "ko_new": "우리는 리셉션 홀 무대로 돌아가 살타나 총리의 발표를 기다렸다.", "reason": "controller r2: consistency"}
+{"key": "d:321:223", "ko_new": "\"여기 계신 로무스 국왕 폐하께서는 우리나라의 지도자이십니다. 폐하께서 논의가 필요하다고 하시면 필요한 겁니다.\"", "reason": "controller r2: register"}
+{"key": "d:321:888", "ko_new": "\"폐하께서는 국왕이십니다. 폐하의 직감을 믿습니다.\"", "reason": "controller r2: register"}
+{"key": "d:321:879", "ko_new": "\"이번 일에 팔레 가스전 문제를 처리하신 것까지 보니, 폐하께서 거의 마음에 들기 시작합니다. 거의 그렇습니다.\"", "reason": "controller r2: register"}
+{"key": "d:321:175", "ko_new": "\"이 귀중한 자원을 나누는 데 따른 협력은, 그리고 그렇습니다, 경쟁은 우리 나라들을 더 가까워지게 했을 뿐 아니라 어느 한 나라가 혼자서는 이루지 못했을 수준의 혁신을 촉진했습니다.\"", "reason": "controller r2: style"}
+{"key": "d:321:104", "ko_new": "\"흠. 누가 몇 순위인지 확실히 보여 줍니다, 그렇지 않습니까?\"", "reason": "controller r2: style"}
+{"key": "d:321:723", "ko_new": "\"살타나 총리를 존중하지만, 그 정부는 아직 검증된 것이 전혀 없소. 그런 막대한 자원을 맡기는 것은 우려스럽소.\"", "reason": "controller r2: style"}
+{"key": "d:321:186", "ko_new": "\"국제무역지대를 국유화해서는 안 되오. 더 나아가 현재의 자원·수익 분배 협정 역시 어떤 식으로도 바꿔서는 안 된다고 보오.\"", "reason": "controller r2: glossary"}
+{"key": "d:321:370", "ko_new": "\"토라스 씨, 국제연합에서 했던 말을 진심으로 한 거라면 이런 의견은 고려조차 해서는 안 됩니다.\"", "reason": "controller r2: meaning"}
+{"key": "d:321:546", "ko_new": "\"아니오, 우린 한편이 아니오. 헤겔과 그 꼭두각시에게 듣고 싶어 하는 말을 해줬을 뿐이오.\"", "reason": "controller r2: register"}
+{"key": "d:321:152", "ko_new": "\"아니오, 이사회에 질문이 몇 가지 더 있소.\"", "reason": "controller r2: register"}

@@ -1,0 +1,51 @@
+{"key": "d:416:121", "ko_new": "\"좋습니다. 전쟁이 끝난 뒤의 번영이 기다려집니다.\"", "reason": "합쇼체 화자 러스티의 해요체 종결 \"-군요\"를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:186", "ko_new": "\"이상할 정도로 구체적인 예시입니다. 그래도 동의합니다.\"", "reason": "합쇼체 화자의 앞 문장 \"-군요\"를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:875", "ko_new": "\"이제야 말이 통합니다! 거래 성립입니다.\"", "reason": "합쇼체 화자의 \"-군요\"를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:964", "ko_new": "\"아... 그렇습니까. 알겠습니다.\"", "reason": "합쇼체 화자의 \"-군요\"를 합쇼체 확인 의문형으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:1128", "ko_new": "\"진정한 자본가가 되어가십니다. 이보다 더 자랑스러울 수 없습니다.\"", "reason": "합쇼체 화자의 \"-군요\"를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:645", "ko_new": "\"연결이 방금 끊긴 것 같습니다만. 뭐라고 하셨습니까?\"", "reason": "합쇼체 화자의 \"-는데요\"를 같은 배치의 선례대로 \"-습니다만\"으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:236", "ko_new": "\"직접 만나신다는 말씀입니까? 그 빨갱이에게 정말 시간을 내주실 겁니까?\"", "reason": "합쇼체 화자의 \"-다고요\" 되묻기를 합쇼체 의문형으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:955", "ko_new": "\"어리석다는 말씀입니까? 지금 저는 폐하를 믿고 모험을 거는 겁니다.\"", "reason": "합쇼체 화자의 \"-다고요\" 되묻기를 합쇼체 의문형으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:577", "ko_new": "\"비밀 하나를 말씀드리겠습니다. 모든 서류의 백업본을 만들어뒀습니다. 제 경비들조차 어디에 보관했는지 모릅니다.\"", "reason": "\"말씀드리죠\"는 청유가 아니라 1인칭 의지이므로 합쇼체 \"말씀드리겠습니다\"로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:583", "ko_new": "\"하지만 비밀 하나를 말씀드리겠습니다. 모든 서류의 백업본을 만들어뒀습니다. 저보다 똑똑한 사람이 해독하기만 하면 전부 거기에 있습니다.\"", "reason": "\"말씀드리죠\"는 청유가 아니라 1인칭 의지이므로 합쇼체 \"말씀드리겠습니다\"로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:274", "ko_new": "\"아무것도 없습니다, 폐하. 모두에게 이득인 상황 아닙니까.\"", "reason": "명사+\"요\" 해요체 조각을 합쇼체 완결문으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:146", "ko_new": "\"벌써 새 턱시도도 주문했습니다. 갈색으로 골랐습니다. 수프를 흘려도 티 안 나게 말입니다.\"", "reason": "해요체 조각 \"갈색으로요\"를 합쇼체 완결문으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:1163", "ko_new": "\"원하시는 건 뭐든 하겠습니다. 말씀만 하십시오.\"", "reason": "해요체 조각 \"뭐든지요\"를 합쇼체 완결문으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:860", "ko_new": "\"제가 빌려드린 그 모든 돈은 말할 것도 없습니다...\"", "reason": "합쇼체 화자의 \"-고요\" 종결을 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:147", "ko_new": "\"자랑스러운 데다 실용적이기까지 합니다. 감탄하지 않을 수 없습니다.\"", "reason": "종결어미 없는 조각문이 반말처럼 읽혀 합쇼체 완결문으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:998", "ko_new": "\"폐하도 끼고 싶어 하실 줄 알았습니다! 장담합니다, 폐하. 이건 판도를 바꿀 겁니다.\"", "reason": "연결어미 \"-는데\"로 끝나 반말로 읽히던 문장을 합쇼체 종결로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:495", "ko_new": "\"이런! 궁금해하는 것까지 뭐라 하실 순 없잖습니까.\"", "reason": "국왕에게 쓸 수 없는 해요체 호격 \"이봐요\"를 감탄사로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:741", "ko_new": "\"이거 보십시오, 그때는 제가 뭘 하는지도 전혀 몰랐습니다. 페이퍼 컴퍼니 안에 또 페이퍼 컴퍼니가 있고, 그런 식이었습니다...\"", "reason": "해요체 호격 \"이봐요\"를 합쇼체 환기 표현으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:1133", "ko_new": "\"이거 보십시오, 이게 저한테만 이득이 되는 건 아니잖습니까. 우린 한배를 탄 겁니다. 아니, 그런 줄 알았습니다.\"", "reason": "해요체 호격 \"이봐요\"를 합쇼체 환기 표현으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:761", "ko_new": "\"이러지 마십시오. 레스피아가 제게 뭘 할 수 있겠습니까? 제 운명은 그들 손이 아니라 폐하 손에 있습니다.\"", "reason": "해요체 호격 \"이보세요\"를 같은 영문 \"Come on.\"의 d:416:1181 선례대로 \"이러지 마십시오\"로 맞췄다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:1178", "ko_new": "\"말 그대로 *무엇이든 말입니다.\"", "reason": "종결어미 없는 조각문을 합쇼체 완결문으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:556", "ko_new": "\"제 비밀 말씀입니까? 저는...\"", "reason": "해요체 되묻기를 합쇼체로 바꾸고 같은 영문인 d:416:725와 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:725", "ko_new": "\"제 비밀 말씀입니까? 저는...\"", "reason": "해요체 되묻기를 합쇼체로 바꾸고 같은 영문인 d:416:556과 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:558", "ko_new": "\"배신 말씀입니까? 저는...\"", "reason": "같은 꼴의 명사+\"요\" 되묻기를 d:416:556과 같은 기준으로 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:559", "ko_new": "\"감옥 말씀입니까? 저는...\"", "reason": "같은 꼴의 명사+\"요\" 되묻기를 d:416:556과 같은 기준으로 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:560", "ko_new": "\"의심이 많다는 말씀입니까, 폐하? 저는...\"", "reason": "같은 꼴의 \"-다니요\" 되묻기를 d:416:556과 같은 기준으로 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:1024", "ko_new": "\"다시 생각해 보니 솔깃한 제안이오... 게다가 레스피아의 보복에서 그대를 지켜줄 자원도 내게 있소.\"", "reason": "한 대사 안 반말 \"-이군\"을 뒤 문장과 같은 하오체로 맞췄다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:416:873", "ko_new": "\"내 하느님의 왕국에도 재정 정책은 필요할 거요. 때가 되면 그대를 합당한 자리로 올려주겠소.\"", "reason": "같은 영문인 d:416:773과 문구를 통일하고 이 대화의 다수 표기 \"하느님\"을 따랐다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:109", "ko_new": "\"질레로 가신다고 들었습니다만. 우리 광산이 어떤 꼴인지 빨리 보고 싶습니다.\"", "reason": "영문의 확인 의문 어조가 평서문으로 죽어 있어 \"-습니다만\"으로 되살렸다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:156", "ko_new": "\"베흘렌인들이 저 위에서 난리를 쳤다고 들었습니다만. 아, 뭐 이해는 갑니다.\"", "reason": "영문의 확인 의문 어조가 평서문으로 죽어 있어 d:416:109과 같은 방식으로 되살렸다.", "flags_resolved": []}
+{"key": "d:416:170", "ko_new": "\"그들이라면 정말로 할 겁니다. 아시지 않습니까.\"", "reason": "영문의 의지(\"they'd do it\")가 능력(\"할 수 있다\")으로 바뀐 것을 바로잡았다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:416:368", "ko_new": "\"그건 감사합니다. 시간이 좀 걸릴 수는 있어도 반드시 성과가 나올 겁니다.\"", "reason": "성과를 보는 주체가 폐하인데 러스티의 1인칭 의지로 읽히던 문장을 원문대로 바로잡았다.", "flags_resolved": []}
+{"key": "d:416:94", "ko_new": "\"이야기해 봅시다. 소텔라토가 권력을 잡는다 해도 그대와 회사가 자동으로 끝장나는 건 아니오.\"", "reason": "한 문장에 \"그대\"가 두 번 나와 번역투로 읽혀 원문만큼만 남겼다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:416:338", "ko_new": "\"그대나 그 회사에 악감정이 있어서가 아니오. 파업자들이 리치아의 모든 사업을 방해하고 있었소.\"", "reason": "한 문장에 \"그대\"가 두 번 나와 번역투로 읽혀 원문만큼만 남겼다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:416:654", "ko_new": "\"그렇다고 말해주고 싶지만 그럴 수 없소. 그대가 RRG를 계속 이끄는 한 안보상 위험 요소나 다름없소.\"", "reason": "\"위험요소요\"가 해요체로 오독되기 쉬워 재구성하고 \"위험 요소\"를 띄어 썼다.", "flags_resolved": ["romus_haeyo", "pronoun_dangsin"]}
+{"key": "d:416:1017", "ko_new": "\"정말 감사합니다, 폐하. 반드시 해내겠다고 약속드립니다.\"", "reason": "같은 영문인 d:416:666과 통일하고 빠진 \"promise\"를 살렸다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:1079", "ko_new": "\"그건 이미 다 알고 있소. 레스피아가 우리를 무너뜨리려 했다는 것도 알고 있었소?\"", "reason": "같은 영문인 d:416:576과 시제·어휘를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:947", "ko_new": "\"팔란토르에 있는 제 경비들 중 절반 정도는 제가 믿는 사람들입니다. 나머지는, 글쎄요... 애초에 저를 위해 일한 적이 없는 것 같습니다.\"", "reason": "같은 영문인 d:416:591과 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:1048", "ko_new": "\"좋습니다, 폐하. 신호를 기다리겠습니다.\"", "reason": "같은 영문인 d:416:922·1171과 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:923", "ko_new": "\"마음이 바뀌시면 전화기 옆에 있겠습니다.\"", "reason": "같은 영문인 d:416:1172와 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:1049", "ko_new": "\"마음이 바뀌시면 전화기 옆에 있겠습니다.\"", "reason": "같은 영문인 d:416:1172와 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:75", "ko_new": "전화기 너머에서 잡음이 한차례 터졌다.", "reason": "같은 영문인 d:416:794·800과 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:578", "ko_new": "그의 목소리에는 절박함이 배어 있었다.", "reason": "같은 영문인 d:416:747·750과 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:1063", "ko_new": "나는 여전히 수화기를 든 채 루시타에게 전화를 걸어 루셀로 몬토로를 특별 보호하라고 명령했다.", "reason": "같은 영문인 d:416:696과 어순·용어를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:1064", "ko_new": "나는 여전히 수화기를 든 채 티투스에게 전화를 걸어 루셀로 몬토로를 특별 보호하라고 명령했다.", "reason": "같은 영문인 d:416:697과 어순·용어를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:1065", "ko_new": "나는 여전히 수화기를 든 채 타데우스에게 전화를 걸어 루셀로 몬토로를 특별 보호하라고 명령했다.", "reason": "같은 영문인 d:416:698과 어순·용어를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:834", "ko_new": "\"심각한 일이 아니었다면 전화드리지 않았을 겁니다. 폐하께서 처리하시리라 믿습니다.\"", "reason": "같은 영문인 d:416:286과 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:928", "ko_new": "\"그 대가로 가끔 RRG가 그 협력자들과... 여러 다른 당사자들 사이에서 자금을 중개하도록 허용했습니다.\"", "reason": "같은 영문인 d:416:573과 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:929", "ko_new": "\"경력 초기에 몇몇 국제적인 협력자들이 제 야망을 눈여겨보고 도움을 제안했습니다.\"", "reason": "같은 영문인 d:416:574와 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:932", "ko_new": "\"그러니까 지금까지 줄곧 내 뒤에서 레스피아를 위해 일해왔다는 말이오?\"", "reason": "같은 영문인 d:416:1077과 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:416:991", "ko_new": "그는 목소리를 낮췄다.", "reason": "같은 영문인 d:416:731과 문구를 통일했다.", "flags_resolved": ["same_en_diff_register"]}

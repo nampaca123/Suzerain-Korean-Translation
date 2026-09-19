@@ -1,0 +1,13 @@
+{"key": "d:562:240", "ko_new": "\"그대가 장단을 맞추시든 말든 결과는 똑같소.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:563:67", "ko_new": "\"'가장 격렬했던 소요 시기' 말씀이십니까? 리치아 왕위계승전쟁이라고 하겠습니다.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:563:82", "ko_new": "\"리치아 왕위계승전쟁 말씀이십니까? 음, 이상하게 들릴 수도 있지만 예술과 과학에 오래가는 영향을 남겼다고 해야겠습니다...\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:563:234", "ko_new": "\"그리고 가문의 다른 이들은 모르게 움직인 몇몇 개인이 저지른 일을 제외하면, 저희는 그 자비에 매일 보답해왔습니다. 그 점만은 기억해 주십시오.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:563:117", "ko_new": "\"아닙니다, 카를로스... 폐하께서는 토라스 가문과 아자로 가문 사이에 맺어진 유대를 말씀하시는 것 같습니다. 오늘날까지 이어져 온 동맹 말입니다.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:563:111", "ko_new": "\"왕위계승전쟁 말씀이십니까, 폐하?\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:562:6", "ko_new": "\"오늘부로 휴고 토라스는 더 이상 작위를 보유하지 않는다. 리카르두스와 후베르투스도 마찬가지다.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:562:11", "ko_new": "\"이 순간부터 휴고 토라스의 모든 권리와 특권, 귀족 지위를 박탈한다.\"", "reason": "r3 controller: reviewer r2 warn 반영 (선포문 해라체 유지, 2인칭 제거)", "flags_resolved": []}
+{"key": "d:562:165", "ko_new": "\"비겁함이라?!\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:564:465", "ko_new": "\"어떻게 저한테 이러실 수 있습니까? \"*우리*한테?\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:562:277", "ko_new": "티투스의 얼굴에 잠깐 망설임이 스쳤지만, 그는 숨을 가다듬고 방아쇠를 당겼다.", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:564:510", "ko_new": "나는 다른 사람들을 돌아봤다.", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:564:496", "ko_new": "앙투안의 병력은 한순간도 망설이지 않고 그들에게 수갑을 채웠다.", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}

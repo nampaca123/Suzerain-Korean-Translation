@@ -1,0 +1,2 @@
+{"key": "t:SituationData:0x0100006500006931:/SituationProperties/Description", "reason": "영문 \"armed forces\"의 표준 표기가 용어집에서 (needs_human)이라 리치아군/리치아 육군 중 하나를 고르지 않고 일반명사 \"군\"으로 두었다. 화계 교정은 edits.jsonl에 냈다."}
+{"key": "t:SituationData:0x0100008E000027F5:/SituationProperties/Description", "reason": "영문 \"armed forces\"의 표준 표기가 용어집에서 (needs_human)이라 기존 표기 \"군\"을 그대로 유지했다. 화계 교정은 edits.jsonl에 냈다."}

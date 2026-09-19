@@ -1,0 +1,1 @@
+{"en": "PLAY TUTORIAL", "ko": "튜토리얼 진행", "kind": "기타", "reason": "선택지에 남아 있던 영문 UI 태그 [PLAY TUTORIAL]을 한국어로 옮겼다. 코퍼스에 이 태그의 한글 사례는 없으나 \"튜토리얼\"은 이미 쓰이는 표기이고(전쟁 튜토리얼, 튜토리얼 시작 등 3줄), Start the Tutorial=\"튜토리얼 시작\" 선례에 맞춰 \"튜토리얼 진행\"으로 적었다.", "keys": ["t:DecisionData:0x0100009A0000A55C:/DecisionProperties/Options[0]/Text"]}

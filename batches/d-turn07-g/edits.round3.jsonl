@@ -1,0 +1,19 @@
+{"key": "d:394:72", "ko_new": "\"요즘 그 포도원에서 새 와인이 많이 나오지는 않습니다. 기억이 맞다면 금광 때문에 토양이 손상된 탓입니다.\"", "reason": "controller r2: token"}
+{"key": "d:394:458", "ko_new": "\"그렇다면 더더욱 대공과 결혼해야지, 얘야. 베아트리체 여왕께서 우리에게 계속 화가 나 계시면 안 되잖니.\"", "reason": "controller r2: token"}
+{"key": "d:394:459", "ko_new": "\"그렇다면 더더욱 대공과 결혼해야지, 얘야. 베아트리체 여왕의 표정이 어떨지 상상해 보렴.\"", "reason": "controller r2: token"}
+{"key": "d:394:525", "ko_new": "\"이해하기 어려운 일이 아니다, 비나. 굳은 이상만 붙잡고 실패한 채 죽든가, 대공과 결혼해서 상상도 못 할 부와 권력을 손에 넣든가 하는 거다.\"", "reason": "controller r2: token"}
+{"key": "d:394:545", "ko_new": "\"어머니, 그러지 마세요. 잘생긴 대공과 결혼하는 게 무슨 벌이라도 되는 것처럼 말씀하시네요.\"", "reason": "controller r2: token"}
+{"key": "d:394:650", "ko_new": "\"우선 대공에게 기회를 줘봐. 의외의 모습을 보여줄지도 모르잖니.\"", "reason": "controller r2: token"}
+{"key": "d:394:757", "ko_new": "\"얘야, 네가 그 잘생긴 대공과 결혼하기 싫다면 내가 데려가마.\"", "reason": "controller r2: token"}
+{"key": "d:394:334", "ko_new": "\"휴고 숙부님은요? 가만히 앉아서 두고 보진 않을 텐데요.\"", "reason": "controller r2: glossary"}
+{"key": "d:394:450", "ko_new": "\"휴고 숙부님이 너무 언짢아하지 않으면 좋겠네요.\"", "reason": "controller r2: glossary"}
+{"key": "d:394:972", "ko_new": "\"개혁의 필요성을 다른 사람들에게 설득하려면 제 도움이 필요할 거예요. 특히 휴고 숙부님께요.\"", "reason": "controller r2: glossary"}
+{"key": "d:394:217", "ko_new": "\"동의해요. 좀 더 즐거운 주제로 넘어가죠.\"", "reason": "controller r2: register"}
+{"key": "d:394:65", "ko_new": "\"나보다 훨씬 우아하게 나이를 먹었겠네.\"", "reason": "controller r2: consistency"}
+{"key": "d:394:442", "ko_new": "\"오늘 저녁도 평소처럼 훌륭했네, 파벨.\"", "reason": "controller r2: consistency"}
+{"key": "d:394:250", "ko_new": "\"빌어먹을, 지금은 안전한 것도 아니잖아요?!\"", "reason": "controller r2: style"}
+{"key": "d:394:135", "ko_new": "\"뭐라고? 국왕에게 먼저 혼인을 청하지도 않고 감히 결혼 이야기를 꺼내?\"", "reason": "controller r2: style"}
+{"key": "d:394:477", "ko_new": "\"그들은 발고스 제국을 위해 대륙들을 약탈했고, 그 뒤에는 서방이 재물을 퍼부어 줬어요. 그런데 왜 이제 리치아 공주와의 혼인까지 보상으로 받아야 하죠?\"", "reason": "controller r2: style"}
+{"key": "d:394:112", "ko_new": "\"우리 룸부르크 동맹국을 깎아내리지 마세요. 지금 우리에게 절실한 지원을 주고 있어요.\"", "reason": "controller r2: meaning"}
+{"key": "d:394:101", "ko_new": "\"내가 잊었나 본데. 이제 몬키즈의 갑각류도 룸부르크 소유가 된 건가?\"", "reason": "controller r2: meaning"}
+{"key": "d:394:753", "ko_new": "\"휴고 숙부님은 내가 너더러 그분 아들과 결혼하라고 밀어붙이지 않았다며 꽤 화내시겠구나.\"", "reason": "controller r2: style"}

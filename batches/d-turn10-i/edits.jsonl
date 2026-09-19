@@ -1,0 +1,6 @@
+{"key": "d:349:762", "ko_new": "\"토라스와 아자로 왕조가 하나로 합쳐졌고 대의회도 군사 본부로 전환됐으니, 군주-군부 동맹에 관한 논의를 다시 꺼낼 때가 된 것 같소.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:349:714", "ko_new": "\"원칙을 지키시는 분이라는 게 좋습니다만, 가끔은 정말 속이 터집니다.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:349:439", "ko_new": "\"제 사랑하는 약혼자는 자신이 왕세녀 부군이든 아니든 전혀 신경 쓰지 않아요. 하지만 그 집안은 다르죠.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:349:524", "ko_new": "\"통치해야 한다는 압박이 머리 위에 없으니 {RiziaDLCText.KingsSon}, 그 아이는 평범한 어린 시절을 보낼 수 있을지도 모르오. 거의 질투가 날 지경이오.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:349:525", "ko_new": "\"내가 예언에 나온 국왕이 아닐지도 모른다는 생각이 들기 시작했소. 하지만 {RiziaDLCText.KingsSon}, 그 아이가 그 국왕이 될 거요.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:349:544", "ko_new": "\"{RiziaDLCText.KingsSon}. 완벽한 이름입니다.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}

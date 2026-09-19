@@ -1,0 +1,19 @@
+{"key": "d:311:139", "ko_new": "\"아주... 현대적이오.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:311:140", "ko_new": "\"숨이 멎을 만큼 대단하오.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:311:358", "ko_new": "\"아닙니다, 그러지 않을 겁니다. 그들에게는 우리의 가스가 필요하니 말입니다.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:311:592", "ko_new": "\"아닙니다, 이 대화는 끝났습니다. 강제로 인정하게 되지 않는 한 팔레는 가스전에 대한 리치아의 권리를 인정하지 않을 겁니다.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:311:689", "ko_new": "\"아닙니다, 그러지 않을 겁니다. 그들에게 우리 가스가 필요한 동안은 그럴 수 없습니다.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:311:328", "ko_new": "\"아니오. 아니오, 아마 그렇지는 않았겠소.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:311:664", "ko_new": "\"아니오. 아니오, 아마 그렇지는 않았겠소.\"", "reason": "r3 controller: reviewer r2 block 반영", "flags_resolved": []}
+{"key": "d:311:196", "ko_new": "\"불쌍한 자들이오.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:64", "ko_new": "\"아직 대장 부친의 원수를 갚을 기회가 있을지도 모르오.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:135", "ko_new": "\"저도 그렇습니다.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:184", "ko_new": "\"그 점을 인정해 주셔서 감사합니다. 하지만 달라지는 건 없습니다.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:665", "ko_new": "\"나라면 레스피아에 손을 벌리기 전에 그렇게 했을 거요.\"", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:48", "ko_new": "그는 의자에 기대앉아 나를 유심히 살폈다.", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:443", "ko_new": "레이나르트 대공은 얼굴을 찌푸렸다.", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:187", "ko_new": "레이나르트 대공의 비서가 문을 열었다. 공작은 자리에서 일어나 나에게도 일어나라는 손짓을 했다.", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:357", "ko_new": "그는 나를 바라보며 눈빛을 굳혔다.", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:370", "ko_new": "그는 나를 바라보며 눈빛을 굳혔다.", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:375", "ko_new": "그는 나를 바라보며 눈빛을 굳혔다.", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}
+{"key": "d:311:474#menu", "ko_new": "\"사실 중재 절차가 진행되는 동안 팔레가 가스전을 더 침범하지 못하도록 해군 증원군을 보내고 있소.\" [해군 파견, +1 권위]", "reason": "r3 controller: reviewer r2 warn 반영", "flags_resolved": []}

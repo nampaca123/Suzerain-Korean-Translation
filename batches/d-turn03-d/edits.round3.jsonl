@@ -1,0 +1,5 @@
+{"key": "d:310:180", "ko_new": "\"제가 먼저 연락드린다면 그럴 일도 없겠습니다만, 그렇지 않습니까?\"", "reason": "r3 controller: reviewer r2 block 반영(meaning)", "flags_resolved": []}
+{"key": "d:310:146", "ko_new": "\"규제를 거부하는 대가로 RRG 지분을 더 주겠다는 말이오? 내가 그대를 잘 몰랐다면 정부에 뇌물을 주려는 줄 알았겠소.\"", "reason": "r3 controller: reviewer r2 warn 반영(register)", "flags_resolved": []}
+{"key": "d:310:103", "ko_new": "\"하지만 국가(國歌) 제목에까지 들어가는 자원은 금뿐입니다.\"", "reason": "r3 controller: reviewer r2 warn 반영(meaning)", "flags_resolved": []}
+{"key": "d:310:314", "ko_new": "\"그저 저희가 늘 해 오던 방식대로 운영하게 두십시오. 나머지는 저희가 알아서 하겠습니다.\"", "reason": "r3 controller: reviewer r2 warn 반영(consistency)", "flags_resolved": []}
+{"key": "d:310:377", "ko_new": "\"오해하진 마십시오, 폐하. 제 개인 재정은 아무 문제 없습니다. 제가 걱정하는 건 폐하의 수입원입니다.\"", "reason": "r3 controller: reviewer r2 warn 반영(style)", "flags_resolved": []}

@@ -1,0 +1,26 @@
+{"key": "d:328:40", "ko_new": "\"발레로 국왕이 돌아가신 밤, 고르디온 대장은 그분의 침실을 경비하는 임무를 맡고 있었습니다.\"", "reason": "controller r2: register"}
+{"key": "d:328:68", "ko_new": "\"발레로 국왕이 돌아가시기 전 한동안 파벨의 행방을 확인할 수 없는 상당한 공백이 있었습니다.\"", "reason": "controller r2: register"}
+{"key": "d:328:96", "ko_new": "\"폐하, 여러 출처에서 대현사가 국왕이 돌아가신 밤 그분의 침실을 방문했다는 사실을 확인했습니다.\"", "reason": "controller r2: register"}
+{"key": "d:328:32", "ko_new": "\"왕대비께서는 그날 밤 만찬에 계셨습니다. 이후 티투스 고르디온의 확인에 따르면, 선왕의 방 문을 여신 뒤 그분이 의식을 잃으셨다고 즉시 금위대에 알리셨습니다.\"", "reason": "controller r2: register"}
+{"key": "d:328:231", "ko_new": "\"왕대비께서는 그날 저녁 식사 자리에 계셨습니다. 이후 제가 직접 목격했듯, 선왕의 방 문을 여신 뒤 그분이 의식을 잃으셨다고 즉시 금위대에 알리셨습니다.\"", "reason": "controller r2: register"}
+{"key": "d:328:815", "ko_new": "\"하지만 폐하도 잘 아시듯, 그 무렵 발레로 국왕께서 믿으시는 사람은 거의 아무도 없었습니다.\"", "reason": "controller r2: register"}
+{"key": "d:328:816", "ko_new": "\"하지만 발레로 국왕께서 생애 그 시기에 편집증을 보이셨다는 사실은 잘 기록되어 있습니다.\"", "reason": "controller r2: register"}
+{"key": "d:328:473", "ko_new": "\"그분을 경호하도록 배정된 제 금위대원 한 명이 확인했습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:328:329", "ko_new": "\"흥미로운 점은 그 만남을 빼면 목격자들이 묘사한 선왕의 행동이 평소보다 특별히 더 종교적이지는 않았다는 겁니다.\"", "reason": "controller r2: meaning"}
+{"key": "d:328:336", "ko_new": "\"어떤 주에는 예배조차 빠지곤 했습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:328:811", "ko_new": "\"그게 말입니다...\"", "reason": "controller r2: register"}
+{"key": "d:328:813", "ko_new": "\"그게 말입니다...\"", "reason": "controller r2: register"}
+{"key": "d:328:783", "ko_new": "\"그 하녀가 그럴 이유는 없어 보입니다. 다만...\"", "reason": "controller r2: style"}
+{"key": "d:328:784", "ko_new": "\"그 하녀가 기억한 말은 그것뿐입니다.\"", "reason": "controller r2: style"}
+{"key": "d:328:620", "ko_new": "\"'그 여자'가 아닙니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:328:624", "ko_new": "\"사실, 폐하. 그 '여자'는 *남자*입니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:328:918", "ko_new": "\"뭐. 그 여자의 행동은 칸투아보 가문에 알릴 가치도 없소.\"", "reason": "controller r2: consistency"}
+{"key": "d:328:56", "ko_new": "\"참으로 걱정스러운 소식이오. 나는 늘 티투스를 충직한 수호자로 여겨왔소.\"", "reason": "controller r2: glossary"}
+{"key": "d:328:29", "ko_new": "\"아버지가 돌아가신 밤에 어머니가 어디 계셨는지 세세히 말해 주시오.\"", "reason": "controller r2: register"}
+{"key": "d:328:767", "ko_new": "\"저녁 식사는 사망 시각보다 몇 시간 전이었소. 휴고가 어떻게 아버지를 죽일 수 있었겠소?\"", "reason": "controller r2: style"}
+{"key": "d:328:770", "ko_new": "\"지효성 독을 먹였을 수도 있습니다. 계단에서든, 국왕을 침실까지 모시는 동안이든 말입니다.\"", "reason": "controller r2: register"}
+{"key": "d:328:775", "ko_new": "\"지효성 독을 먹였을 수도 있습니다. 계단에서든, 국왕을 침실까지 모시는 동안이든 말입니다.\"", "reason": "controller r2: register"}
+{"key": "d:328:694", "ko_new": "하지만 티투스의 의심이 사실이라면 중요한 의문이 생길 수밖에 없었다... 내 측근 중 대체 누구를 믿을 수 있는가?", "reason": "controller r2: style"}
+{"key": "d:328:700", "ko_new": "그리고 내 의심이 사실로 드러난다면 이런 의문이 생길 수밖에 없었다... 내 측근 중 누구를 믿을 수 있는가?", "reason": "controller r2: style"}
+{"key": "d:328:899", "ko_new": "\"다음으로 넘어가시지요.\"", "reason": "controller r2: style"}
+{"key": "d:328:117", "ko_new": "\"휴고가 명백한 제1용의자요. 조사는 휴고에게 집중하시오.\"", "reason": "controller r2: consistency"}

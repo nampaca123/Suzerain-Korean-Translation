@@ -1,0 +1,3 @@
+{"key": "d:290:25", "flag": "romus_mixed_register", "reason": "\"공평해 보이지 않는군.\" 독립 감탄(체크리스트 10 예외)(컨트롤러 확인)"}
+{"key": "d:290:63", "flag": "romus_mixed_register", "reason": "한 줄 안에서 비나(해라체)와 루시타(하오체)에게 각각 말함 — R71b 실제 청자 기준(컨트롤러 확인)"}
+{"key": "d:291:12", "flag": "narration_not_declarative", "reason": "묘사 나레이션의 체언 종결 열거(\"…천장. …탁자. …의자.\") — 서술체 위반 아님(컨트롤러 확인)"}

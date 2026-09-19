@@ -1,0 +1,5 @@
+{"key": "t:NewsData:0x010000A100003438:/NewsProperties/Title", "reason": "WHR(Watchtower of Human Rights)를 용어집 표준 '인권감시단'으로 고쳤으나, 배치 밖 코퍼스에 '인권감시탑' 12줄이 그대로 남아 있다. 전역 통일 여부를 사람이 확정해야 한다."}
+{"key": "t:NewsData:0x010000A10000352B:/NewsProperties/Description", "reason": "Voice of Rizia를 코퍼스 다수형 '리치아의 목소리'(60줄)로 통일했으나, 배치 밖 코퍼스에 음차형 '보이스 오브 리치아' 11줄이 남아 있다. 전역 정리 여부를 사람이 확정해야 한다."}
+{"key": "t:NewsData:0x010000A100002BC9:/NewsProperties/Description", "reason": "시위 구호 \"Sing Sing No To The King!\"의 현재 한국어 \"노래하자, 국왕은 싫다고!\"는 코퍼스 선례가 없는 운율 의역이다. 원문의 각운을 살린 구호 표기를 사람이 확정해야 한다."}
+{"key": "t:NewsData:0x010000A100002E67:/NewsProperties/Description", "reason": "law-enforcement officer 1명을 가리키는 '치안요원'은 코퍼스에 이 줄 1건뿐이다(집합 지칭 '치안 병력' 53줄, '경찰관' 16줄). 단수 직위 표준 표기를 사람이 확정해야 한다."}
+{"key": "t:NewsData:0x010000A1000028F1:/NewsProperties/Description", "reason": "가수 이름 Marzcel Inovitz의 음차 '마르젤 이노비츠'는 코퍼스에 이 줄 1건뿐이라 대조 근거가 없다. 음차 표기를 사람이 확정해야 한다."}

@@ -1,0 +1,31 @@
+{"key": "d:358:164", "ko_new": "\"말도 안 되는 소리입니다. 그렇다면 왜 우리 함선들을 나포하셨습니까? 그것도 인도적 지원을 위해서였다는 겁니까?\"", "reason": "controller r2: meaning"}
+{"key": "d:358:432", "ko_new": "\"우선 우리 함선과 수병들을 즉시 풀어주셔야 합니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:358:437", "ko_new": "\"그리고 침몰시킨 함선과 목숨을 잃은 수병들에 대한 배상금을 지불하셔야 합니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:358:641", "ko_new": "\"이미 말씀드렸듯 이제는 *만약*의 문제가 아닙니다. 협정은 끝났습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:358:215", "ko_new": "\"그러니까 그 보고들을 확인하기도 전에 그들을 전부 죽이기로 하셨다는 겁니까?\"", "reason": "controller r2: register"}
+{"key": "d:358:179", "ko_new": "\"그런데 우리 함선들은 왜 또 나포하신 겁니까? 그것도 *의도하지 않은* 결과였다는 겁니까?\"", "reason": "controller r2: register"}
+{"key": "d:357:303", "ko_new": "\"또한 즉시 해군을 집중해 레마즈만을 봉쇄하겠소. 위험한 해상 정면충돌은 피하면서 그들의 무역을 교란하는 데 집중해야 하오.\"", "reason": "controller r2: glossary"}
+{"key": "d:358:743", "ko_new": "\"국제사회의 중립적인 조사를 원합니다. 결과가 나올 때까지 협정 최종 확정을 미루겠습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:358:237", "ko_new": "\"평화를 말씀하시면서 여전히 협박하시는 겁니까?\"", "reason": "controller r2: register"}
+{"key": "d:358:143", "ko_new": "\"아무 책임도 인정하지 않으시겠다는 겁니까?\"", "reason": "controller r2: register"}
+{"key": "d:358:162", "ko_new": "\"아무 책임도 인정하지 않으시겠다는 겁니까?\"", "reason": "controller r2: register"}
+{"key": "d:358:30", "ko_new": "\"이게 전쟁 선포가 아니면 무엇입니까? 대체 무슨 대화를 하시겠다는 겁니까?\"", "reason": "controller r2: register"}
+{"key": "d:358:73", "ko_new": "\"이게 전쟁 선포가 아니면 무엇입니까? 대체 무슨 대화를 하시겠다는 겁니까?\"", "reason": "controller r2: register"}
+{"key": "d:357:103", "ko_new": "\"편히 쉬시오, 제군들.\"", "reason": "controller r2: register"}
+{"key": "d:358:293", "ko_new": "\"그렇다면 충동적으로 움직이고 언제든 제 영토로 진군할 준비가 된 군대를 거느린 국왕의 말을 제가 어떻게 믿겠습니까?\"", "reason": "controller r2: register"}
+{"key": "d:357:528", "ko_new": "\"절대 아닙니다, 폐하. 주께서 그 영혼을 돌보시길 바라며, 제가 폐하의 아버님을 모셨듯 폐하도 모시도록 힘쓰겠습니다.\"", "reason": "controller r2: style"}
+{"key": "d:357:160", "ko_new": "\"또한 성능이 파악되지 않은 첨단 장갑차 수십 대가 배치되었다는 정보도 입수했습니다. 레스피아산으로 추정됩니다.\"", "reason": "controller r2: style"}
+{"key": "d:357:570", "ko_new": "\"폐하께서 지방 징집군을 늘리라고 명하신 덕분에 왕실 가문 사단의 규모가 사실상 두 배로 늘었다고 자랑스럽게 보고드릴 수 있습니다.\"", "reason": "controller r2: style"}
+{"key": "d:358:722", "ko_new": "\"리치아가 팔레를 합병해 더 강해지고, 그만큼 자신에게 더 쓸모 있어지기를 바라고 있소.\"", "reason": "controller r2: style"}
+{"key": "d:358:727", "ko_new": "\"우리는 살타나가 메프티엠 국제무역지대를 국유화하려는 것에 맞서고 있소. 이것은 우리 힘을 빼려는 수작이오.\"", "reason": "controller r2: style"}
+{"key": "d:358:780", "ko_new": "\"그 사람을 잘 알고 조금도 믿지 않소. 처형이 우리를 괴롭히려는 것 같소.\"", "reason": "controller r2: style"}
+{"key": "d:358:718", "ko_new": "\"예... 발그슬란드가 이 지역에 야심을 품은 것은 맞습니다. 하지만 이 협정을 방해할 이유는 없습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:358:805", "ko_new": "\"하지만 정말 이 협정을 계속하고 싶으시다면 이번 사건을 초래한 리치아 측의 잘못을 인정해 주셔야 합니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:358:814", "ko_new": "\"그렇다면 어떤 협정도 없을 겁니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:358:793", "ko_new": "\"알바레츠 씨가 권리를 리치아에 팔기로 한 우리 협정에 화가 난 건 분명하지만, 정말 그렇게까지 하겠습니까...\"", "reason": "controller r2: consistency"}
+{"key": "d:357:146", "ko_new": "\"하지만 그들은 우리와 맞닿은 북부 국경을 강화해 왔습니다. 알카강을 따라 요새와 벙커를 건설했습니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:357:159", "ko_new": "\"그들은 우리와 맞닿은 북부 국경을 강화해 왔습니다. 알카강을 따라 요새와 벙커를 건설했습니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:357:172", "ko_new": "\"하지만 북쪽에서의 공격, 특히 알카강을 건너는 공격은 큰 대가를 치를 것입니다. 그곳은 여전히 그들의 국경 중 가장 강력하게 요새화된 곳이기 때문입니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:357:176", "ko_new": "\"하지만 북쪽에서의 공격은 쉽지 않을 겁니다. 특히 알카강을 건너는 일이 어렵습니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:357:453", "ko_new": "\"그들의 북부 국경에는 알카강 건너편을 따라 여러 중무장 요새 지대가 있습니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:357:454", "ko_new": "그는 팔레와의 국경에 있는 알카강을 가리켰다.", "reason": "controller r2: glossary"}

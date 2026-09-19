@@ -1,0 +1,5 @@
+{"key": "d:406:145", "flag": "narration_not_declarative", "reason": "나레이션 수사 의문(who did?) 허용, 컨트롤러 확인"}
+{"key": "d:406:242", "flag": "subject_mixed_register", "reason": "말줄임표 종결 합쇼체 정상, 컨트롤러 확인"}
+{"key": "d:406:563", "flag": "romus_mixed_register", "reason": "\"겁쟁이 같으니.\" 감탄 조각 — 종결 하오체, 컨트롤러 확인"}
+{"key": "d:406:737", "flag": "subject_mixed_register", "reason": "이름 제시 조각(\"알프레스 틸다.\") — 종결 합쇼체, 컨트롤러 확인"}
+{"key": "d:406:741", "flag": "subject_mixed_register", "reason": "이름 제시 조각(\"알프레스 틸다.\") — 종결 합쇼체, 컨트롤러 확인"}

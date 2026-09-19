@@ -1,0 +1,2 @@
+{"key": "d:406:89", "ko_new": "세 번째 기록을 읽는다.", "reason": "컨트롤러: menu_en==en 줄은 대사=선택지 동일(체크리스트 menu 규칙)", "flags_resolved": ["menu_mismatch"]}
+{"key": "d:406:102", "ko_new": "네 번째 기록을 읽는다.", "reason": "컨트롤러: menu_en==en 줄은 대사=선택지 동일(체크리스트 menu 규칙)", "flags_resolved": ["menu_mismatch"]}

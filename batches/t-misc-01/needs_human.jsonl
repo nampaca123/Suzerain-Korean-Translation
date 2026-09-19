@@ -1,0 +1,23 @@
+{"key": "t:CharacterCustomizationPanelData:0x0100005B00000036:/CharacterCustomizationPanelProperties/CharacterInfoSubtitle_2", "reason": "미번역 영문 'Rizian National Coalition'. 번역안 '리치아 국민 연합'(용어집 표준)은 9자로 반영 검증기의 길이 하한(영문 25자×0.42=10.5)을 넘지 못해 자동 반영이 불가하다. 사람이 직접 넣어야 한다."}
+{"key": "t:CharacterCustomizationPanelData:0x0100005B00000036:/CharacterCustomizationPanelProperties/CharacterInfoTitle_2", "reason": "미번역 영문 'Political Party:'. 번역안 '소속 정당:'(6자)이 길이 하한(6.72)에 0.72자 모자라 반영 불가. 사람이 직접 넣어야 한다."}
+{"key": "t:CompassCharacterGroupData:0x010000650000CAA0:/CompassCharacterGroupProperties/GroupTitle", "reason": "미번역 영문 'Political Figures'. 번역안 '정치 인사'(5자)가 길이 하한(7.14)에 못 미쳐 반영 불가. 사람이 직접 넣어야 한다."}
+{"key": "t:CompassTitleData:0x010000650000CAB4:/CompassTitleProperties/TitleConditions[15]/Text", "reason": "'the First'를 '첫째'로 옮겼으나 국왕 별칭 문맥에서는 '1세'가 맞을 가능성이 크다. 다만 두 안 모두 길이 하한(3.78)에 걸려 반영이 불가하므로 사람이 판정해야 한다."}
+{"key": "t:CountryDetailsDemographicData:0x0100006C00000D2A:/CountryDetailsDemographicProperties/Values[0]/demographicTitle", "reason": "미번역 영문 'Rizian National Coalition'. 번역안 '리치아 국민 연합'이 길이 하한(10.5)에 못 미쳐 반영 불가."}
+{"key": "t:CountryDetailsDemographicData:0x0100006C00000D2A:/CountryDetailsDemographicProperties/Values[1]/demographicTitle", "reason": "미번역 영문 'Rizian Peoples Party'. 번역안 '리치아 인민당'(코퍼스 152줄)이 길이 하한(8.4)에 못 미쳐 반영 불가."}
+{"key": "t:CountryDetailsPanelData:0x0100006C00000D12:/CountryDetailsPanelProperties/Government", "reason": "미번역 영문 'Constitutional Monarchy'. 번역안 '입헌군주제'(코퍼스 12줄)가 길이 하한(9.66)에 못 미쳐 반영 불가."}
+{"key": "t:MultipleChoiceOptionData:0x010000520002683D:/MultipleChoiceOptionProperties/Title", "reason": "효과 표기 '[Immediate]'를 '[즉시 적용]'으로, '[Promise]'를 '[약속 사항]'으로 새로 정했다(코퍼스에 단독 표기 선례 없음. 복합형 '[Promise ... ]'는 '… 약속' 선례 있음). 같은 규칙을 이 배치의 10줄에 적용했으므로 표기 확정이 필요하다."}
+{"key": "t:OperationData:0x0100009A0000ECC7:/OperationProperties/OperationName", "reason": "미번역 영문 'Operation: Golden Shield'. 번역안 '작전: 황금 방패'(ReportData 선례)가 길이 하한(10.08)에 0.08자 모자라 반영 불가."}
+{"key": "t:OperationData:0x0100009A0000EDAC:/OperationProperties/OperationName", "reason": "미번역 영문 'Operation: Total Tranquility'. 번역안 '작전: 완전한 평온'이 길이 하한(11.76)에 못 미쳐 반영 불가."}
+{"key": "t:PagedDecisionPanelData:0x0100006500004B3C:/PagedDecisionPanelProperties/PanelBarText", "reason": "미번역 영문 'Negotiation Leverage'. 번역안 '협상 지렛대'(6자)가 길이 하한(8.4)에 못 미쳐 반영 불가."}
+{"key": "t:ReminderPanelData:0x0100009A0000382A:/ReminderPanelProperties/HeaderText", "reason": "리치아어 문구를 '네고티우스 베흐제키 악사 리치아 임페리이'로 음차했으나(R75), 'Wehzeki'의 음차 '베흐제키'는 용어집이 Wehzek을 '베흘렌'으로 잡고 '웨흐제크'를 금지한 것과 충돌할 수 있어 확정이 필요하다."}
+{"key": "t:ReminderPanelData:0x0100009A00003843:/ReminderPanelProperties/HeaderText", "reason": "리치아어 문구를 '데만디우스 모렐라 악사 리치아 임페리이'로 음차했다(R75). 코퍼스에 선례가 없는 표기이므로 확정이 필요하다."}
+{"key": "t:WarFragmentData:0x0100009A000014BE:/WarFragmentProperties/HubWarFragmentTitle", "reason": "'Total Tranquility'는 코퍼스에 '완전한 평온 작전'(6줄)과 '작전: 토털 트랭퀼리티'(1줄)가 섞여 있다. 다수형 '완전한 평온'을 택해 '작전: 완전한 평온 - 제N단계'로 옮겼으나 표기 확정이 필요하다."}
+{"key": "t:WarFragmentData:0x0100009A00000E61:/WarFragmentProperties/HubWarFragmentSubtitle", "reason": "미번역 영문 'Invasion of Pales'. 번역안 '팔레 침공'(코퍼스 표준)이 길이 하한(7.14)에 못 미쳐 반영 불가. 같은 문자열이 이 배치에 7줄 있다(956·958·960·962·964·966·969)."}
+{"key": "t:WarFragmentData:0x0100009A000014AC:/WarFragmentProperties/HubWarFragmentSubtitle", "reason": "미번역 영문 'Invasion of Pales'. 번역안 '팔레 침공'이 길이 하한에 못 미쳐 반영 불가."}
+{"key": "t:WarFragmentData:0x0100009A000014B5:/WarFragmentProperties/HubWarFragmentSubtitle", "reason": "미번역 영문 'Invasion of Pales'. 번역안 '팔레 침공'이 길이 하한에 못 미쳐 반영 불가."}
+{"key": "t:WarFragmentData:0x0100009A000014BE:/WarFragmentProperties/HubWarFragmentSubtitle", "reason": "미번역 영문 'Invasion of Pales'. 번역안 '팔레 침공'이 길이 하한에 못 미쳐 반영 불가."}
+{"key": "t:WarFragmentData:0x0100009A000014C7:/WarFragmentProperties/HubWarFragmentSubtitle", "reason": "미번역 영문 'Invasion of Pales'. 번역안 '팔레 침공'이 길이 하한에 못 미쳐 반영 불가."}
+{"key": "t:WarFragmentData:0x0100009A000014D0:/WarFragmentProperties/HubWarFragmentSubtitle", "reason": "미번역 영문 'Invasion of Pales'. 번역안 '팔레 침공'이 길이 하한에 못 미쳐 반영 불가."}
+{"key": "t:WarFragmentData:0x0100009A0000A550:/WarFragmentProperties/HubWarFragmentSubtitle", "reason": "미번역 영문 'Operation Tutorial'. 번역안 '작전 튜토리얼'(7자)이 길이 하한(7.56)에 못 미쳐 반영 불가."}
+{"key": "t:WarFragmentData:0x0100009A0000A550:/WarFragmentProperties/HubWarFragmentTitle", "reason": "미번역 영문 'Invasion of Pales'. 번역안 '팔레 침공'이 길이 하한에 못 미쳐 반영 불가."}
+{"key": "t:MultipleChoicePageData:0x0100009A0000BC90:/MultipleChoicePageProperties/Subtitle", "reason": "'Porte Drazon Citadel'의 한국어 표기가 코퍼스에서 '시타델'(코덱스 표제 1줄)·'성채'(2줄)·'요새'(2줄)로 갈려 다수형을 정할 수 없다. 이 줄은 '요새', 같은 배치의 422줄은 '성채'라서 통일이 필요하다."}

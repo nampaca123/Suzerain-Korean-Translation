@@ -1,0 +1,3 @@
+{"key": "t:NewsData:0x010000A100003549:/NewsProperties/Description", "reason": "EN 'security forces'의 표기가 코퍼스에서 '보안군'(텍스트에셋 18줄, 그중 NewsData 7줄)과 '치안 병력'(텍스트에셋 11줄, 그중 NewsData 2줄)으로 갈려 있다. NewsData 안에서는 '보안군'이 다수라 현행 표기를 유지했으나 프로젝트 표준 표기 확정이 필요하다."}
+{"key": "t:NewsData:0x010000A100003549:/NewsProperties/Title", "reason": "같은 기사 제목의 '보안군' 표기. #5와 같은 쟁점(security forces = 보안군/치안 병력)."}
+{"key": "t:NewsData:0x010000A1000037C7:/NewsProperties/Description", "reason": "EN 'other sectors of the economy are witnessing rising underemployment'의 underemployment를 현행 번역은 '인력 부족'으로 옮겼다. 사전적으로는 '불완전 고용'이지만 뒤 문장 'fill the needed gaps'와 앞 문장(전사자 증가)과는 인력 부족 쪽이 맞아 원문 자체가 모순된다. 의미 확정이 필요해 현행대로 두었다."}

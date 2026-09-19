@@ -1,0 +1,3 @@
+{"key": "t:NewsData:0x01000065000003FA:/NewsProperties/Description", "reason": "Galmish Manifesto의 한국어 선례가 대화 코퍼스의 '갈미시 선언문'(갈미시 5줄)뿐인데, 같은 어간의 국명·지명은 '갈름란드'·'갈름해'로 적혀 있어 형용사형 표기가 갈미시/갈름으로 엇갈린다. 이번 라운드는 코퍼스 선례대로 '갈미시 선언문'을 썼으나 어느 쪽으로 통일할지 사람 판단이 필요하다."}
+{"key": "t:NewsData:0x010000650000CECF:/NewsProperties/Description", "reason": "지역명 Central Line의 한국어 표기 '중앙선'은 이 줄 외에 코퍼스 어디에도 선례가 없다(Grep 결과 textassets 1줄=본 줄). 철도 노선으로 오해될 소지가 있어 표기 확정이 필요하다. 이번 라운드는 원문 표기를 그대로 두었다."}
+{"key": "t:NewsData:0x010000650000CE4C:/NewsProperties/Description", "reason": "매체명 Red Unity Chronicle의 뜻풀이형 표기 '적색 단결 연대기'는 이 줄 외에 코퍼스 선례가 없다(Grep 결과 1줄=본 줄). R74 대상이라 음차 대신 뜻풀이형을 유지했으나 최종 표기 확정이 필요하다(coined_terms.jsonl에도 기록)."}

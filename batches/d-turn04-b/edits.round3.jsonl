@@ -1,0 +1,21 @@
+{"key": "d:312:301", "ko_new": "\"대의원들이 반대한 제안을 내가 시행하면 그들 앞에서 체면을 잃게 되겠소?\"", "reason": "controller r2: register"}
+{"key": "d:312:314", "ko_new": "\"내가 그의 제안을 거부하면 마누스 사존의 당과 가문을 적으로 돌리게 되겠소?\"", "reason": "controller r2: register"}
+{"key": "d:312:330", "ko_new": "\"제가 보기엔 폐하께서 내리셔야 할 결정은 사실 고민할 것도 없는 결정입니다.\"", "reason": "controller r2: register"}
+{"key": "d:313:338", "ko_new": "\"물론 그들의 배에 발포해서는 안 됩니다. 하지만 봉쇄라면 폐하께서 레이나르트 대공과 이야기하실 기회를 얻으실 때까지 가스전을 비워 둘 수 있습니다.\"", "reason": "controller r2: register"}
+{"key": "d:313:340", "ko_new": "\"봉쇄라면 폐하께서 레이나르트 대공과 이야기하실 기회를 얻으실 때까지 가스전을 비워 둘 수 있습니다.\"", "reason": "controller r2: register"}
+{"key": "d:312:45", "ko_new": "\"대의원들은 이 제안을 받아들일지 거부할지 표결할 것입니다. 다만 이는 구속력 없는 권고입니다. 최종 권한은 국왕 폐하와 왕실 평의회에 있습니다.\"", "reason": "controller r2: register"}
+{"key": "d:312:175", "ko_new": "\"전통적으로 국왕 폐하께서 이런 회의에 참석하지 않으시는 데는 이유가 있습니다.\"", "reason": "controller r2: register"}
+{"key": "d:313:152", "ko_new": "\"예, 계속 보고드리겠습니다.\"", "reason": "controller r2: register"}
+{"key": "d:313:265", "ko_new": "\"하지만 예, 중재를 거치면 그보다도 더 오래 걸릴 겁니다.\"", "reason": "controller r2: register"}
+{"key": "d:312:57", "ko_new": "\"물론 우리 당도 노동자의 안전이 무엇보다 중요하다고 생각합니다. 하지만 오늘 제안된 규제들은 지나칩니다.\"", "reason": "controller r2: register"}
+{"key": "d:312:365", "ko_new": "\"이제 여러 산업의 노동자와 외국인 노동자로 이루어진 연합이 용기 있게 리치아 인민당을 찾아와 동료 대의원들과 국왕 폐하께 전달해 달라며 요구 사항 목록을 내놓았습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:312:366", "ko_new": "\"우리 산업이 토박이 리치아 노동자보다 낮은 임금을 받고 훈련도 덜 받는 외국인 노동자에 계속 의존하는 탓에 문제가 더 심각해지고 있습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:312:235", "ko_new": "\"하지만 리치아에서 금은 그보다 훨씬 더 큰 의미를 지닙니다. 두카트 한 닢 만져 본 적 없는 평민조차도, 우리 노래 가사 그대로 '황금빛 해안에서' 산다는 사실을 자랑스러워합니다.\"", "reason": "controller r2: meaning"}
+{"key": "d:313:149", "ko_new": "\"그들의 가스 보유량은 상당합니다. 저라면 쉽게 제쳐 두지 않겠습니다.\"", "reason": "controller r2: meaning"}
+{"key": "d:312:17", "ko_new": "\"저 사람이 어느 가문 출신이라고 하셨소?\"", "reason": "controller r2: meaning"}
+{"key": "d:312:14", "ko_new": "대의원들은 저마다 자기 지방을 상징하는 전통색 새틴 띠를 두르고 있었다. 리치아 임페리이는 붉은색, 발렌키리스는 파란색, 카르데세-몬타클라르는 노란색, 브레나스는 초록색이었다.", "reason": "controller r2: style"}
+{"key": "d:312:23", "ko_new": "휴고가 그녀를 이야기할 때 목소리에 담긴 호의적인 기색을 알아차렸다.", "reason": "controller r2: style"}
+{"key": "d:312:236", "ko_new": "\"알겠습니다, 폐하. 저기 사존 씨가 우리를 다 합친 것보다 더 많은 허풍을 이미 늘어놓았습니다.\"", "reason": "controller r2: style"}
+{"key": "d:313:4", "ko_new": "도시 이름은 가장 유명한 건물에서 따왔다. 그 발그계 요새는 이제 팔레 행정구의 정부 청사로 쓰이고 있었다.", "reason": "controller r2: style"}
+{"key": "d:313:331", "ko_new": "\"사실은 말입니다, 연로하신 친구분. 아자로 여공작의 생각이 옳을지도 모릅니다.\"", "reason": "controller r2: style"}
+{"key": "d:313:384", "ko_new": "\"바로 그 자세입니다, 로렌토. 우리 함선들도 길어야 며칠 정도만 자리를 지킬 겁니다.\"", "reason": "controller r2: style"}

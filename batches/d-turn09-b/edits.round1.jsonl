@@ -1,0 +1,198 @@
+{"key": "d:436:6", "ko_new": "\"자. 다들 이렇게 모였구려.\"", "reason": "로무스가 외국 정상들에게 말하는 자리라 화계표 5.1대로 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:436:10", "ko_new": "\"먼저 짧은 기도로 시작하고 싶소.\"", "reason": "소수만 모인 비공개 중재 회의라 연설이 아니므로 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:12", "ko_new": "\"꼭 그러셔야 한다면 그렇게 하십시오.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:14", "ko_new": "\"여러분. 바로 본론으로 들어갑시다.\"", "reason": "군중 앞 공개 연설이 아니라 소수가 앉은 중재 회의라 화계표 5.1의 외국 정상 하오체를 적용했다.", "flags_resolved": ["speech_not_hapsyo", "romus_haeyo"]}
+{"key": "d:436:15", "ko_new": "\"두 분 모두 와 주어 고맙소. 오늘 우리가 큰 성과를 이룰 수 있으리라 확신하오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:16", "ko_new": "\"기꺼이 그러겠습니다, {RiziaDLCText.SaltanaToPlayer}.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:17", "ko_new": "\"오늘 이 자리에 모인 우리가 사소한 차이 때문에 눈이 멀지 않기를 기도하오. 우리는 신의 영원한 사랑으로 하나 된 한 민족이기 때문이오.\"", "reason": "로무스가 외국 정상들 앞에서 하는 말이라 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:436:23", "ko_new": "\"그렇습니다. 이렇게 모였습니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:26", "ko_new": "\"우리는 이것을 '성 브루헤지 회랑'이라고 부릅니다.\"", "reason": "용어집 표준이 '성 브루헤지'라 '성 브루헤크'를 고쳤다.", "flags_resolved": []}
+{"key": "d:436:31", "ko_new": "\"리치아는 데르디아의 골콘다주의자들이 우리 예배 장소에 다시 들어오도록 허용했지만 아무 문제도 없었소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:39", "ko_new": "\"왔던 길로 돌아가면 되오. 그리 어려운 일도 아니지 않소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:40", "ko_new": "\"우리의 신성모독법을 존중하는 데 동의한다면 리치아로 계속 들어와도 좋소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:42", "ko_new": "\"전혀 아니오. 나도 리치아에서 골콘다주의자들이 예배하도록 허용할 생각이오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:45", "ko_new": "\"우리 브루헤지교 공동체는 모렐라보다 규모가 크오. 그만큼 혼란이 일어날 여지도 더 크오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 해요체 '-지요' 종결을 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:436:46", "ko_new": "\"유감이지만 신성모독법 폐지는 고려할 수 없소. 브루헤지교 성소는 이 나라에서 매우 강력하오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 해요체 '-니까요' 종결을 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:436:47", "ko_new": "\"리치아는 한창 전쟁 중이오. 지금 갑작스러운 정책 변화는 원치 않소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:105", "ko_new": "\"반란이라니! 살타나 총리, 바로 그런 표현 때문에 제가 총리와 거래하기를 꺼려 온 겁니다.\"", "reason": "'당신'을 직함 호격으로 바꾸고, 하급자만 쓰는 '총리님'을 호칭표대로 '살타나 총리'로 고쳤다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:436:72", "ko_new": "\"결국 우리에게도 공통점이 하나는 있는 모양입니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:84", "ko_new": "\"지금은 에너지 사정을 논할 때가 아니오. 나중에 나와 따로 이야기하시오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:85", "ko_new": "\"팔레와의 분쟁 때문에 약속한 에너지 공급에 차질이 생긴 점은 진심으로 사과하오. 우리가 승리하고 나면 세 배로 갚겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:89", "ko_new": "\"에너지 공급은 내가 통제할 수 없는 사정 때문에 막혔소. 그 점은 진심으로 사과하오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:90", "ko_new": "\"두 나라에는 그보다 더 많은 공통점이 있소. 불과 몇 세대 전만 해도 모리디아인들은 하나의 민족이었소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:93", "ko_new": "\"선택지가 없지 않소? 리치아 아니면 아무도 없소.\"", "reason": "하오체로 바꾸면서 같은 영문인 d:436:383과 문장을 통일했다.", "flags_resolved": ["romus_hapsyo_not_speech", "same_en_diff_register"]}
+{"key": "d:436:103", "ko_new": "\"좋습니다. 계속하시지요.\"", "reason": "외국 정상의 청유는 합쇼체 '-시지요'로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:104", "ko_new": "\"좋습니다. 계속하시지요.\"", "reason": "외국 정상의 청유는 합쇼체 '-시지요'로 바꾸고 같은 영문인 d:436:103과 통일했다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:436:106", "ko_new": "\"아즈말 씨, 정말 문제가 되는 게 제 표현입니까? 아니면 아즈말 씨보다 더 큰 권력을 가진 여자가 저라는 사실입니까?\"", "reason": "'당신'을 쓸 수 없는 화자라 이름 호칭으로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:436:107", "ko_new": "\"데르디아 사람들이 얌전히 행동한다면 기꺼이 환영하겠습니다. 그런데 실제로는 습격에, 반란에...\"", "reason": "'당신들'을 쓸 수 없어 영문이 가리키는 데르디아인으로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:436:113", "ko_new": "\"살타나 총리, 최고 대현자를 정식 존칭으로 부르시오.\"", "reason": "로무스가 외국 정상에게 하는 명령이라 합쇼체를 하오체 '-시오'로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:121", "ko_new": "\"두 분 다 그런 것 같습니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:436:122", "ko_new": "\"해결책은 분명 하나뿐이오. 관대함의 결투를 하는 것이오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:124", "ko_new": "\"자기 딸을 사촌과 막 결혼시킨 국왕이 결투를 제안하십니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:131", "ko_new": "\"영토를 넓히려고 딸을 막 시집보낸 국왕이 결투를 제안하십니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:132", "ko_new": "\"결투라니. 정말입니까?\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:133", "ko_new": "\"저는 정치 이야기를 하러 왔습니다, 신사분들. 무슨... 왕좌의 게임 같은 걸 하러 온 게 아닙니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체 종결을 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:136", "ko_new": "\"최고 대현자, 총리의 표현은 제쳐 두더라도 모렐라 국경에서 귀국 국민이 보인 폭력적 행동이 정당하지 않았다는 점은 인정해야 하오.\"", "reason": "합쇼체를 하오체로 바꾸고 금지된 '당신'을 '귀국'으로 대체했다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:436:140", "ko_new": "\"두 분 다 당장 말다툼을 멈추시오. 세계 지도자가 아니라 유치원생처럼 행동하고 있지 않소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:148", "ko_new": "\"데르디아가 원하는 건 정말 예배의 권리요, 아니면 모렐라의 자원이오? 우리는 메프티엠 침공을 잊지 않았소.\"", "reason": "합쇼체를 하오체로 바꾸고 금지된 '당신들'을 영문이 가리키는 데르디아로 대체했다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:436:149", "ko_new": "\"데르디아와 모렐라 사이의 국경은 생긴 지 얼마 되지 않았소. 꽤 자의적으로 그어진 것처럼 보이는구려.\"", "reason": "로무스가 외국 정상에게 하는 말이라 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:436:151", "ko_new": "\"데르디아인들이 하는 일을 예배라고 부르기는 어렵소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:153", "ko_new": "\"대현사를 체포하고서도 여전히 그에게 휘둘리고 계신 모양입니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:436:157", "ko_new": "\"여전히 대현사에게 휘둘리고 계신 모양입니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:436:158", "ko_new": "\"최고 대현자, 살타나 총리. 이것이 우리 부처가 두 분을 위해 마련한 해법입니다.\"", "reason": "'총리님'은 하급자만 쓰는 호칭이라 호칭표대로 '살타나 총리'로 고쳤다.", "flags_resolved": []}
+{"key": "d:436:162", "ko_new": "\"저도 그렇습니다.\"", "reason": "같은 영문 'Nor can I.'인 d:436:189이 길이 상한 때문에 짧아야 해서 두 줄을 같은 합쇼체 문장으로 통일했다.", "flags_resolved": ["same_en_diff_register"]}
+{"key": "d:436:166", "ko_new": "\"지금 베흘렌과의 관계가 민감한 상황이오. 갑작스러운 정책 변화는 원치 않소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:169", "ko_new": "\"그렇다면 어쩔 수 없구려. 나는 최선을 다했소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:173", "ko_new": "\"잠깐. 이제 내가 달래야 할 대현사는 없소. 리치아의 신성모독법을 즉시 폐지하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 선택지 문구와 화계를 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:174", "ko_new": "\"잠깐. 두 나라가 화합하는 데 도움이 된다면 리치아의 신성모독법을 즉시 폐지하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 선택지 문구와 화계를 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:178", "ko_new": "\"내가 할 수 있는 일은 없소. 우리 왕국으로서는 그것이 최선이었소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:436:182", "ko_new": "\"이제 내가 달래야 할 대현사는 없소. 리치아의 신성모독법을 즉시 폐지하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 선택지 문구와 화계를 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:183", "ko_new": "\"좋소. 두 나라가 화합하는 데 도움이 된다면 리치아의 신성모독법을 즉시 폐지하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 선택지 문구와 화계를 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:187", "ko_new": "\"미안하오. 지금으로서는 내가 줄 수 있는 것이 약속뿐이오.\"", "reason": "하오체로 바꾸면서 겸양 어휘 '드리다'도 함께 낮췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:189", "ko_new": "\"저도 그렇습니다.\"", "reason": "해요체를 합쇼체로 바꾸고 같은 영문인 d:436:162와 문장을 통일했다.", "flags_resolved": ["subject_not_hapsyo", "same_en_diff_register"]}
+{"key": "d:436:190", "ko_new": "\"최고 대현자, 그 태도가 마음에 들지 않소. 아무것도 약속하지 않겠소.\"", "reason": "합쇼체를 하오체로 바꾸고 금지된 '당신의'를 지시어로 대체했다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:436:193", "ko_new": "\"폐하의 말씀을 믿어야 할지 확신이 서지 않습니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:436:195", "ko_new": "\"감사합니다, 살타나 총리. 오늘은 불가능하더라도 미래에는 여전히 선택지가 될 수 있습니다.\"", "reason": "'총리님'은 하급자만 쓰는 호칭이라 호칭표대로 '살타나 총리'로 고쳤다.", "flags_resolved": []}
+{"key": "d:436:197", "ko_new": "\"데르디아인들이 모렐라를 통과하는 동안 정해진 경로를 지킬 거라는 걸 어떻게 보장하시겠습니까?\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-죠'를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:204", "ko_new": "\"순례자들이 안전하게 통과할 수 있도록 리치아 육군 한 개 중대를 보내겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:205", "ko_new": "\"리치아 왕국이 회랑의 보안을 감독할 소규모 민간 계약팀의 비용을 부담하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:206", "ko_new": "\"누구든 합의를 어기면 가장 엄중한 대가를 치르게 될 것이오. 우리 왕국이 반드시 그렇게 만들겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:219", "ko_new": "\"모렐라인들이 막으려 하지 않을 거라는 걸 *우리는* 어떻게 압니까?\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체 '-죠'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:436:240", "ko_new": "\"이런 해법은 제3자가 제안할 때면 늘 쉬워 보이는 법입니다, 그렇지 않습니까?\"", "reason": "합쇼체 화자의 '-죠' 종결을 합쇼체 평서형으로 바꿨다.", "flags_resolved": []}
+{"key": "d:436:261", "ko_new": "\"그렇다면 두 분 다 운이 없구려.\"", "reason": "로무스가 외국 정상에게 하는 말이라 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:436:263", "ko_new": "\"좋소. 육군 *두 개* 중대를 보내겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:264", "ko_new": "\"좋소. 계획보다 두 배 많은 자금을 보안에 투입하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:265", "ko_new": "\"좋소. 순례자들의 안전한 통행을 보장하기 위해 리치아 육군 한 개 중대를 직접 배치하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:266", "ko_new": "\"그렇게까지 요구하신다면, 리치아 왕국이 회랑의 보안을 감독할 소규모 민간 계약팀의 비용을 부담하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:270", "ko_new": "\"군 병력 증원에 더해 민간 보안요원 팀도 계약하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:271", "ko_new": "\"민간 보안업체에 더해 우리도 리치아 육군 한 개 중대를 보내겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:272", "ko_new": "\"결국 서로를 믿을 수밖에 없지 않소?\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:277", "ko_new": "\"정말 5분 만에 한 세기 동안 쌓인 원한을 지울 수 있을 거라 생각했소?\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:303", "ko_new": "\"모렐라와 데르디아가 이렇게 빨리 외교적 합의에 이를 수 있다면 인터메르코품 동맹에도 큰 기대를 걸 수 있겠구려.\"", "reason": "로무스가 외국 정상에게 하는 말이라 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:436:307", "ko_new": "\"살타나 총리, 최종 MITZ 표결에서도 귀하의 협조를 기대해도 되겠소?\"", "reason": "합쇼체를 하오체로 바꾸고 금지된 '당신'을 '귀하'로 대체했다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:436:308", "ko_new": "\"오늘은 주께서 참으로 우리를 축복하셨소. 기뻐하시오!\"", "reason": "로무스가 외국 정상들 앞에서 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:315", "ko_new": "\"두고 보겠습니다, {RiziaDLCText.SaltanaToPlayer}.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-죠'를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:321", "ko_new": "\"괜찮소. 인터메르코품 동맹이 성공하려면 모렐라와 데르디아가 꼭 사이좋게 지낼 필요는 없소.\"", "reason": "로무스가 신하에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:328", "ko_new": "\"아아, 오늘은 주께서 우리를 축복하지 않으셨구려. 우리가 그분의 노여움을 살 일을 했나 보오.\"", "reason": "로무스가 신하·외국 정상 앞에서 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:329", "ko_new": "\"살타나 총리, 그래도 최종 MITZ 표결에서는 귀하의 협조를 기대해도 되겠소?\"", "reason": "합쇼체를 하오체로 바꾸고 금지된 '당신'을 '귀하'로 대체했다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:436:336", "ko_new": "\"두고 보겠습니다, {RiziaDLCText.SaltanaToPlayer}.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-죠'를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:342", "ko_new": "\"하늘에 보이지 않는 존재가 있다고 믿는 분이 갑자기 자기 이웃은 믿지 못하겠다는 것이오?\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:347", "ko_new": "\"최고 대현자, 믿음을 갖고 한 걸음 내디뎌야 하오. 성 브루헤지라면 어떻게 했겠소?\"", "reason": "합쇼체를 하오체로 바꾸고 용어집 표준 '성 브루헤지'로 고쳤다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:436:348", "ko_new": "\"브루헤지께서도 말씀하셨듯이, 가장 굳건한 신뢰의 다리도 기만의 물결에 침식될 수 있습니다.\"", "reason": "용어집 표준이 '브루헤지'라 '브루헤크'를 고쳤다.", "flags_resolved": []}
+{"key": "d:436:353", "ko_new": "\"오늘 데르디아-베흘렌 중재도 예정돼 있습니다. 잠시 쉬었다 가시는 게 어떻겠습니까?\"", "reason": "신하는 합쇼체라 해요체 청유를 합쇼체 의문형으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:356", "ko_new": "\"다음 달 무역지대에서 뵙겠습니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-죠'를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:359", "ko_new": "\"네, 감사합니다. 방금 일을 겪고 나니 편견을 씻어내고 머리를 식힐 필요가 있겠습니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:436:361", "ko_new": "\"다음 달 무역지대에서 뵙겠습니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-죠'를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:366", "ko_new": "\"오늘 데르디아-베흘렌 중재도 예정돼 있습니다. 잠시 쉬었다 가시는 게 어떻겠습니까?\"", "reason": "신하는 합쇼체라 해요체 청유를 합쇼체 의문형으로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:371", "ko_new": "\"다음 달 무역지대에서 뵙겠습니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-죠'를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:374", "ko_new": "\"다음 달 무역지대에서 뵙겠습니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-죠'를 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:383", "ko_new": "\"선택지가 없지 않소? 리치아 아니면 아무도 없소.\"", "reason": "문장 끝 반말을 없애고 같은 영문인 d:436:93과 문장을 통일했다.", "flags_resolved": ["romus_mixed_register", "same_en_diff_register"]}
+{"key": "d:436:384", "ko_new": "\"리치아는 언제나 절대군주국이었소, 살타나 씨. 귀하에게 편할 때는 못 본 척했을 뿐이오.\"", "reason": "반말 종결을 하오체로 맞추고 외국 정상에게 금지된 '그대'를 '귀하'로 바꿨다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:436:386", "ko_new": "\"무슨 말을 하는지도 모르는 모양이오. 우리 국민은 많은 자유를 누리고 있소. 사실 모렐라보다 더 많소.\"", "reason": "한 대사 안에 섞인 반말 종결을 모두 하오체로 맞췄다.", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:436:389", "ko_new": "\"살타나 총리, 내부 사정이 어떻든 우리는 귀국과 데르디아 사이의 외교적 타협을 찾겠다는 약속을 지키고 있습니다. 그리고 말하자면, 그 약속에 실제로 돈을 걸 의향도 있습니다.\"", "reason": "'총리님'은 하급자만 쓰는 호칭이라 호칭표대로 '살타나 총리'로 고쳤다.", "flags_resolved": []}
+{"key": "d:436:391", "ko_new": "\"아닙니까? 제가 어떤 군주국을 상대하고 있는지는 알고 싶습니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체를 합쇼체로 바꾸고 1인칭도 '저'로 맞췄다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:436:392", "ko_new": "\"데르디아는 그 약속을 높이 평가합니다, 에스퀴벨 씨. 반대자들을 엄격하지만 공정하게 대하는 점도 마찬가지입니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체 '-고요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:436:394", "ko_new": "\"좋습니다. 계속하시지요.\"", "reason": "외국 정상의 청유는 합쇼체 '-시지요'로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:437:6", "ko_new": "빅토르 스몰라크와 조르가 아즈말, 그리고 양측의 장관 몇 명이 회의 테이블에 합류했다.", "reason": "받침 없는 '스몰라크' 뒤 조사를 '와'로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:437:7", "ko_new": "잠시 뒤 우리는 조르가 아즈말과 다시 테이블에 모였다. 이번에는 빅토르 스몰라크와 그의 수행단도 함께했다.", "reason": "받침 없는 '스몰라크' 뒤 조사를 '와'로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:437:9", "ko_new": "스몰라크는 두 팔을 활짝 벌렸다.", "reason": "받침 없는 '스몰라크' 뒤 조사를 '는'으로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:437:11", "ko_new": "\"물론 블루드 자유 전선과 골치 아픈 연관만 없었더라면 그랬을 겁니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:15", "ko_new": "\"대통령의 잔혹한 군사 작전으로 거의 전멸시킨 바로 그 블루드 자유 전선 말입니까?\"", "reason": "'당신'을 쓸 수 없어 직함 호칭으로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:437:16", "ko_new": "\"BFF가 과거에 베흘렌에 문제를 일으켰다는 건 이해합니다. 하지만 그 조직을 맹목적으로 쫓는 과정에서 불똥을 맞은 무고한 블루드인들에게 우리는 연민을 느낍니다.\"", "reason": "'당신들'을 쓸 수 없어 영문이 가리키는 베흘렌으로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:437:20", "ko_new": "\"거기에 폐하의 도움도 있었습니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 '-지요' 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:24", "ko_new": "\"게다가 폐하의 도움을 받은 추격이었습니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 '-지요' 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:25", "ko_new": "\"아즈말, BFF 테러리스트들을 국경 안에 숨겨 준 적이 있소, 없소?\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:26", "ko_new": "\"BFF는 진정한 골콘다주의자가 아니오, 최고 대현자. 베흘렌을 불안정하게 만들려는 강대국들의 꼭두각시에 불과하오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:27", "ko_new": "\"그렇소, 스몰라크 대통령. 이제 BFF가 더 이상 위협이 되지 않는 이상 그들을 데르디아에 대한 적대의 명분으로 삼을 수는 없소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:28", "ko_new": "\"BFF가 여전히 베흘렌에 가하는 위협을 없는 일처럼 치부할 수는 없소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:30", "ko_new": "\"베어 트랩 작전은 다소 지나쳤다고 생각하오, 스몰라크 대통령.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:32", "ko_new": "\"국제연합에서 말했듯이, 내가 믿는 강대국은 단 하나뿐입니다. 그리고 그분은 블루드인들의 성스러운 사명을 축복하셨습니다.\"", "reason": "용어집 표준이 '국제연합'이라 '국제 연맹'을 고쳤다.", "flags_resolved": []}
+{"key": "d:437:35", "ko_new": "\"베어 트랩 작전은 여기 리치아에도 경종을 울렸소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:36", "ko_new": "\"그런데도 베흘렌과 관계를 끊을 만큼은 아니었던 모양입니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:39", "ko_new": "\"그 대신 데르디아와 베흘렌이 서로를 위해 무엇을 할 수 있는지, 그리고 리치아 왕국이 두 나라를 위해 무엇을 할 수 있는지에 집중하십시다.\"", "reason": "신하는 합쇼체라 하오체 청유 '-ㅂ시다'를 합쇼체 '-십시다'로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:437:43", "ko_new": "\"데이르에 뭐가 있었소?\"", "reason": "로무스가 신하·외국 정상 앞에서 하는 말이라 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:437:47", "ko_new": "\"스몰라크 대통령, 왜 데르디아인들의 성스러운 순례길을 막고 있소?\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:49", "ko_new": "\"아, 그렇지. 우리의 지극히 성스러운 성지 말이오.\"", "reason": "외국 정상 앞 대사라 짧은 감탄을 뺀 본문 종결을 하오체로 맞췄다.", "flags_resolved": []}
+{"key": "d:437:51", "ko_new": "아즈말과 스몰라크는 어이가 없다는 듯 나를 쳐다보았다.", "reason": "받침 없는 '스몰라크' 뒤 조사를 '는'으로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:437:52", "ko_new": "\"우리에게 가장 성스러운 성지입니다, 폐하. 신께서 성 다스트에게 말씀을 전하신 곳입니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 '-지요' 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:54", "ko_new": "\"누리티의 모든 진정한 신자는 평생 적어도 한 번은 그곳을 방문해야 한다고 합니다. 브루헤지교도도 포함해서 말입니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:55", "ko_new": "\"그건 리치아인이 아니라 소르드인들이 해결할 문제인 듯하오.\"", "reason": "해요체를 하오체로 바꾸고 코퍼스 다수 표기인 '소르드인'(23줄, '소드인' 3줄)으로 통일했다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:437:56", "ko_new": "\"그렇게 간단하면 좋겠습니다. 내 친구 안톤이라면 당장 해결했을 겁니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체·반말 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:61", "ko_new": "\"신께서 성 다스트에게 강림하신 장소입니다. 따라서 브루헤지교도보다 다스트누리티교도에게 특히 중요합니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 '-지요' 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:62", "ko_new": "\"흠. 그 설명에는 폐하께서 그토록 아끼시는 성 브루헤지가 한 번도 나오지 않는 게 재미있습니다.\"", "reason": "해요체를 합쇼체로 바꾸고 금지된 '당신들'을 '폐하'로, 표기는 용어집 표준 '성 브루헤지'로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo", "pronoun_dangsin"]}
+{"key": "d:437:63", "ko_new": "\"대통령의 '친구'는 강림일 의식조차 제대로 치르지 못했잖습니까.\"", "reason": "'당신'을 쓸 수 없어 직함 호칭으로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:437:67", "ko_new": "\"대통령과 똑같이 살의를 품은 사람을 내가 왜 믿어야 합니까?\"", "reason": "'당신'을 쓸 수 없어 직함 호칭으로 바꿨다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:437:70", "ko_new": "\"데르디아인들이 데이르에 가려고 꼭 베흘렌을 통과할 필요는 없소. 해상 항로를 찾도록 우리가 도울 수 있소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:89", "ko_new": "\"좀 창의적으로 생각해 봅시다. 데르디아인들의 소르들란드 통행을 허용하는 대가로 베흘렌이 받아들일 만한 무언가가 분명 있을 것이오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체 종결을 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:93", "ko_new": "\"데르디아 골콘다주의자들이 우리 쪽 골콘다주의자들과 어울리지 못하게 막자는 말씀입니다. 좋습니다, 마음에 듭니다.\"", "reason": "금지된 '당신들'을 데르디아로 바꾸고 섞여 있던 반말 종결도 합쇼체로 맞췄다.", "flags_resolved": ["pronoun_dangsin"]}
+{"key": "d:437:102", "ko_new": "\"참으로 열렬한 지지로 들립니다, 최고 대현자.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:111", "ko_new": "\"리치아가 베흘렌을 통과하는 일종의 순례 회랑 보안을 감독한다면 어떻겠소?\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:113", "ko_new": "\"베흘렌을 통과하는 경로를 설정해 '성 브루헤지 회랑'이라 부르는 겁니다. 데르디아 순례자들은 오직 이 경로로만 소르들란드에 들어갈 수 있게 됩니다.\"", "reason": "용어집 표준이 '성 브루헤지'라 '성 브루헤크'를 고쳤다.", "flags_resolved": []}
+{"key": "d:437:136", "ko_new": "\"데르디아에 에너지가 필요하다는 건 비밀도 아닙니다, 스몰라크 대통령.\"", "reason": "'대통령님'은 하급자만 쓰는 호칭이라 호칭표대로 '스몰라크 대통령'으로 고쳤다.", "flags_resolved": []}
+{"key": "d:437:137", "ko_new": "\"최근 리치아가 에너지 약속을 지키지 못한 뒤라 더더욱 그렇습니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 '-지요' 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:141", "ko_new": "\"하! 역시 리치아답습니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 반말 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:149", "ko_new": "\"두 나라 사이에 송유관을 건설하는 데 필요한 전문 기술과 기반시설을 우리 왕국이 기꺼이 제공하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:151", "ko_new": "\"필요한 자금을 마련하려면 베흘렌에 미사일을 팔 수도 있지 않소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:153", "ko_new": "\"베흘렌이 그렇게 석유를 팔고 싶어 안달이라면 송유관 비용도 자기들이 내야 하오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:172", "ko_new": "\"안타깝습니다. 우리가 건설 중인 남메르코파 동맹에 결정적인 진전이 될 수 있었습니다.\"", "reason": "신하는 합쇼체라 해요체 종결을 합쇼체로 바꿨다.", "flags_resolved": ["subject_not_hapsyo"]}
+{"key": "d:437:182", "ko_new": "\"내 해법을 말하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:190", "ko_new": "\"데르디아에서 베흘렌을 거쳐 소르들란드로 이어지는 안전한 순례 회랑에 자금을 대겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 선택지 문구와 화계를 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:191", "ko_new": "\"베흘렌을 통과하는 골콘다주의 순례 회랑의 보안을 감독하도록 병력을 보내겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 선택지 문구와 화계를 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:198", "ko_new": "\"골콘다주의 순례자들이 베흘렌에 들어가지 않고도 소르들란드에 갈 수 있는 해상 항로를 만들겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 선택지 문구와 화계를 맞췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:202", "ko_new": "\"베흘렌과 함께 베흘렌-데르디아 송유관 건설에 자금을 대겠소. 안전한 데르디아 순례길을 이 새로운 에너지 협력의 조건으로 삼겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:203", "ko_new": "\"베흘렌과 데르디아 사이의 송유관 건설에 자금을 대겠소. 안전한 데르디아 순례길을 이 새로운 에너지 협력의 조건으로 삼겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:204", "ko_new": "\"두 나라는 신뢰와 협력을 실천해야 하오. 우리 모두 같은 신에게 기도한다는 사실을 기억하시오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:208", "ko_new": "\"데르디아식 관대함의 결투를 벌이시오.\"", "reason": "로무스가 외국 정상에게 하는 명령이라 합쇼체를 하오체 '-시오'로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:210", "ko_new": "\"이걸 꼭 한번 해 보고 싶었습니다! 최고 대현자께서 직접 대표로 싸우실 겁니까?\"", "reason": "외국 정상은 합쇼체라 하오체 '싶었소'를 합쇼체로 바꿨다.", "flags_resolved": []}
+{"key": "d:437:214", "ko_new": "\"우리 둘 다 시간만 낭비했습니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:225", "ko_new": "\"두 분은 악수하시오.\"", "reason": "로무스가 외국 정상에게 하는 명령이라 합쇼체를 하오체 '-시오'로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:226", "ko_new": "\"오늘 회담을 굽어살펴 주신 주께 감사드리오.\"", "reason": "로무스가 외국 정상들 앞에서 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:232", "ko_new": "\"그렇소. 받아들이든 말든 마음대로 하시오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 같은 영문의 다른 줄과 통일했다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:232#menu", "ko_new": "\"그렇소. 받아들이든 말든 마음대로 하시오.\" [-1 권위]", "reason": "선택지에 빠진 큰따옴표를 넣고 대사와 같은 하오체로 맞췄다.", "flags_resolved": []}
+{"key": "d:437:239", "ko_new": "\"도움이 된다면 리치아가 사업에 추가 자금을 배정하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:239#menu", "ko_new": "\"도움이 된다면 리치아가 사업에 추가 자금을 배정하겠소.\" [-1 예산]", "reason": "선택지에 빠진 큰따옴표를 넣고 대사와 같은 하오체로 맞췄다.", "flags_resolved": []}
+{"key": "d:437:240", "ko_new": "\"유감스럽지만 그렇소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:244", "ko_new": "\"그렇소. 받아들이든 말든 마음대로 하시오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 같은 영문의 다른 줄과 통일했다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:244#menu", "ko_new": "\"그렇소. 받아들이든 말든 마음대로 하시오.\" [-1 권위]", "reason": "선택지에 빠진 큰따옴표를 넣고 대사와 같은 하오체로 맞췄다.", "flags_resolved": []}
+{"key": "d:437:251", "ko_new": "\"도움이 된다면 리치아가 사업에 추가 자금을 배정하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:251#menu", "ko_new": "\"도움이 된다면 리치아가 사업에 추가 자금을 배정하겠소.\" [-1 예산]", "reason": "선택지에 빠진 큰따옴표를 넣고 대사와 같은 하오체로 맞췄다.", "flags_resolved": []}
+{"key": "d:437:258", "ko_new": "\"그렇소. 받아들이든 말든 마음대로 하시오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 같은 영문의 다른 줄과 통일했다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:258#menu", "ko_new": "\"그렇소. 받아들이든 말든 마음대로 하시오.\" [-1 권위]", "reason": "선택지에 빠진 큰따옴표를 넣고 대사와 같은 하오체로 맞췄다.", "flags_resolved": []}
+{"key": "d:437:265", "ko_new": "\"도움이 된다면 리치아가 사업에 추가 자금을 배정하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:272", "ko_new": "\"그렇소. 받아들이든 말든 마음대로 하시오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 선택지 문구와 통일했다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:279", "ko_new": "\"도움이 된다면 리치아가 사업에 추가 자금을 배정하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:286", "ko_new": "\"그렇소. 받아들이든 말든 마음대로 하시오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿔 선택지 문구와 통일했다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:293", "ko_new": "\"도움이 된다면 리치아가 사업에 추가 자금을 배정하겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:300", "ko_new": "\"그렇다면 오늘 우리의 노력은 헛수고였습니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:302", "ko_new": "\"리치아가 더 큰 도움을 주지 못해 미안하오.\"", "reason": "하오체로 바꾸면서 겸양 어휘 '드리다'도 함께 낮췄다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:303", "ko_new": "\"이 일이 남메르코파 동맹을 구성하려는 우리의 노력에 영향을 주지 않기를 바라오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:304", "ko_new": "\"그래도 두 분을 만나 즐거웠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:305", "ko_new": "\"스몰라크 씨, 질레 영토의 안전한 반환은 여전히 보장해 주시길 바라오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:437:313", "ko_new": "\"하루에 중재가 두 번이나 실패하다니? 정말 불길한 징조입니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:320", "ko_new": "\"언제든지 말씀만 하십시오, 폐하.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:331", "ko_new": "\"그건 두고 봐야겠습니다.\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 '-지요' 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:333", "ko_new": "스몰라크가 선뜻 손을 내밀었다. 아즈말이 그 손을 잡았다.", "reason": "받침 없는 '스몰라크' 뒤 조사를 '가'로 고쳤다.", "flags_resolved": ["josa_mismatch"]}
+{"key": "d:437:340", "ko_new": "\"그렇다면 남메르코파 동맹을 결성하는 데 두 나라 모두 협조해 주리라 믿어도 되겠소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:437:341", "ko_new": "\"물론입니다. 함께라면 룸부르크가 우리에게 시비를 건 걸 반드시 후회하게 만들 겁니다!\"", "reason": "외국 정상이 국왕 앞에서 하는 말이라 '-지요' 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:437:343", "ko_new": "\"질레 반환 준비 서류에 파묻혀 지내고 있습니다. 우리 국민들이 걱정이 아주 많습니다. 아시잖습니까.\"", "reason": "합쇼체 화자의 '-거든요' 종결을 합쇼체로 바꿨다.", "flags_resolved": []}
+{"key": "d:437:361", "ko_new": "\"인생은 놀라움의 연속이오, 최고 대현자.\"", "reason": "로무스가 외국 정상에게 하는 말이라 '-지요' 종결을 하오체로 바꿨다.", "flags_resolved": []}
+{"key": "d:437:366", "ko_new": "\"질레 반환 준비 서류에 파묻혀 지내고 있습니다. 우리 국민들이 걱정이 아주 많습니다. 아시잖습니까.\"", "reason": "합쇼체 화자의 '-거든요' 종결을 합쇼체로 바꿨다.", "flags_resolved": []}
+{"key": "d:437:377", "ko_new": "\"합의한 질레 이양을 마무리하려고 열심히 일하고 있습니다. 서류상 문제가 몇 가지 남았지만 모든 일이 아주 순조롭게 진행되고 있습니다.\"", "reason": "외국 정상은 국왕에게 합쇼체를 쓰므로 하오체 종결을 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:438:5", "ko_new": "\"공주 말이오?\"", "reason": "로무스가 외국 정상에게 하는 말이라 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:438:9", "ko_new": "\"그 사실은 몰랐소. 하지만 놀라운 소식은 아니구려.\"", "reason": "로무스가 외국 정상에게 하는 말이라 해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:438:10", "ko_new": "\"무슨 소리요? 그 사람을 즉시 송환해야 하오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체·해요체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:438:11", "ko_new": "\"내 집사 파벨 아드리아 말이오? 데르디아에 친구가 있다고 말한 적이 있소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:438:24", "ko_new": "\"그는 내 딸의 실종을 도왔소. 딸이 어디 있는지 알고 있을 수도 있소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:438:33", "ko_new": "\"그렇다면 파벨 아드리아를 리치아로 송환하고 싶으셔도 제가 도와드릴 수 없다는 것을 아실 겁니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-군요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:438:40", "ko_new": "\"이해를 못 하는 모양이오. 리치아 국왕을 배신하고도 무사할 수 있는 사람은 없소.\"", "reason": "합쇼체를 하오체로 바꾸고 금지된 '당신'을 뺐다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:438:41", "ko_new": "\"어떻게 그런 말을 할 수 있소? 그가 무슨 짓을 했는지 알기나 하오?\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:438:45", "ko_new": "\"이 문제에서 최고 대현자의 도움을 기대하지도 않소. 일어난 일은 아드리아 씨와 나 사이의 문제요.\"", "reason": "합쇼체를 하오체로 바꾸고 금지된 '당신의'를 직함 호칭으로 대체했다.", "flags_resolved": ["romus_hapsyo_not_speech", "pronoun_dangsin"]}
+{"key": "d:438:46", "ko_new": "\"브루헤지께서도 폐하의 자비에 감탄하셨을 겁니다.\"", "reason": "용어집 표준이 '브루헤지'라 '브루헤크'를 고쳤다.", "flags_resolved": []}
+{"key": "d:438:47", "ko_new": "\"데르디아에서는 그런 꼬리표를 쓰지 않습니다. 두 남자 사이에 신성한 불꽃이 피어났다고 해서 그들을 감옥에 가두지도 않습니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체 '-고요'를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:438:48", "ko_new": "\"이해가 안 되오. 내 집사가 동성애자였다는 말이오?\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:438:52", "ko_new": "\"알겠소. 그렇다면 신께서 그를 용서하시길.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": []}
+{"key": "d:438:53", "ko_new": "\"사랑한 것이 그의 죄는 아니었소. 내 딸의 탈출을 도운 것이 죄였소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 '-지요' 종결을 하오체로 바꿨다.", "flags_resolved": ["romus_haeyo"]}
+{"key": "d:438:59", "ko_new": "\"하지만 리치아에서는 어느 쪽이든 그를 처벌했을 겁니다.\"", "reason": "외국 정상이 국왕에게 하는 말이라 해요체를 합쇼체로 바꿨다.", "flags_resolved": ["foreign_not_hapsyo"]}
+{"key": "d:438:60", "ko_new": "\"가장 신성한 사랑은 남자와 여자 사이의 사랑이오.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:438:62", "ko_new": "\"최고 대현자, 실제로 남자와 함께해 본 적이 있소? 거기에 신성한 건 아무것도 없소.\"", "reason": "로무스가 외국 정상에게 하는 말이라 합쇼체를 하오체로 바꿨다.", "flags_resolved": ["romus_hapsyo_not_speech"]}
+{"key": "d:438:75", "ko_new": "\"하지만 언젠가는 폐하와 폐하의 국민도 우리와 같은 관점으로 세상을 보게 되길 바랍니다. 성 브루헤지께서 뜻하신 방식대로 말입니다.\"", "reason": "해요체 종결을 합쇼체로 바꾸고 용어집 표준 '성 브루헤지'로 고쳤다.", "flags_resolved": ["foreign_not_hapsyo"]}

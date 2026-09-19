@@ -1,0 +1,2 @@
+{"key": "t:ReportData:0x010000A100003B80:/ReportProperties/Description", "reason": "영문 'Rizian armed forces'를 옮긴 '리치아 육군'은 표준 표기가 정해지지 않은 needs_human 용어(리치아 국군/리치아군/리치아 육군)라, 표기를 고르지 않고 원문 표기를 유지한 채 보고합니다. 이 줄의 -다 종결 문체 교정도 함께 보류했습니다."}
+{"key": "t:ReportData:0x010000A100003B80:/ReportProperties/Description", "reason": "2라운드에서 -습니다 문체 교정은 마쳤습니다. 다만 영문 'Rizian armed forces'의 표기('리치아 국군/리치아군/리치아 육군')는 여전히 표준이 정해지지 않은 needs_human 용어라, 1라운드 표기 '리치아 육군'을 그대로 두고 사람 판단을 기다립니다."}

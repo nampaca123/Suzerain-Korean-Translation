@@ -1,0 +1,23 @@
+{"key": "d:307:270", "ko_new": "\"감사합니다. 저도 폐하께 같은 말을 할 수 있으면 좋겠습니다.\"", "reason": "controller r2: register"}
+{"key": "d:306:21", "ko_new": "\"훌륭합니다. 내 다른 제안도 들어보시겠습니까?\"", "reason": "controller r2: register"}
+{"key": "d:306:64", "ko_new": "\"바로 내 생각입니다.\"", "reason": "controller r2: register"}
+{"key": "d:307:452", "ko_new": "\"폐하께서 이미 진행 중이신 일에는 간섭하지 않을 겁니다. 그저 로무스 국왕의 자비로움을 널리 알릴 뿐입니다.\"", "reason": "controller r2: register"}
+{"key": "d:307:141", "ko_new": "그는 침착하게 소총의 조준경을 조정했다.", "reason": "controller r2: consistency"}
+{"key": "d:307:517", "ko_new": "\"젊은이들에게 '마음 가는 대로' 하게 두는 건 재앙을 부르는 처방입니다. 제 형님이 가장 완벽한 사례였습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:307:249", "ko_new": "\"좋소, 둘은 먼저 가시오. 정말 미안하오, 리코.\"", "reason": "controller r2: register"}
+{"key": "d:307:571", "ko_new": "\"좋소, 둘은 먼저 가시오.\"", "reason": "controller r2: register"}
+{"key": "d:307:280", "ko_new": "\"좋소, 먼저 가시오. 떠나기 전에 두 사람이 예의 있게 대화할 마지막 기회요.\"", "reason": "controller r2: register"}
+{"key": "d:307:686", "ko_new": "\"죄송해요, 폐하. 사촌 리코 앞에서는 최대한 예의 바르게 행동할게요.\"", "reason": "controller r2: register"}
+{"key": "d:307:626", "ko_new": "\"'내란죄'는 너무 거창한 말이다. 이건 그저 가벼운 난동일 뿐이다.\"", "reason": "controller r2: consistency"}
+{"key": "d:307:18", "ko_new": "사촌 리코가 다가오며 타일 바닥에 장화 소리가 울렸다. 그는 올리브색 트위드 재킷을 입고 납작모자를 쓰고 있었다.", "reason": "controller r2: style"}
+{"key": "d:306:71", "ko_new": "베아트리체는 내게 더 가까이 다가왔다. 등불 아래에서 에메랄드가 반짝였다.", "reason": "controller r2: style"}
+{"key": "d:306:25", "ko_new": "\"동의합니다. 폐하께서 평의원이 주도적으로 나선 것을 칭찬해 주셔야 합니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:306:51", "ko_new": "\"그렇다면 폐하께서 평의원이 주도적으로 나선 것을 칭찬해 주셔야 합니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:307:277", "ko_new": "\"오늘 저녁은 잘 먹을 겁니다. 팔라스 사존의 요리사는 와인 소스를 곁들인 멧돼지 조림을 아주 잘 만듭니다.\"", "reason": "controller r2: meaning"}
+{"key": "d:307:193", "ko_new": "\"오랜만이라 그러십니까? 제가 돕겠습니다.\"", "reason": "controller r2: meaning"}
+{"key": "d:307:311", "ko_new": "\"그렇다면 좀 더 노력해주시기를 삼가 부탁드리겠습니다.\"", "reason": "controller r2: style"}
+{"key": "d:307:137", "ko_new": "\"리코는 영리한 아이요. 숙부님을 닮았소.\"", "reason": "controller r2: style"}
+{"key": "d:307:466", "ko_new": "\"직접 손을 더럽히실 필요는 없습니다, 사촌. 도움이 필요하시다면 말씀만 하십시오.\"", "reason": "controller r2: style"}
+{"key": "d:307:413", "ko_new": "\"베흘렌인들이 폐하께 수 오미나를 규탄하라고 압박했다는 건 압니다. 폐하께서는 그 마녀사냥의 본질을 현명하게 꿰뚫어보셨습니다.\"", "reason": "controller r2: meaning"}
+{"key": "d:306:47", "ko_new": "\"폐하의 방식대로 일을 처리하고 싶어 하시는 뜻을 존중합니다. 모든 일이 잘 풀리기를 바랍니다.\"", "reason": "controller r2: style"}
+{"key": "d:306:4", "ko_new": "\"BFF를 지원해왔다는 게 사실이오?\"", "reason": "controller r2: meaning"}

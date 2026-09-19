@@ -1,0 +1,32 @@
+{"key": "d:320:79", "ko_new": "\"다만 비나가 팔레에서 돌아온 뒤에 두 사람의 관계를 공개했으면 하오.\"", "reason": "controller r2: register"}
+{"key": "d:320:222", "ko_new": "\"다만 비나가 팔레에서 돌아온 뒤에 두 사람의 관계를 공개했으면 하오.\"", "reason": "controller r2: register"}
+{"key": "d:320:508", "ko_new": "\"그렇소. 하지만 비나가 팔레에서 돌아온 뒤에 두 사람의 관계를 공개했으면 하오.\"", "reason": "controller r2: register"}
+{"key": "d:320:215", "ko_new": "\"다만 비나가 돌아올 때까지 두 사람의 관계를 공개하지 않았으면 하오.\"", "reason": "controller r2: register"}
+{"key": "d:320:472", "ko_new": "\"그렇다고 내가 두 사람의 관계를 허락한다는 뜻은 아니오.\"", "reason": "controller r2: register"}
+{"key": "d:320:473", "ko_new": "\"그리고 말이오. 내가 너그럽게도 두 사람이 공개적으로 교제하는 것을 허락하겠소. 지금부터 당장.\"", "reason": "controller r2: register"}
+{"key": "d:320:323", "ko_new": "\"좋소. 비나가 팔레에서 돌아오면 두 사람의 관계를 공개합시다.\"", "reason": "controller r2: register"}
+{"key": "d:320:333", "ko_new": "\"거래를 하나 합시다. 비나가 팔레에 가기로 한다면 두 사람의 관계를 지금 공개해도 좋소.\"", "reason": "controller r2: register"}
+{"key": "d:320:424", "ko_new": "\"두 사람에게 진심으로 미안하오. 하지만 당분간 비나가 독신으로 남는 것이 정치적으로 유리하오.\"", "reason": "controller r2: register"}
+{"key": "d:320:480", "ko_new": "\"허락할 수 있다면 좋겠소. 하지만 지금은 비나가 독신으로 남는 것이 정치적으로 유리하오.\"", "reason": "controller r2: register"}
+{"key": "d:320:421", "ko_new": "\"두 사람의 결합은 허락할 수 없소. 비나, 너는 팔레에 간다. 사존 씨, 비나에게 연락하려다 발각되면 목을 베겠소.\"", "reason": "controller r2: register"}
+{"key": "d:320:423", "ko_new": "\"두 사람의 결합은 허락할 수 없소. 비나, 이 남자와 모든 연락을 끊어라. 사존 씨, 비나와 공공장소에 함께 있는 모습이 발각되면 목을 베겠소.\"", "reason": "controller r2: register"}
+{"key": "d:320:763", "ko_new": "\"마음껏 즐기시오, 젊은이들. 머지않아 비나는 팔레로 떠날 테니 말이오.\"", "reason": "controller r2: register"}
+{"key": "d:320:346", "ko_new": "\"비나와 함께하기 위해 그대의 신념까지 굽히겠다는 것이오?\"", "reason": "controller r2: register"}
+{"key": "d:320:1465", "ko_new": "\"아니오. RPP와 협력할 의향이 있다고만 말했소. 하지만 체제 전체를 개혁하는 것은 말도 안 되는 소리요.\"", "reason": "controller r2: register"}
+{"key": "d:320:185", "ko_new": "\"협상이 틀어지면 우리에게 지렛대가 필요하다. 대공의 약점을 좀 캐보거라.\"", "reason": "controller r2: glossary"}
+{"key": "d:320:788", "ko_new": "\"저, 저... 말씀드리려고 했어요. 아버지가 생각하시는 그런 게 아니에요.\"", "reason": "controller r2: token"}
+{"key": "d:320:1218", "ko_new": "\"대단합니다, 폐하!\"", "reason": "controller r2: consistency"}
+{"key": "d:320:1217", "ko_new": "마누스와 비나는 흥분한 표정으로 서로를 바라봤다.", "reason": "controller r2: consistency"}
+{"key": "d:320:793", "ko_new": "\"공주 전하께서 읽으신 책 이야기를 제게 하시기는 했습니다, 폐하. 폐하께서 모르시는 편이 가장 안전하다고 생각했습니다.\"", "reason": "controller r2: register"}
+{"key": "d:320:1079", "ko_new": "\"하지만 신께서도 폐하께서 신민들의 필요에 따라 봉사하시기를 바라시지 않겠습니까?\"", "reason": "controller r2: register"}
+{"key": "d:320:999", "ko_new": "나는 비나에게 아무 말도 하지 않았다.", "reason": "controller r2: consistency"}
+{"key": "d:320:266", "ko_new": "\"저희 관계를 허락해 주신다면 사존 가문 전체가 폐하의 모든 계획을 지지할 것입니다. 왕실에 대한 그들의 가치를 과소평가하셔서는 안 됩니다.\"", "reason": "controller r2: register"}
+{"key": "d:320:275", "ko_new": "\"제 친족들은 여전히 브레나스에서 상당한 권력과 영향력을 행사합니다. 왕실에 대한 그들의 가치를 과소평가하셔서는 안 됩니다.\"", "reason": "controller r2: register"}
+{"key": "d:320:319", "ko_new": "\"제 친족들은 여전히 브레나스에서 상당한 권력과 영향력을 행사합니다. 왕실에 대한 그들의 가치를 과소평가하셔서는 안 됩니다.\"", "reason": "controller r2: register"}
+{"key": "d:320:846", "ko_new": "\"반면 리치아 인민당이 집권한다면 훨씬 수월하게 추진하실 수 있을 겁니다.\"", "reason": "controller r2: register"}
+{"key": "d:320:1278", "ko_new": "\"역시 두 사람은 한패였소!\"", "reason": "controller r2: meaning"}
+{"key": "d:320:22", "ko_new": "\"둘 다 제정신이오? 소문에 기름을 더 붓고 싶은 것이오?\"", "reason": "controller r2: register"}
+{"key": "d:320:55", "ko_new": "\"둘 다 어서 말해 보시오.\"", "reason": "controller r2: register"}
+{"key": "d:320:97", "ko_new": "\"마음에 들지는 않소. 하지만 사존 씨가 여기까지 왔으니 두 사람의 말을 들어주겠소.\"", "reason": "controller r2: register"}
+{"key": "d:320:99", "ko_new": "\"좋소. 하지만 그 불손함에도 두 사람의 목을 베지 않는 것을 다행으로 여기시오.\"", "reason": "controller r2: register"}
+{"key": "d:320:109", "ko_new": "\"두 사람이 무슨 말을 하려든 나중으로 미루시오. 비나, 팔레에 관해 이야기해야 한다.\"", "reason": "controller r2: register"}

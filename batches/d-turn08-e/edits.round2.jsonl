@@ -1,0 +1,5 @@
+{"key": "d:410:83", "ko_new": "\"오는 길의 하늘이 평온했기를 바랍니다, 폐하.\"", "reason": "컨트롤러 R146: 영문 Your Highness 오류도 호칭 규칙 우선", "flags_resolved": []}
+{"key": "d:412:64", "ko_new": "\"최전선 정보와 리치아 정보국의 첩보망에서 들어온 제보를 종합하면 팔레군이 대규모 준비를 하고 있는 것으로 보입니다.\"", "reason": "컨트롤러 R148: Rizian Foreign Intelligence=리치아 정보국(코퍼스 43)", "flags_resolved": []}
+{"key": "d:413:44", "ko_new": "그는 대재상으로서의 공식 권위를 상징하는 금빛 핀, '대재상의 별'을 손에 쥐고 있었다. 그는 그것을 세게 움켜쥐었다.", "reason": "컨트롤러 R149: Vizier's Star=대재상의 별", "flags_resolved": []}
+{"key": "d:412:54", "ko_new": "\"일리가 있구려. 좋소. 일단 지켜보도록 하겠소.\"", "reason": "컨트롤러: 로무스 감탄 -구려", "flags_resolved": ["romus_mixed_register"]}
+{"key": "d:412:221", "ko_new": "\"토라스와 아자로 가문이 다시 함께 전장에 서는구려. 아버지께서 자랑스러워하셨을 것이오.\"", "reason": "컨트롤러: 로무스 감탄 -구려", "flags_resolved": ["romus_mixed_register"]}

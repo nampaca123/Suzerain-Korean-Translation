@@ -1,0 +1,3 @@
+{"key": "t:DecisionData:0x01000064000008D6:/DecisionProperties/HubDescription", "ko_new": "어느 지방이 왕실에 더 낮은 세금을 내도록 하겠습니까?", "reason": "controller r2: register"}
+{"key": "t:DecisionData:0x010000650000EC24:/DecisionProperties/Description", "ko_new": "리치아 왕실 금광 회사 CEO 루셀로 \"러스티\" 몬토로가 제안을 내놓았습니다. 경쟁력 있는 이자율로 왕실에 자금을 빌려주겠다는 것입니다.", "reason": "controller r2: meaning"}
+{"key": "t:DecisionData:0x0100006500009AC7:/DecisionProperties/Options[3]/Text", "ko_new": "권위나 자금이 부족해 요청을 거부한다", "reason": "controller r2: style"}

@@ -1,0 +1,7 @@
+{"key": "d:345:72", "flag": "subject_mixed_register", "reason": "루시타 사적 장면 해체 \"좋아.\"(혼인 후 사적, 화계표 5.2)(컨트롤러 확인)"}
+{"key": "d:345:215", "flag": "romus_mixed_register", "reason": "\"이거 좋은 생각이군!\" 짧은 독립 감탄(컨트롤러 확인)"}
+{"key": "d:345:960", "flag": "romus_mixed_register", "reason": "\"'반역자의 전당'이라.\" 감탄 조각(컨트롤러 확인)"}
+{"key": "d:345:433", "flag": "narration_not_declarative", "reason": "1인칭 나레이션 자문(\"…해야 한단 말인가?\")(컨트롤러 확인)"}
+{"key": "d:345:1049", "flag": "royal_title_low_register", "reason": "혼인 후 사적 장면(R99)에서 루시타의 해체+장난스러운 \"폐하\"(영문 Your Majesty) — 화계표 5.2 사적 해체(컨트롤러 확인)"}
+{"key": "d:345:1081", "flag": "royal_title_low_register", "reason": "동일(사적 해체, 영문 Your Majesty 장난 호칭)(컨트롤러 확인)"}
+{"key": "d:345:1174", "flag": "subject_mixed_register", "reason": "혼인 후 사적 장면 루시타 해체(컨트롤러 확인)"}

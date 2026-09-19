@@ -1,0 +1,26 @@
+{"key": "d:323:166", "ko_new": "\"예, 물론입니다.\"", "reason": "controller r2: register"}
+{"key": "d:323:482", "ko_new": "\"그나저나 리치아에서 입국을 금지해 주신 건 고맙습니다. 우리 영토를 거쳐 귀국으로 향하려는 반군이 눈에 띄게 줄었습니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:323:693", "ko_new": "\"그나저나 리치아에서 입국을 금지해 주신 건 고맙습니다. 우리 영토를 거쳐 귀국으로 향하려는 반군이 눈에 띄게 줄었습니다.\"", "reason": "controller r2: glossary"}
+{"key": "d:323:254", "ko_new": "\"폐하께서는 군주들 중에서는 꽤 개명하신 편인 것 같습니다.\"", "reason": "controller r2: register"}
+{"key": "d:323:214", "ko_new": "\"귀하와 헤겔 총리가 이 문제를 꽤 많이 고민한 모양이오.\"", "reason": "controller r2: register"}
+{"key": "d:323:414", "ko_new": "\"그리고 폐하의 왕국이 입은 수익 감소를 보상해 주고 싶은 것도 사실입니다. 과거 리치아에 금이 얼마나 중요했는지 잘 알고 있습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:323:457", "ko_new": "\"그렇다고 해도, 폐하의 왕국에서 협력을 얻기 어려워진다면 우리는 그쪽에 손을 내밀 수밖에 없습니다.\"", "reason": "controller r2: consistency"}
+{"key": "d:323:249", "ko_new": "\"좋습니다. 우리에게 어떤 도움을 원하십니까?\"", "reason": "controller r2: meaning"}
+{"key": "d:323:886", "ko_new": "\"새 광업 규제에 동의하시고, 거기에 더해 앞서 말씀드린 다른 요구 중 적어도 하나를 받아들이셔야 합니다.\"", "reason": "controller r2: register"}
+{"key": "d:323:291", "ko_new": "\"완전히 비폭력적이오. 그들의 목표는 그 지역의 친리치아 정서를 높이는 것, 그 이상은 아니오.\"", "reason": "controller r2: meaning"}
+{"key": "d:323:16", "ko_new": "희미하게만 표시된 길이 빽빽한 대나무 숲으로 이어졌다. 우리는 경호원들을 뒤에 거느린 채 안으로 걸어 들어갔다.", "reason": "controller r2: style"}
+{"key": "d:323:176", "ko_new": "\"모렐라 노동자들의 안녕과 귀국의 이익을 생각하면 다른 표를 던질 수는 없었소.\"", "reason": "controller r2: meaning"}
+{"key": "d:323:368", "ko_new": "\"초강대국들에 강력한 신호를 보내게 될 것이오. 남메르코파는 스스로의 힘으로 설 수 있소.\"", "reason": "controller r2: style"}
+{"key": "d:323:29", "ko_new": "\"이것이 모렐라의 차 문화입니다, {RiziaDLCText.SaltanaToPlayer}. 음식을 권했는데 거절하는 것은 예의에 어긋납니다.\"", "reason": "controller r2: meaning"}
+{"key": "d:323:455", "ko_new": "\"그래도 헤겔 총리의 요구는 나중에 나올 겁니다.\"", "reason": "controller r2: style"}
+{"key": "d:323:456", "ko_new": "\"회의에서 헤겔 총리의 말을 들으셨잖습니까. 그 공화국은 아직도 발고스 제국의 과거 잘못을 속죄하고 있습니다.\"", "reason": "controller r2: style"}
+{"key": "d:323:526", "ko_new": "\"그러시겠지요.\"", "reason": "controller r2: meaning"}
+{"key": "d:323:732", "ko_new": "\"그러시겠지요.\"", "reason": "controller r2: meaning"}
+{"key": "d:323:352", "ko_new": "\"그러지 마십시오. 어떻게 이행할지도 말하지 않은 채 약속만 늘어놓을 수는 없습니다.\"", "reason": "controller r2: meaning"}
+{"key": "d:323:654", "ko_new": "\"그러지 마십시오. 우리 다 성인입니다, {RiziaDLCText.SaltanaToPlayer}.\"", "reason": "controller r2: meaning"}
+{"key": "d:323:573", "ko_new": "\"그건 문제가 되겠소. 나는 MITZ 수익이 소득 감소를 메워줄 수 있다고 봤기 때문에 리치아에서 그 규제들을 통과시킨 거요.\"", "reason": "controller r2: style"}
+{"key": "d:323:510", "ko_new": "\"하지만 국왕이자 같은 브루헤지교도인 폐하라면 존중할 거라는 예감이 듭니다.\"", "reason": "controller r2: style"}
+{"key": "d:323:727", "ko_new": "\"하지만 국왕이자 같은 브루헤지교도인 폐하라면 존중할 거라는 예감이 듭니다.\"", "reason": "controller r2: style"}
+{"key": "d:323:514", "ko_new": "\"하지만 국왕이자 같은 브루헤지교도인 폐하라면 존중할 거라는 예감이 듭니다. 입국 금지 조치에도 불구하고 말입니다.\"", "reason": "controller r2: style"}
+{"key": "d:323:730", "ko_new": "\"하지만 국왕이자 같은 브루헤지교도인 폐하라면 존중할 거라는 예감이 듭니다. 입국 금지 조치에도 불구하고 말입니다.\"", "reason": "controller r2: style"}
+{"key": "d:323:999", "ko_new": "나와 경호대는 카베테에서 가장 큰 공원인 인민 정원 정문 밖에 차량 행렬을 세우고 내렸다.", "reason": "controller r2: style"}

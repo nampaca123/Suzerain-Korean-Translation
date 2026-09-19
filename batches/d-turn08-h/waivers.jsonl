@@ -1,0 +1,7 @@
+{"key": "d:417:510", "flag": "subject_mixed_register", "reason": "명사 조각문(\"…동맹까지.\") — 종결어미 없음(컨트롤러 확인)"}
+{"key": "d:417:517", "flag": "subject_mixed_register", "reason": "명사 조각문 — 종결어미 없음(컨트롤러 확인)"}
+{"key": "d:417:625", "flag": "subject_mixed_register", "reason": "명사구 조각(-파 종결 오분류)(컨트롤러 확인)"}
+{"key": "d:417:1376", "flag": "subject_mixed_register", "reason": "\"아버지, 폐하.\" 호격 — 종결어미 없음(컨트롤러 확인)"}
+{"key": "d:417:229", "flag": "romus_mixed_register", "reason": "\"비나 사존이라.\" 짧은 독립 감탄(체크리스트 10 예외)(컨트롤러 확인)"}
+{"key": "d:417:1183", "flag": "romus_mixed_register", "reason": "건배사 안에서 딸 비나에게 직접 하는 해라체(R71b 실제 청자 기준)(컨트롤러 확인)"}
+{"key": "d:417:1401", "flag": "royal_title_low_register", "reason": "휴고→아들 리코 해라체. \"폐하\"는 3인칭 언급(컨트롤러 확인)"}

@@ -1,0 +1,5 @@
+{"key": "t:NewsData:0x01000052000539EF:/NewsProperties/Description", "reason": "영문 'the formerly gold-rich monarchy'가 공화국(레스피아)과 대비된 국가 지칭이라 R130의 '군주제'·'왕정'이 모두 어색하다. 코퍼스 표기 '군주국'(114줄)을 썼으나 monarchy의 국가 지칭 자리 표준은 규칙에 없어 사용자 확인이 필요하다."}
+{"key": "t:NewsData:0x0100005200053A1B:/NewsProperties/Description", "reason": "위와 같은 'the formerly gold-rich monarchy' 자리. '군주국'으로 통일했으나 monarchy의 국가 지칭 표준 확정이 필요하다."}
+{"key": "t:NewsData:0x0100005200053A6A:/NewsProperties/Title", "reason": "“Wruhec’s Corridor”의 한국어 표기 '브루헤지의 회랑'은 코퍼스 선례가 이 배치의 세 표제뿐이다(독립 선례 0). R74 뜻풀이형 표기로 coined_terms에 올렸으니 사용자 확정이 필요하다."}
+{"key": "t:NewsData:0x0100005200053A8B:/NewsProperties/Title", "reason": "“Wruhec’s Passage”의 한국어 표기 '브루헤지의 항로'는 코퍼스 선례가 이 줄뿐이다(독립 선례 0). coined_terms에 올렸으니 사용자 확정이 필요하다."}
+{"key": "t:NewsData:0x010000520007B887:/NewsProperties/Description", "reason": "'Rite of Severance'의 한국어 표기 '단절 의식'은 코퍼스 선례가 이 줄뿐이다(독립 선례 0). coined_terms에 올렸으니 사용자 확정이 필요하다."}

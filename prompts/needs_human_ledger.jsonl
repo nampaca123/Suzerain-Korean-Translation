@@ -30,3 +30,4 @@
 {"key": "t-NewsData-08 (Sing Sing No To The King!)", "batch": "t-NewsData-08", "issue": "시위 구호 운율 의역 '노래하자, 국왕은 싫다고!' 선례 없음", "controller": "유지, 사용자 확정 필요"}
 {"key": "t-NewsData-08 (Marzcel Inovitz)", "batch": "t-NewsData-08", "issue": "가수 이름 음차 '마르젤 이노비츠' 선례 없음", "controller": "유지, 사용자 확정 필요"}
 {"key": "t-NewsData-06 (TerraGrowth Agrochem, CircuitRise Systems)", "batch": "t-NewsData-06", "issue": "기업명 한국어 표기 전무 → 로마자 유지", "controller": "로마자 유지, 사용자 확정 필요"}
+{"key": "t-NewsData-07 (Verloa Bay)", "batch": "t-NewsData-07", "issue": "벨로아만 — 코퍼스·메인 선례 없음", "controller": "음차 유지, 사용자 확정 필요"}

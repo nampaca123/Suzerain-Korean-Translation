@@ -1,1 +1,1 @@
-{"batch": "t-MapTokenData-01", "stage": "failed", "round": 1, "kind": "textassets", "applied": 20, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}
+{"batch": "t-MapTokenData-01", "stage": "passed", "round": 2, "kind": "textassets", "applied": 11, "rejected": 0, "reason": "", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

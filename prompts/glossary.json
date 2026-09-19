@@ -1959,5 +1959,25 @@
     "누리스트": 18
    }
   }
+ },
+ {
+  "concept": "opposition speaker",
+  "en": "opposition speaker",
+  "standard": "야당 대표",
+  "banned": [
+   "야당 의장"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "야당 대표": 7,
+    "야당 의장": 0
+   },
+   "rizia": {
+    "야당 대표": 14,
+    "야당 의장": 7
+   }
+  }
  }
 ]

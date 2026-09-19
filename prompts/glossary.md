@@ -96,3 +96,4 @@
 | Baroness de Rava (본인 작위) | Baroness de Rava | 데 라바 여남작 | 데 라바 남작부인 | user_decision | 예 | {'데 라바 여남작': 0, '데 라바 남작부인': 0} | {'데 라바 여남작': 0, '데 라바 남작부인': 26} |
 | Duchess Vina (비나 여공작) | Duchess Vina | 비나 여공작 | 비나 공작부인 | user_decision | 예 | {'비나 여공작': 0, '비나 공작부인': 0} | {'비나 여공작': 0, '비나 공작부인': 3} |
 | Nurist (형용사형, 누리티) | Nurist | 누리티 | 누리스트 | user_decision | 예 | {'누리티': 110, '누리스트': 0} | {'누리티': 567, '누리스트': 18} |
+| opposition speaker | opposition speaker | 야당 대표 | 야당 의장 | user_decision | 예 | {'야당 대표': 7, '야당 의장': 0} | {'야당 대표': 14, '야당 의장': 7} |

@@ -2117,5 +2117,25 @@
     "무역 지대": 54
    }
   }
+ },
+ {
+  "concept": "Alka River",
+  "en": "Alka River",
+  "standard": "알카강",
+  "banned": [
+   "알카 강"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "알카강": 0,
+    "알카 강": 0
+   },
+   "rizia": {
+    "알카강": 15,
+    "알카 강": 8
+   }
+  }
  }
 ]

@@ -1035,5 +1035,16 @@
     "human_standard": "무역지대",
     "human_auto_replace": true,
     "human_reason": "R183: 용어집 국제무역지대(붙임)와 통일, 코퍼스 153:23"
+  },
+  {
+    "concept": "Alka River",
+    "en": "Alka River",
+    "candidates": [
+      "알카강",
+      "알카 강"
+    ],
+    "human_standard": "알카강",
+    "human_auto_replace": true,
+    "human_reason": "R185: 코퍼스 16:1 붙임"
   }
 ]

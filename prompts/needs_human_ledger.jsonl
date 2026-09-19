@@ -26,3 +26,4 @@
 {"key": "t:NewsData:0x010000510002FB34:/NewsProperties/Description", "batch": "t-NewsData-01", "issue": "UCOSM 약칭의 정식 명칭이 메인·Rizia 코퍼스 어디에도 없음", "controller": "로마자 UCOSM 유지(창작 금지). 사용자 확정 필요."}
 {"key": "t-NewsData-04 (Central Line)", "batch": "t-NewsData-04", "issue": "지역명 Central Line→'중앙선' 선례 없음(철도 노선 오해 소지)", "controller": "기존 표기 유지, 사용자 확정 필요"}
 {"key": "t-NewsData-03 (Wruhec's Corridor/Passage, Rite of Severance)", "batch": "t-NewsData-03", "issue": "브루헤지의 회랑/브루헤지의 항로/단절 의식 — 코퍼스 선례가 배치 자신뿐", "controller": "R74 뜻풀이형 유지, coined_terms 등재, 사용자 확정 필요"}
+{"key": "t-NewsData-05 (His Majesty's office)", "batch": "t-NewsData-05", "issue": "King's office 표준 표기 미확정 — 편집자가 코퍼스 2줄 선례 '국왕실' 채택", "controller": "국왕실 유지, 사용자 확정 필요"}

@@ -976,5 +976,16 @@
     "human_standard": "발그슬란드인",
     "human_auto_replace": true,
     "human_reason": "R166: 메인 켐페인 11:6(발그계, 관형형 유지):2 — 단독 민족명은 발그슬란드인"
+  },
+  {
+    "concept": "Central Police",
+    "en": "Central Police",
+    "candidates": [
+      "중앙 경찰",
+      "중앙경찰"
+    ],
+    "human_standard": "중앙 경찰",
+    "human_auto_replace": true,
+    "human_reason": "R168: 코퍼스 25:16 다수형·띄어쓰기 원칙(R77)"
   }
 ]

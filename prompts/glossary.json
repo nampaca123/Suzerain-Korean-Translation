@@ -2005,5 +2005,25 @@
     "발기쉬": 1
    }
   }
+ },
+ {
+  "concept": "Central Police",
+  "en": "Central Police",
+  "standard": "중앙 경찰",
+  "banned": [
+   "중앙경찰"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "중앙 경찰": 0,
+    "중앙경찰": 0
+   },
+   "rizia": {
+    "중앙 경찰": 24,
+    "중앙경찰": 16
+   }
+  }
  }
 ]

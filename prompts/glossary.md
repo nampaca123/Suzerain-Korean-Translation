@@ -98,3 +98,4 @@
 | Nurist (형용사형, 누리티) | Nurist | 누리티 | 누리스트 | user_decision | 예 | {'누리티': 110, '누리스트': 0} | {'누리티': 567, '누리스트': 18} |
 | opposition speaker | opposition speaker | 야당 대표 | 야당 의장 | user_decision | 예 | {'야당 대표': 7, '야당 의장': 0} | {'야당 대표': 14, '야당 의장': 7} |
 | Valgish (민족명 단독형) | Valgish | 발그슬란드인 | 발그인, 발그족, 발기쉬 | user_decision | 예 | {'발그슬란드인': 11, '발그인': 1, '발그족': 0, '발기쉬': 0} | {'발그슬란드인': 9, '발그인': 3, '발그족': 1, '발기쉬': 1} |
+| Central Police | Central Police | 중앙 경찰 | 중앙경찰 | user_decision | 예 | {'중앙 경찰': 0, '중앙경찰': 0} | {'중앙 경찰': 24, '중앙경찰': 16} |

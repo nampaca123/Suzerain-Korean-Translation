@@ -1,1 +1,1 @@
-{"batch": "t-NewsData-13", "stage": "ready", "round": 0, "kind": "textassets"}
+{"batch": "t-NewsData-13", "stage": "failed", "round": 1, "kind": "textassets", "applied": 56, "rejected": 0, "reason": "findings.jsonl missing", "hard_flag_rate": {}, "blocks": 0, "remaining_flags": {}}

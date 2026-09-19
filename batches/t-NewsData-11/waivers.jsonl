@@ -1,0 +1,3 @@
+{"key": "t:NewsData:0x010000B4000000A3:/NewsProperties/Description", "flag": "ta_register_mismatch", "reason": "기사 말미 직접 인용문/구호가 본문 문체로 오인된 오탐"}
+{"key": "t:NewsData:0x010000B4000000AD:/NewsProperties/Description", "flag": "ta_register_mismatch", "reason": "기사 말미 직접 인용문/구호가 본문 문체로 오인된 오탐"}
+{"key": "t:NewsData:0x010000B4000000B7:/NewsProperties/Description", "flag": "ta_register_mismatch", "reason": "기사 말미 직접 인용문/구호가 본문 문체로 오인된 오탐"}

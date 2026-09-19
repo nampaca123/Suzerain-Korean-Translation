@@ -1068,5 +1068,38 @@
     "human_standard": "수석 집사",
     "human_auto_replace": true,
     "human_reason": "R110 보충: 코퍼스 24:4"
+  },
+  {
+    "concept": "Thornbourgh",
+    "en": "Thornbourgh",
+    "candidates": [
+      "토른부르크",
+      "손버러"
+    ],
+    "human_standard": "토른부르크",
+    "human_auto_replace": true,
+    "human_reason": "R192: 메인 48:30"
+  },
+  {
+    "concept": "Ventry City",
+    "en": "Ventry City",
+    "candidates": [
+      "벤트리 시티",
+      "벤트리시"
+    ],
+    "human_standard": "벤트리 시티",
+    "human_auto_replace": true,
+    "human_reason": "R193: 메인 11:2"
+  },
+  {
+    "concept": "Valgsland socialism",
+    "en": "Valgsland socialism",
+    "candidates": [
+      "발그슬란드 사회주의",
+      "발그슬란드식 사회주의"
+    ],
+    "human_standard": "발그슬란드 사회주의",
+    "human_auto_replace": true,
+    "human_reason": "R194: 메인 17:3"
   }
 ]

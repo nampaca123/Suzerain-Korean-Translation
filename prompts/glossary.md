@@ -106,3 +106,6 @@
 | Alka River | Alka River | 알카강 | 알카 강 | user_decision | 예 | {'알카강': 0, '알카 강': 0} | {'알카강': 15, '알카 강': 8} |
 | Markian Sea | Markian Sea | 마르키아해 | 마르키아 해 | user_decision | 예 | {'마르키아해': 70, '마르키아 해': 1} | {'마르키아해': 10, '마르키아 해': 4} |
 | head butler | head butler | 수석 집사 | 집사장 | user_decision | 예 | {'수석 집사': 0, '집사장': 0} | {'수석 집사': 23, '집사장': 8} |
+| Thornbourgh | Thornbourgh | 토른부르크 | 손버러 | user_decision | 예 | {'토른부르크': 43, '손버러': 0} | {'토른부르크': 4, '손버러': 35} |
+| Ventry City | Ventry City | 벤트리 시티 | 벤트리시 | user_decision | 예 | {'벤트리 시티': 33, '벤트리시': 2} | {'벤트리 시티': 7, '벤트리시': 1} |
+| Valgsland socialism | Valgsland socialism | 발그슬란드 사회주의 | 발그슬란드식 사회주의 | user_decision | 예 | {'발그슬란드 사회주의': 18, '발그슬란드식 사회주의': 2} | {'발그슬란드 사회주의': 21, '발그슬란드식 사회주의': 13} |

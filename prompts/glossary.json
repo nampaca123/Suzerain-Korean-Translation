@@ -2177,5 +2177,65 @@
     "집사장": 8
    }
   }
+ },
+ {
+  "concept": "Thornbourgh",
+  "en": "Thornbourgh",
+  "standard": "토른부르크",
+  "banned": [
+   "손버러"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "토른부르크": 43,
+    "손버러": 0
+   },
+   "rizia": {
+    "토른부르크": 4,
+    "손버러": 35
+   }
+  }
+ },
+ {
+  "concept": "Ventry City",
+  "en": "Ventry City",
+  "standard": "벤트리 시티",
+  "banned": [
+   "벤트리시"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "벤트리 시티": 33,
+    "벤트리시": 2
+   },
+   "rizia": {
+    "벤트리 시티": 7,
+    "벤트리시": 1
+   }
+  }
+ },
+ {
+  "concept": "Valgsland socialism",
+  "en": "Valgsland socialism",
+  "standard": "발그슬란드 사회주의",
+  "banned": [
+   "발그슬란드식 사회주의"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "발그슬란드 사회주의": 18,
+    "발그슬란드식 사회주의": 2
+   },
+   "rizia": {
+    "발그슬란드 사회주의": 21,
+    "발그슬란드식 사회주의": 13
+   }
+  }
  }
 ]

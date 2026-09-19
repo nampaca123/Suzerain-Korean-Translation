@@ -109,3 +109,4 @@
 | Thornbourgh | Thornbourgh | 토른부르크 | 손버러 | user_decision | 예 | {'토른부르크': 43, '손버러': 0} | {'토른부르크': 4, '손버러': 35} |
 | Ventry City | Ventry City | 벤트리 시티 | 벤트리시 | user_decision | 예 | {'벤트리 시티': 33, '벤트리시': 2} | {'벤트리 시티': 7, '벤트리시': 1} |
 | Valgsland socialism | Valgsland socialism | 발그슬란드 사회주의 | 발그슬란드식 사회주의 | user_decision | 예 | {'발그슬란드 사회주의': 18, '발그슬란드식 사회주의': 2} | {'발그슬란드 사회주의': 21, '발그슬란드식 사회주의': 13} |
+| Rizian National Coalition (RNC) | Rizian National Coalition | 리치아 국민 연합 | 리치아 국민연합 | user_decision | 예 | {'리치아 국민 연합': 0, '리치아 국민연합': 0} | {'리치아 국민 연합': 81, '리치아 국민연합': 8} |

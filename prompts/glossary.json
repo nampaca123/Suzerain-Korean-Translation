@@ -2237,5 +2237,25 @@
     "발그슬란드식 사회주의": 13
    }
   }
+ },
+ {
+  "concept": "Rizian National Coalition (RNC)",
+  "en": "Rizian National Coalition",
+  "standard": "리치아 국민 연합",
+  "banned": [
+   "리치아 국민연합"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "리치아 국민 연합": 0,
+    "리치아 국민연합": 0
+   },
+   "rizia": {
+    "리치아 국민 연합": 81,
+    "리치아 국민연합": 8
+   }
+  }
  }
 ]

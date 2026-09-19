@@ -1101,5 +1101,16 @@
     "human_standard": "발그슬란드 사회주의",
     "human_auto_replace": true,
     "human_reason": "R194: 메인 17:3"
+  },
+  {
+    "concept": "Rizian National Coalition (RNC)",
+    "en": "Rizian National Coalition",
+    "candidates": [
+      "리치아 국민 연합",
+      "리치아 국민연합"
+    ],
+    "human_standard": "리치아 국민 연합",
+    "human_auto_replace": true,
+    "human_reason": "R198: 코퍼스 63:6, R77 띄어쓰기"
   }
 ]

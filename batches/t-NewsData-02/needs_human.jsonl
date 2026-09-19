@@ -1,0 +1,9 @@
+{"key": "t:NewsData:0x010000520002EB0E:/NewsProperties/Description", "reason": "'Directive on Offshore Resources'(해상자원 지침)와 'maritime economic zones'(해양 경제수역)는 뜻풀이형 문서·제도명인데 코퍼스에 이 줄 말고는 선례가 없다(Grep 결과 배치 밖 0줄). 기존 표기를 그대로 두었으니 표준 표기 확정이 필요하다."}
+{"key": "t:NewsData:0x0100005200038693:/NewsProperties/Description", "reason": "'royal tribunal'을 옮긴 '왕립재판소'가 코퍼스에 이 배치의 2줄(IDX98·100)뿐이고 배치 밖 선례가 0줄이다. 사법기구 명칭 표준 확정이 필요하다."}
+{"key": "t:NewsData:0x010000520003869F:/NewsProperties/Description", "reason": "'royal tribunal'을 옮긴 '왕립재판소'가 배치 밖 코퍼스 선례 0줄이다. IDX98과 같은 표기를 유지했으나 표준 확정이 필요하다."}
+{"key": "t:NewsData:0x010000520002EC7D:/NewsProperties/Description", "reason": "'Duke Dashing'(악셀 레이나르트의 별명)을 옮긴 '그 멋진 대공'이 코퍼스에 이 줄뿐이다. 별명 고정 표기를 정해야 한다."}
+{"key": "t:NewsData:0x0100005200046D53:/NewsProperties/Description", "reason": "'Rocco Huxon'을 옮긴 '로코 헉슨'이 코퍼스에 이 줄뿐이다(배치 밖 0줄). 인명 음차 표기 확정이 필요하다."}
+{"key": "t:NewsData:0x010000520002EC88:/NewsProperties/Description", "reason": "'Gustav Montrel'(구스타프 몬트렐), 'Fabien Toras'(파비앵 토라스), 'Lord Eduard'(에두아르 경), 'Lady Sephina'(세피나 부인)의 한국어 표기가 배치 밖 코퍼스에 거의 없다. 특히 Lord/Lady 경칭 처리(경/부인) 기준이 필요하다."}
+{"key": "t:NewsData:0x010000520002EC94:/NewsProperties/Description", "reason": "IDX56과 같은 인물 목록이다. 'Lady Sephina'를 '세피나 부인'으로, 'Lord Eduard'를 '에두아르 경'으로 둔 경칭 처리 기준 확정이 필요하다."}
+{"key": "t:NewsData:0x010000520002EBA9:/NewsProperties/Description", "reason": "'monarchy'가 이 파일 안에서 '왕정'(IDX48·62·64·114·122·124·126)과 '군주제'(IDX4)로 갈린다. 코퍼스도 왕정 283줄 대 군주제 352줄로 갈려 기계적 판단이 불가능해 기존 표기를 그대로 두었다. 파일 전체 통일 방침이 필요하다."}
+{"key": "t:NewsData:0x010000520002EB45:/NewsProperties/Description", "reason": "'Daddy Romus'를 옮긴 '아빠 로무스'는 가십 칼럼니스트의 농담조 표현이라 유지했다. 화계표 5.2의 '아빠 금지'는 비나의 대사 규칙이므로 충돌하지 않는다고 보았으나 확인이 필요하다."}

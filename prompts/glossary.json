@@ -2091,5 +2091,25 @@
     "솔드인": 11
    }
   }
+ },
+ {
+  "concept": "Trade Zone (단독형)",
+  "en": "Trade Zone",
+  "standard": "무역지대",
+  "banned": [
+   "무역 지대"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "무역지대": 1,
+    "무역 지대": 1
+   },
+   "rizia": {
+    "무역지대": 116,
+    "무역 지대": 54
+   }
+  }
  }
 ]

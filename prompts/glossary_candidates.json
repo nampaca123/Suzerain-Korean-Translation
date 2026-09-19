@@ -1022,5 +1022,16 @@
     "human_standard": "소르드인",
     "human_auto_replace": true,
     "human_reason": "R173: 코퍼스 29 대 5"
+  },
+  {
+    "concept": "Trade Zone (단독형)",
+    "en": "Trade Zone",
+    "candidates": [
+      "무역지대",
+      "무역 지대"
+    ],
+    "human_standard": "무역지대",
+    "human_auto_replace": true,
+    "human_reason": "R183: 용어집 국제무역지대(붙임)와 통일, 코퍼스 153:23"
   }
 ]

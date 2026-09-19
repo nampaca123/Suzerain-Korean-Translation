@@ -963,5 +963,18 @@
     "human_standard": "야당 대표",
     "human_auto_replace": true,
     "human_reason": "R160: opposition speaker=야당 대표(코퍼스 d:312:477·d:422:119 선례), '야당 의장' 금지"
+  },
+  {
+    "concept": "Valgish (민족명 단독형)",
+    "en": "Valgish",
+    "candidates": [
+      "발그슬란드인",
+      "발그인",
+      "발그족",
+      "발기쉬"
+    ],
+    "human_standard": "발그슬란드인",
+    "human_auto_replace": true,
+    "human_reason": "R166: 메인 켐페인 11:6(발그계, 관형형 유지):2 — 단독 민족명은 발그슬란드인"
   }
 ]

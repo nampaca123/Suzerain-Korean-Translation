@@ -6,3 +6,4 @@
 {"en": "letters patent", "ko": "작위 수여장", "kind": "기타", "reason": "R151: 코퍼스 선례 특허장 1건(법률 용어 오해 소지) → 뜻풀이형", "keys": ["d:414:615"]}
 {"en": "Wruhec's Gordions", "ko": "브루헤지의 고르디온대", "kind": "기타", "reason": "R156: 브루헤지의 수호대를 빗댄 말장난, 선례 1건", "keys": ["d:592"]}
 {"en": "a special religious order", "ko": "종교 기사단", "kind": "기타", "reason": "R156: 선례 1건, 문맥상 수호대 성격", "keys": ["d:592"]}
+{"en": "Fighting Cacti", "ko": "싸우는 선인장들", "kind": "뜻풀이형", "reason": "R167: 이자 대학교 응원 구호(마스코트명), 선례 없음 — 파이팅 선인장(반음차) 대신 뜻풀이형", "keys": ["d:399:1080", "d:399:1131"]}

@@ -39,3 +39,6 @@
 {"key": "t-TokenStatusEffectData-01 (Wehlen oil trade)", "batch": "t-TokenStatusEffectData-01", "issue": "영문이 리치아 문맥에서 'Sordland's economy'라 적은 원문 오류", "controller": "R140 원문대로 유지"}
 {"key": "t-PolicyData-01 (Lespian Blue, Lyzian, Kings Cars Program)", "batch": "t-PolicyData-01", "issue": "레스피아 블루(음차)·리자식(형용사형)·국왕 자동차 지원 프로그램(R74) — 선례 없음", "controller": "현행 유지, 사용자 확정 필요"}
 {"key": "t-PolicyData-01 (Valgish fortress)", "batch": "t-PolicyData-01", "issue": "발그슬란드 요새 — 형용사형 Valgish 고정 표기 미확정(관형 발그계 R166과 별개)", "controller": "발그슬란드 요새 유지, 사용자 확정 필요"}
+{"key": "t-misc-01 ([Immediate]/[Promise] 태그)", "batch": "t-misc-01", "issue": "선택지 태그 [즉시 적용]/[약속 사항] 신규 표기(단독 선례 없음, 10줄)", "controller": "채택, 사용자 확정 필요"}
+{"key": "t-misc-01 (Wehzeki, the First, Negotiation Leverage)", "batch": "t-misc-01", "issue": "베흐제키(리치아어 음차 R75), the First→1세(왕호), Negotiation Leverage→협상력", "controller": "채택, 사용자 확정 필요"}
+{"key": "t-misc-01 (Porte Drazon Citadel)", "batch": "t-misc-01", "issue": "시타델/성채/요새 3분 → 코덱스 표제 '포르테 드라촌 시타델'로 통일", "controller": "R210 코덱스 표제 우선"}

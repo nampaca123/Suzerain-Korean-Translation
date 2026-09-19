@@ -1,2 +1,2 @@
-{"key": "t:NewsData:0x0100005200010303:/NewsProperties/Description", "flag": "ta_register_mismatch", "reason": "기사체 수사 의문 -는가?/-다 서술 오탐(NewsData-14 관례)"}
-{"key": "t:NewsData:0x010000520001030D:/NewsProperties/Description", "flag": "ta_register_mismatch", "reason": "기사체 수사 의문 -는가?/-다 서술 오탐(NewsData-14 관례)"}
+{"key": "t:NewsData:0x0100005200010303:/NewsProperties/Description", "flag": "ta_register_mismatch", "reason": "기사 말미 직접 인용문(화자 합쇼체)이 본문 문체로 오인된 오탐"}
+{"key": "t:NewsData:0x010000520001030D:/NewsProperties/Description", "flag": "ta_register_mismatch", "reason": "기사 말미 직접 인용문(화자 합쇼체)이 본문 문체로 오인된 오탐"}

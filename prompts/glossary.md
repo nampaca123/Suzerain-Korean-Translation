@@ -104,3 +104,4 @@
 | Sords (MT 오기 솔드인) | Sords | 소르드인 | 솔드인 | user_decision | 예 | {'소르드인': 122, '솔드인': 0} | {'소르드인': 26, '솔드인': 11} |
 | Trade Zone (단독형) | Trade Zone | 무역지대 | 무역 지대 | user_decision | 예 | {'무역지대': 1, '무역 지대': 1} | {'무역지대': 116, '무역 지대': 54} |
 | Alka River | Alka River | 알카강 | 알카 강 | user_decision | 예 | {'알카강': 0, '알카 강': 0} | {'알카강': 15, '알카 강': 8} |
+| Markian Sea | Markian Sea | 마르키아해 | 마르키아 해 | user_decision | 예 | {'마르키아해': 70, '마르키아 해': 1} | {'마르키아해': 10, '마르키아 해': 4} |

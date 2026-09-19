@@ -1046,5 +1046,16 @@
     "human_standard": "알카강",
     "human_auto_replace": true,
     "human_reason": "R185: 코퍼스 16:1 붙임"
+  },
+  {
+    "concept": "Markian Sea",
+    "en": "Markian Sea",
+    "candidates": [
+      "마르키아해",
+      "마르키아 해"
+    ],
+    "human_standard": "마르키아해",
+    "human_auto_replace": true,
+    "human_reason": "R187: 해역명 붙임(코퍼스 8:0 외 배치 4)"
   }
 ]

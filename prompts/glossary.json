@@ -2137,5 +2137,25 @@
     "알카 강": 8
    }
   }
+ },
+ {
+  "concept": "Markian Sea",
+  "en": "Markian Sea",
+  "standard": "마르키아해",
+  "banned": [
+   "마르키아 해"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "마르키아해": 70,
+    "마르키아 해": 1
+   },
+   "rizia": {
+    "마르키아해": 10,
+    "마르키아 해": 4
+   }
+  }
  }
 ]

@@ -2025,5 +2025,68 @@
     "중앙경찰": 16
    }
   }
+ },
+ {
+  "concept": "Antacean Sea",
+  "en": "Antacean Sea",
+  "standard": "안타케아해",
+  "banned": [
+   "안타시아해",
+   "안타케아 해"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "안타케아해": 7,
+    "안타시아해": 0,
+    "안타케아 해": 0
+   },
+   "rizia": {
+    "안타케아해": 17,
+    "안타시아해": 3,
+    "안타케아 해": 2
+   }
+  }
+ },
+ {
+  "concept": "Sordland (MT 오기 솔드랜드)",
+  "en": "Sordland",
+  "standard": "소르들란드",
+  "banned": [
+   "솔드랜드"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "소르들란드": 6716,
+    "솔드랜드": 0
+   },
+   "rizia": {
+    "소르들란드": 521,
+    "솔드랜드": 24
+   }
+  }
+ },
+ {
+  "concept": "Sords (MT 오기 솔드인)",
+  "en": "Sords",
+  "standard": "소르드인",
+  "banned": [
+   "솔드인"
+  ],
+  "source": "user_decision",
+  "auto_replace": true,
+  "evidence": {
+   "sordland": {
+    "소르드인": 122,
+    "솔드인": 0
+   },
+   "rizia": {
+    "소르드인": 26,
+    "솔드인": 11
+   }
+  }
  }
 ]

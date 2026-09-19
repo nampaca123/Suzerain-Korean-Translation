@@ -987,5 +987,39 @@
     "human_standard": "중앙 경찰",
     "human_auto_replace": true,
     "human_reason": "R168: 코퍼스 25:16 다수형·띄어쓰기 원칙(R77)"
+  },
+  {
+    "concept": "Antacean Sea",
+    "en": "Antacean Sea",
+    "candidates": [
+      "안타케아해",
+      "안타시아해",
+      "안타케아 해"
+    ],
+    "human_standard": "안타케아해",
+    "human_auto_replace": true,
+    "human_reason": "R172: 메인 8:3·코퍼스 18:2 다수형"
+  },
+  {
+    "concept": "Sordland (MT 오기 솔드랜드)",
+    "en": "Sordland",
+    "candidates": [
+      "소르들란드",
+      "솔드랜드"
+    ],
+    "human_standard": "소르들란드",
+    "human_auto_replace": true,
+    "human_reason": "R173: 메인 3635 대 24 — 솔드랜드는 MT 잔재"
+  },
+  {
+    "concept": "Sords (MT 오기 솔드인)",
+    "en": "Sords",
+    "candidates": [
+      "소르드인",
+      "솔드인"
+    ],
+    "human_standard": "소르드인",
+    "human_auto_replace": true,
+    "human_reason": "R173: 코퍼스 29 대 5"
   }
 ]

@@ -12,3 +12,4 @@
 {"en": "Neqis / Sonsamia", "ko": "네키스 / 손사미아", "kind": "음차(선례 1건)", "reason": "d-turn04-e: 코퍼스 1건뿐인 고유명사 음차 — 사후 확인용", "keys": ["d:317:631"]}
 {"en": "njorla (Galmish dish)", "ko": "뇨를라", "kind": "음차(선례 1건)", "reason": "d-turn04-e: 갈미시 요리 이름, 코퍼스 1건 — 사후 확인용", "keys": ["d:317:634"]}
 {"en": "People's Gardens / Imperial Gardens", "ko": "인민 정원 / 제국 정원", "kind": "뜻풀이형(공원명)", "reason": "d-turn05-d: 코퍼스 1건, 뜻풀이형 유지 — 사후 확인용", "keys": ["d:323:999", "d:323:1000"]}
+{"en": "Divus Lorzari", "ko": "디부스 로르자리", "kind": "리치아어 구호", "reason": "코퍼스에 선례가 없는 리치아어 의례어. R75(소르드어 구호 음차 선례)와 용어집의 'Divus zaitu → 디부스 자이투'를 따라 같은 방식으로 한글 음차했다. 코퍼스 grep 결과 '디부스 로르자리' 0건, 'Divus Lorzari' 2건(모두 이 배치).", "keys": ["d:360:813", "d:360:816"]}

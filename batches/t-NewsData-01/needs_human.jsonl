@@ -1,0 +1,2 @@
+{"key": "t:NewsData:0x010000510002FB34:/NewsProperties/Description", "reason": "영문 'UCOSM'을 '콘타나연방우주항공부'로 풀어 옮겨 두었으나 이 표기는 코퍼스에서 이 줄 한 곳에만 나오고 약칭의 정식 명칭을 확인할 근거가 없다. 로마자 유지/풀어쓰기 여부를 사람이 확정해야 한다."}
+{"key": "t:NewsData:0x010000510002FB4C:/NewsProperties/Description", "reason": "'Sordish Armed Forces'의 한국어 표기. 용어집은 리치아군만 '리치아 육군'으로 확정했고 소르들란드 쪽은 기준이 없다. 이번에는 코퍼스 다수 표기 '소르들란드군'(5줄, '소르들란드 국군' 2줄)을 따랐으나 사용자 확정이 필요하다."}
